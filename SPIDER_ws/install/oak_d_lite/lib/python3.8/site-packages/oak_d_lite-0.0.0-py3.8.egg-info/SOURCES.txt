@@ -1,0 +1,15 @@
+README.md
+package.xml
+setup.cfg
+setup.py
+../../build/oak_d_lite/oak_d_lite.egg-info/PKG-INFO
+../../build/oak_d_lite/oak_d_lite.egg-info/SOURCES.txt
+../../build/oak_d_lite/oak_d_lite.egg-info/dependency_links.txt
+../../build/oak_d_lite/oak_d_lite.egg-info/entry_points.txt
+../../build/oak_d_lite/oak_d_lite.egg-info/requires.txt
+../../build/oak_d_lite/oak_d_lite.egg-info/top_level.txt
+../../build/oak_d_lite/oak_d_lite.egg-info/zip-safe
+oak_d_lite/__init__.py
+oak_d_lite/stereo.py
+oak_d_lite/stereo_imu.py
+resource/oak_d_lite

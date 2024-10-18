@@ -1,0 +1,22 @@
+[3.179s] Invoking command in '/home/dfolse/repos/SPIDER/SPIDER_ws/src/data_transfer': NX_CONNECTION=192.168.1.26 63880 192.168.1.53 4000 PYTHONPATH=/home/dfolse/repos/SPIDER/SPIDER_ws/build/data_transfer/prefix_override:/home/dfolse/repos/SPIDER/SPIDER_ws/install/data_transfer/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/data_transfer build --build-base /home/dfolse/repos/SPIDER/SPIDER_ws/build/data_transfer/build install --record /home/dfolse/repos/SPIDER/SPIDER_ws/build/data_transfer/install.log --single-version-externally-managed install_data
+[3.771s] running egg_info
+[3.773s] writing ../../build/data_transfer/data_transfer.egg-info/PKG-INFO
+[3.773s] writing dependency_links to ../../build/data_transfer/data_transfer.egg-info/dependency_links.txt
+[3.773s] writing entry points to ../../build/data_transfer/data_transfer.egg-info/entry_points.txt
+[3.774s] writing requirements to ../../build/data_transfer/data_transfer.egg-info/requires.txt
+[3.774s] writing top-level names to ../../build/data_transfer/data_transfer.egg-info/top_level.txt
+[3.781s] reading manifest file '../../build/data_transfer/data_transfer.egg-info/SOURCES.txt'
+[3.783s] writing manifest file '../../build/data_transfer/data_transfer.egg-info/SOURCES.txt'
+[3.784s] running build
+[3.784s] running build_py
+[3.784s] running install
+[3.786s] running install_lib
+[3.789s] running install_data
+[3.789s] running install_egg_info
+[3.793s] removing '/home/dfolse/repos/SPIDER/SPIDER_ws/install/data_transfer/lib/python3.8/site-packages/data_transfer-0.0.0-py3.8.egg-info' (and everything under it)
+[3.794s] Copying ../../build/data_transfer/data_transfer.egg-info to /home/dfolse/repos/SPIDER/SPIDER_ws/install/data_transfer/lib/python3.8/site-packages/data_transfer-0.0.0-py3.8.egg-info
+[3.797s] running install_scripts
+[3.843s] Installing listener script to /home/dfolse/repos/SPIDER/SPIDER_ws/install/data_transfer/lib/data_transfer
+[3.844s] Installing talker script to /home/dfolse/repos/SPIDER/SPIDER_ws/install/data_transfer/lib/data_transfer
+[3.845s] writing list of installed files to '/home/dfolse/repos/SPIDER/SPIDER_ws/build/data_transfer/install.log'
+[3.919s] Invoked command in '/home/dfolse/repos/SPIDER/SPIDER_ws/src/data_transfer' returned '0': NX_CONNECTION=192.168.1.26 63880 192.168.1.53 4000 PYTHONPATH=/home/dfolse/repos/SPIDER/SPIDER_ws/build/data_transfer/prefix_override:/home/dfolse/repos/SPIDER/SPIDER_ws/install/data_transfer/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/data_transfer build --build-base /home/dfolse/repos/SPIDER/SPIDER_ws/build/data_transfer/build install --record /home/dfolse/repos/SPIDER/SPIDER_ws/build/data_transfer/install.log --single-version-externally-managed install_data

@@ -1,0 +1,90 @@
+[0.249s] Invoking command in '/home/dfolse/repos/SPIDER/SPIDER_ws/build/nav2_rviz_plugins': AMENT_PREFIX_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_lifecycle_manager:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_util:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_msgs:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_lifecycle_manager:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_util:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_msgs:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_lifecycle_manager/lib:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_util/lib:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} NX_CONNECTION=192.168.1.26 63880 192.168.1.53 4000 PYTHONPATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/dfolse/repos/SPIDER/SPIDER_ws/src/navigation2/nav2_rviz_plugins -DCMAKE_INSTALL_PREFIX=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_rviz_plugins
+[14.623s] -- The C compiler identification is GNU 9.4.0
+[14.623s] -- The CXX compiler identification is GNU 9.4.0
+[14.624s] -- Check for working C compiler: /usr/bin/cc
+[14.624s] -- Check for working C compiler: /usr/bin/cc -- works
+[14.624s] -- Detecting C compiler ABI info
+[14.624s] -- Detecting C compiler ABI info - done
+[14.624s] -- Detecting C compile features
+[14.624s] -- Detecting C compile features - done
+[14.624s] -- Check for working CXX compiler: /usr/bin/c++
+[14.625s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[14.625s] -- Detecting CXX compiler ABI info
+[14.625s] -- Detecting CXX compiler ABI info - done
+[14.625s] -- Detecting CXX compile features
+[14.625s] -- Detecting CXX compile features - done
+[14.625s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[14.625s] -- Found PythonInterp: /home/dfolse/.pyenv/shims/python3 (found suitable version "3.8.10", minimum required is "3") 
+[14.625s] -- Using PYTHON_EXECUTABLE: /home/dfolse/.pyenv/shims/python3
+[14.626s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[14.626s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[14.626s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[14.626s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[14.626s] -- Found FastRTPS: /opt/ros/foxy/include  
+[14.626s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[14.626s] -- Found nav2_util: 0.4.7 (/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_util/share/nav2_util/cmake)
+[14.626s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[14.627s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[14.627s] -- Looking for pthread.h
+[14.627s] -- Looking for pthread.h - found
+[14.627s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[14.627s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[14.627s] -- Looking for pthread_create in pthreads
+[14.627s] -- Looking for pthread_create in pthreads - not found
+[14.627s] -- Looking for pthread_create in pthread
+[14.627s] -- Looking for pthread_create in pthread - found
+[14.628s] -- Found Threads: TRUE  
+[14.628s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[14.628s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[14.628s] -- Found nav2_lifecycle_manager: 0.4.7 (/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/cmake)
+[14.628s] -- Found pluginlib: 2.5.4 (/opt/ros/foxy/share/pluginlib/cmake)
+[14.628s] -- Found rviz_common: 8.2.8 (/opt/ros/foxy/share/rviz_common/cmake)
+[14.628s] -- Setting OGRE_DIR to: '/opt/ros/foxy/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[14.629s] -- Found OGRE
+[14.629s] --   static     : OFF
+[14.629s] --   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[14.629s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[14.629s] --   media      : /opt/ros/foxy/opt/rviz_ogre_vendor/share/OGRE/Media
+[14.629s] -- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[14.629s] -- OGRE_LIBRARY_DIRS: /opt/ros/foxy/opt/rviz_ogre_vendor/lib
+[14.629s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[14.629s] -- OGRE_PLUGIN_DIR: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/OGRE
+[14.630s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[14.630s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[14.631s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[14.631s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[14.636s] -- Found ZLIB: /usr/lib/aarch64-linux-gnu/libz.so (found version "1.2.11") 
+[14.641s] -- Found OpenGL: /usr/lib/aarch64-linux-gnu/libOpenGL.so   
+[14.641s] -- Found X11: /usr/include   
+[14.641s] -- Looking for XOpenDisplay in /usr/lib/aarch64-linux-gnu/libX11.so;/usr/lib/aarch64-linux-gnu/libXext.so
+[14.642s] -- Looking for XOpenDisplay in /usr/lib/aarch64-linux-gnu/libX11.so;/usr/lib/aarch64-linux-gnu/libXext.so - found
+[14.642s] -- Looking for gethostbyname
+[14.642s] -- Looking for gethostbyname - found
+[14.642s] -- Looking for connect
+[14.642s] -- Looking for connect - found
+[14.642s] -- Looking for remove
+[14.642s] -- Looking for remove - found
+[14.643s] -- Looking for shmat
+[14.643s] -- Looking for shmat - found
+[14.643s] -- Looking for IceConnectionNumber in ICE
+[14.643s] -- Looking for IceConnectionNumber in ICE - found
+[14.643s] -- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_RELEASE: _render_system_gl_static_library_abs-NOTFOUND
+[14.643s] -- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_DEBUG: _render_system_gl_static_library_abs-NOTFOUND
+[14.643s] -- library: libassimp.so.5
+[14.644s] -- library: /usr/lib/aarch64-linux-gnu/libcurl.so
+[15.034s] -- Setting yaml-cpp_DIR to: '/opt/ros/foxy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/lib/cmake/yaml-cpp'
+[15.057s] -- Found rviz_default_plugins: 8.2.8 (/opt/ros/foxy/share/rviz_default_plugins/cmake)
+[17.385s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[17.801s] -- Added test 'copyright' to check source files copyright and LICENSE
+[17.814s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[17.816s] -- Configured cppcheck include dirs: /home/dfolse/repos/SPIDER/SPIDER_ws/src/navigation2/nav2_rviz_plugins/include
+[17.816s] -- Configured cppcheck exclude dirs and/or files: 
+[17.819s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[17.819s] -- Configured cpplint exclude dirs and/or files: 
+[17.821s] -- Added test 'lint_cmake' to check CMake code style
+[17.824s] -- Added test 'uncrustify' to check C / C++ code style
+[17.824s] -- Configured uncrustify additional arguments: 
+[17.825s] -- Added test 'xmllint' to check XML markup files
+[17.851s] -- Configuring done
+[18.014s] -- Generating done
+[18.022s] -- Build files have been written to: /home/dfolse/repos/SPIDER/SPIDER_ws/build/nav2_rviz_plugins

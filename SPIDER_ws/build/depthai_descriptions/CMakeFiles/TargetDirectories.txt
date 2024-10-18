@@ -1,0 +1,9 @@
+/home/dfolse/repos/SPIDER/SPIDER_ws/build/depthai_descriptions/CMakeFiles/install/strip.dir
+/home/dfolse/repos/SPIDER/SPIDER_ws/build/depthai_descriptions/CMakeFiles/install/local.dir
+/home/dfolse/repos/SPIDER/SPIDER_ws/build/depthai_descriptions/CMakeFiles/install.dir
+/home/dfolse/repos/SPIDER/SPIDER_ws/build/depthai_descriptions/CMakeFiles/list_install_components.dir
+/home/dfolse/repos/SPIDER/SPIDER_ws/build/depthai_descriptions/CMakeFiles/rebuild_cache.dir
+/home/dfolse/repos/SPIDER/SPIDER_ws/build/depthai_descriptions/CMakeFiles/edit_cache.dir
+/home/dfolse/repos/SPIDER/SPIDER_ws/build/depthai_descriptions/CMakeFiles/test.dir
+/home/dfolse/repos/SPIDER/SPIDER_ws/build/depthai_descriptions/CMakeFiles/depthai_descriptions_uninstall.dir
+/home/dfolse/repos/SPIDER/SPIDER_ws/build/depthai_descriptions/CMakeFiles/uninstall.dir

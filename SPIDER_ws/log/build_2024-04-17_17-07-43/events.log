@@ -1,0 +1,547 @@
+[0.000000] (-) TimerEvent: {}
+[0.001190] (spider_interfaces) JobQueued: {'identifier': 'spider_interfaces', 'dependencies': OrderedDict()}
+[0.002638] (locomotion) JobQueued: {'identifier': 'locomotion', 'dependencies': OrderedDict([('spider_interfaces', '/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces')])}
+[0.003263] (spider_nav) JobQueued: {'identifier': 'spider_nav', 'dependencies': OrderedDict([('spider_interfaces', '/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces'), ('locomotion', '/home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion')])}
+[0.004834] (data_transfer) JobQueued: {'identifier': 'data_transfer', 'dependencies': OrderedDict([('spider_interfaces', '/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces'), ('locomotion', '/home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion'), ('spider_nav', '/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_nav')])}
+[0.006053] (spider_interfaces) JobStarted: {'identifier': 'spider_interfaces'}
+[0.098556] (-) TimerEvent: {}
+[0.112400] (spider_interfaces) JobProgress: {'identifier': 'spider_interfaces', 'progress': 'cmake'}
+[0.118539] (spider_interfaces) JobProgress: {'identifier': 'spider_interfaces', 'progress': 'build'}
+[0.125076] (spider_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/dfolse/repos/SPIDER/SPIDER_ws/build/spider_interfaces', '--', '-j4', '-l4'], 'cwd': '/home/dfolse/repos/SPIDER/SPIDER_ws/build/spider_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'dfolse'), ('SSH_CLIENT', '192.168.8.173 42436 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/dfolse'), ('OLDPWD', '/home/dfolse/repos/SPIDER/SPIDER_ws/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/dfolse/repos/SPIDER/SPIDER_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'dfolse'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/dfolse/.local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/dfolse/repos/SPIDER/SPIDER_ws/install/data_transfer:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_nav:/home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description:/home/dfolse/repos/SPIDER/SPIDER_ws/install/oak_d_lite:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_gps_waypoint_follower_demo:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/dfolse/repos/SPIDER/SPIDER_ws/build/spider_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.8.173 42436 192.168.8.136 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/dfolse/repos/SPIDER/SPIDER_ws/build/data_transfer:/home/dfolse/repos/SPIDER/SPIDER_ws/install/data_transfer/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/build/spider_nav:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_nav/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/build/locomotion:/home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/oak_d_lite/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_gps_waypoint_follower_demo/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description:/home/dfolse/repos/SPIDER/SPIDER_ws/install/data_transfer:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_nav:/home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion:/home/dfolse/repos/SPIDER/SPIDER_ws/install/oak_d_lite:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_gps_waypoint_follower_demo:/opt/ros/foxy')]), 'shell': False}
+[0.198743] (-) TimerEvent: {}
+[0.299794] (-) TimerEvent: {}
+[0.381891] (spider_interfaces) StdoutLine: {'line': b'[  2%] Built target spider_interfaces__cpp\n'}
+[0.400045] (-) TimerEvent: {}
+[0.402805] (spider_interfaces) StdoutLine: {'line': b'[ 12%] Built target spider_interfaces__rosidl_generator_c\n'}
+[0.500293] (-) TimerEvent: {}
+[0.601472] (spider_interfaces) StdoutLine: {'line': b'[ 23%] Built target spider_interfaces__rosidl_typesupport_cpp\n'}
+[0.602921] (-) TimerEvent: {}
+[0.617232] (spider_interfaces) StdoutLine: {'line': b'[ 33%] Built target spider_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[0.660813] (spider_interfaces) StdoutLine: {'line': b'[ 43%] Built target spider_interfaces__rosidl_typesupport_introspection_c\n'}
+[0.703233] (-) TimerEvent: {}
+[0.716592] (spider_interfaces) StdoutLine: {'line': b'[ 53%] Built target spider_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[0.803547] (-) TimerEvent: {}
+[0.858507] (spider_interfaces) StdoutLine: {'line': b'[ 64%] Built target spider_interfaces__rosidl_typesupport_c\n'}
+[0.903805] (-) TimerEvent: {}
+[1.005023] (-) TimerEvent: {}
+[1.091407] (spider_interfaces) StdoutLine: {'line': b'[ 74%] Built target spider_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[1.105445] (-) TimerEvent: {}
+[1.206746] (-) TimerEvent: {}
+[1.293094] (spider_interfaces) StdoutLine: {'line': b'[ 74%] Built target spider_interfaces\n'}
+[1.307004] (-) TimerEvent: {}
+[1.408454] (-) TimerEvent: {}
+[1.500847] (spider_interfaces) StdoutLine: {'line': b'[ 76%] Built target spider_interfaces__py\n'}
+[1.508705] (-) TimerEvent: {}
+[1.609808] (-) TimerEvent: {}
+[1.680726] (spider_interfaces) StdoutLine: {'line': b'[ 84%] Built target spider_interfaces__python\n'}
+[1.710108] (-) TimerEvent: {}
+[1.818660] (-) TimerEvent: {}
+[1.921031] (-) TimerEvent: {}
+[2.023558] (-) TimerEvent: {}
+[2.040688] (spider_interfaces) StdoutLine: {'line': b'[ 89%] Built target spider_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[2.052749] (spider_interfaces) StdoutLine: {'line': b'[ 94%] Built target spider_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[2.057125] (spider_interfaces) StdoutLine: {'line': b'[100%] Built target spider_interfaces__rosidl_typesupport_c__pyext\n'}
+[2.123824] (-) TimerEvent: {}
+[2.157825] (spider_interfaces) CommandEnded: {'returncode': 0}
+[2.224301] (-) TimerEvent: {}
+[2.326081] (-) TimerEvent: {}
+[2.427821] (-) TimerEvent: {}
+[2.529697] (-) TimerEvent: {}
+[2.630776] (-) TimerEvent: {}
+[2.731574] (-) TimerEvent: {}
+[2.758318] (spider_interfaces) JobProgress: {'identifier': 'spider_interfaces', 'progress': 'install'}
+[2.804476] (spider_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/dfolse/repos/SPIDER/SPIDER_ws/build/spider_interfaces'], 'cwd': '/home/dfolse/repos/SPIDER/SPIDER_ws/build/spider_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'dfolse'), ('SSH_CLIENT', '192.168.8.173 42436 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/dfolse'), ('OLDPWD', '/home/dfolse/repos/SPIDER/SPIDER_ws/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/dfolse/repos/SPIDER/SPIDER_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'dfolse'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/dfolse/.local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/dfolse/repos/SPIDER/SPIDER_ws/install/data_transfer:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_nav:/home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description:/home/dfolse/repos/SPIDER/SPIDER_ws/install/oak_d_lite:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_gps_waypoint_follower_demo:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/dfolse/repos/SPIDER/SPIDER_ws/build/spider_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.8.173 42436 192.168.8.136 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/dfolse/repos/SPIDER/SPIDER_ws/build/data_transfer:/home/dfolse/repos/SPIDER/SPIDER_ws/install/data_transfer/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/build/spider_nav:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_nav/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/build/locomotion:/home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/oak_d_lite/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_gps_waypoint_follower_demo/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description:/home/dfolse/repos/SPIDER/SPIDER_ws/install/data_transfer:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_nav:/home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion:/home/dfolse/repos/SPIDER/SPIDER_ws/install/oak_d_lite:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_gps_waypoint_follower_demo:/opt/ros/foxy')]), 'shell': False}
+[2.831921] (-) TimerEvent: {}
+[2.903702] (spider_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.908661] (spider_interfaces) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[2.913334] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/share/ament_index/resource_index/rosidl_interfaces/spider_interfaces\n'}
+[2.922708] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/include/spider_interfaces/msg/detail/loc_commands__functions.h\n'}
+[2.925710] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/include/spider_interfaces/msg/detail/loc_commands__struct.h\n'}
+[2.928889] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/include/spider_interfaces/msg/detail/loc_commands__type_support.h\n'}
+[2.931855] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/include/spider_interfaces/msg/loc_commands.h\n'}
+[2.932801] (-) TimerEvent: {}
+[2.935143] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/include/spider_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[2.938555] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/include/spider_interfaces/srv/detail/loc_service__functions.h\n'}
+[2.941615] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/include/spider_interfaces/srv/detail/loc_service__struct.h\n'}
+[2.944780] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/include/spider_interfaces/srv/detail/loc_service__type_support.h\n'}
+[2.947634] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/include/spider_interfaces/srv/loc_service.h\n'}
+[2.951578] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/environment/library_path.sh\n'}
+[2.955109] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/environment/library_path.dsv\n'}
+[2.965843] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/include/spider_interfaces/msg/detail/loc_commands__rosidl_typesupport_fastrtps_c.h\n'}
+[2.968844] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/include/spider_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[2.972055] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/include/spider_interfaces/srv/detail/loc_service__rosidl_typesupport_fastrtps_c.h\n'}
+[2.976899] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/lib/libspider_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[2.989224] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/include/spider_interfaces/msg/detail/loc_commands__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.992186] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/include/spider_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[2.995437] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/include/spider_interfaces/srv/detail/loc_service__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.000172] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/lib/libspider_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[3.008405] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/include/spider_interfaces/msg/detail/loc_commands__rosidl_typesupport_introspection_c.h\n'}
+[3.011436] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/include/spider_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[3.014725] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/include/spider_interfaces/srv/detail/loc_service__rosidl_typesupport_introspection_c.h\n'}
+[3.024063] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/include/spider_interfaces/msg/detail/loc_commands__builder.hpp\n'}
+[3.027092] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/include/spider_interfaces/msg/detail/loc_commands__struct.hpp\n'}
+[3.030264] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/include/spider_interfaces/msg/detail/loc_commands__traits.hpp\n'}
+[3.032972] (-) TimerEvent: {}
+[3.033923] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/include/spider_interfaces/msg/detail/loc_commands__type_support.hpp\n'}
+[3.037467] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/include/spider_interfaces/msg/loc_commands.hpp\n'}
+[3.040521] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/include/spider_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[3.043623] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/include/spider_interfaces/srv/detail/loc_service__builder.hpp\n'}
+[3.046727] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/include/spider_interfaces/srv/detail/loc_service__struct.hpp\n'}
+[3.049816] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/include/spider_interfaces/srv/detail/loc_service__traits.hpp\n'}
+[3.052971] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/include/spider_interfaces/srv/detail/loc_service__type_support.hpp\n'}
+[3.055839] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/include/spider_interfaces/srv/loc_service.hpp\n'}
+[3.063931] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/include/spider_interfaces/msg/detail/loc_commands__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.067223] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/include/spider_interfaces/srv/detail/loc_service__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.070918] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/environment/pythonpath.sh\n'}
+[3.074574] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/environment/pythonpath.dsv\n'}
+[3.078335] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/lib/python3.8/site-packages/spider_interfaces/__init__.py\n'}
+[3.084471] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/lib/python3.8/site-packages/spider_interfaces/msg/__init__.py\n'}
+[3.087462] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/lib/python3.8/site-packages/spider_interfaces/msg/_loc_commands.py\n'}
+[3.093645] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/lib/python3.8/site-packages/spider_interfaces/srv/__init__.py\n'}
+[3.096672] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/lib/python3.8/site-packages/spider_interfaces/srv/_loc_service.py\n'}
+[3.102026] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/lib/python3.8/site-packages/spider_interfaces/spider_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so\n'}
+[3.107320] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/lib/python3.8/site-packages/spider_interfaces/spider_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so\n'}
+[3.112517] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/lib/python3.8/site-packages/spider_interfaces/spider_interfaces_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so\n'}
+[3.117330] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/lib/libspider_interfaces__python.so\n'}
+[3.121245] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/msg/LocCommands.idl\n'}
+[3.124965] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/srv/LocService.idl\n'}
+[3.128530] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/msg/LocCommands.msg\n'}
+[3.132064] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/srv/LocService.srv\n'}
+[3.133113] (-) TimerEvent: {}
+[3.136385] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/srv/LocService_Request.msg\n'}
+[3.140090] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/srv/LocService_Response.msg\n'}
+[3.144469] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/share/ament_index/resource_index/package_run_dependencies/spider_interfaces\n'}
+[3.148696] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/share/ament_index/resource_index/parent_prefix_path/spider_interfaces\n'}
+[3.152369] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/environment/ament_prefix_path.sh\n'}
+[3.155894] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/environment/ament_prefix_path.dsv\n'}
+[3.159478] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/environment/path.sh\n'}
+[3.163078] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/environment/path.dsv\n'}
+[3.166625] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/local_setup.bash\n'}
+[3.170154] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/local_setup.sh\n'}
+[3.173660] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/local_setup.zsh\n'}
+[3.177259] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/local_setup.dsv\n'}
+[3.179671] (spider_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/package.dsv\n'}
+[3.233437] (-) TimerEvent: {}
+[3.264975] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/share/ament_index/resource_index/packages/spider_interfaces\n'}
+[3.268831] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[3.272578] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[3.276332] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[3.280254] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[3.283932] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[3.287680] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[3.291319] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[3.294972] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/cmake/spider_interfacesConfig.cmake\n'}
+[3.297692] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/cmake/spider_interfacesConfig-version.cmake\n'}
+[3.301123] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/package.xml\n'}
+[3.304537] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/lib/libspider_interfaces__rosidl_generator_c.so\n'}
+[3.309995] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/lib/libspider_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[3.315238] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/lib/libspider_interfaces__rosidl_typesupport_c.so\n'}
+[3.320500] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/lib/libspider_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[3.325834] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/lib/libspider_interfaces__rosidl_typesupport_cpp.so\n'}
+[3.333665] (-) TimerEvent: {}
+[3.434840] (-) TimerEvent: {}
+[3.535880] (-) TimerEvent: {}
+[3.636969] (-) TimerEvent: {}
+[3.738291] (-) TimerEvent: {}
+[3.749532] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/cmake/spider_interfaces__rosidl_generator_cExport.cmake\n'}
+[3.751007] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/cmake/spider_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[3.753521] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/cmake/spider_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[3.754804] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/cmake/spider_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[3.757198] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/cmake/spider_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[3.758469] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/cmake/spider_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[3.760956] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/cmake/spider_interfaces__rosidl_generator_cppExport.cmake\n'}
+[3.763606] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/cmake/spider_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[3.764828] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/cmake/spider_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[3.767352] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/cmake/spider_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[3.768604] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/cmake/spider_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[3.781845] (spider_interfaces) CommandEnded: {'returncode': 0}
+[3.838484] (-) TimerEvent: {}
+[3.939644] (-) TimerEvent: {}
+[4.041327] (-) TimerEvent: {}
+[4.142756] (-) TimerEvent: {}
+[4.243616] (-) TimerEvent: {}
+[4.344283] (-) TimerEvent: {}
+[4.445083] (-) TimerEvent: {}
+[4.521537] (spider_interfaces) JobEnded: {'identifier': 'spider_interfaces', 'rc': 0}
+[4.525750] (locomotion) JobStarted: {'identifier': 'locomotion'}
+[4.545305] (-) TimerEvent: {}
+[4.646758] (-) TimerEvent: {}
+[4.748498] (-) TimerEvent: {}
+[4.849654] (-) TimerEvent: {}
+[4.950784] (-) TimerEvent: {}
+[5.051980] (-) TimerEvent: {}
+[5.153095] (-) TimerEvent: {}
+[5.254358] (-) TimerEvent: {}
+[5.355468] (-) TimerEvent: {}
+[5.456633] (-) TimerEvent: {}
+[5.557808] (-) TimerEvent: {}
+[5.658970] (-) TimerEvent: {}
+[5.760061] (-) TimerEvent: {}
+[5.861194] (-) TimerEvent: {}
+[5.962369] (-) TimerEvent: {}
+[6.063460] (-) TimerEvent: {}
+[6.164569] (-) TimerEvent: {}
+[6.265628] (-) TimerEvent: {}
+[6.366735] (-) TimerEvent: {}
+[6.467841] (-) TimerEvent: {}
+[6.568932] (-) TimerEvent: {}
+[6.670038] (-) TimerEvent: {}
+[6.771190] (-) TimerEvent: {}
+[6.872626] (-) TimerEvent: {}
+[6.973784] (-) TimerEvent: {}
+[7.074953] (-) TimerEvent: {}
+[7.176094] (-) TimerEvent: {}
+[7.277851] (-) TimerEvent: {}
+[7.379339] (-) TimerEvent: {}
+[7.480419] (-) TimerEvent: {}
+[7.581537] (-) TimerEvent: {}
+[7.682701] (-) TimerEvent: {}
+[7.783755] (-) TimerEvent: {}
+[7.884959] (-) TimerEvent: {}
+[7.986069] (-) TimerEvent: {}
+[8.087213] (-) TimerEvent: {}
+[8.188379] (-) TimerEvent: {}
+[8.289432] (-) TimerEvent: {}
+[8.390535] (-) TimerEvent: {}
+[8.491657] (-) TimerEvent: {}
+[8.592726] (-) TimerEvent: {}
+[8.693776] (-) TimerEvent: {}
+[8.794894] (-) TimerEvent: {}
+[8.895890] (-) TimerEvent: {}
+[8.996880] (-) TimerEvent: {}
+[9.097981] (-) TimerEvent: {}
+[9.199106] (-) TimerEvent: {}
+[9.300129] (-) TimerEvent: {}
+[9.401253] (-) TimerEvent: {}
+[9.502336] (-) TimerEvent: {}
+[9.603500] (-) TimerEvent: {}
+[9.704127] (-) TimerEvent: {}
+[9.804753] (-) TimerEvent: {}
+[9.905416] (-) TimerEvent: {}
+[10.006053] (-) TimerEvent: {}
+[10.106728] (-) TimerEvent: {}
+[10.207347] (-) TimerEvent: {}
+[10.308060] (-) TimerEvent: {}
+[10.365703] (locomotion) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/dfolse/repos/SPIDER/SPIDER_ws/build/locomotion/build', '--no-deps', 'symlink_data'], 'cwd': '/home/dfolse/repos/SPIDER/SPIDER_ws/build/locomotion', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'dfolse', 'SSH_CLIENT': '192.168.8.173 42436 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/dfolse', 'OLDPWD': '/home/dfolse/repos/SPIDER/SPIDER_ws/src', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/dfolse/repos/SPIDER/SPIDER_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'dfolse', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '2', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/dfolse/.local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/dfolse/repos/SPIDER/SPIDER_ws/install/data_transfer:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_nav:/home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description:/home/dfolse/repos/SPIDER/SPIDER_ws/install/oak_d_lite:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_gps_waypoint_follower_demo:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/dfolse/repos/SPIDER/SPIDER_ws/build/locomotion', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.8.173 42436 192.168.8.136 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/dfolse/repos/SPIDER/SPIDER_ws/build/locomotion/prefix_override:/home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/build/data_transfer:/home/dfolse/repos/SPIDER/SPIDER_ws/install/data_transfer/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/build/spider_nav:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_nav/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/build/locomotion:/home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/oak_d_lite/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_gps_waypoint_follower_demo/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description'}, 'shell': False}
+[10.408308] (-) TimerEvent: {}
+[10.509700] (-) TimerEvent: {}
+[10.610855] (-) TimerEvent: {}
+[10.711894] (-) TimerEvent: {}
+[10.813006] (-) TimerEvent: {}
+[10.914146] (-) TimerEvent: {}
+[11.015324] (-) TimerEvent: {}
+[11.116458] (-) TimerEvent: {}
+[11.217602] (-) TimerEvent: {}
+[11.318712] (-) TimerEvent: {}
+[11.419725] (-) TimerEvent: {}
+[11.520845] (-) TimerEvent: {}
+[11.621935] (-) TimerEvent: {}
+[11.723043] (-) TimerEvent: {}
+[11.824110] (-) TimerEvent: {}
+[11.925269] (-) TimerEvent: {}
+[12.026348] (-) TimerEvent: {}
+[12.127396] (-) TimerEvent: {}
+[12.228447] (-) TimerEvent: {}
+[12.329506] (-) TimerEvent: {}
+[12.430636] (-) TimerEvent: {}
+[12.531657] (-) TimerEvent: {}
+[12.632745] (-) TimerEvent: {}
+[12.733915] (-) TimerEvent: {}
+[12.835041] (-) TimerEvent: {}
+[12.936183] (-) TimerEvent: {}
+[13.037371] (-) TimerEvent: {}
+[13.138586] (-) TimerEvent: {}
+[13.158689] (locomotion) StdoutLine: {'line': b'running develop\n'}
+[13.238798] (-) TimerEvent: {}
+[13.339832] (-) TimerEvent: {}
+[13.440983] (-) TimerEvent: {}
+[13.542097] (-) TimerEvent: {}
+[13.642742] (-) TimerEvent: {}
+[13.743369] (-) TimerEvent: {}
+[13.843988] (-) TimerEvent: {}
+[13.944607] (-) TimerEvent: {}
+[14.037412] (locomotion) StdoutLine: {'line': b'running egg_info\n'}
+[14.038167] (locomotion) StdoutLine: {'line': b'writing locomotion.egg-info/PKG-INFO\n'}
+[14.039147] (locomotion) StdoutLine: {'line': b'writing dependency_links to locomotion.egg-info/dependency_links.txt\n'}
+[14.040061] (locomotion) StdoutLine: {'line': b'writing entry points to locomotion.egg-info/entry_points.txt\n'}
+[14.040705] (locomotion) StdoutLine: {'line': b'writing requirements to locomotion.egg-info/requires.txt\n'}
+[14.041308] (locomotion) StdoutLine: {'line': b'writing top-level names to locomotion.egg-info/top_level.txt\n'}
+[14.044722] (-) TimerEvent: {}
+[14.145360] (-) TimerEvent: {}
+[14.182626] (locomotion) StdoutLine: {'line': b"reading manifest file 'locomotion.egg-info/SOURCES.txt'\n"}
+[14.186924] (locomotion) StdoutLine: {'line': b"writing manifest file 'locomotion.egg-info/SOURCES.txt'\n"}
+[14.245500] (-) TimerEvent: {}
+[14.346335] (-) TimerEvent: {}
+[14.447451] (-) TimerEvent: {}
+[14.481650] (locomotion) StdoutLine: {'line': b'running build_ext\n'}
+[14.484594] (locomotion) StdoutLine: {'line': b'Creating /home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion/lib/python3.8/site-packages/locomotion.egg-link (link to .)\n'}
+[14.491848] (locomotion) StdoutLine: {'line': b'Installing client script to /home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion/lib/locomotion\n'}
+[14.493523] (locomotion) StdoutLine: {'line': b'Installing imu_pub script to /home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion/lib/locomotion\n'}
+[14.495093] (locomotion) StdoutLine: {'line': b'Installing service script to /home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion/lib/locomotion\n'}
+[14.497477] (locomotion) StdoutLine: {'line': b'\n'}
+[14.498769] (locomotion) StdoutLine: {'line': b'Installed /home/dfolse/repos/SPIDER/SPIDER_ws/build/locomotion\n'}
+[14.499640] (locomotion) StdoutLine: {'line': b'running symlink_data\n'}
+[14.547778] (-) TimerEvent: {}
+[14.649316] (-) TimerEvent: {}
+[14.697362] (locomotion) CommandEnded: {'returncode': 0}
+[14.751745] (-) TimerEvent: {}
+[14.777371] (locomotion) JobEnded: {'identifier': 'locomotion', 'rc': 0}
+[14.786829] (spider_nav) JobStarted: {'identifier': 'spider_nav'}
+[14.852509] (-) TimerEvent: {}
+[14.954449] (-) TimerEvent: {}
+[15.055995] (-) TimerEvent: {}
+[15.157163] (-) TimerEvent: {}
+[15.258348] (-) TimerEvent: {}
+[15.359502] (-) TimerEvent: {}
+[15.460654] (-) TimerEvent: {}
+[15.561753] (-) TimerEvent: {}
+[15.662967] (-) TimerEvent: {}
+[15.764356] (-) TimerEvent: {}
+[15.865535] (-) TimerEvent: {}
+[15.966666] (-) TimerEvent: {}
+[16.067744] (-) TimerEvent: {}
+[16.168938] (-) TimerEvent: {}
+[16.270036] (-) TimerEvent: {}
+[16.371172] (-) TimerEvent: {}
+[16.472248] (-) TimerEvent: {}
+[16.573346] (-) TimerEvent: {}
+[16.674502] (-) TimerEvent: {}
+[16.775535] (-) TimerEvent: {}
+[16.876176] (-) TimerEvent: {}
+[16.976837] (-) TimerEvent: {}
+[17.077682] (-) TimerEvent: {}
+[17.178713] (-) TimerEvent: {}
+[17.280481] (-) TimerEvent: {}
+[17.382051] (-) TimerEvent: {}
+[17.483241] (-) TimerEvent: {}
+[17.584313] (-) TimerEvent: {}
+[17.685465] (-) TimerEvent: {}
+[17.786602] (-) TimerEvent: {}
+[17.887740] (-) TimerEvent: {}
+[17.988924] (-) TimerEvent: {}
+[18.090064] (-) TimerEvent: {}
+[18.191175] (-) TimerEvent: {}
+[18.292216] (-) TimerEvent: {}
+[18.393266] (-) TimerEvent: {}
+[18.494355] (-) TimerEvent: {}
+[18.595411] (-) TimerEvent: {}
+[18.696438] (-) TimerEvent: {}
+[18.797453] (-) TimerEvent: {}
+[18.898573] (-) TimerEvent: {}
+[18.999691] (-) TimerEvent: {}
+[19.100786] (-) TimerEvent: {}
+[19.201843] (-) TimerEvent: {}
+[19.302934] (-) TimerEvent: {}
+[19.404136] (-) TimerEvent: {}
+[19.505416] (-) TimerEvent: {}
+[19.606047] (-) TimerEvent: {}
+[19.706741] (-) TimerEvent: {}
+[19.807386] (-) TimerEvent: {}
+[19.908108] (-) TimerEvent: {}
+[20.009203] (-) TimerEvent: {}
+[20.110329] (-) TimerEvent: {}
+[20.211394] (-) TimerEvent: {}
+[20.312464] (-) TimerEvent: {}
+[20.413560] (-) TimerEvent: {}
+[20.516180] (-) TimerEvent: {}
+[20.618012] (-) TimerEvent: {}
+[20.656955] (spider_nav) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/dfolse/repos/SPIDER/SPIDER_ws/build/spider_nav/build', '--no-deps', 'symlink_data'], 'cwd': '/home/dfolse/repos/SPIDER/SPIDER_ws/build/spider_nav', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'dfolse', 'SSH_CLIENT': '192.168.8.173 42436 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/dfolse', 'OLDPWD': '/home/dfolse/repos/SPIDER/SPIDER_ws/src', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/dfolse/repos/SPIDER/SPIDER_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'dfolse', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '2', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/dfolse/.local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion:/home/dfolse/repos/SPIDER/SPIDER_ws/install/data_transfer:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_nav:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description:/home/dfolse/repos/SPIDER/SPIDER_ws/install/oak_d_lite:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_gps_waypoint_follower_demo:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/dfolse/repos/SPIDER/SPIDER_ws/build/spider_nav', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.8.173 42436 192.168.8.136 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/dfolse/repos/SPIDER/SPIDER_ws/build/spider_nav/prefix_override:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_nav/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/build/locomotion:/home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/build/data_transfer:/home/dfolse/repos/SPIDER/SPIDER_ws/install/data_transfer/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/build/spider_nav:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_nav/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/oak_d_lite/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_gps_waypoint_follower_demo/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description'}, 'shell': False}
+[20.718320] (-) TimerEvent: {}
+[20.819591] (-) TimerEvent: {}
+[20.920786] (-) TimerEvent: {}
+[21.021907] (-) TimerEvent: {}
+[21.123089] (-) TimerEvent: {}
+[21.224228] (-) TimerEvent: {}
+[21.325331] (-) TimerEvent: {}
+[21.426395] (-) TimerEvent: {}
+[21.527549] (-) TimerEvent: {}
+[21.628636] (-) TimerEvent: {}
+[21.729677] (-) TimerEvent: {}
+[21.830797] (-) TimerEvent: {}
+[21.931859] (-) TimerEvent: {}
+[22.032979] (-) TimerEvent: {}
+[22.134090] (-) TimerEvent: {}
+[22.235281] (-) TimerEvent: {}
+[22.336305] (-) TimerEvent: {}
+[22.437410] (-) TimerEvent: {}
+[22.538562] (-) TimerEvent: {}
+[22.639577] (-) TimerEvent: {}
+[22.740177] (-) TimerEvent: {}
+[22.840797] (-) TimerEvent: {}
+[22.941608] (-) TimerEvent: {}
+[23.042762] (-) TimerEvent: {}
+[23.119233] (spider_nav) StdoutLine: {'line': b'running develop\n'}
+[23.142968] (-) TimerEvent: {}
+[23.244054] (-) TimerEvent: {}
+[23.345140] (-) TimerEvent: {}
+[23.446270] (-) TimerEvent: {}
+[23.547393] (-) TimerEvent: {}
+[23.648487] (-) TimerEvent: {}
+[23.749515] (-) TimerEvent: {}
+[23.850645] (-) TimerEvent: {}
+[23.951697] (-) TimerEvent: {}
+[24.052801] (-) TimerEvent: {}
+[24.153861] (-) TimerEvent: {}
+[24.254946] (-) TimerEvent: {}
+[24.356007] (-) TimerEvent: {}
+[24.457033] (-) TimerEvent: {}
+[24.558082] (-) TimerEvent: {}
+[24.659199] (-) TimerEvent: {}
+[24.760232] (-) TimerEvent: {}
+[24.826320] (spider_nav) StdoutLine: {'line': b'running egg_info\n'}
+[24.827802] (spider_nav) StdoutLine: {'line': b'writing spider_nav.egg-info/PKG-INFO\n'}
+[24.829642] (spider_nav) StdoutLine: {'line': b'writing dependency_links to spider_nav.egg-info/dependency_links.txt\n'}
+[24.831807] (spider_nav) StdoutLine: {'line': b'writing entry points to spider_nav.egg-info/entry_points.txt\n'}
+[24.833151] (spider_nav) StdoutLine: {'line': b'writing requirements to spider_nav.egg-info/requires.txt\n'}
+[24.834433] (spider_nav) StdoutLine: {'line': b'writing top-level names to spider_nav.egg-info/top_level.txt\n'}
+[24.860450] (-) TimerEvent: {}
+[24.961582] (-) TimerEvent: {}
+[25.062717] (-) TimerEvent: {}
+[25.163833] (-) TimerEvent: {}
+[25.176990] (spider_nav) StdoutLine: {'line': b"reading manifest file 'spider_nav.egg-info/SOURCES.txt'\n"}
+[25.187585] (spider_nav) StdoutLine: {'line': b"writing manifest file 'spider_nav.egg-info/SOURCES.txt'\n"}
+[25.264040] (-) TimerEvent: {}
+[25.365140] (-) TimerEvent: {}
+[25.466375] (-) TimerEvent: {}
+[25.567493] (-) TimerEvent: {}
+[25.583173] (spider_nav) StdoutLine: {'line': b'running build_ext\n'}
+[25.586039] (spider_nav) StdoutLine: {'line': b'Creating /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_nav/lib/python3.8/site-packages/spider-nav.egg-link (link to .)\n'}
+[25.593770] (spider_nav) StdoutLine: {'line': b'Installing gps_waypoint_logger script to /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_nav/lib/spider_nav\n'}
+[25.595534] (spider_nav) StdoutLine: {'line': b'Installing interactive_waypoint_follower script to /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_nav/lib/spider_nav\n'}
+[25.597077] (spider_nav) StdoutLine: {'line': b'Installing logged_waypoint_follower script to /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_nav/lib/spider_nav\n'}
+[25.598627] (spider_nav) StdoutLine: {'line': b'Installing spider_gps_pub script to /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_nav/lib/spider_nav\n'}
+[25.600135] (spider_nav) StdoutLine: {'line': b'Installing spider_nav_main script to /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_nav/lib/spider_nav\n'}
+[25.602672] (spider_nav) StdoutLine: {'line': b'\n'}
+[25.603948] (spider_nav) StdoutLine: {'line': b'Installed /home/dfolse/repos/SPIDER/SPIDER_ws/build/spider_nav\n'}
+[25.604787] (spider_nav) StdoutLine: {'line': b'running symlink_data\n'}
+[25.667882] (-) TimerEvent: {}
+[25.769773] (-) TimerEvent: {}
+[25.806064] (spider_nav) CommandEnded: {'returncode': 0}
+[25.871786] (-) TimerEvent: {}
+[25.885068] (spider_nav) JobEnded: {'identifier': 'spider_nav', 'rc': 0}
+[25.889317] (data_transfer) JobStarted: {'identifier': 'data_transfer'}
+[25.972138] (-) TimerEvent: {}
+[26.073186] (-) TimerEvent: {}
+[26.174350] (-) TimerEvent: {}
+[26.275484] (-) TimerEvent: {}
+[26.376659] (-) TimerEvent: {}
+[26.477820] (-) TimerEvent: {}
+[26.579000] (-) TimerEvent: {}
+[26.680105] (-) TimerEvent: {}
+[26.781206] (-) TimerEvent: {}
+[26.882374] (-) TimerEvent: {}
+[26.983587] (-) TimerEvent: {}
+[27.085031] (-) TimerEvent: {}
+[27.186146] (-) TimerEvent: {}
+[27.287348] (-) TimerEvent: {}
+[27.388563] (-) TimerEvent: {}
+[27.489690] (-) TimerEvent: {}
+[27.590804] (-) TimerEvent: {}
+[27.691880] (-) TimerEvent: {}
+[27.793059] (-) TimerEvent: {}
+[27.894168] (-) TimerEvent: {}
+[27.995471] (-) TimerEvent: {}
+[28.096591] (-) TimerEvent: {}
+[28.197726] (-) TimerEvent: {}
+[28.298905] (-) TimerEvent: {}
+[28.400111] (-) TimerEvent: {}
+[28.504967] (-) TimerEvent: {}
+[28.608071] (-) TimerEvent: {}
+[28.708967] (-) TimerEvent: {}
+[28.810063] (-) TimerEvent: {}
+[28.911213] (-) TimerEvent: {}
+[29.012297] (-) TimerEvent: {}
+[29.113463] (-) TimerEvent: {}
+[29.214820] (-) TimerEvent: {}
+[29.316158] (-) TimerEvent: {}
+[29.417272] (-) TimerEvent: {}
+[29.518467] (-) TimerEvent: {}
+[29.619518] (-) TimerEvent: {}
+[29.720627] (-) TimerEvent: {}
+[29.821797] (-) TimerEvent: {}
+[29.922946] (-) TimerEvent: {}
+[30.024020] (-) TimerEvent: {}
+[30.125138] (-) TimerEvent: {}
+[30.226242] (-) TimerEvent: {}
+[30.327312] (-) TimerEvent: {}
+[30.428458] (-) TimerEvent: {}
+[30.529559] (-) TimerEvent: {}
+[30.630690] (-) TimerEvent: {}
+[30.731787] (-) TimerEvent: {}
+[30.832867] (-) TimerEvent: {}
+[30.933996] (-) TimerEvent: {}
+[31.035190] (-) TimerEvent: {}
+[31.136259] (-) TimerEvent: {}
+[31.237401] (-) TimerEvent: {}
+[31.338662] (-) TimerEvent: {}
+[31.439795] (-) TimerEvent: {}
+[31.540903] (-) TimerEvent: {}
+[31.642025] (-) TimerEvent: {}
+[31.742714] (-) TimerEvent: {}
+[31.843346] (-) TimerEvent: {}
+[31.944004] (-) TimerEvent: {}
+[32.044797] (-) TimerEvent: {}
+[32.096552] (data_transfer) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/dfolse/repos/SPIDER/SPIDER_ws/build/data_transfer/build', '--no-deps', 'symlink_data'], 'cwd': '/home/dfolse/repos/SPIDER/SPIDER_ws/build/data_transfer', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'dfolse', 'SSH_CLIENT': '192.168.8.173 42436 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/dfolse', 'OLDPWD': '/home/dfolse/repos/SPIDER/SPIDER_ws/src', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/dfolse/repos/SPIDER/SPIDER_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'dfolse', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '2', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/dfolse/.local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_nav:/home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion:/home/dfolse/repos/SPIDER/SPIDER_ws/install/data_transfer:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description:/home/dfolse/repos/SPIDER/SPIDER_ws/install/oak_d_lite:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_gps_waypoint_follower_demo:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/dfolse/repos/SPIDER/SPIDER_ws/build/data_transfer', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.8.173 42436 192.168.8.136 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/dfolse/repos/SPIDER/SPIDER_ws/build/data_transfer/prefix_override:/home/dfolse/repos/SPIDER/SPIDER_ws/install/data_transfer/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/build/spider_nav:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_nav/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/build/locomotion:/home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/build/data_transfer:/home/dfolse/repos/SPIDER/SPIDER_ws/install/data_transfer/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/oak_d_lite/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_gps_waypoint_follower_demo/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description'}, 'shell': False}
+[32.144978] (-) TimerEvent: {}
+[32.245713] (-) TimerEvent: {}
+[32.346417] (-) TimerEvent: {}
+[32.447102] (-) TimerEvent: {}
+[32.548080] (-) TimerEvent: {}
+[32.648843] (-) TimerEvent: {}
+[32.749927] (-) TimerEvent: {}
+[32.851110] (-) TimerEvent: {}
+[32.952231] (-) TimerEvent: {}
+[33.053322] (-) TimerEvent: {}
+[33.154449] (-) TimerEvent: {}
+[33.255501] (-) TimerEvent: {}
+[33.356568] (-) TimerEvent: {}
+[33.457733] (-) TimerEvent: {}
+[33.558885] (-) TimerEvent: {}
+[33.659991] (-) TimerEvent: {}
+[33.761163] (-) TimerEvent: {}
+[33.862318] (-) TimerEvent: {}
+[33.963393] (-) TimerEvent: {}
+[34.064537] (-) TimerEvent: {}
+[34.165636] (-) TimerEvent: {}
+[34.266809] (-) TimerEvent: {}
+[34.287038] (data_transfer) StdoutLine: {'line': b'running develop\n'}
+[34.367002] (-) TimerEvent: {}
+[34.468098] (-) TimerEvent: {}
+[34.569165] (-) TimerEvent: {}
+[34.670320] (-) TimerEvent: {}
+[34.771370] (-) TimerEvent: {}
+[34.872496] (-) TimerEvent: {}
+[34.973539] (-) TimerEvent: {}
+[35.074704] (-) TimerEvent: {}
+[35.175748] (-) TimerEvent: {}
+[35.276807] (-) TimerEvent: {}
+[35.377915] (-) TimerEvent: {}
+[35.479108] (-) TimerEvent: {}
+[35.580139] (-) TimerEvent: {}
+[35.681260] (-) TimerEvent: {}
+[35.782283] (-) TimerEvent: {}
+[35.825647] (data_transfer) StdoutLine: {'line': b'running egg_info\n'}
+[35.826423] (data_transfer) StdoutLine: {'line': b'writing data_transfer.egg-info/PKG-INFO\n'}
+[35.827381] (data_transfer) StdoutLine: {'line': b'writing dependency_links to data_transfer.egg-info/dependency_links.txt\n'}
+[35.828333] (data_transfer) StdoutLine: {'line': b'writing entry points to data_transfer.egg-info/entry_points.txt\n'}
+[35.829079] (data_transfer) StdoutLine: {'line': b'writing requirements to data_transfer.egg-info/requires.txt\n'}
+[35.829688] (data_transfer) StdoutLine: {'line': b'writing top-level names to data_transfer.egg-info/top_level.txt\n'}
+[35.882421] (-) TimerEvent: {}
+[35.969148] (data_transfer) StdoutLine: {'line': b"reading manifest file 'data_transfer.egg-info/SOURCES.txt'\n"}
+[35.973147] (data_transfer) StdoutLine: {'line': b"writing manifest file 'data_transfer.egg-info/SOURCES.txt'\n"}
+[35.982559] (-) TimerEvent: {}
+[36.083179] (-) TimerEvent: {}
+[36.183907] (-) TimerEvent: {}
+[36.200869] (data_transfer) StdoutLine: {'line': b'running build_ext\n'}
+[36.203807] (data_transfer) StdoutLine: {'line': b'Creating /home/dfolse/repos/SPIDER/SPIDER_ws/install/data_transfer/lib/python3.8/site-packages/data-transfer.egg-link (link to .)\n'}
+[36.211152] (data_transfer) StdoutLine: {'line': b'Installing listener script to /home/dfolse/repos/SPIDER/SPIDER_ws/install/data_transfer/lib/data_transfer\n'}
+[36.212822] (data_transfer) StdoutLine: {'line': b'Installing talker script to /home/dfolse/repos/SPIDER/SPIDER_ws/install/data_transfer/lib/data_transfer\n'}
+[36.215365] (data_transfer) StdoutLine: {'line': b'\n'}
+[36.216564] (data_transfer) StdoutLine: {'line': b'Installed /home/dfolse/repos/SPIDER/SPIDER_ws/build/data_transfer\n'}
+[36.217412] (data_transfer) StdoutLine: {'line': b'running symlink_data\n'}
+[36.284266] (-) TimerEvent: {}
+[36.385818] (-) TimerEvent: {}
+[36.415125] (data_transfer) CommandEnded: {'returncode': 0}
+[36.486513] (-) TimerEvent: {}
+[36.495913] (data_transfer) JobEnded: {'identifier': 'data_transfer', 'rc': 0}
+[36.501596] (-) EventReactorShutdown: {}

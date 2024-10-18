@@ -1,0 +1,54 @@
+[1.307s] Invoking command in '/home/dfolse/repos/SPIDER/SPIDER_ws/build/spider_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_nav:/home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion:/home/dfolse/repos/SPIDER/SPIDER_ws/install/oak_d_lite:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_gps_waypoint_follower_demo:/home/dfolse/repos/SPIDER/SPIDER_ws/install/data_transfer:/opt/ros/foxy NX_CONNECTION=192.168.1.26 58745 192.168.1.53 4000 /usr/bin/cmake --build /home/dfolse/repos/SPIDER/SPIDER_ws/build/spider_description -- -j6 -l6
+[1.969s] Invoked command in '/home/dfolse/repos/SPIDER/SPIDER_ws/build/spider_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_nav:/home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion:/home/dfolse/repos/SPIDER/SPIDER_ws/install/oak_d_lite:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_gps_waypoint_follower_demo:/home/dfolse/repos/SPIDER/SPIDER_ws/install/data_transfer:/opt/ros/foxy NX_CONNECTION=192.168.1.26 58745 192.168.1.53 4000 /usr/bin/cmake --build /home/dfolse/repos/SPIDER/SPIDER_ws/build/spider_description -- -j6 -l6
+[2.075s] Invoking command in '/home/dfolse/repos/SPIDER/SPIDER_ws/build/spider_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_nav:/home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion:/home/dfolse/repos/SPIDER/SPIDER_ws/install/oak_d_lite:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_gps_waypoint_follower_demo:/home/dfolse/repos/SPIDER/SPIDER_ws/install/data_transfer:/opt/ros/foxy NX_CONNECTION=192.168.1.26 58745 192.168.1.53 4000 /usr/bin/cmake --install /home/dfolse/repos/SPIDER/SPIDER_ws/build/spider_description
+[2.107s] -- Install configuration: ""
+[2.108s] -- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description/share/spider_description/src
+[2.108s] -- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description/share/spider_description/src/description
+[2.108s] -- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description/share/spider_description/src/description/spider_description.csv
+[2.109s] -- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description/share/spider_description/src/description/spider_description.urdf
+[2.109s] -- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description/share/spider_description/launch
+[2.109s] -- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description/share/spider_description/launch/display.launch.py
+[2.109s] -- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description/share/spider_description/rviz
+[2.110s] -- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description/share/spider_description/rviz/urdf_config.rviz
+[2.110s] -- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description/share/spider_description/meshes
+[2.110s] -- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description/share/spider_description/meshes/r4u_link.STL
+[2.110s] -- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description/share/spider_description/meshes/r2u_link.STL
+[2.111s] -- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description/share/spider_description/meshes/l1u_link.STL
+[2.111s] -- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description/share/spider_description/meshes/r1l_link.STL
+[2.111s] -- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description/share/spider_description/meshes/l2u_link.STL
+[2.111s] -- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description/share/spider_description/meshes/r3m_link.STL
+[2.111s] -- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description/share/spider_description/meshes/r2l_link.STL
+[2.112s] -- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description/share/spider_description/meshes/r2m_link.STL
+[2.112s] -- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description/share/spider_description/meshes/l3l_link.STL
+[2.112s] -- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description/share/spider_description/meshes/r3l_link.STL
+[2.112s] -- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description/share/spider_description/meshes/base_link.STL
+[2.113s] -- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description/share/spider_description/meshes/l1m_link.STL
+[2.113s] -- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description/share/spider_description/meshes/r3u_link.STL
+[2.113s] -- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description/share/spider_description/meshes/l2m_link.STL
+[2.114s] -- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description/share/spider_description/meshes/l4u_link.STL
+[2.114s] -- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description/share/spider_description/meshes/r1m_link.STL
+[2.114s] -- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description/share/spider_description/meshes/r4m_link.STL
+[2.115s] -- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description/share/spider_description/meshes/r4l_link.STL
+[2.115s] -- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description/share/spider_description/meshes/l4l_link.STL
+[2.115s] -- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description/share/spider_description/meshes/r1u_link.STL
+[2.115s] -- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description/share/spider_description/meshes/l1l_link.STL
+[2.115s] -- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description/share/spider_description/meshes/l3m_link.STL
+[2.116s] -- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description/share/spider_description/meshes/l4m_link.STL
+[2.116s] -- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description/share/spider_description/meshes/l3u_link.STL
+[2.116s] -- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description/share/spider_description/meshes/l2l_link.STL
+[2.116s] -- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description/share/ament_index/resource_index/package_run_dependencies/spider_description
+[2.117s] -- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description/share/ament_index/resource_index/parent_prefix_path/spider_description
+[2.118s] -- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description/share/spider_description/environment/ament_prefix_path.sh
+[2.118s] -- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description/share/spider_description/environment/ament_prefix_path.dsv
+[2.118s] -- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description/share/spider_description/environment/path.sh
+[2.119s] -- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description/share/spider_description/environment/path.dsv
+[2.119s] -- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description/share/spider_description/local_setup.bash
+[2.120s] -- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description/share/spider_description/local_setup.sh
+[2.120s] -- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description/share/spider_description/local_setup.zsh
+[2.121s] -- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description/share/spider_description/local_setup.dsv
+[2.121s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description/share/spider_description/package.dsv
+[2.122s] -- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description/share/ament_index/resource_index/packages/spider_description
+[2.123s] -- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description/share/spider_description/cmake/spider_descriptionConfig.cmake
+[2.123s] -- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description/share/spider_description/cmake/spider_descriptionConfig-version.cmake
+[2.123s] -- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description/share/spider_description/package.xml
+[2.130s] Invoked command in '/home/dfolse/repos/SPIDER/SPIDER_ws/build/spider_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_nav:/home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion:/home/dfolse/repos/SPIDER/SPIDER_ws/install/oak_d_lite:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_gps_waypoint_follower_demo:/home/dfolse/repos/SPIDER/SPIDER_ws/install/data_transfer:/opt/ros/foxy NX_CONNECTION=192.168.1.26 58745 192.168.1.53 4000 /usr/bin/cmake --install /home/dfolse/repos/SPIDER/SPIDER_ws/build/spider_description

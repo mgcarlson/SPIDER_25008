@@ -1,0 +1,30 @@
+running egg_info
+writing ../../build/oak_d_lite/oak_d_lite.egg-info/PKG-INFO
+writing dependency_links to ../../build/oak_d_lite/oak_d_lite.egg-info/dependency_links.txt
+writing entry points to ../../build/oak_d_lite/oak_d_lite.egg-info/entry_points.txt
+writing requirements to ../../build/oak_d_lite/oak_d_lite.egg-info/requires.txt
+writing top-level names to ../../build/oak_d_lite/oak_d_lite.egg-info/top_level.txt
+reading manifest file '../../build/oak_d_lite/oak_d_lite.egg-info/SOURCES.txt'
+writing manifest file '../../build/oak_d_lite/oak_d_lite.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+creating /home/dfolse/repos/SPIDER/SPIDER_ws/install/oak_d_lite/lib/python3.8/site-packages/oak_d_lite
+copying /home/dfolse/repos/SPIDER/SPIDER_ws/build/oak_d_lite/build/lib/oak_d_lite/stereo.py -> /home/dfolse/repos/SPIDER/SPIDER_ws/install/oak_d_lite/lib/python3.8/site-packages/oak_d_lite
+copying /home/dfolse/repos/SPIDER/SPIDER_ws/build/oak_d_lite/build/lib/oak_d_lite/stereo_imu.py -> /home/dfolse/repos/SPIDER/SPIDER_ws/install/oak_d_lite/lib/python3.8/site-packages/oak_d_lite
+copying /home/dfolse/repos/SPIDER/SPIDER_ws/build/oak_d_lite/build/lib/oak_d_lite/__init__.py -> /home/dfolse/repos/SPIDER/SPIDER_ws/install/oak_d_lite/lib/python3.8/site-packages/oak_d_lite
+byte-compiling /home/dfolse/repos/SPIDER/SPIDER_ws/install/oak_d_lite/lib/python3.8/site-packages/oak_d_lite/stereo.py to stereo.cpython-38.pyc
+byte-compiling /home/dfolse/repos/SPIDER/SPIDER_ws/install/oak_d_lite/lib/python3.8/site-packages/oak_d_lite/stereo_imu.py to stereo_imu.cpython-38.pyc
+byte-compiling /home/dfolse/repos/SPIDER/SPIDER_ws/install/oak_d_lite/lib/python3.8/site-packages/oak_d_lite/__init__.py to __init__.cpython-38.pyc
+running install_data
+creating /home/dfolse/repos/SPIDER/SPIDER_ws/install/oak_d_lite/share/ament_index
+creating /home/dfolse/repos/SPIDER/SPIDER_ws/install/oak_d_lite/share/ament_index/resource_index
+creating /home/dfolse/repos/SPIDER/SPIDER_ws/install/oak_d_lite/share/ament_index/resource_index/packages
+copying resource/oak_d_lite -> /home/dfolse/repos/SPIDER/SPIDER_ws/install/oak_d_lite/share/ament_index/resource_index/packages
+copying package.xml -> /home/dfolse/repos/SPIDER/SPIDER_ws/install/oak_d_lite/share/oak_d_lite
+running install_egg_info
+Copying ../../build/oak_d_lite/oak_d_lite.egg-info to /home/dfolse/repos/SPIDER/SPIDER_ws/install/oak_d_lite/lib/python3.8/site-packages/oak_d_lite-0.0.0-py3.8.egg-info
+running install_scripts
+Installing stereo script to /home/dfolse/repos/SPIDER/SPIDER_ws/install/oak_d_lite/lib/oak_d_lite
+writing list of installed files to '/home/dfolse/repos/SPIDER/SPIDER_ws/build/oak_d_lite/install.log'

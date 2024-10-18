@@ -1,0 +1,16 @@
+[2.034s] Invoking command in '/home/dfolse/repos/SPIDER/SPIDER_ws/src/oak_d_lite': NX_CONNECTION=192.168.1.26 49420 192.168.1.53 4000 PYTHONPATH=/home/dfolse/repos/SPIDER/SPIDER_ws/build/oak_d_lite/prefix_override:/home/dfolse/repos/SPIDER/SPIDER_ws/install/oak_d_lite/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/oak_d_lite build --build-base /home/dfolse/repos/SPIDER/SPIDER_ws/build/oak_d_lite/build install --record /home/dfolse/repos/SPIDER/SPIDER_ws/build/oak_d_lite/install.log --single-version-externally-managed
+[2.559s] running egg_info
+[2.559s] writing ../../build/oak_d_lite/oak_d_lite.egg-info/PKG-INFO
+[2.560s] writing dependency_links to ../../build/oak_d_lite/oak_d_lite.egg-info/dependency_links.txt
+[2.560s] writing entry points to ../../build/oak_d_lite/oak_d_lite.egg-info/entry_points.txt
+[2.560s] writing requirements to ../../build/oak_d_lite/oak_d_lite.egg-info/requires.txt
+[2.561s] writing top-level names to ../../build/oak_d_lite/oak_d_lite.egg-info/top_level.txt
+[2.567s] reading manifest file '../../build/oak_d_lite/oak_d_lite.egg-info/SOURCES.txt'
+[2.568s] writing manifest file '../../build/oak_d_lite/oak_d_lite.egg-info/SOURCES.txt'
+[2.568s] running build
+[2.568s] running build_py
+[2.569s] running install
+[2.570s] running install_lib
+[2.573s] running install_data
+[2.574s] error: can't copy 'resource/oak_d_lite': doesn't exist or not a regular file
+[2.621s] Invoked command in '/home/dfolse/repos/SPIDER/SPIDER_ws/src/oak_d_lite' returned '1': NX_CONNECTION=192.168.1.26 49420 192.168.1.53 4000 PYTHONPATH=/home/dfolse/repos/SPIDER/SPIDER_ws/build/oak_d_lite/prefix_override:/home/dfolse/repos/SPIDER/SPIDER_ws/install/oak_d_lite/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/oak_d_lite build --build-base /home/dfolse/repos/SPIDER/SPIDER_ws/build/oak_d_lite/build install --record /home/dfolse/repos/SPIDER/SPIDER_ws/build/oak_d_lite/install.log --single-version-externally-managed

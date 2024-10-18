@@ -1,0 +1,10 @@
+[01m[K/home/dfolse/repos/SPIDER/SPIDER_ws/src/luxonis/depthai-ros/depthai_bridge/src/SpatialDetectionConverter.cpp:[m[K In member function ‘[01m[Kvoid dai::ros::SpatialDetectionConverter::toRosVisionMsg(std::shared_ptr<dai::SpatialImgDetections>, std::deque<vision_msgs::msg::Detection3DArray_<std::allocator<void> > >&)[m[K’:
+[01m[K/home/dfolse/repos/SPIDER/SPIDER_ws/src/luxonis/depthai-ros/depthai_bridge/src/SpatialDetectionConverter.cpp:133:49:[m[K [01;31m[Kerror: [m[K‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<vision_msgs::msg::ObjectHypothesisWithPose_<std::allocator<void> > >, vision_msgs::msg::ObjectHypothesisWithPose_<std::allocator<void> > >::value_type[m[K’ {aka ‘[01m[Kstruct vision_msgs::msg::ObjectHypothesisWithPose_<std::allocator<void> >[m[K’} has no member named ‘[01m[Khypothesis[m[K’
+  133 |         opDetectionMsg.detections[i].results[0].[01;31m[Khypothesis[m[K.class_id = std::to_string(inNetData->detections[i].label);
+      |                                                 [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/dfolse/repos/SPIDER/SPIDER_ws/src/luxonis/depthai-ros/depthai_bridge/src/SpatialDetectionConverter.cpp:134:49:[m[K [01;31m[Kerror: [m[K‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<vision_msgs::msg::ObjectHypothesisWithPose_<std::allocator<void> > >, vision_msgs::msg::ObjectHypothesisWithPose_<std::allocator<void> > >::value_type[m[K’ {aka ‘[01m[Kstruct vision_msgs::msg::ObjectHypothesisWithPose_<std::allocator<void> >[m[K’} has no member named ‘[01m[Khypothesis[m[K’
+  134 |         opDetectionMsg.detections[i].results[0].[01;31m[Khypothesis[m[K.score = inNetData->detections[i].confidence;
+      |                                                 [01;31m[K^~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/depthai_bridge.dir/build.make:115: CMakeFiles/depthai_bridge.dir/src/SpatialDetectionConverter.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/depthai_bridge.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

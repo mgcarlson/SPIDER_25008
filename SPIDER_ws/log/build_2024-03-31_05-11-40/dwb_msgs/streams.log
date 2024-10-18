@@ -1,0 +1,312 @@
+[1.433s] Invoking command in '/home/dfolse/repos/SPIDER/SPIDER_ws/build/dwb_msgs': AMENT_PREFIX_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} NX_CONNECTION=192.168.1.26 58481 192.168.1.53 4000 PYTHONPATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/dfolse/repos/SPIDER/SPIDER_ws/build/dwb_msgs -- -j6 -l6
+[1.714s] [  1%] Built target dwb_msgs__cpp
+[1.761s] [ 12%] Built target dwb_msgs__rosidl_generator_c
+[1.931s] [ 24%] Built target dwb_msgs__rosidl_typesupport_fastrtps_cpp
+[1.948s] [ 35%] Built target dwb_msgs__rosidl_typesupport_introspection_cpp
+[2.055s] [ 47%] Built target dwb_msgs__rosidl_typesupport_c
+[2.065s] [ 64%] Built target dwb_msgs__rosidl_typesupport_introspection_c
+[2.068s] [ 70%] Built target dwb_msgs__rosidl_typesupport_cpp
+[2.269s] [ 82%] Built target dwb_msgs__rosidl_typesupport_fastrtps_c
+[2.443s] [ 82%] Built target dwb_msgs
+[2.592s] [ 83%] Built target dwb_msgs__py
+[2.808s] [ 93%] Built target dwb_msgs__python
+[2.997s] [ 95%] Built target dwb_msgs__rosidl_typesupport_introspection_c__pyext
+[3.013s] [ 97%] Built target dwb_msgs__rosidl_typesupport_c__pyext
+[3.041s] [100%] Built target dwb_msgs__rosidl_typesupport_fastrtps_c__pyext
+[3.213s] Invoked command in '/home/dfolse/repos/SPIDER/SPIDER_ws/build/dwb_msgs' returned '0': AMENT_PREFIX_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} NX_CONNECTION=192.168.1.26 58481 192.168.1.53 4000 PYTHONPATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/dfolse/repos/SPIDER/SPIDER_ws/build/dwb_msgs -- -j6 -l6
+[33.006s] Invoking command in '/home/dfolse/repos/SPIDER/SPIDER_ws/build/dwb_msgs': AMENT_PREFIX_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} NX_CONNECTION=192.168.1.26 58481 192.168.1.53 4000 PYTHONPATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/dfolse/repos/SPIDER/SPIDER_ws/build/dwb_msgs
+[33.549s] -- Install configuration: ""
+[33.579s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/share/ament_index/resource_index/rosidl_interfaces/dwb_msgs
+[33.597s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs
+[33.598s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/srv
+[33.603s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/srv/detail
+[33.604s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/srv/detail/score_trajectory__struct.h
+[33.605s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/srv/detail/generate_trajectory__type_support.h
+[33.606s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/srv/detail/generate_trajectory__struct.h
+[33.606s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/srv/detail/debug_local_plan__type_support.h
+[33.607s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/srv/detail/generate_twists__struct.h
+[33.607s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/srv/detail/generate_twists__functions.h
+[33.608s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/srv/detail/get_critic_score__functions.h
+[33.609s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/srv/detail/generate_trajectory__functions.h
+[33.609s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/srv/detail/score_trajectory__functions.h
+[33.610s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/srv/detail/debug_local_plan__functions.h
+[33.611s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/srv/detail/debug_local_plan__functions.c
+[33.613s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/srv/detail/get_critic_score__type_support.h
+[33.614s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/srv/detail/generate_trajectory__functions.c
+[33.615s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/srv/detail/get_critic_score__functions.c
+[33.621s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/srv/detail/generate_twists__functions.c
+[33.622s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/srv/detail/debug_local_plan__struct.h
+[33.622s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/srv/detail/generate_twists__type_support.h
+[33.623s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/srv/detail/get_critic_score__struct.h
+[33.623s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/srv/detail/score_trajectory__functions.c
+[33.624s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/srv/detail/score_trajectory__type_support.h
+[33.624s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/srv/generate_twists.h
+[33.625s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/srv/score_trajectory.h
+[33.626s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/srv/generate_trajectory.h
+[33.626s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/srv/debug_local_plan.h
+[33.627s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/srv/get_critic_score.h
+[33.629s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/msg
+[33.632s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/msg/trajectory2_d.h
+[33.647s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/msg/detail
+[33.649s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/msg/detail/trajectory2_d__functions.c
+[33.653s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/msg/detail/local_plan_evaluation__type_support.h
+[33.656s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/msg/detail/critic_score__functions.h
+[33.659s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/msg/detail/local_plan_evaluation__functions.c
+[33.660s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/msg/detail/trajectory_score__functions.h
+[33.665s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/msg/detail/critic_score__type_support.h
+[33.667s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/msg/detail/trajectory_score__functions.c
+[33.668s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/msg/detail/local_plan_evaluation__functions.h
+[33.668s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/msg/detail/trajectory2_d__type_support.h
+[33.669s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/msg/detail/trajectory2_d__functions.h
+[33.670s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/msg/detail/critic_score__struct.h
+[33.677s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/msg/detail/critic_score__functions.c
+[33.678s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/msg/detail/trajectory_score__type_support.h
+[33.678s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/msg/detail/trajectory2_d__struct.h
+[33.679s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/msg/detail/trajectory_score__struct.h
+[33.679s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/msg/detail/local_plan_evaluation__struct.h
+[33.681s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/msg/local_plan_evaluation.h
+[33.682s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/msg/trajectory_score.h
+[33.683s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/msg/critic_score.h
+[33.697s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/msg/rosidl_generator_c__visibility_control.h
+[33.725s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/share/dwb_msgs/environment/library_path.sh
+[33.728s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/share/dwb_msgs/environment/library_path.dsv
+[33.729s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/lib/libdwb_msgs__rosidl_generator_c.so
+[33.779s] -- Set runtime path of "/home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/lib/libdwb_msgs__rosidl_generator_c.so" to ""
+[33.780s] -- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs
+[33.781s] -- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/srv
+[33.781s] -- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/srv/detail
+[33.782s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/srv/detail/debug_local_plan__rosidl_typesupport_fastrtps_c.h
+[33.786s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/srv/detail/generate_twists__rosidl_typesupport_fastrtps_c.h
+[33.792s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/srv/detail/generate_trajectory__rosidl_typesupport_fastrtps_c.h
+[33.798s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/srv/detail/get_critic_score__rosidl_typesupport_fastrtps_c.h
+[33.798s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/srv/detail/score_trajectory__rosidl_typesupport_fastrtps_c.h
+[33.799s] -- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/msg
+[33.799s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[33.799s] -- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/msg/detail
+[33.800s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/msg/detail/critic_score__rosidl_typesupport_fastrtps_c.h
+[33.800s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/msg/detail/trajectory_score__rosidl_typesupport_fastrtps_c.h
+[33.800s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/msg/detail/trajectory2_d__rosidl_typesupport_fastrtps_c.h
+[33.801s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/msg/detail/local_plan_evaluation__rosidl_typesupport_fastrtps_c.h
+[33.818s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_fastrtps_c.so
+[33.819s] -- Set runtime path of "/home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[33.820s] -- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs
+[33.824s] -- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/srv
+[33.824s] -- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/srv/detail
+[33.824s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/srv/detail/debug_local_plan__rosidl_typesupport_fastrtps_cpp.hpp
+[33.826s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/srv/detail/score_trajectory__rosidl_typesupport_fastrtps_cpp.hpp
+[33.826s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/srv/detail/generate_twists__rosidl_typesupport_fastrtps_cpp.hpp
+[33.826s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/srv/detail/get_critic_score__rosidl_typesupport_fastrtps_cpp.hpp
+[33.830s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/srv/detail/dds_fastrtps
+[33.830s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/srv/detail/generate_trajectory__rosidl_typesupport_fastrtps_cpp.hpp
+[33.832s] -- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/msg
+[33.833s] -- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/msg/detail
+[33.834s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/msg/detail/local_plan_evaluation__rosidl_typesupport_fastrtps_cpp.hpp
+[33.835s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/msg/detail/trajectory_score__rosidl_typesupport_fastrtps_cpp.hpp
+[33.836s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/msg/detail/dds_fastrtps
+[33.836s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/msg/detail/critic_score__rosidl_typesupport_fastrtps_cpp.hpp
+[33.837s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/msg/detail/trajectory2_d__rosidl_typesupport_fastrtps_cpp.hpp
+[33.839s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[33.845s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_fastrtps_cpp.so
+[33.849s] -- Set runtime path of "/home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[33.850s] -- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs
+[33.850s] -- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/srv
+[33.851s] -- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/srv/detail
+[33.851s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/srv/detail/get_critic_score__type_support.c
+[33.853s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/srv/detail/generate_twists__rosidl_typesupport_introspection_c.h
+[33.853s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/srv/detail/generate_trajectory__type_support.c
+[33.855s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/srv/detail/debug_local_plan__type_support.c
+[33.855s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/srv/detail/generate_twists__type_support.c
+[33.855s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/srv/detail/get_critic_score__rosidl_typesupport_introspection_c.h
+[33.856s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/srv/detail/score_trajectory__rosidl_typesupport_introspection_c.h
+[33.857s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/srv/detail/debug_local_plan__rosidl_typesupport_introspection_c.h
+[33.858s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/srv/detail/score_trajectory__type_support.c
+[33.861s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/srv/detail/generate_trajectory__rosidl_typesupport_introspection_c.h
+[33.862s] -- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/msg
+[33.863s] -- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/msg/detail
+[33.864s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/msg/detail/critic_score__type_support.c
+[33.865s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/msg/detail/local_plan_evaluation__rosidl_typesupport_introspection_c.h
+[33.868s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/msg/detail/critic_score__rosidl_typesupport_introspection_c.h
+[33.869s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/msg/detail/trajectory_score__type_support.c
+[33.871s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/msg/detail/trajectory2_d__rosidl_typesupport_introspection_c.h
+[33.877s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/msg/detail/trajectory2_d__type_support.c
+[33.885s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/msg/detail/local_plan_evaluation__type_support.c
+[33.885s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/msg/detail/trajectory_score__rosidl_typesupport_introspection_c.h
+[33.885s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[33.887s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_introspection_c.so
+[33.888s] -- Set runtime path of "/home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_introspection_c.so" to ""
+[33.889s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_c.so
+[33.890s] -- Set runtime path of "/home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_c.so" to ""
+[33.890s] -- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs
+[33.891s] -- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/srv
+[33.891s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/srv/generate_twists.hpp
+[33.892s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/srv/score_trajectory.hpp
+[33.893s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/srv/debug_local_plan.hpp
+[33.894s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/srv/get_critic_score.hpp
+[33.896s] -- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/srv/detail
+[33.896s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/srv/detail/get_critic_score__builder.hpp
+[33.897s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/srv/detail/score_trajectory__type_support.hpp
+[33.898s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/srv/detail/get_critic_score__type_support.hpp
+[33.898s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/srv/detail/debug_local_plan__struct.hpp
+[33.900s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/srv/detail/generate_trajectory__builder.hpp
+[33.900s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/srv/detail/score_trajectory__builder.hpp
+[33.901s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/srv/detail/score_trajectory__traits.hpp
+[33.902s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/srv/detail/debug_local_plan__type_support.hpp
+[33.903s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/srv/detail/generate_trajectory__type_support.hpp
+[33.903s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/srv/detail/generate_twists__type_support.hpp
+[33.904s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/srv/detail/get_critic_score__traits.hpp
+[33.905s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/srv/detail/generate_trajectory__struct.hpp
+[33.906s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/srv/detail/generate_trajectory__traits.hpp
+[33.906s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/srv/detail/debug_local_plan__traits.hpp
+[33.906s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/srv/detail/generate_twists__traits.hpp
+[33.907s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/srv/detail/generate_twists__struct.hpp
+[33.916s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/srv/detail/debug_local_plan__builder.hpp
+[33.916s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/srv/detail/score_trajectory__struct.hpp
+[33.917s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/srv/detail/generate_twists__builder.hpp
+[33.918s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/srv/detail/get_critic_score__struct.hpp
+[33.919s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/srv/generate_trajectory.hpp
+[33.919s] -- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/msg
+[33.920s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/msg/trajectory2_d.hpp
+[33.920s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[33.921s] -- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/msg/detail
+[33.921s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/msg/detail/trajectory2_d__builder.hpp
+[33.922s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/msg/detail/trajectory2_d__struct.hpp
+[33.922s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/msg/detail/trajectory2_d__traits.hpp
+[33.923s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/msg/detail/critic_score__traits.hpp
+[33.927s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/msg/detail/critic_score__type_support.hpp
+[33.941s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/msg/detail/local_plan_evaluation__type_support.hpp
+[33.947s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/msg/detail/trajectory_score__struct.hpp
+[33.972s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/msg/detail/critic_score__struct.hpp
+[33.990s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/msg/detail/local_plan_evaluation__struct.hpp
+[33.995s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/msg/detail/trajectory_score__type_support.hpp
+[33.999s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/msg/detail/trajectory_score__builder.hpp
+[34.002s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/msg/detail/critic_score__builder.hpp
+[34.003s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/msg/detail/trajectory_score__traits.hpp
+[34.004s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/msg/detail/local_plan_evaluation__builder.hpp
+[34.010s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/msg/detail/local_plan_evaluation__traits.hpp
+[34.087s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/msg/detail/trajectory2_d__type_support.hpp
+[34.090s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/msg/critic_score.hpp
+[34.185s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/msg/trajectory_score.hpp
+[34.186s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/msg/local_plan_evaluation.hpp
+[34.202s] -- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs
+[34.215s] -- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/srv
+[34.215s] -- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/srv/detail
+[34.217s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/srv/detail/generate_trajectory__type_support.cpp
+[34.218s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/srv/detail/debug_local_plan__rosidl_typesupport_introspection_cpp.hpp
+[34.218s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/srv/detail/debug_local_plan__type_support.cpp
+[34.219s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/srv/detail/generate_twists__type_support.cpp
+[34.220s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/srv/detail/get_critic_score__rosidl_typesupport_introspection_cpp.hpp
+[34.220s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/srv/detail/generate_trajectory__rosidl_typesupport_introspection_cpp.hpp
+[34.222s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/srv/detail/score_trajectory__type_support.cpp
+[34.222s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/srv/detail/generate_twists__rosidl_typesupport_introspection_cpp.hpp
+[34.223s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/srv/detail/get_critic_score__type_support.cpp
+[34.223s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/srv/detail/score_trajectory__rosidl_typesupport_introspection_cpp.hpp
+[34.227s] -- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/msg
+[34.230s] -- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/msg/detail
+[34.230s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/msg/detail/trajectory2_d__rosidl_typesupport_introspection_cpp.hpp
+[34.230s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/msg/detail/local_plan_evaluation__type_support.cpp
+[34.250s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/msg/detail/critic_score__type_support.cpp
+[34.250s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/msg/detail/critic_score__rosidl_typesupport_introspection_cpp.hpp
+[34.251s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/msg/detail/trajectory_score__type_support.cpp
+[34.251s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/msg/detail/trajectory2_d__type_support.cpp
+[34.251s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/msg/detail/trajectory_score__rosidl_typesupport_introspection_cpp.hpp
+[34.251s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/include/dwb_msgs/msg/detail/local_plan_evaluation__rosidl_typesupport_introspection_cpp.hpp
+[34.255s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_introspection_cpp.so
+[34.278s] -- Set runtime path of "/home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[41.347s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_cpp.so
+[49.422s] -- Set runtime path of "/home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_cpp.so" to ""
+[61.968s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/share/dwb_msgs/environment/pythonpath.sh
+[64.474s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/share/dwb_msgs/environment/pythonpath.dsv
+[64.498s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/lib/python3.8/site-packages/dwb_msgs/__init__.py
+[117.787s] Compiling '/home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/lib/python3.8/site-packages/dwb_msgs/__init__.py'...
+[117.819s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/lib/python3.8/site-packages/dwb_msgs/msg
+[117.824s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/lib/python3.8/site-packages/dwb_msgs/msg/_local_plan_evaluation_s.c
+[117.826s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/lib/python3.8/site-packages/dwb_msgs/msg/_trajectory_score.py
+[117.827s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/lib/python3.8/site-packages/dwb_msgs/msg/_local_plan_evaluation.py
+[117.830s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/lib/python3.8/site-packages/dwb_msgs/msg/_trajectory2_d_s.c
+[117.832s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/lib/python3.8/site-packages/dwb_msgs/msg/_critic_score_s.c
+[117.835s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/lib/python3.8/site-packages/dwb_msgs/msg/_trajectory_score_s.c
+[117.837s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/lib/python3.8/site-packages/dwb_msgs/msg/_trajectory2_d.py
+[117.839s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/lib/python3.8/site-packages/dwb_msgs/msg/_critic_score.py
+[117.841s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/lib/python3.8/site-packages/dwb_msgs/msg/__init__.py
+[117.845s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/lib/python3.8/site-packages/dwb_msgs/srv
+[117.848s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/lib/python3.8/site-packages/dwb_msgs/srv/_get_critic_score_s.c
+[117.849s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/lib/python3.8/site-packages/dwb_msgs/srv/_generate_twists_s.c
+[117.851s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/lib/python3.8/site-packages/dwb_msgs/srv/_generate_twists.py
+[117.854s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/lib/python3.8/site-packages/dwb_msgs/srv/_generate_trajectory.py
+[117.856s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/lib/python3.8/site-packages/dwb_msgs/srv/_debug_local_plan.py
+[117.864s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/lib/python3.8/site-packages/dwb_msgs/srv/_get_critic_score.py
+[117.866s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/lib/python3.8/site-packages/dwb_msgs/srv/_score_trajectory.py
+[117.868s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/lib/python3.8/site-packages/dwb_msgs/srv/_generate_trajectory_s.c
+[117.874s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/lib/python3.8/site-packages/dwb_msgs/srv/__init__.py
+[117.881s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/lib/python3.8/site-packages/dwb_msgs/srv/_score_trajectory_s.c
+[117.883s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/lib/python3.8/site-packages/dwb_msgs/srv/_debug_local_plan_s.c
+[117.895s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/lib/python3.8/site-packages/dwb_msgs/dwb_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so
+[117.901s] -- Set runtime path of "/home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/lib/python3.8/site-packages/dwb_msgs/dwb_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so" to ""
+[117.904s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/lib/python3.8/site-packages/dwb_msgs/dwb_msgs_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so
+[117.920s] -- Set runtime path of "/home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/lib/python3.8/site-packages/dwb_msgs/dwb_msgs_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so" to ""
+[117.920s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/lib/python3.8/site-packages/dwb_msgs/dwb_msgs_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so
+[117.928s] -- Set runtime path of "/home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/lib/python3.8/site-packages/dwb_msgs/dwb_msgs_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so" to ""
+[117.933s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/lib/libdwb_msgs__python.so
+[117.942s] -- Set runtime path of "/home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/lib/libdwb_msgs__python.so" to ""
+[117.952s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/share/dwb_msgs/msg/CriticScore.idl
+[117.956s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/share/dwb_msgs/msg/LocalPlanEvaluation.idl
+[117.956s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/share/dwb_msgs/msg/Trajectory2D.idl
+[117.958s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/share/dwb_msgs/msg/TrajectoryScore.idl
+[117.960s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/share/dwb_msgs/srv/DebugLocalPlan.idl
+[117.970s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/share/dwb_msgs/srv/GenerateTrajectory.idl
+[117.971s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/share/dwb_msgs/srv/GenerateTwists.idl
+[117.972s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/share/dwb_msgs/srv/GetCriticScore.idl
+[117.973s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/share/dwb_msgs/srv/ScoreTrajectory.idl
+[117.981s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/share/dwb_msgs/msg/CriticScore.msg
+[117.987s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/share/dwb_msgs/msg/LocalPlanEvaluation.msg
+[117.993s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/share/dwb_msgs/msg/Trajectory2D.msg
+[118.006s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/share/dwb_msgs/msg/TrajectoryScore.msg
+[118.013s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/share/dwb_msgs/srv/DebugLocalPlan.srv
+[118.016s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/share/dwb_msgs/srv/DebugLocalPlan_Request.msg
+[118.021s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/share/dwb_msgs/srv/DebugLocalPlan_Response.msg
+[118.021s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/share/dwb_msgs/srv/GenerateTrajectory.srv
+[118.021s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/share/dwb_msgs/srv/GenerateTrajectory_Request.msg
+[118.022s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/share/dwb_msgs/srv/GenerateTrajectory_Response.msg
+[118.022s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/share/dwb_msgs/srv/GenerateTwists.srv
+[118.023s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/share/dwb_msgs/srv/GenerateTwists_Request.msg
+[118.024s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/share/dwb_msgs/srv/GenerateTwists_Response.msg
+[118.026s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/share/dwb_msgs/srv/GetCriticScore.srv
+[118.027s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/share/dwb_msgs/srv/GetCriticScore_Request.msg
+[118.028s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/share/dwb_msgs/srv/GetCriticScore_Response.msg
+[118.030s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/share/dwb_msgs/srv/ScoreTrajectory.srv
+[118.034s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/share/dwb_msgs/srv/ScoreTrajectory_Request.msg
+[118.036s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/share/dwb_msgs/srv/ScoreTrajectory_Response.msg
+[118.041s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/share/ament_index/resource_index/package_run_dependencies/dwb_msgs
+[118.049s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/share/ament_index/resource_index/parent_prefix_path/dwb_msgs
+[118.061s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/share/dwb_msgs/environment/ament_prefix_path.sh
+[118.067s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/share/dwb_msgs/environment/ament_prefix_path.dsv
+[118.068s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/share/dwb_msgs/environment/path.sh
+[118.068s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/share/dwb_msgs/environment/path.dsv
+[118.073s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/share/dwb_msgs/local_setup.bash
+[118.089s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/share/dwb_msgs/local_setup.sh
+[118.089s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/share/dwb_msgs/local_setup.zsh
+[118.089s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/share/dwb_msgs/local_setup.dsv
+[118.095s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/share/dwb_msgs/package.dsv
+[118.098s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/share/ament_index/resource_index/packages/dwb_msgs
+[118.113s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgs__rosidl_generator_cExport.cmake
+[118.114s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgs__rosidl_generator_cExport-noconfig.cmake
+[118.117s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgs__rosidl_typesupport_introspection_cExport.cmake
+[118.119s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[118.123s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgs__rosidl_typesupport_cExport.cmake
+[118.124s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[118.126s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgs__rosidl_generator_cppExport.cmake
+[118.127s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[118.128s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[118.129s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgs__rosidl_typesupport_cppExport.cmake
+[118.138s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[118.138s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/share/dwb_msgs/cmake/rosidl_cmake-extras.cmake
+[118.140s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/share/dwb_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[118.147s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/share/dwb_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[118.148s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/share/dwb_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[118.148s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/share/dwb_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[118.148s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/share/dwb_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[118.148s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/share/dwb_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[118.148s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgsConfig.cmake
+[118.151s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgsConfig-version.cmake
+[118.152s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/share/dwb_msgs/package.xml
+[119.639s] Invoked command in '/home/dfolse/repos/SPIDER/SPIDER_ws/build/dwb_msgs' returned '0': AMENT_PREFIX_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} NX_CONNECTION=192.168.1.26 58481 192.168.1.53 4000 PYTHONPATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/dfolse/repos/SPIDER/SPIDER_ws/build/dwb_msgs

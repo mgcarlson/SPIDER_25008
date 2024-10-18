@@ -1,0 +1,5 @@
+-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Found PythonInterp: /home/dfolse/.pyenv/shims/python3 (Required is at least version "3") 
+-- Using PYTHON_EXECUTABLE: /home/dfolse/.pyenv/shims/python3
+-- Configuring incomplete, errors occurred!
+See also "/home/dfolse/repos/SPIDER/SPIDER_ws/build/spider_description/CMakeFiles/CMakeOutput.log".

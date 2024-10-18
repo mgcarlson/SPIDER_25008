@@ -1,0 +1,1 @@
+Invoking command in '/home/dfolse/repos/SPIDER/SPIDER_ws/build/spider_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy NX_CONNECTION=192.168.1.26 63880 192.168.1.53 4000 /usr/bin/cmake --build /home/dfolse/repos/SPIDER/SPIDER_ws/build/spider_interfaces

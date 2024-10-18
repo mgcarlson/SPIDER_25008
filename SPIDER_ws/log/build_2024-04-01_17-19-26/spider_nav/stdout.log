@@ -1,0 +1,23 @@
+running egg_info
+writing ../../build/spider_nav/spider_nav.egg-info/PKG-INFO
+writing dependency_links to ../../build/spider_nav/spider_nav.egg-info/dependency_links.txt
+writing entry points to ../../build/spider_nav/spider_nav.egg-info/entry_points.txt
+writing requirements to ../../build/spider_nav/spider_nav.egg-info/requires.txt
+writing top-level names to ../../build/spider_nav/spider_nav.egg-info/top_level.txt
+reading manifest file '../../build/spider_nav/spider_nav.egg-info/SOURCES.txt'
+writing manifest file '../../build/spider_nav/spider_nav.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+copying launch/dual_ekf_navsat.launch.py -> /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_nav/share/spider_nav/launch
+copying config/dual_ekf_navsat_params.yaml -> /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_nav/share/spider_nav/config
+running install_egg_info
+removing '/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_nav/lib/python3.8/site-packages/spider_nav-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../build/spider_nav/spider_nav.egg-info to /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_nav/lib/python3.8/site-packages/spider_nav-0.0.0-py3.8.egg-info
+running install_scripts
+Installing gps_waypoint_logger script to /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_nav/lib/spider_nav
+Installing interactive_waypoint_follower script to /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_nav/lib/spider_nav
+Installing logged_waypoint_follower script to /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_nav/lib/spider_nav
+writing list of installed files to '/home/dfolse/repos/SPIDER/SPIDER_ws/build/spider_nav/install.log'

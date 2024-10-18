@@ -1,0 +1,433 @@
+[0.429s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.429s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff87cfe5b0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=6, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff87cfe5b0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff87cfeac0>)
+[0.821s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.821s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.822s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.822s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.822s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.822s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.822s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/dfolse/repos/SPIDER/SPIDER_ws'
+[0.822s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.822s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.823s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.823s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.823s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.823s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.823s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.823s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.823s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.869s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.869s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.870s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.870s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.870s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.870s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.871s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.871s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.871s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extensions ['ignore', 'ignore_ament_install']
+[0.871s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extension 'ignore'
+[0.871s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extension 'ignore_ament_install'
+[0.871s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extensions ['colcon_pkg']
+[0.871s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extension 'colcon_pkg'
+[0.872s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extensions ['colcon_meta']
+[0.872s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extension 'colcon_meta'
+[0.872s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extensions ['ros']
+[0.872s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extension 'ros'
+[0.872s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extensions ['cmake', 'python']
+[0.872s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extension 'cmake'
+[0.872s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extension 'python'
+[0.872s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extensions ['python_setup_py']
+[0.872s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extension 'python_setup_py'
+[0.873s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.873s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.873s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.873s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.874s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.874s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.874s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.874s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.874s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.874s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.874s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.875s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.875s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.875s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.875s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.875s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.875s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.875s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.875s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.875s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.876s] Level 1:colcon.colcon_core.package_identification:_identify(src/data_transfer) by extensions ['ignore', 'ignore_ament_install']
+[0.876s] Level 1:colcon.colcon_core.package_identification:_identify(src/data_transfer) by extension 'ignore'
+[0.876s] Level 1:colcon.colcon_core.package_identification:_identify(src/data_transfer) by extension 'ignore_ament_install'
+[0.876s] Level 1:colcon.colcon_core.package_identification:_identify(src/data_transfer) by extensions ['colcon_pkg']
+[0.876s] Level 1:colcon.colcon_core.package_identification:_identify(src/data_transfer) by extension 'colcon_pkg'
+[0.876s] Level 1:colcon.colcon_core.package_identification:_identify(src/data_transfer) by extensions ['colcon_meta']
+[0.876s] Level 1:colcon.colcon_core.package_identification:_identify(src/data_transfer) by extension 'colcon_meta'
+[0.876s] Level 1:colcon.colcon_core.package_identification:_identify(src/data_transfer) by extensions ['ros']
+[0.876s] Level 1:colcon.colcon_core.package_identification:_identify(src/data_transfer) by extension 'ros'
+[0.882s] DEBUG:colcon.colcon_core.package_identification:Package 'src/data_transfer' with type 'ros.ament_python' and name 'data_transfer'
+[0.882s] Level 1:colcon.colcon_core.package_identification:_identify(src/locomotion) by extensions ['ignore', 'ignore_ament_install']
+[0.882s] Level 1:colcon.colcon_core.package_identification:_identify(src/locomotion) by extension 'ignore'
+[0.882s] Level 1:colcon.colcon_core.package_identification:_identify(src/locomotion) by extension 'ignore_ament_install'
+[0.882s] Level 1:colcon.colcon_core.package_identification:_identify(src/locomotion) by extensions ['colcon_pkg']
+[0.883s] Level 1:colcon.colcon_core.package_identification:_identify(src/locomotion) by extension 'colcon_pkg'
+[0.883s] Level 1:colcon.colcon_core.package_identification:_identify(src/locomotion) by extensions ['colcon_meta']
+[0.883s] Level 1:colcon.colcon_core.package_identification:_identify(src/locomotion) by extension 'colcon_meta'
+[0.883s] Level 1:colcon.colcon_core.package_identification:_identify(src/locomotion) by extensions ['ros']
+[0.883s] Level 1:colcon.colcon_core.package_identification:_identify(src/locomotion) by extension 'ros'
+[0.884s] DEBUG:colcon.colcon_core.package_identification:Package 'src/locomotion' with type 'ros.ament_python' and name 'locomotion'
+[0.884s] Level 1:colcon.colcon_core.package_identification:_identify(src/oak_d_lite) by extensions ['ignore', 'ignore_ament_install']
+[0.885s] Level 1:colcon.colcon_core.package_identification:_identify(src/oak_d_lite) by extension 'ignore'
+[0.885s] Level 1:colcon.colcon_core.package_identification:_identify(src/oak_d_lite) by extension 'ignore_ament_install'
+[0.885s] Level 1:colcon.colcon_core.package_identification:_identify(src/oak_d_lite) by extensions ['colcon_pkg']
+[0.885s] Level 1:colcon.colcon_core.package_identification:_identify(src/oak_d_lite) by extension 'colcon_pkg'
+[0.885s] Level 1:colcon.colcon_core.package_identification:_identify(src/oak_d_lite) by extensions ['colcon_meta']
+[0.885s] Level 1:colcon.colcon_core.package_identification:_identify(src/oak_d_lite) by extension 'colcon_meta'
+[0.885s] Level 1:colcon.colcon_core.package_identification:_identify(src/oak_d_lite) by extensions ['ros']
+[0.885s] Level 1:colcon.colcon_core.package_identification:_identify(src/oak_d_lite) by extension 'ros'
+[0.887s] DEBUG:colcon.colcon_core.package_identification:Package 'src/oak_d_lite' with type 'ros.ament_python' and name 'oak_d_lite'
+[0.887s] Level 1:colcon.colcon_core.package_identification:_identify(src/spider_description) by extensions ['ignore', 'ignore_ament_install']
+[0.887s] Level 1:colcon.colcon_core.package_identification:_identify(src/spider_description) by extension 'ignore'
+[0.887s] Level 1:colcon.colcon_core.package_identification:_identify(src/spider_description) by extension 'ignore_ament_install'
+[0.887s] Level 1:colcon.colcon_core.package_identification:_identify(src/spider_description) by extensions ['colcon_pkg']
+[0.887s] Level 1:colcon.colcon_core.package_identification:_identify(src/spider_description) by extension 'colcon_pkg'
+[0.888s] Level 1:colcon.colcon_core.package_identification:_identify(src/spider_description) by extensions ['colcon_meta']
+[0.888s] Level 1:colcon.colcon_core.package_identification:_identify(src/spider_description) by extension 'colcon_meta'
+[0.888s] Level 1:colcon.colcon_core.package_identification:_identify(src/spider_description) by extensions ['ros']
+[0.888s] Level 1:colcon.colcon_core.package_identification:_identify(src/spider_description) by extension 'ros'
+[0.889s] DEBUG:colcon.colcon_core.package_identification:Package 'src/spider_description' with type 'ros.ament_cmake' and name 'spider_description'
+[0.889s] Level 1:colcon.colcon_core.package_identification:_identify(src/spider_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.889s] Level 1:colcon.colcon_core.package_identification:_identify(src/spider_interfaces) by extension 'ignore'
+[0.889s] Level 1:colcon.colcon_core.package_identification:_identify(src/spider_interfaces) by extension 'ignore_ament_install'
+[0.889s] Level 1:colcon.colcon_core.package_identification:_identify(src/spider_interfaces) by extensions ['colcon_pkg']
+[0.890s] Level 1:colcon.colcon_core.package_identification:_identify(src/spider_interfaces) by extension 'colcon_pkg'
+[0.890s] Level 1:colcon.colcon_core.package_identification:_identify(src/spider_interfaces) by extensions ['colcon_meta']
+[0.890s] Level 1:colcon.colcon_core.package_identification:_identify(src/spider_interfaces) by extension 'colcon_meta'
+[0.890s] Level 1:colcon.colcon_core.package_identification:_identify(src/spider_interfaces) by extensions ['ros']
+[0.890s] Level 1:colcon.colcon_core.package_identification:_identify(src/spider_interfaces) by extension 'ros'
+[0.891s] DEBUG:colcon.colcon_core.package_identification:Package 'src/spider_interfaces' with type 'ros.ament_cmake' and name 'spider_interfaces'
+[0.891s] Level 1:colcon.colcon_core.package_identification:_identify(src/spider_nav) by extensions ['ignore', 'ignore_ament_install']
+[0.891s] Level 1:colcon.colcon_core.package_identification:_identify(src/spider_nav) by extension 'ignore'
+[0.891s] Level 1:colcon.colcon_core.package_identification:_identify(src/spider_nav) by extension 'ignore_ament_install'
+[0.891s] Level 1:colcon.colcon_core.package_identification:_identify(src/spider_nav) by extensions ['colcon_pkg']
+[0.891s] Level 1:colcon.colcon_core.package_identification:_identify(src/spider_nav) by extension 'colcon_pkg'
+[0.892s] Level 1:colcon.colcon_core.package_identification:_identify(src/spider_nav) by extensions ['colcon_meta']
+[0.892s] Level 1:colcon.colcon_core.package_identification:_identify(src/spider_nav) by extension 'colcon_meta'
+[0.892s] Level 1:colcon.colcon_core.package_identification:_identify(src/spider_nav) by extensions ['ros']
+[0.892s] Level 1:colcon.colcon_core.package_identification:_identify(src/spider_nav) by extension 'ros'
+[0.893s] DEBUG:colcon.colcon_core.package_identification:Package 'src/spider_nav' with type 'ros.ament_python' and name 'spider_nav'
+[0.894s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.894s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.894s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.894s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.894s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.935s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.935s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.940s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 7 installed packages in /home/dfolse/repos/SPIDER/SPIDER_ws/install
+[0.943s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 371 installed packages in /opt/ros/foxy
+[0.948s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.097s] Level 5:colcon.colcon_core.verb:set package 'data_transfer' build argument 'cmake_args' from command line to 'None'
+[1.097s] Level 5:colcon.colcon_core.verb:set package 'data_transfer' build argument 'cmake_target' from command line to 'None'
+[1.097s] Level 5:colcon.colcon_core.verb:set package 'data_transfer' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.097s] Level 5:colcon.colcon_core.verb:set package 'data_transfer' build argument 'cmake_clean_cache' from command line to 'False'
+[1.097s] Level 5:colcon.colcon_core.verb:set package 'data_transfer' build argument 'cmake_clean_first' from command line to 'False'
+[1.097s] Level 5:colcon.colcon_core.verb:set package 'data_transfer' build argument 'cmake_force_configure' from command line to 'False'
+[1.097s] Level 5:colcon.colcon_core.verb:set package 'data_transfer' build argument 'ament_cmake_args' from command line to 'None'
+[1.097s] Level 5:colcon.colcon_core.verb:set package 'data_transfer' build argument 'catkin_cmake_args' from command line to 'None'
+[1.097s] Level 5:colcon.colcon_core.verb:set package 'data_transfer' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.097s] DEBUG:colcon.colcon_core.verb:Building package 'data_transfer' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dfolse/repos/SPIDER/SPIDER_ws/build/data_transfer', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dfolse/repos/SPIDER/SPIDER_ws/install/data_transfer', 'merge_install': False, 'path': '/home/dfolse/repos/SPIDER/SPIDER_ws/src/data_transfer', 'symlink_install': False, 'test_result_base': None}
+[1.098s] Level 5:colcon.colcon_core.verb:set package 'oak_d_lite' build argument 'cmake_args' from command line to 'None'
+[1.098s] Level 5:colcon.colcon_core.verb:set package 'oak_d_lite' build argument 'cmake_target' from command line to 'None'
+[1.098s] Level 5:colcon.colcon_core.verb:set package 'oak_d_lite' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.098s] Level 5:colcon.colcon_core.verb:set package 'oak_d_lite' build argument 'cmake_clean_cache' from command line to 'False'
+[1.098s] Level 5:colcon.colcon_core.verb:set package 'oak_d_lite' build argument 'cmake_clean_first' from command line to 'False'
+[1.098s] Level 5:colcon.colcon_core.verb:set package 'oak_d_lite' build argument 'cmake_force_configure' from command line to 'False'
+[1.098s] Level 5:colcon.colcon_core.verb:set package 'oak_d_lite' build argument 'ament_cmake_args' from command line to 'None'
+[1.098s] Level 5:colcon.colcon_core.verb:set package 'oak_d_lite' build argument 'catkin_cmake_args' from command line to 'None'
+[1.098s] Level 5:colcon.colcon_core.verb:set package 'oak_d_lite' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.099s] DEBUG:colcon.colcon_core.verb:Building package 'oak_d_lite' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dfolse/repos/SPIDER/SPIDER_ws/build/oak_d_lite', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dfolse/repos/SPIDER/SPIDER_ws/install/oak_d_lite', 'merge_install': False, 'path': '/home/dfolse/repos/SPIDER/SPIDER_ws/src/oak_d_lite', 'symlink_install': False, 'test_result_base': None}
+[1.099s] Level 5:colcon.colcon_core.verb:set package 'spider_description' build argument 'cmake_args' from command line to 'None'
+[1.099s] Level 5:colcon.colcon_core.verb:set package 'spider_description' build argument 'cmake_target' from command line to 'None'
+[1.099s] Level 5:colcon.colcon_core.verb:set package 'spider_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.099s] Level 5:colcon.colcon_core.verb:set package 'spider_description' build argument 'cmake_clean_cache' from command line to 'False'
+[1.099s] Level 5:colcon.colcon_core.verb:set package 'spider_description' build argument 'cmake_clean_first' from command line to 'False'
+[1.100s] Level 5:colcon.colcon_core.verb:set package 'spider_description' build argument 'cmake_force_configure' from command line to 'False'
+[1.100s] Level 5:colcon.colcon_core.verb:set package 'spider_description' build argument 'ament_cmake_args' from command line to 'None'
+[1.100s] Level 5:colcon.colcon_core.verb:set package 'spider_description' build argument 'catkin_cmake_args' from command line to 'None'
+[1.100s] Level 5:colcon.colcon_core.verb:set package 'spider_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.100s] DEBUG:colcon.colcon_core.verb:Building package 'spider_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dfolse/repos/SPIDER/SPIDER_ws/build/spider_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description', 'merge_install': False, 'path': '/home/dfolse/repos/SPIDER/SPIDER_ws/src/spider_description', 'symlink_install': False, 'test_result_base': None}
+[1.100s] Level 5:colcon.colcon_core.verb:set package 'spider_interfaces' build argument 'cmake_args' from command line to 'None'
+[1.100s] Level 5:colcon.colcon_core.verb:set package 'spider_interfaces' build argument 'cmake_target' from command line to 'None'
+[1.101s] Level 5:colcon.colcon_core.verb:set package 'spider_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.101s] Level 5:colcon.colcon_core.verb:set package 'spider_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[1.101s] Level 5:colcon.colcon_core.verb:set package 'spider_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[1.101s] Level 5:colcon.colcon_core.verb:set package 'spider_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[1.101s] Level 5:colcon.colcon_core.verb:set package 'spider_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[1.101s] Level 5:colcon.colcon_core.verb:set package 'spider_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[1.101s] Level 5:colcon.colcon_core.verb:set package 'spider_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.101s] DEBUG:colcon.colcon_core.verb:Building package 'spider_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dfolse/repos/SPIDER/SPIDER_ws/build/spider_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces', 'merge_install': False, 'path': '/home/dfolse/repos/SPIDER/SPIDER_ws/src/spider_interfaces', 'symlink_install': False, 'test_result_base': None}
+[1.102s] Level 5:colcon.colcon_core.verb:set package 'spider_nav' build argument 'cmake_args' from command line to 'None'
+[1.102s] Level 5:colcon.colcon_core.verb:set package 'spider_nav' build argument 'cmake_target' from command line to 'None'
+[1.102s] Level 5:colcon.colcon_core.verb:set package 'spider_nav' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.102s] Level 5:colcon.colcon_core.verb:set package 'spider_nav' build argument 'cmake_clean_cache' from command line to 'False'
+[1.102s] Level 5:colcon.colcon_core.verb:set package 'spider_nav' build argument 'cmake_clean_first' from command line to 'False'
+[1.102s] Level 5:colcon.colcon_core.verb:set package 'spider_nav' build argument 'cmake_force_configure' from command line to 'False'
+[1.102s] Level 5:colcon.colcon_core.verb:set package 'spider_nav' build argument 'ament_cmake_args' from command line to 'None'
+[1.102s] Level 5:colcon.colcon_core.verb:set package 'spider_nav' build argument 'catkin_cmake_args' from command line to 'None'
+[1.102s] Level 5:colcon.colcon_core.verb:set package 'spider_nav' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.102s] DEBUG:colcon.colcon_core.verb:Building package 'spider_nav' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dfolse/repos/SPIDER/SPIDER_ws/build/spider_nav', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_nav', 'merge_install': False, 'path': '/home/dfolse/repos/SPIDER/SPIDER_ws/src/spider_nav', 'symlink_install': False, 'test_result_base': None}
+[1.103s] Level 5:colcon.colcon_core.verb:set package 'locomotion' build argument 'cmake_args' from command line to 'None'
+[1.103s] Level 5:colcon.colcon_core.verb:set package 'locomotion' build argument 'cmake_target' from command line to 'None'
+[1.103s] Level 5:colcon.colcon_core.verb:set package 'locomotion' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.103s] Level 5:colcon.colcon_core.verb:set package 'locomotion' build argument 'cmake_clean_cache' from command line to 'False'
+[1.103s] Level 5:colcon.colcon_core.verb:set package 'locomotion' build argument 'cmake_clean_first' from command line to 'False'
+[1.103s] Level 5:colcon.colcon_core.verb:set package 'locomotion' build argument 'cmake_force_configure' from command line to 'False'
+[1.103s] Level 5:colcon.colcon_core.verb:set package 'locomotion' build argument 'ament_cmake_args' from command line to 'None'
+[1.103s] Level 5:colcon.colcon_core.verb:set package 'locomotion' build argument 'catkin_cmake_args' from command line to 'None'
+[1.103s] Level 5:colcon.colcon_core.verb:set package 'locomotion' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.103s] DEBUG:colcon.colcon_core.verb:Building package 'locomotion' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dfolse/repos/SPIDER/SPIDER_ws/build/locomotion', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion', 'merge_install': False, 'path': '/home/dfolse/repos/SPIDER/SPIDER_ws/src/locomotion', 'symlink_install': False, 'test_result_base': None}
+[1.103s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.106s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.107s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dfolse/repos/SPIDER/SPIDER_ws/src/spider_interfaces' with build type 'ament_cmake'
+[1.107s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dfolse/repos/SPIDER/SPIDER_ws/src/spider_interfaces'
+[1.112s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.112s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.112s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.124s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/dfolse/repos/SPIDER/SPIDER_ws/src/data_transfer' with build type 'ament_python'
+[1.125s] Level 1:colcon.colcon_core.shell:create_environment_hook('data_transfer', 'ament_prefix_path')
+[1.126s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dfolse/repos/SPIDER/SPIDER_ws/install/data_transfer/share/data_transfer/hook/ament_prefix_path.ps1'
+[1.128s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dfolse/repos/SPIDER/SPIDER_ws/install/data_transfer/share/data_transfer/hook/ament_prefix_path.dsv'
+[1.129s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dfolse/repos/SPIDER/SPIDER_ws/install/data_transfer/share/data_transfer/hook/ament_prefix_path.sh'
+[1.131s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.131s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.144s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/dfolse/repos/SPIDER/SPIDER_ws/src/oak_d_lite' with build type 'ament_python'
+[1.146s] Level 1:colcon.colcon_core.shell:create_environment_hook('oak_d_lite', 'ament_prefix_path')
+[1.147s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dfolse/repos/SPIDER/SPIDER_ws/install/oak_d_lite/share/oak_d_lite/hook/ament_prefix_path.ps1'
+[1.150s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dfolse/repos/SPIDER/SPIDER_ws/install/oak_d_lite/share/oak_d_lite/hook/ament_prefix_path.dsv'
+[1.151s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dfolse/repos/SPIDER/SPIDER_ws/install/oak_d_lite/share/oak_d_lite/hook/ament_prefix_path.sh'
+[1.152s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.152s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.165s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dfolse/repos/SPIDER/SPIDER_ws/src/spider_description' with build type 'ament_cmake'
+[1.165s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dfolse/repos/SPIDER/SPIDER_ws/src/spider_description'
+[1.167s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.167s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.178s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/dfolse/repos/SPIDER/SPIDER_ws/src/spider_nav' with build type 'ament_python'
+[1.179s] Level 1:colcon.colcon_core.shell:create_environment_hook('spider_nav', 'ament_prefix_path')
+[1.180s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_nav/share/spider_nav/hook/ament_prefix_path.ps1'
+[1.181s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_nav/share/spider_nav/hook/ament_prefix_path.dsv'
+[1.182s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_nav/share/spider_nav/hook/ament_prefix_path.sh'
+[1.183s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.183s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.213s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dfolse/repos/SPIDER/SPIDER_ws/build/spider_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_nav:/home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion:/home/dfolse/repos/SPIDER/SPIDER_ws/install/oak_d_lite:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_gps_waypoint_follower_demo:/home/dfolse/repos/SPIDER/SPIDER_ws/install/data_transfer:/opt/ros/foxy NX_CONNECTION=192.168.1.26 58745 192.168.1.53 4000 /usr/bin/cmake --build /home/dfolse/repos/SPIDER/SPIDER_ws/build/spider_interfaces -- -j6 -l6
+[1.816s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/dfolse/repos/SPIDER/SPIDER_ws/src/data_transfer'
+[1.818s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.818s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.414s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/dfolse/repos/SPIDER/SPIDER_ws/src/oak_d_lite'
+[2.416s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.417s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.449s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dfolse/repos/SPIDER/SPIDER_ws/build/spider_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_nav:/home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion:/home/dfolse/repos/SPIDER/SPIDER_ws/install/oak_d_lite:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_gps_waypoint_follower_demo:/home/dfolse/repos/SPIDER/SPIDER_ws/install/data_transfer:/opt/ros/foxy NX_CONNECTION=192.168.1.26 58745 192.168.1.53 4000 /usr/bin/cmake --build /home/dfolse/repos/SPIDER/SPIDER_ws/build/spider_description -- -j6 -l6
+[2.474s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dfolse/repos/SPIDER/SPIDER_ws/build/spider_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_nav:/home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion:/home/dfolse/repos/SPIDER/SPIDER_ws/install/oak_d_lite:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_gps_waypoint_follower_demo:/home/dfolse/repos/SPIDER/SPIDER_ws/install/data_transfer:/opt/ros/foxy NX_CONNECTION=192.168.1.26 58745 192.168.1.53 4000 /usr/bin/cmake --build /home/dfolse/repos/SPIDER/SPIDER_ws/build/spider_interfaces -- -j6 -l6
+[3.046s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/dfolse/repos/SPIDER/SPIDER_ws/src/spider_nav'
+[3.048s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.048s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.091s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dfolse/repos/SPIDER/SPIDER_ws/build/spider_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_nav:/home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion:/home/dfolse/repos/SPIDER/SPIDER_ws/install/oak_d_lite:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_gps_waypoint_follower_demo:/home/dfolse/repos/SPIDER/SPIDER_ws/install/data_transfer:/opt/ros/foxy NX_CONNECTION=192.168.1.26 58745 192.168.1.53 4000 /usr/bin/cmake --build /home/dfolse/repos/SPIDER/SPIDER_ws/build/spider_description -- -j6 -l6
+[3.130s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dfolse/repos/SPIDER/SPIDER_ws/build/spider_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_nav:/home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion:/home/dfolse/repos/SPIDER/SPIDER_ws/install/oak_d_lite:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_gps_waypoint_follower_demo:/home/dfolse/repos/SPIDER/SPIDER_ws/install/data_transfer:/opt/ros/foxy NX_CONNECTION=192.168.1.26 58745 192.168.1.53 4000 /usr/bin/cmake --install /home/dfolse/repos/SPIDER/SPIDER_ws/build/spider_interfaces
+[3.193s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dfolse/repos/SPIDER/SPIDER_ws/build/spider_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_nav:/home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion:/home/dfolse/repos/SPIDER/SPIDER_ws/install/oak_d_lite:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_gps_waypoint_follower_demo:/home/dfolse/repos/SPIDER/SPIDER_ws/install/data_transfer:/opt/ros/foxy NX_CONNECTION=192.168.1.26 58745 192.168.1.53 4000 /usr/bin/cmake --install /home/dfolse/repos/SPIDER/SPIDER_ws/build/spider_description
+[3.236s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(spider_description)
+[3.238s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dfolse/repos/SPIDER/SPIDER_ws/build/spider_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_nav:/home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion:/home/dfolse/repos/SPIDER/SPIDER_ws/install/oak_d_lite:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_gps_waypoint_follower_demo:/home/dfolse/repos/SPIDER/SPIDER_ws/install/data_transfer:/opt/ros/foxy NX_CONNECTION=192.168.1.26 58745 192.168.1.53 4000 /usr/bin/cmake --install /home/dfolse/repos/SPIDER/SPIDER_ws/build/spider_description
+[3.244s] Level 1:colcon.colcon_core.environment:checking '/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description' for CMake module files
+[3.245s] Level 1:colcon.colcon_core.environment:checking '/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description' for CMake config files
+[3.245s] Level 1:colcon.colcon_core.shell:create_environment_hook('spider_description', 'cmake_prefix_path')
+[3.246s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description/share/spider_description/hook/cmake_prefix_path.ps1'
+[3.248s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description/share/spider_description/hook/cmake_prefix_path.dsv'
+[3.249s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description/share/spider_description/hook/cmake_prefix_path.sh'
+[3.251s] Level 1:colcon.colcon_core.environment:checking '/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description/bin'
+[3.251s] Level 1:colcon.colcon_core.environment:checking '/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description/lib/pkgconfig/spider_description.pc'
+[3.251s] Level 1:colcon.colcon_core.environment:checking '/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description/lib/python3.8/site-packages'
+[3.252s] Level 1:colcon.colcon_core.environment:checking '/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description/bin'
+[3.256s] INFO:colcon.colcon_core.shell:Creating package script '/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description/share/spider_description/package.ps1'
+[3.261s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description/share/spider_description/package.dsv'
+[3.262s] INFO:colcon.colcon_core.shell:Creating package script '/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description/share/spider_description/package.sh'
+[3.264s] INFO:colcon.colcon_core.shell:Creating package script '/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description/share/spider_description/package.bash'
+[3.266s] INFO:colcon.colcon_core.shell:Creating package script '/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description/share/spider_description/package.zsh'
+[3.267s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description/share/colcon-core/packages/spider_description)
+[3.299s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(spider_interfaces)
+[3.300s] Level 1:colcon.colcon_core.environment:checking '/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces' for CMake module files
+[3.302s] Level 1:colcon.colcon_core.environment:checking '/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces' for CMake config files
+[3.302s] Level 1:colcon.colcon_core.shell:create_environment_hook('spider_interfaces', 'cmake_prefix_path')
+[3.303s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/hook/cmake_prefix_path.ps1'
+[3.304s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/hook/cmake_prefix_path.dsv'
+[3.305s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/hook/cmake_prefix_path.sh'
+[3.307s] Level 1:colcon.colcon_core.environment:checking '/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/lib'
+[3.307s] Level 1:colcon.colcon_core.shell:create_environment_hook('spider_interfaces', 'ld_library_path_lib')
+[3.308s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/hook/ld_library_path_lib.ps1'
+[3.309s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/hook/ld_library_path_lib.dsv'
+[3.310s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/hook/ld_library_path_lib.sh'
+[3.310s] Level 1:colcon.colcon_core.environment:checking '/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/bin'
+[3.311s] Level 1:colcon.colcon_core.environment:checking '/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/lib/pkgconfig/spider_interfaces.pc'
+[3.311s] Level 1:colcon.colcon_core.environment:checking '/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/lib/python3.8/site-packages'
+[3.311s] Level 1:colcon.colcon_core.shell:create_environment_hook('spider_interfaces', 'pythonpath')
+[3.312s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/hook/pythonpath.ps1'
+[3.312s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/hook/pythonpath.dsv'
+[3.313s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/hook/pythonpath.sh'
+[3.314s] Level 1:colcon.colcon_core.environment:checking '/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/bin'
+[3.315s] INFO:colcon.colcon_core.shell:Creating package script '/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/package.ps1'
+[3.316s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/package.dsv'
+[3.317s] INFO:colcon.colcon_core.shell:Creating package script '/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/package.sh'
+[3.318s] INFO:colcon.colcon_core.shell:Creating package script '/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/package.bash'
+[3.319s] INFO:colcon.colcon_core.shell:Creating package script '/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/package.zsh'
+[3.320s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dfolse/repos/SPIDER/SPIDER_ws/build/spider_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_nav:/home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion:/home/dfolse/repos/SPIDER/SPIDER_ws/install/oak_d_lite:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_gps_waypoint_follower_demo:/home/dfolse/repos/SPIDER/SPIDER_ws/install/data_transfer:/opt/ros/foxy NX_CONNECTION=192.168.1.26 58745 192.168.1.53 4000 /usr/bin/cmake --install /home/dfolse/repos/SPIDER/SPIDER_ws/build/spider_interfaces
+[3.321s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/share/colcon-core/packages/spider_interfaces)
+[3.358s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(spider_description)
+[3.360s] Level 1:colcon.colcon_core.environment:checking '/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description' for CMake module files
+[3.361s] Level 1:colcon.colcon_core.environment:checking '/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description' for CMake config files
+[3.361s] Level 1:colcon.colcon_core.shell:create_environment_hook('spider_description', 'cmake_prefix_path')
+[3.362s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description/share/spider_description/hook/cmake_prefix_path.ps1'
+[3.364s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description/share/spider_description/hook/cmake_prefix_path.dsv'
+[3.364s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description/share/spider_description/hook/cmake_prefix_path.sh'
+[3.366s] Level 1:colcon.colcon_core.environment:checking '/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description/bin'
+[3.366s] Level 1:colcon.colcon_core.environment:checking '/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description/lib/pkgconfig/spider_description.pc'
+[3.367s] Level 1:colcon.colcon_core.environment:checking '/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description/lib/python3.8/site-packages'
+[3.367s] Level 1:colcon.colcon_core.environment:checking '/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description/bin'
+[3.368s] INFO:colcon.colcon_core.shell:Creating package script '/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description/share/spider_description/package.ps1'
+[3.369s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description/share/spider_description/package.dsv'
+[3.371s] INFO:colcon.colcon_core.shell:Creating package script '/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description/share/spider_description/package.sh'
+[3.372s] INFO:colcon.colcon_core.shell:Creating package script '/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description/share/spider_description/package.bash'
+[3.373s] INFO:colcon.colcon_core.shell:Creating package script '/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description/share/spider_description/package.zsh'
+[3.374s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description/share/colcon-core/packages/spider_description)
+[3.758s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(spider_interfaces)
+[3.759s] Level 1:colcon.colcon_core.environment:checking '/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces' for CMake module files
+[3.760s] Level 1:colcon.colcon_core.environment:checking '/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces' for CMake config files
+[3.760s] Level 1:colcon.colcon_core.shell:create_environment_hook('spider_interfaces', 'cmake_prefix_path')
+[3.761s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/hook/cmake_prefix_path.ps1'
+[3.762s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/hook/cmake_prefix_path.dsv'
+[3.763s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/hook/cmake_prefix_path.sh'
+[3.764s] Level 1:colcon.colcon_core.environment:checking '/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/lib'
+[3.764s] Level 1:colcon.colcon_core.shell:create_environment_hook('spider_interfaces', 'ld_library_path_lib')
+[3.765s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/hook/ld_library_path_lib.ps1'
+[3.765s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/hook/ld_library_path_lib.dsv'
+[3.766s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/hook/ld_library_path_lib.sh'
+[3.767s] Level 1:colcon.colcon_core.environment:checking '/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/bin'
+[3.767s] Level 1:colcon.colcon_core.environment:checking '/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/lib/pkgconfig/spider_interfaces.pc'
+[3.768s] Level 1:colcon.colcon_core.environment:checking '/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/lib/python3.8/site-packages'
+[3.768s] Level 1:colcon.colcon_core.shell:create_environment_hook('spider_interfaces', 'pythonpath')
+[3.768s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/hook/pythonpath.ps1'
+[3.769s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/hook/pythonpath.dsv'
+[3.770s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/hook/pythonpath.sh'
+[3.771s] Level 1:colcon.colcon_core.environment:checking '/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/bin'
+[3.777s] INFO:colcon.colcon_core.shell:Creating package script '/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/package.ps1'
+[3.779s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/package.dsv'
+[3.780s] INFO:colcon.colcon_core.shell:Creating package script '/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/package.sh'
+[3.781s] INFO:colcon.colcon_core.shell:Creating package script '/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/package.bash'
+[3.782s] INFO:colcon.colcon_core.shell:Creating package script '/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/package.zsh'
+[3.782s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/share/colcon-core/packages/spider_interfaces)
+[3.784s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/dfolse/repos/SPIDER/SPIDER_ws/src/locomotion' with build type 'ament_python'
+[3.784s] Level 1:colcon.colcon_core.shell:create_environment_hook('locomotion', 'ament_prefix_path')
+[3.786s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion/share/locomotion/hook/ament_prefix_path.ps1'
+[3.787s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion/share/locomotion/hook/ament_prefix_path.dsv'
+[3.788s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion/share/locomotion/hook/ament_prefix_path.sh'
+[3.789s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.789s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.442s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/dfolse/repos/SPIDER/SPIDER_ws/src/locomotion'
+[4.444s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.444s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.472s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dfolse/repos/SPIDER/SPIDER_ws/src/data_transfer': NX_CONNECTION=192.168.1.26 58745 192.168.1.53 4000 PYTHONPATH=/home/dfolse/repos/SPIDER/SPIDER_ws/build/data_transfer/prefix_override:/home/dfolse/repos/SPIDER/SPIDER_ws/install/data_transfer/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/data_transfer build --build-base /home/dfolse/repos/SPIDER/SPIDER_ws/build/data_transfer/build install --record /home/dfolse/repos/SPIDER/SPIDER_ws/build/data_transfer/install.log --single-version-externally-managed install_data
+[4.479s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dfolse/repos/SPIDER/SPIDER_ws/src/oak_d_lite': NX_CONNECTION=192.168.1.26 58745 192.168.1.53 4000 PYTHONPATH=/home/dfolse/repos/SPIDER/SPIDER_ws/build/oak_d_lite/prefix_override:/home/dfolse/repos/SPIDER/SPIDER_ws/install/oak_d_lite/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/oak_d_lite build --build-base /home/dfolse/repos/SPIDER/SPIDER_ws/build/oak_d_lite/build install --record /home/dfolse/repos/SPIDER/SPIDER_ws/build/oak_d_lite/install.log --single-version-externally-managed install_data
+[4.491s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dfolse/repos/SPIDER/SPIDER_ws/src/spider_nav': NX_CONNECTION=192.168.1.26 58745 192.168.1.53 4000 PYTHONPATH=/home/dfolse/repos/SPIDER/SPIDER_ws/build/spider_nav/prefix_override:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_nav/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/spider_nav build --build-base /home/dfolse/repos/SPIDER/SPIDER_ws/build/spider_nav/build install --record /home/dfolse/repos/SPIDER/SPIDER_ws/build/spider_nav/install.log --single-version-externally-managed install_data
+[5.150s] Level 1:colcon.colcon_core.environment:checking '/home/dfolse/repos/SPIDER/SPIDER_ws/install/oak_d_lite' for CMake module files
+[5.152s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dfolse/repos/SPIDER/SPIDER_ws/src/oak_d_lite' returned '0': NX_CONNECTION=192.168.1.26 58745 192.168.1.53 4000 PYTHONPATH=/home/dfolse/repos/SPIDER/SPIDER_ws/build/oak_d_lite/prefix_override:/home/dfolse/repos/SPIDER/SPIDER_ws/install/oak_d_lite/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/oak_d_lite build --build-base /home/dfolse/repos/SPIDER/SPIDER_ws/build/oak_d_lite/build install --record /home/dfolse/repos/SPIDER/SPIDER_ws/build/oak_d_lite/install.log --single-version-externally-managed install_data
+[5.153s] Level 1:colcon.colcon_core.environment:checking '/home/dfolse/repos/SPIDER/SPIDER_ws/install/oak_d_lite' for CMake config files
+[5.155s] Level 1:colcon.colcon_core.environment:checking '/home/dfolse/repos/SPIDER/SPIDER_ws/install/oak_d_lite/lib'
+[5.155s] Level 1:colcon.colcon_core.environment:checking '/home/dfolse/repos/SPIDER/SPIDER_ws/install/oak_d_lite/bin'
+[5.156s] Level 1:colcon.colcon_core.environment:checking '/home/dfolse/repos/SPIDER/SPIDER_ws/install/oak_d_lite/lib/pkgconfig/oak_d_lite.pc'
+[5.157s] Level 1:colcon.colcon_core.environment:checking '/home/dfolse/repos/SPIDER/SPIDER_ws/install/oak_d_lite/lib/python3.8/site-packages'
+[5.157s] Level 1:colcon.colcon_core.shell:create_environment_hook('oak_d_lite', 'pythonpath')
+[5.158s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dfolse/repos/SPIDER/SPIDER_ws/install/oak_d_lite/share/oak_d_lite/hook/pythonpath.ps1'
+[5.160s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dfolse/repos/SPIDER/SPIDER_ws/install/oak_d_lite/share/oak_d_lite/hook/pythonpath.dsv'
+[5.161s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dfolse/repos/SPIDER/SPIDER_ws/install/oak_d_lite/share/oak_d_lite/hook/pythonpath.sh'
+[5.163s] Level 1:colcon.colcon_core.environment:checking '/home/dfolse/repos/SPIDER/SPIDER_ws/install/oak_d_lite/bin'
+[5.163s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(oak_d_lite)
+[5.164s] INFO:colcon.colcon_core.shell:Creating package script '/home/dfolse/repos/SPIDER/SPIDER_ws/install/oak_d_lite/share/oak_d_lite/package.ps1'
+[5.166s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dfolse/repos/SPIDER/SPIDER_ws/install/oak_d_lite/share/oak_d_lite/package.dsv'
+[5.167s] INFO:colcon.colcon_core.shell:Creating package script '/home/dfolse/repos/SPIDER/SPIDER_ws/install/oak_d_lite/share/oak_d_lite/package.sh'
+[5.168s] INFO:colcon.colcon_core.shell:Creating package script '/home/dfolse/repos/SPIDER/SPIDER_ws/install/oak_d_lite/share/oak_d_lite/package.bash'
+[5.169s] INFO:colcon.colcon_core.shell:Creating package script '/home/dfolse/repos/SPIDER/SPIDER_ws/install/oak_d_lite/share/oak_d_lite/package.zsh'
+[5.170s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dfolse/repos/SPIDER/SPIDER_ws/install/oak_d_lite/share/colcon-core/packages/oak_d_lite)
+[5.207s] Level 1:colcon.colcon_core.environment:checking '/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_nav' for CMake module files
+[5.210s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dfolse/repos/SPIDER/SPIDER_ws/src/spider_nav' returned '0': NX_CONNECTION=192.168.1.26 58745 192.168.1.53 4000 PYTHONPATH=/home/dfolse/repos/SPIDER/SPIDER_ws/build/spider_nav/prefix_override:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_nav/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/spider_nav build --build-base /home/dfolse/repos/SPIDER/SPIDER_ws/build/spider_nav/build install --record /home/dfolse/repos/SPIDER/SPIDER_ws/build/spider_nav/install.log --single-version-externally-managed install_data
+[5.211s] Level 1:colcon.colcon_core.environment:checking '/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_nav' for CMake config files
+[5.213s] Level 1:colcon.colcon_core.environment:checking '/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_nav/lib'
+[5.213s] Level 1:colcon.colcon_core.environment:checking '/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_nav/bin'
+[5.214s] Level 1:colcon.colcon_core.environment:checking '/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_nav/lib/pkgconfig/spider_nav.pc'
+[5.214s] Level 1:colcon.colcon_core.environment:checking '/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_nav/lib/python3.8/site-packages'
+[5.214s] Level 1:colcon.colcon_core.shell:create_environment_hook('spider_nav', 'pythonpath')
+[5.215s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_nav/share/spider_nav/hook/pythonpath.ps1'
+[5.222s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_nav/share/spider_nav/hook/pythonpath.dsv'
+[5.223s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_nav/share/spider_nav/hook/pythonpath.sh'
+[5.225s] Level 1:colcon.colcon_core.environment:checking '/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_nav/bin'
+[5.225s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(spider_nav)
+[5.225s] INFO:colcon.colcon_core.shell:Creating package script '/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_nav/share/spider_nav/package.ps1'
+[5.227s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_nav/share/spider_nav/package.dsv'
+[5.228s] INFO:colcon.colcon_core.shell:Creating package script '/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_nav/share/spider_nav/package.sh'
+[5.228s] INFO:colcon.colcon_core.shell:Creating package script '/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_nav/share/spider_nav/package.bash'
+[5.229s] INFO:colcon.colcon_core.shell:Creating package script '/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_nav/share/spider_nav/package.zsh'
+[5.230s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_nav/share/colcon-core/packages/spider_nav)
+[5.231s] Level 1:colcon.colcon_core.environment:checking '/home/dfolse/repos/SPIDER/SPIDER_ws/install/data_transfer' for CMake module files
+[5.233s] Level 1:colcon.colcon_core.environment:checking '/home/dfolse/repos/SPIDER/SPIDER_ws/install/data_transfer' for CMake config files
+[5.234s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dfolse/repos/SPIDER/SPIDER_ws/src/data_transfer' returned '0': NX_CONNECTION=192.168.1.26 58745 192.168.1.53 4000 PYTHONPATH=/home/dfolse/repos/SPIDER/SPIDER_ws/build/data_transfer/prefix_override:/home/dfolse/repos/SPIDER/SPIDER_ws/install/data_transfer/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/data_transfer build --build-base /home/dfolse/repos/SPIDER/SPIDER_ws/build/data_transfer/build install --record /home/dfolse/repos/SPIDER/SPIDER_ws/build/data_transfer/install.log --single-version-externally-managed install_data
+[5.236s] Level 1:colcon.colcon_core.environment:checking '/home/dfolse/repos/SPIDER/SPIDER_ws/install/data_transfer/lib'
+[5.236s] Level 1:colcon.colcon_core.environment:checking '/home/dfolse/repos/SPIDER/SPIDER_ws/install/data_transfer/bin'
+[5.236s] Level 1:colcon.colcon_core.environment:checking '/home/dfolse/repos/SPIDER/SPIDER_ws/install/data_transfer/lib/pkgconfig/data_transfer.pc'
+[5.237s] Level 1:colcon.colcon_core.environment:checking '/home/dfolse/repos/SPIDER/SPIDER_ws/install/data_transfer/lib/python3.8/site-packages'
+[5.237s] Level 1:colcon.colcon_core.shell:create_environment_hook('data_transfer', 'pythonpath')
+[5.237s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dfolse/repos/SPIDER/SPIDER_ws/install/data_transfer/share/data_transfer/hook/pythonpath.ps1'
+[5.238s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dfolse/repos/SPIDER/SPIDER_ws/install/data_transfer/share/data_transfer/hook/pythonpath.dsv'
+[5.239s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dfolse/repos/SPIDER/SPIDER_ws/install/data_transfer/share/data_transfer/hook/pythonpath.sh'
+[5.240s] Level 1:colcon.colcon_core.environment:checking '/home/dfolse/repos/SPIDER/SPIDER_ws/install/data_transfer/bin'
+[5.240s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(data_transfer)
+[5.241s] INFO:colcon.colcon_core.shell:Creating package script '/home/dfolse/repos/SPIDER/SPIDER_ws/install/data_transfer/share/data_transfer/package.ps1'
+[5.242s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dfolse/repos/SPIDER/SPIDER_ws/install/data_transfer/share/data_transfer/package.dsv'
+[5.243s] INFO:colcon.colcon_core.shell:Creating package script '/home/dfolse/repos/SPIDER/SPIDER_ws/install/data_transfer/share/data_transfer/package.sh'
+[5.243s] INFO:colcon.colcon_core.shell:Creating package script '/home/dfolse/repos/SPIDER/SPIDER_ws/install/data_transfer/share/data_transfer/package.bash'
+[5.244s] INFO:colcon.colcon_core.shell:Creating package script '/home/dfolse/repos/SPIDER/SPIDER_ws/install/data_transfer/share/data_transfer/package.zsh'
+[5.245s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dfolse/repos/SPIDER/SPIDER_ws/install/data_transfer/share/colcon-core/packages/data_transfer)
+[5.483s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dfolse/repos/SPIDER/SPIDER_ws/src/locomotion': NX_CONNECTION=192.168.1.26 58745 192.168.1.53 4000 PYTHONPATH=/home/dfolse/repos/SPIDER/SPIDER_ws/build/locomotion/prefix_override:/home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_nav/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/oak_d_lite/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_gps_waypoint_follower_demo/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/data_transfer/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/locomotion build --build-base /home/dfolse/repos/SPIDER/SPIDER_ws/build/locomotion/build install --record /home/dfolse/repos/SPIDER/SPIDER_ws/build/locomotion/install.log --single-version-externally-managed install_data
+[6.149s] Level 1:colcon.colcon_core.environment:checking '/home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion' for CMake module files
+[6.151s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dfolse/repos/SPIDER/SPIDER_ws/src/locomotion' returned '0': NX_CONNECTION=192.168.1.26 58745 192.168.1.53 4000 PYTHONPATH=/home/dfolse/repos/SPIDER/SPIDER_ws/build/locomotion/prefix_override:/home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_nav/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/oak_d_lite/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_gps_waypoint_follower_demo/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/data_transfer/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/locomotion build --build-base /home/dfolse/repos/SPIDER/SPIDER_ws/build/locomotion/build install --record /home/dfolse/repos/SPIDER/SPIDER_ws/build/locomotion/install.log --single-version-externally-managed install_data
+[6.152s] Level 1:colcon.colcon_core.environment:checking '/home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion' for CMake config files
+[6.155s] Level 1:colcon.colcon_core.environment:checking '/home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion/lib'
+[6.155s] Level 1:colcon.colcon_core.environment:checking '/home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion/bin'
+[6.155s] Level 1:colcon.colcon_core.environment:checking '/home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion/lib/pkgconfig/locomotion.pc'
+[6.156s] Level 1:colcon.colcon_core.environment:checking '/home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion/lib/python3.8/site-packages'
+[6.156s] Level 1:colcon.colcon_core.shell:create_environment_hook('locomotion', 'pythonpath')
+[6.157s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion/share/locomotion/hook/pythonpath.ps1'
+[6.159s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion/share/locomotion/hook/pythonpath.dsv'
+[6.160s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion/share/locomotion/hook/pythonpath.sh'
+[6.162s] Level 1:colcon.colcon_core.environment:checking '/home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion/bin'
+[6.162s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(locomotion)
+[6.164s] INFO:colcon.colcon_core.shell:Creating package script '/home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion/share/locomotion/package.ps1'
+[6.166s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion/share/locomotion/package.dsv'
+[6.168s] INFO:colcon.colcon_core.shell:Creating package script '/home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion/share/locomotion/package.sh'
+[6.169s] INFO:colcon.colcon_core.shell:Creating package script '/home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion/share/locomotion/package.bash'
+[6.170s] INFO:colcon.colcon_core.shell:Creating package script '/home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion/share/locomotion/package.zsh'
+[6.172s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion/share/colcon-core/packages/locomotion)
+[6.173s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[6.174s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[6.174s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[6.175s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[6.198s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[6.198s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[6.198s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[6.251s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[6.252s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dfolse/repos/SPIDER/SPIDER_ws/install/local_setup.ps1'
+[6.255s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/dfolse/repos/SPIDER/SPIDER_ws/install/_local_setup_util_ps1.py'
+[6.258s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dfolse/repos/SPIDER/SPIDER_ws/install/setup.ps1'
+[6.262s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dfolse/repos/SPIDER/SPIDER_ws/install/local_setup.sh'
+[6.263s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/dfolse/repos/SPIDER/SPIDER_ws/install/_local_setup_util_sh.py'
+[6.264s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dfolse/repos/SPIDER/SPIDER_ws/install/setup.sh'
+[6.268s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dfolse/repos/SPIDER/SPIDER_ws/install/local_setup.bash'
+[6.269s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dfolse/repos/SPIDER/SPIDER_ws/install/setup.bash'
+[6.272s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dfolse/repos/SPIDER/SPIDER_ws/install/local_setup.zsh'
+[6.273s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dfolse/repos/SPIDER/SPIDER_ws/install/setup.zsh'

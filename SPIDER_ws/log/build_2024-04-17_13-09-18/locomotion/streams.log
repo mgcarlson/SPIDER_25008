@@ -1,0 +1,33 @@
+[3.300s] Invoking command in '/home/dfolse/repos/SPIDER/SPIDER_ws/src/locomotion': AMENT_PREFIX_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces LD_LIBRARY_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dfolse/repos/SPIDER/SPIDER_ws/build/locomotion/prefix_override:/home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/locomotion build --build-base /home/dfolse/repos/SPIDER/SPIDER_ws/build/locomotion/build install --record /home/dfolse/repos/SPIDER/SPIDER_ws/build/locomotion/install.log --single-version-externally-managed install_data
+[4.297s] running egg_info
+[4.299s] writing ../../build/locomotion/locomotion.egg-info/PKG-INFO
+[4.300s] writing dependency_links to ../../build/locomotion/locomotion.egg-info/dependency_links.txt
+[4.301s] writing entry points to ../../build/locomotion/locomotion.egg-info/entry_points.txt
+[4.302s] writing requirements to ../../build/locomotion/locomotion.egg-info/requires.txt
+[4.303s] writing top-level names to ../../build/locomotion/locomotion.egg-info/top_level.txt
+[4.457s] reading manifest file '../../build/locomotion/locomotion.egg-info/SOURCES.txt'
+[4.462s] writing manifest file '../../build/locomotion/locomotion.egg-info/SOURCES.txt'
+[4.462s] running build
+[4.463s] running build_py
+[4.464s] copying locomotion/locomotion_service.py -> /home/dfolse/repos/SPIDER/SPIDER_ws/build/locomotion/build/lib/locomotion
+[4.465s] copying locomotion/sensorTest.py -> /home/dfolse/repos/SPIDER/SPIDER_ws/build/locomotion/build/lib/locomotion
+[4.466s] copying locomotion/locomotionController.py -> /home/dfolse/repos/SPIDER/SPIDER_ws/build/locomotion/build/lib/locomotion
+[4.469s] running install
+[4.472s] running install_lib
+[4.478s] copying /home/dfolse/repos/SPIDER/SPIDER_ws/build/locomotion/build/lib/locomotion/locomotion_service.py -> /home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion/lib/python3.8/site-packages/locomotion
+[4.479s] copying /home/dfolse/repos/SPIDER/SPIDER_ws/build/locomotion/build/lib/locomotion/sensorTest.py -> /home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion/lib/python3.8/site-packages/locomotion
+[4.480s] copying /home/dfolse/repos/SPIDER/SPIDER_ws/build/locomotion/build/lib/locomotion/locomotionController.py -> /home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion/lib/python3.8/site-packages/locomotion
+[4.484s] byte-compiling /home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion/lib/python3.8/site-packages/locomotion/locomotion_service.py to locomotion_service.cpython-38.pyc
+[4.491s] byte-compiling /home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion/lib/python3.8/site-packages/locomotion/sensorTest.py to sensorTest.cpython-38.pyc
+[4.493s] byte-compiling /home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion/lib/python3.8/site-packages/locomotion/locomotionController.py to locomotionController.cpython-38.pyc
+[4.536s] running install_data
+[4.537s] copying package.xml -> /home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion/share/locomotion
+[4.538s] running install_egg_info
+[4.543s] removing '/home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion/lib/python3.8/site-packages/locomotion-0.0.0-py3.8.egg-info' (and everything under it)
+[4.545s] Copying ../../build/locomotion/locomotion.egg-info to /home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion/lib/python3.8/site-packages/locomotion-0.0.0-py3.8.egg-info
+[4.551s] running install_scripts
+[4.618s] Installing client script to /home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion/lib/locomotion
+[4.619s] Installing imu_pub script to /home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion/lib/locomotion
+[4.619s] Installing service script to /home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion/lib/locomotion
+[4.621s] writing list of installed files to '/home/dfolse/repos/SPIDER/SPIDER_ws/build/locomotion/install.log'
+[4.720s] Invoked command in '/home/dfolse/repos/SPIDER/SPIDER_ws/src/locomotion' returned '0': AMENT_PREFIX_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces LD_LIBRARY_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dfolse/repos/SPIDER/SPIDER_ws/build/locomotion/prefix_override:/home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/locomotion build --build-base /home/dfolse/repos/SPIDER/SPIDER_ws/build/locomotion/build install --record /home/dfolse/repos/SPIDER/SPIDER_ws/build/locomotion/install.log --single-version-externally-managed install_data

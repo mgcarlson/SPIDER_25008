@@ -1,0 +1,25 @@
+[2.108s] Invoking command in '/home/dfolse/repos/SPIDER/SPIDER_ws/src/locomotion': AMENT_PREFIX_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces LD_LIBRARY_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/lib:${LD_LIBRARY_PATH} NX_CONNECTION=192.168.1.26 58481 192.168.1.53 4000 PYTHONPATH=/home/dfolse/repos/SPIDER/SPIDER_ws/build/locomotion/prefix_override:/home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/locomotion build --build-base /home/dfolse/repos/SPIDER/SPIDER_ws/build/locomotion/build install --record /home/dfolse/repos/SPIDER/SPIDER_ws/build/locomotion/install.log --single-version-externally-managed
+[2.622s] running egg_info
+[2.623s] writing ../../build/locomotion/locomotion.egg-info/PKG-INFO
+[2.623s] writing dependency_links to ../../build/locomotion/locomotion.egg-info/dependency_links.txt
+[2.624s] writing entry points to ../../build/locomotion/locomotion.egg-info/entry_points.txt
+[2.624s] writing requirements to ../../build/locomotion/locomotion.egg-info/requires.txt
+[2.624s] writing top-level names to ../../build/locomotion/locomotion.egg-info/top_level.txt
+[2.632s] reading manifest file '../../build/locomotion/locomotion.egg-info/SOURCES.txt'
+[2.634s] writing manifest file '../../build/locomotion/locomotion.egg-info/SOURCES.txt'
+[2.634s] running build
+[2.635s] running build_py
+[2.635s] copying locomotion/gps_parser.py -> /home/dfolse/repos/SPIDER/SPIDER_ws/build/locomotion/build/lib/locomotion
+[2.636s] running install
+[2.637s] running install_lib
+[2.639s] copying /home/dfolse/repos/SPIDER/SPIDER_ws/build/locomotion/build/lib/locomotion/gps_parser.py -> /home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion/lib/python3.8/site-packages/locomotion
+[2.640s] byte-compiling /home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion/lib/python3.8/site-packages/locomotion/gps_parser.py to gps_parser.cpython-38.pyc
+[2.642s] running install_data
+[2.643s] running install_egg_info
+[2.646s] removing '/home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion/lib/python3.8/site-packages/locomotion-0.0.0-py3.8.egg-info' (and everything under it)
+[2.646s] Copying ../../build/locomotion/locomotion.egg-info to /home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion/lib/python3.8/site-packages/locomotion-0.0.0-py3.8.egg-info
+[2.649s] running install_scripts
+[2.688s] Installing client script to /home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion/lib/locomotion
+[2.688s] Installing service script to /home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion/lib/locomotion
+[2.689s] writing list of installed files to '/home/dfolse/repos/SPIDER/SPIDER_ws/build/locomotion/install.log'
+[2.741s] Invoked command in '/home/dfolse/repos/SPIDER/SPIDER_ws/src/locomotion' returned '0': AMENT_PREFIX_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces LD_LIBRARY_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/lib:${LD_LIBRARY_PATH} NX_CONNECTION=192.168.1.26 58481 192.168.1.53 4000 PYTHONPATH=/home/dfolse/repos/SPIDER/SPIDER_ws/build/locomotion/prefix_override:/home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/locomotion build --build-base /home/dfolse/repos/SPIDER/SPIDER_ws/build/locomotion/build install --record /home/dfolse/repos/SPIDER/SPIDER_ws/build/locomotion/install.log --single-version-externally-managed

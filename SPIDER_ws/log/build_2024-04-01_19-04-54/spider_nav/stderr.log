@@ -1,0 +1,5 @@
+  File "/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_nav/lib/python3.8/site-packages/spider_nav/spider_gps_pub.py", line 6
+    import
+          ^
+SyntaxError: invalid syntax
+

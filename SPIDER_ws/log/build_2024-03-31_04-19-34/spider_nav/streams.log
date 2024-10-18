@@ -1,0 +1,24 @@
+[2.247s] Invoking command in '/home/dfolse/repos/SPIDER/SPIDER_ws/src/spider_nav': CMAKE_PREFIX_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_common:/home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description NX_CONNECTION=192.168.1.26 58481 192.168.1.53 4000 PYTHONPATH=/home/dfolse/repos/SPIDER/SPIDER_ws/build/spider_nav/prefix_override:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_nav/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_common/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_nav/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/oak_d_lite/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_gazebo_spawner/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/data_transfer/lib/python3.10/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../build/spider_nav build --build-base /home/dfolse/repos/SPIDER/SPIDER_ws/build/spider_nav/build install --record /home/dfolse/repos/SPIDER/SPIDER_ws/build/spider_nav/install.log --single-version-externally-managed
+[2.776s] running egg_info
+[2.776s] writing ../../build/spider_nav/spider_nav.egg-info/PKG-INFO
+[2.777s] writing dependency_links to ../../build/spider_nav/spider_nav.egg-info/dependency_links.txt
+[2.778s] writing entry points to ../../build/spider_nav/spider_nav.egg-info/entry_points.txt
+[2.778s] writing requirements to ../../build/spider_nav/spider_nav.egg-info/requires.txt
+[2.778s] writing top-level names to ../../build/spider_nav/spider_nav.egg-info/top_level.txt
+[2.784s] reading manifest file '../../build/spider_nav/spider_nav.egg-info/SOURCES.txt'
+[2.786s] writing manifest file '../../build/spider_nav/spider_nav.egg-info/SOURCES.txt'
+[2.786s] running build
+[2.786s] running build_py
+[2.787s] running install
+[2.789s] running install_lib
+[2.792s] running install_data
+[2.793s] copying config/nav2_no_map_params.yaml -> /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_nav/share/spider_nav/config
+[2.794s] running install_egg_info
+[2.797s] removing '/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_nav/lib/python3.8/site-packages/spider_nav-0.0.0-py3.8.egg-info' (and everything under it)
+[2.797s] Copying ../../build/spider_nav/spider_nav.egg-info to /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_nav/lib/python3.8/site-packages/spider_nav-0.0.0-py3.8.egg-info
+[2.799s] running install_scripts
+[2.837s] Installing gps_waypoint_logger script to /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_nav/lib/spider_nav
+[2.838s] Installing interactive_waypoint_follower script to /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_nav/lib/spider_nav
+[2.838s] Installing logged_waypoint_follower script to /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_nav/lib/spider_nav
+[2.838s] writing list of installed files to '/home/dfolse/repos/SPIDER/SPIDER_ws/build/spider_nav/install.log'
+[2.894s] Invoked command in '/home/dfolse/repos/SPIDER/SPIDER_ws/src/spider_nav' returned '0': CMAKE_PREFIX_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_common:/home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description NX_CONNECTION=192.168.1.26 58481 192.168.1.53 4000 PYTHONPATH=/home/dfolse/repos/SPIDER/SPIDER_ws/build/spider_nav/prefix_override:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_nav/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_common/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_nav/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/oak_d_lite/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_gazebo_spawner/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/data_transfer/lib/python3.10/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../build/spider_nav build --build-base /home/dfolse/repos/SPIDER/SPIDER_ws/build/spider_nav/build install --record /home/dfolse/repos/SPIDER/SPIDER_ws/build/spider_nav/install.log --single-version-externally-managed

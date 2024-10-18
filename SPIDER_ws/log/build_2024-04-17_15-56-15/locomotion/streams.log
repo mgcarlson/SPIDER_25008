@@ -1,0 +1,19 @@
+[3.047s] Invoking command in '/home/dfolse/repos/SPIDER/SPIDER_ws/build/locomotion': PYTHONPATH=/home/dfolse/repos/SPIDER/SPIDER_ws/build/locomotion/prefix_override:/home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/build/data_transfer:/home/dfolse/repos/SPIDER/SPIDER_ws/install/data_transfer/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/build/spider_nav:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_nav/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/build/locomotion:/home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/oak_d_lite/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_gps_waypoint_follower_demo/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/dfolse/repos/SPIDER/SPIDER_ws/build/locomotion/build --no-deps symlink_data
+[4.259s] running develop
+[4.973s] running egg_info
+[4.973s] writing locomotion.egg-info/PKG-INFO
+[4.974s] writing dependency_links to locomotion.egg-info/dependency_links.txt
+[4.975s] writing entry points to locomotion.egg-info/entry_points.txt
+[4.976s] writing requirements to locomotion.egg-info/requires.txt
+[4.977s] writing top-level names to locomotion.egg-info/top_level.txt
+[5.117s] reading manifest file 'locomotion.egg-info/SOURCES.txt'
+[5.121s] writing manifest file 'locomotion.egg-info/SOURCES.txt'
+[5.291s] running build_ext
+[5.292s] Creating /home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion/lib/python3.8/site-packages/locomotion.egg-link (link to .)
+[5.295s] Installing client script to /home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion/lib/locomotion
+[5.296s] Installing imu_pub script to /home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion/lib/locomotion
+[5.297s] Installing service script to /home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion/lib/locomotion
+[5.298s] 
+[5.299s] Installed /home/dfolse/repos/SPIDER/SPIDER_ws/build/locomotion
+[5.299s] running symlink_data
+[5.421s] Invoked command in '/home/dfolse/repos/SPIDER/SPIDER_ws/build/locomotion' returned '0': PYTHONPATH=/home/dfolse/repos/SPIDER/SPIDER_ws/build/locomotion/prefix_override:/home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/build/data_transfer:/home/dfolse/repos/SPIDER/SPIDER_ws/install/data_transfer/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/build/spider_nav:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_nav/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/build/locomotion:/home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/oak_d_lite/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_gps_waypoint_follower_demo/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/dfolse/repos/SPIDER/SPIDER_ws/build/locomotion/build --no-deps symlink_data

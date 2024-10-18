@@ -1,0 +1,18 @@
+[0.088s] Invoking command in '/home/dfolse/repos/SPIDER/SPIDER_ws/build/spider_description': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/dfolse/repos/SPIDER/SPIDER_ws/src/spider_description -DCMAKE_INSTALL_PREFIX=/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description
+[0.330s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.388s] -- Using PYTHON_EXECUTABLE: /home/dfolse/.pyenv/shims/python3
+[0.418s] CMake Error at /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_package_templates-extras.cmake:41 (message):
+[0.418s]   execute_process(/home/dfolse/.pyenv/shims/python3
+[0.419s]   /opt/ros/foxy/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py
+[0.419s]   /home/dfolse/repos/SPIDER/SPIDER_ws/build/spider_description/ament_cmake_package_templates/templates.cmake)
+[0.420s]   returned error code No such file or directory
+[0.421s] Call Stack (most recent call first):
+[0.421s]   /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[0.422s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[0.422s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.423s]   CMakeLists.txt:19 (find_package)
+[0.424s] 
+[0.424s] 
+[0.425s] -- Configuring incomplete, errors occurred!
+[0.426s] See also "/home/dfolse/repos/SPIDER/SPIDER_ws/build/spider_description/CMakeFiles/CMakeOutput.log".
+[0.431s] Invoked command in '/home/dfolse/repos/SPIDER/SPIDER_ws/build/spider_description' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/dfolse/repos/SPIDER/SPIDER_ws/src/spider_description -DCMAKE_INSTALL_PREFIX=/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description

@@ -1,0 +1,2 @@
+Invoking command in '/home/dfolse/repos/SPIDER/SPIDER_ws/build/locomotion': NX_CONNECTION=192.168.1.26 54739 192.168.1.53 4000 /usr/bin/cmake /home/dfolse/repos/SPIDER/SPIDER_ws/src/locomotion -DCMAKE_INSTALL_PREFIX=/home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion
+Invoked command in '/home/dfolse/repos/SPIDER/SPIDER_ws/build/locomotion' returned '1': NX_CONNECTION=192.168.1.26 54739 192.168.1.53 4000 /usr/bin/cmake /home/dfolse/repos/SPIDER/SPIDER_ws/src/locomotion -DCMAKE_INSTALL_PREFIX=/home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion

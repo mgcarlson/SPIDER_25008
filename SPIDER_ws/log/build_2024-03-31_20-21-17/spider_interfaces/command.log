@@ -1,0 +1,2 @@
+Invoking command in '/home/dfolse/repos/SPIDER/SPIDER_ws/build/spider_interfaces': NX_CONNECTION=192.168.1.26 63880 192.168.1.53 4000 /usr/bin/cmake --build /home/dfolse/repos/SPIDER/SPIDER_ws/build/spider_interfaces -- -j6 -l6
+Invoked command in '/home/dfolse/repos/SPIDER/SPIDER_ws/build/spider_interfaces' returned '2': NX_CONNECTION=192.168.1.26 63880 192.168.1.53 4000 /usr/bin/cmake --build /home/dfolse/repos/SPIDER/SPIDER_ws/build/spider_interfaces -- -j6 -l6

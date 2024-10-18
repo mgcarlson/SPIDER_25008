@@ -1,0 +1,15 @@
+[0.292s] Invoking command in '/home/dfolse/repos/SPIDER/SPIDER_ws/build/spider_description': NX_CONNECTION=192.168.1.26 58481 192.168.1.53 4000 /usr/bin/cmake --build /home/dfolse/repos/SPIDER/SPIDER_ws/build/spider_description -- -j6 -l6
+[0.425s] Invoked command in '/home/dfolse/repos/SPIDER/SPIDER_ws/build/spider_description' returned '0': NX_CONNECTION=192.168.1.26 58481 192.168.1.53 4000 /usr/bin/cmake --build /home/dfolse/repos/SPIDER/SPIDER_ws/build/spider_description -- -j6 -l6
+[0.659s] Invoking command in '/home/dfolse/repos/SPIDER/SPIDER_ws/build/spider_description': NX_CONNECTION=192.168.1.26 58481 192.168.1.53 4000 /usr/bin/cmake --install /home/dfolse/repos/SPIDER/SPIDER_ws/build/spider_description
+[0.684s] -- Install configuration: ""
+[0.685s] -- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description/share/spider_description/launch
+[0.685s] -- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description/share/spider_description/launch/display.launch
+[0.685s] -- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description/share/spider_description/launch/gazebo.launch
+[0.685s] -- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description/share/spider_description/launch/display.launch.py
+[0.685s] CMake Error at cmake_install.cmake:41 (file):
+[0.685s]   file INSTALL cannot find
+[0.686s]   "/home/dfolse/repos/SPIDER/SPIDER_ws/src/spider_description/rviz": No such
+[0.686s]   file or directory.
+[0.686s] 
+[0.686s] 
+[0.689s] Invoked command in '/home/dfolse/repos/SPIDER/SPIDER_ws/build/spider_description' returned '1': NX_CONNECTION=192.168.1.26 58481 192.168.1.53 4000 /usr/bin/cmake --install /home/dfolse/repos/SPIDER/SPIDER_ws/build/spider_description

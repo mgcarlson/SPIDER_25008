@@ -1,0 +1,32 @@
+[3.109s] Invoking command in '/home/dfolse/repos/SPIDER/SPIDER_ws/src/oak_d_lite': NX_CONNECTION=192.168.1.26 63880 192.168.1.53 4000 PYTHONPATH=/home/dfolse/repos/SPIDER/SPIDER_ws/build/oak_d_lite/prefix_override:/home/dfolse/repos/SPIDER/SPIDER_ws/install/oak_d_lite/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/oak_d_lite build --build-base /home/dfolse/repos/SPIDER/SPIDER_ws/build/oak_d_lite/build install --record /home/dfolse/repos/SPIDER/SPIDER_ws/build/oak_d_lite/install.log --single-version-externally-managed install_data
+[3.717s] running egg_info
+[3.718s] writing ../../build/oak_d_lite/oak_d_lite.egg-info/PKG-INFO
+[3.718s] writing dependency_links to ../../build/oak_d_lite/oak_d_lite.egg-info/dependency_links.txt
+[3.719s] writing entry points to ../../build/oak_d_lite/oak_d_lite.egg-info/entry_points.txt
+[3.719s] writing requirements to ../../build/oak_d_lite/oak_d_lite.egg-info/requires.txt
+[3.719s] writing top-level names to ../../build/oak_d_lite/oak_d_lite.egg-info/top_level.txt
+[3.729s] reading manifest file '../../build/oak_d_lite/oak_d_lite.egg-info/SOURCES.txt'
+[3.731s] writing manifest file '../../build/oak_d_lite/oak_d_lite.egg-info/SOURCES.txt'
+[3.731s] running build
+[3.731s] running build_py
+[3.732s] running install
+[3.734s] running install_lib
+[3.736s] creating /home/dfolse/repos/SPIDER/SPIDER_ws/install/oak_d_lite/lib/python3.8/site-packages/oak_d_lite
+[3.736s] copying /home/dfolse/repos/SPIDER/SPIDER_ws/build/oak_d_lite/build/lib/oak_d_lite/stereo.py -> /home/dfolse/repos/SPIDER/SPIDER_ws/install/oak_d_lite/lib/python3.8/site-packages/oak_d_lite
+[3.737s] copying /home/dfolse/repos/SPIDER/SPIDER_ws/build/oak_d_lite/build/lib/oak_d_lite/stereo_imu.py -> /home/dfolse/repos/SPIDER/SPIDER_ws/install/oak_d_lite/lib/python3.8/site-packages/oak_d_lite
+[3.739s] copying /home/dfolse/repos/SPIDER/SPIDER_ws/build/oak_d_lite/build/lib/oak_d_lite/__init__.py -> /home/dfolse/repos/SPIDER/SPIDER_ws/install/oak_d_lite/lib/python3.8/site-packages/oak_d_lite
+[3.741s] byte-compiling /home/dfolse/repos/SPIDER/SPIDER_ws/install/oak_d_lite/lib/python3.8/site-packages/oak_d_lite/stereo.py to stereo.cpython-38.pyc
+[3.743s] byte-compiling /home/dfolse/repos/SPIDER/SPIDER_ws/install/oak_d_lite/lib/python3.8/site-packages/oak_d_lite/stereo_imu.py to stereo_imu.cpython-38.pyc
+[3.745s] byte-compiling /home/dfolse/repos/SPIDER/SPIDER_ws/install/oak_d_lite/lib/python3.8/site-packages/oak_d_lite/__init__.py to __init__.cpython-38.pyc
+[3.746s] running install_data
+[3.746s] creating /home/dfolse/repos/SPIDER/SPIDER_ws/install/oak_d_lite/share/ament_index
+[3.746s] creating /home/dfolse/repos/SPIDER/SPIDER_ws/install/oak_d_lite/share/ament_index/resource_index
+[3.747s] creating /home/dfolse/repos/SPIDER/SPIDER_ws/install/oak_d_lite/share/ament_index/resource_index/packages
+[3.747s] copying resource/oak_d_lite -> /home/dfolse/repos/SPIDER/SPIDER_ws/install/oak_d_lite/share/ament_index/resource_index/packages
+[3.747s] copying package.xml -> /home/dfolse/repos/SPIDER/SPIDER_ws/install/oak_d_lite/share/oak_d_lite
+[3.747s] running install_egg_info
+[3.751s] Copying ../../build/oak_d_lite/oak_d_lite.egg-info to /home/dfolse/repos/SPIDER/SPIDER_ws/install/oak_d_lite/lib/python3.8/site-packages/oak_d_lite-0.0.0-py3.8.egg-info
+[3.753s] running install_scripts
+[3.799s] Installing stereo script to /home/dfolse/repos/SPIDER/SPIDER_ws/install/oak_d_lite/lib/oak_d_lite
+[3.801s] writing list of installed files to '/home/dfolse/repos/SPIDER/SPIDER_ws/build/oak_d_lite/install.log'
+[4.447s] Invoked command in '/home/dfolse/repos/SPIDER/SPIDER_ws/src/oak_d_lite' returned '0': NX_CONNECTION=192.168.1.26 63880 192.168.1.53 4000 PYTHONPATH=/home/dfolse/repos/SPIDER/SPIDER_ws/build/oak_d_lite/prefix_override:/home/dfolse/repos/SPIDER/SPIDER_ws/install/oak_d_lite/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/oak_d_lite build --build-base /home/dfolse/repos/SPIDER/SPIDER_ws/build/oak_d_lite/build install --record /home/dfolse/repos/SPIDER/SPIDER_ws/build/oak_d_lite/install.log --single-version-externally-managed install_data

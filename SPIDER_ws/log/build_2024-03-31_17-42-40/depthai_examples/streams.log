@@ -1,0 +1,30 @@
+[0.807s] Invoking command in '/home/dfolse/repos/SPIDER/SPIDER_ws/build/depthai_examples': CMAKE_PREFIX_PATH=/opt/ros/foxy NX_CONNECTION=192.168.1.26 51145 192.168.1.53 4000 /usr/bin/cmake --build /home/dfolse/repos/SPIDER/SPIDER_ws/build/depthai_examples -- -j6 -l6
+[1.176s] [  7%] [32mBuilding CXX object CMakeFiles/mobilenet_node.dir/ros2_src/mobilenet_publisher.cpp.o[0m
+[1.194s] [ 14%] [32mBuilding CXX object CMakeFiles/rgb_stereo_node.dir/ros2_src/rgb_stereo_node.cpp.o[0m
+[1.199s] [ 21%] [32mBuilding CXX object CMakeFiles/stereo_node.dir/ros2_src/stereo_publisher.cpp.o[0m
+[1.210s] [ 28%] [32mBuilding CXX object CMakeFiles/crop_control_service.dir/ros2_src/crop_control_service.cpp.o[0m
+[1.302s] [ 35%] [32mBuilding CXX object CMakeFiles/yolov4_spatial_node.dir/ros2_src/yolov4_spatial_publisher.cpp.o[0m
+[1.350s] [ 42%] [32mBuilding CXX object CMakeFiles/stereo_inertial_node.dir/ros2_src/stereo_inertial_publisher.cpp.o[0m
+[42.026s] [01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+[42.029s] compilation terminated.
+[42.112s] make[2]: *** [CMakeFiles/rgb_stereo_node.dir/build.make:63: CMakeFiles/rgb_stereo_node.dir/ros2_src/rgb_stereo_node.cpp.o] Error 1
+[42.159s] make[1]: *** [CMakeFiles/Makefile2:252: CMakeFiles/rgb_stereo_node.dir/all] Error 2
+[42.159s] make[1]: *** Waiting for unfinished jobs....
+[46.891s] [ 50%] [32m[1mLinking CXX executable crop_control_service[0m
+[47.712s] [ 50%] Built target crop_control_service
+[73.036s] [01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+[73.037s] compilation terminated.
+[73.073s] make[2]: *** [CMakeFiles/mobilenet_node.dir/build.make:63: CMakeFiles/mobilenet_node.dir/ros2_src/mobilenet_publisher.cpp.o] Error 1
+[73.107s] make[1]: *** [CMakeFiles/Makefile2:144: CMakeFiles/mobilenet_node.dir/all] Error 2
+[100.075s] [01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+[100.077s] compilation terminated.
+[100.130s] make[2]: *** [CMakeFiles/stereo_node.dir/build.make:63: CMakeFiles/stereo_node.dir/ros2_src/stereo_publisher.cpp.o] Error 1
+[100.177s] make[1]: *** [CMakeFiles/Makefile2:198: CMakeFiles/stereo_node.dir/all] Error 2
+[128.468s] [ 57%] [32m[1mLinking CXX executable yolov4_spatial_node[0m
+[130.136s] /usr/bin/ld: warning: libopencv_imgcodecs.so.4.2, needed by /opt/ros/foxy/lib/libdepthai_bridge.so, may conflict with libopencv_imgcodecs.so.4.5
+[130.175s] [ 57%] Built target yolov4_spatial_node
+[131.380s] [ 64%] [32m[1mLinking CXX executable stereo_inertial_node[0m
+[132.986s] /usr/bin/ld: warning: libopencv_imgcodecs.so.4.2, needed by /opt/ros/foxy/lib/libdepthai_bridge.so, may conflict with libopencv_imgcodecs.so.4.5
+[133.025s] [ 64%] Built target stereo_inertial_node
+[133.036s] make: *** [Makefile:141: all] Error 2
+[133.109s] Invoked command in '/home/dfolse/repos/SPIDER/SPIDER_ws/build/depthai_examples' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy NX_CONNECTION=192.168.1.26 51145 192.168.1.53 4000 /usr/bin/cmake --build /home/dfolse/repos/SPIDER/SPIDER_ws/build/depthai_examples -- -j6 -l6

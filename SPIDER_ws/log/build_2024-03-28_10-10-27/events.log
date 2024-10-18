@@ -1,0 +1,37 @@
+[0.000000] (-) TimerEvent: {}
+[0.000662] (-) JobUnselected: {'identifier': 'costmap_queue'}
+[0.000863] (-) JobUnselected: {'identifier': 'data_transfer'}
+[0.001068] (-) JobUnselected: {'identifier': 'dwb_core'}
+[0.001171] (-) JobUnselected: {'identifier': 'dwb_critics'}
+[0.001239] (-) JobUnselected: {'identifier': 'dwb_msgs'}
+[0.001288] (-) JobUnselected: {'identifier': 'dwb_plugins'}
+[0.001350] (-) JobUnselected: {'identifier': 'locomotion'}
+[0.001468] (-) JobUnselected: {'identifier': 'nav2_amcl'}
+[0.001589] (-) JobUnselected: {'identifier': 'nav2_behavior_tree'}
+[0.001732] (-) JobUnselected: {'identifier': 'nav2_bringup'}
+[0.001804] (-) JobUnselected: {'identifier': 'nav2_bt_navigator'}
+[0.001842] (-) JobUnselected: {'identifier': 'nav2_common'}
+[0.001877] (-) JobUnselected: {'identifier': 'nav2_controller'}
+[0.001912] (-) JobUnselected: {'identifier': 'nav2_core'}
+[0.001946] (-) JobUnselected: {'identifier': 'nav2_costmap_2d'}
+[0.001980] (-) JobUnselected: {'identifier': 'nav2_dwb_controller'}
+[0.002014] (-) JobUnselected: {'identifier': 'nav2_gazebo_spawner'}
+[0.002047] (-) JobUnselected: {'identifier': 'nav2_lifecycle_manager'}
+[0.002080] (-) JobUnselected: {'identifier': 'nav2_map_server'}
+[0.002114] (-) JobUnselected: {'identifier': 'nav2_msgs'}
+[0.002148] (-) JobUnselected: {'identifier': 'nav2_navfn_planner'}
+[0.002181] (-) JobUnselected: {'identifier': 'nav2_planner'}
+[0.002213] (-) JobUnselected: {'identifier': 'nav2_recoveries'}
+[0.002246] (-) JobUnselected: {'identifier': 'nav2_regulated_pure_pursuit_controller'}
+[0.002279] (-) JobUnselected: {'identifier': 'nav2_rviz_plugins'}
+[0.002312] (-) JobUnselected: {'identifier': 'nav2_system_tests'}
+[0.002345] (-) JobUnselected: {'identifier': 'nav2_util'}
+[0.002378] (-) JobUnselected: {'identifier': 'nav2_voxel_grid'}
+[0.002411] (-) JobUnselected: {'identifier': 'nav2_waypoint_follower'}
+[0.002456] (-) JobUnselected: {'identifier': 'nav_2d_msgs'}
+[0.002495] (-) JobUnselected: {'identifier': 'nav_2d_utils'}
+[0.002527] (-) JobUnselected: {'identifier': 'navigation2'}
+[0.002558] (-) JobUnselected: {'identifier': 'oak_d_lite'}
+[0.002589] (-) JobUnselected: {'identifier': 'smac_planner'}
+[0.002620] (-) JobUnselected: {'identifier': 'spider_interfaces'}
+[0.002653] (-) EventReactorShutdown: {}

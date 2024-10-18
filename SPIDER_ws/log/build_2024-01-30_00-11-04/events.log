@@ -1,0 +1,93 @@
+[0.000000] (-) TimerEvent: {}
+[0.001238] (-) JobUnselected: {'identifier': 'data_transfer'}
+[0.001733] (locomotion) JobQueued: {'identifier': 'locomotion', 'dependencies': OrderedDict()}
+[0.001876] (locomotion) JobStarted: {'identifier': 'locomotion'}
+[0.099180] (-) TimerEvent: {}
+[0.199866] (-) TimerEvent: {}
+[0.300611] (-) TimerEvent: {}
+[0.401200] (-) TimerEvent: {}
+[0.501810] (-) TimerEvent: {}
+[0.602499] (-) TimerEvent: {}
+[0.703795] (-) TimerEvent: {}
+[0.804459] (-) TimerEvent: {}
+[0.905054] (-) TimerEvent: {}
+[1.005637] (-) TimerEvent: {}
+[1.106314] (-) TimerEvent: {}
+[1.206912] (-) TimerEvent: {}
+[1.307504] (-) TimerEvent: {}
+[1.408124] (-) TimerEvent: {}
+[1.508747] (-) TimerEvent: {}
+[1.609347] (-) TimerEvent: {}
+[1.709982] (-) TimerEvent: {}
+[1.810675] (-) TimerEvent: {}
+[1.902221] (locomotion) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/locomotion', 'build', '--build-base', '/home/dfolse/repos/SPIDER/SPIDER_ws/build/locomotion/build', 'install', '--record', '/home/dfolse/repos/SPIDER/SPIDER_ws/build/locomotion/install.log', '--install-scripts', '$base/lib/locomotion', '--single-version-externally-managed'], 'cwd': '/home/dfolse/repos/SPIDER/SPIDER_ws/src/locomotion', 'env': {'NX_ROOT': '/home/dfolse/.nx', 'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'PULSE_CLIENTCONFIG': '/home/dfolse/.nx/nxdevice/D-1001-9198B689731CAE52C19AA2BD373691BF/audio/client.conf', 'MAIL': '/var/mail/dfolse', 'USER': 'dfolse', 'XDG_SESSION_TYPE': 'x11', 'NX_SYSTEM': '/usr/NX', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/dfolse', 'OLDPWD': '/home/dfolse/repos/SPIDER', 'DESKTOP_SESSION': 'ubuntu-xorg', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'DBUS_SESSION_BUS_ADDRESS': 'unix:abstract=/tmp/dbus-cxpKT92jqy,guid=39b2c3098099f6fd8755527765b888f3', 'COLORTERM': 'truecolor', 'PULSE_SCRIPT': '/home/dfolse/.nx/nxdevice/D-1001-9198B689731CAE52C19AA2BD373691BF/audio/default.pa', 'COLCON_PREFIX_PATH': '/home/dfolse/repos/SPIDER/SPIDER_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'dfolse', 'PULSE_SERVER': '/home/dfolse/.nx/nxdevice/D-1001-9198B689731CAE52C19AA2BD373691BF/audio/native.socket', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'dfolse', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/SPIDER:@/tmp/.ICE-unix/1721,unix/SPIDER:/tmp/.ICE-unix/1721', 'PULSE_RUNTIME_PATH': '/run/user/1000/pulse', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/2b9b71e0_5f1a_4643_b8a0_3b51546555bf', 'XDG_RUNTIME_DIR': '/run/user/1000', 'PULSE_CONFIG': '/home/dfolse/.nx/nxdevice/D-1001-9198B689731CAE52C19AA2BD373691BF/audio/daemon.conf', 'GDK_BACKEND': 'x11', 'DISPLAY': ':1001', 'LD_PRELOAD': '/usr/NX/lib/libnxegl.so', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'NX_TEMP': '/tmp', 'XMODIFIERS': '@im=ibus', 'XAUTHORITY': '/home/dfolse/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.74', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion:/home/dfolse/repos/SPIDER/SPIDER_ws/install/data_transfer:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'NX_SESSION_ID': '9198B689731CAE52C19AA2BD373691BF', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/dfolse/repos/SPIDER/SPIDER_ws/build/locomotion', 'NX_RUNNER': '/usr/NX/bin/nxrunner', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu-xorg:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/dfolse/repos/SPIDER/SPIDER_ws/build/locomotion/prefix_override:/home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/data_transfer/lib/python3.10/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion', 'NX_CONNECTION': '192.168.1.25 57198 192.168.1.42 4000', 'NXDIR': '/usr/NX'}, 'shell': False}
+[1.914136] (-) TimerEvent: {}
+[2.015117] (-) TimerEvent: {}
+[2.115737] (-) TimerEvent: {}
+[2.177119] (locomotion) StderrLine: {'line': b'/usr/local/lib/python3.8/dist-packages/setuptools/dist.py:472: SetuptoolsDeprecationWarning: Invalid dash-separated options\n'}
+[2.178089] (locomotion) StderrLine: {'line': b'!!\n'}
+[2.178404] (locomotion) StderrLine: {'line': b'\n'}
+[2.178675] (locomotion) StderrLine: {'line': b'        ********************************************************************************\n'}
+[2.178937] (locomotion) StderrLine: {'line': b"        Usage of dash-separated 'script-dir' will not be supported in future\n"}
+[2.179182] (locomotion) StderrLine: {'line': b"        versions. Please use the underscore name 'script_dir' instead.\n"}
+[2.179421] (locomotion) StderrLine: {'line': b'\n'}
+[2.179651] (locomotion) StderrLine: {'line': b'        By 2024-Sep-26, you need to update your project and remove deprecated calls\n'}
+[2.179880] (locomotion) StderrLine: {'line': b'        or your builds will no longer be supported.\n'}
+[2.180105] (locomotion) StderrLine: {'line': b'\n'}
+[2.180329] (locomotion) StderrLine: {'line': b'        See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.\n'}
+[2.180560] (locomotion) StderrLine: {'line': b'        ********************************************************************************\n'}
+[2.180778] (locomotion) StderrLine: {'line': b'\n'}
+[2.180995] (locomotion) StderrLine: {'line': b'!!\n'}
+[2.181210] (locomotion) StderrLine: {'line': b'  opt = self.warn_dash_deprecation(opt, section)\n'}
+[2.215836] (-) TimerEvent: {}
+[2.316435] (-) TimerEvent: {}
+[2.370227] (locomotion) StdoutLine: {'line': b'running egg_info\n'}
+[2.401100] (locomotion) StdoutLine: {'line': b'writing ../../build/locomotion/locomotion.egg-info/PKG-INFO\n'}
+[2.402266] (locomotion) StdoutLine: {'line': b'writing dependency_links to ../../build/locomotion/locomotion.egg-info/dependency_links.txt\n'}
+[2.402755] (locomotion) StdoutLine: {'line': b'writing entry points to ../../build/locomotion/locomotion.egg-info/entry_points.txt\n'}
+[2.403142] (locomotion) StdoutLine: {'line': b'writing requirements to ../../build/locomotion/locomotion.egg-info/requires.txt\n'}
+[2.403543] (locomotion) StdoutLine: {'line': b'writing top-level names to ../../build/locomotion/locomotion.egg-info/top_level.txt\n'}
+[2.416496] (-) TimerEvent: {}
+[2.517067] (-) TimerEvent: {}
+[2.617871] (-) TimerEvent: {}
+[2.660643] (locomotion) StdoutLine: {'line': b"reading manifest file '../../build/locomotion/locomotion.egg-info/SOURCES.txt'\n"}
+[2.662697] (locomotion) StdoutLine: {'line': b"writing manifest file '../../build/locomotion/locomotion.egg-info/SOURCES.txt'\n"}
+[2.663242] (locomotion) StdoutLine: {'line': b'running build\n'}
+[2.663596] (locomotion) StdoutLine: {'line': b'running build_py\n'}
+[2.664871] (locomotion) StdoutLine: {'line': b'copying locomotion/servoControllerBack.py -> /home/dfolse/repos/SPIDER/SPIDER_ws/build/locomotion/build/lib/locomotion\n'}
+[2.665169] (locomotion) StdoutLine: {'line': b'copying locomotion/locomotion_subscriber.py -> /home/dfolse/repos/SPIDER/SPIDER_ws/build/locomotion/build/lib/locomotion\n'}
+[2.666206] (locomotion) StdoutLine: {'line': b'copying locomotion/__init__.py -> /home/dfolse/repos/SPIDER/SPIDER_ws/build/locomotion/build/lib/locomotion\n'}
+[2.666546] (locomotion) StdoutLine: {'line': b'copying locomotion/locomotion_publisher.py -> /home/dfolse/repos/SPIDER/SPIDER_ws/build/locomotion/build/lib/locomotion\n'}
+[2.666968] (locomotion) StdoutLine: {'line': b'copying locomotion/servoController.py -> /home/dfolse/repos/SPIDER/SPIDER_ws/build/locomotion/build/lib/locomotion\n'}
+[2.667161] (locomotion) StdoutLine: {'line': b'running install\n'}
+[2.667340] (locomotion) StderrLine: {'line': b'/usr/local/lib/python3.8/dist-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.\n'}
+[2.667532] (locomotion) StderrLine: {'line': b'!!\n'}
+[2.667698] (locomotion) StderrLine: {'line': b'\n'}
+[2.667861] (locomotion) StderrLine: {'line': b'        ********************************************************************************\n'}
+[2.668022] (locomotion) StderrLine: {'line': b'        Please avoid running ``setup.py`` directly.\n'}
+[2.668182] (locomotion) StderrLine: {'line': b'        Instead, use pypa/build, pypa/installer or other\n'}
+[2.668342] (locomotion) StderrLine: {'line': b'        standards-based tools.\n'}
+[2.668502] (locomotion) StderrLine: {'line': b'\n'}
+[2.668659] (locomotion) StderrLine: {'line': b'        See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.\n'}
+[2.668818] (locomotion) StderrLine: {'line': b'        ********************************************************************************\n'}
+[2.668978] (locomotion) StderrLine: {'line': b'\n'}
+[2.669232] (locomotion) StderrLine: {'line': b'!!\n'}
+[2.669514] (locomotion) StderrLine: {'line': b'  self.initialize_options()\n'}
+[2.678485] (locomotion) StdoutLine: {'line': b'running install_lib\n'}
+[2.711639] (locomotion) StdoutLine: {'line': b'running install_data\n'}
+[2.718023] (-) TimerEvent: {}
+[2.742292] (locomotion) StdoutLine: {'line': b'copying resource/locomotion -> /home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion/share/ament_index/resource_index/packages\n'}
+[2.742735] (locomotion) StdoutLine: {'line': b'copying package.xml -> /home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion/share/locomotion\n'}
+[2.742954] (locomotion) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.775793] (locomotion) StdoutLine: {'line': b"removing '/home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion/lib/python3.8/site-packages/locomotion-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[2.776410] (locomotion) StdoutLine: {'line': b'Copying ../../build/locomotion/locomotion.egg-info to /home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion/lib/python3.8/site-packages/locomotion-0.0.0-py3.8.egg-info\n'}
+[2.778595] (locomotion) StdoutLine: {'line': b'running install_scripts\n'}
+[2.818122] (-) TimerEvent: {}
+[2.873928] (locomotion) StdoutLine: {'line': b'Installing listener script to /home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion/lib/locomotion\n'}
+[2.874579] (locomotion) StdoutLine: {'line': b'Installing talker script to /home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion/lib/locomotion\n'}
+[2.875263] (locomotion) StdoutLine: {'line': b"writing list of installed files to '/home/dfolse/repos/SPIDER/SPIDER_ws/build/locomotion/install.log'\n"}
+[2.918281] (-) TimerEvent: {}
+[2.946821] (locomotion) CommandEnded: {'returncode': 0}
+[3.018402] (-) TimerEvent: {}
+[3.087707] (locomotion) JobEnded: {'identifier': 'locomotion', 'rc': 0}
+[3.090088] (-) EventReactorShutdown: {}

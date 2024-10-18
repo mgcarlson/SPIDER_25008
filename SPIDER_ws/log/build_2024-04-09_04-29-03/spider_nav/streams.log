@@ -1,0 +1,26 @@
+[1.627s] Invoking command in '/home/dfolse/repos/SPIDER/SPIDER_ws/src/spider_nav': AMENT_PREFIX_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_nav:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description:/home/dfolse/repos/SPIDER/SPIDER_ws/install/oak_d_lite:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_gps_waypoint_follower_demo:/home/dfolse/repos/SPIDER/SPIDER_ws/install/data_transfer:/opt/ros/foxy NX_CONNECTION=192.168.1.26 56425 192.168.1.53 4000 PYTHONPATH=/home/dfolse/repos/SPIDER/SPIDER_ws/build/spider_nav/prefix_override:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_nav/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_nav/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/oak_d_lite/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_gps_waypoint_follower_demo/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/data_transfer/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/spider_nav build --build-base /home/dfolse/repos/SPIDER/SPIDER_ws/build/spider_nav/build install --record /home/dfolse/repos/SPIDER/SPIDER_ws/build/spider_nav/install.log --single-version-externally-managed install_data
+[2.167s] running egg_info
+[2.168s] writing ../../build/spider_nav/spider_nav.egg-info/PKG-INFO
+[2.169s] writing dependency_links to ../../build/spider_nav/spider_nav.egg-info/dependency_links.txt
+[2.169s] writing entry points to ../../build/spider_nav/spider_nav.egg-info/entry_points.txt
+[2.170s] writing requirements to ../../build/spider_nav/spider_nav.egg-info/requires.txt
+[2.170s] writing top-level names to ../../build/spider_nav/spider_nav.egg-info/top_level.txt
+[2.177s] reading manifest file '../../build/spider_nav/spider_nav.egg-info/SOURCES.txt'
+[2.179s] writing manifest file '../../build/spider_nav/spider_nav.egg-info/SOURCES.txt'
+[2.180s] running build
+[2.180s] running build_py
+[2.181s] running install
+[2.184s] running install_lib
+[2.187s] running install_data
+[2.188s] copying launch/spider_nav_sim.launch.py -> /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_nav/share/spider_nav/launch
+[2.188s] running install_egg_info
+[2.193s] removing '/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_nav/lib/python3.8/site-packages/spider_nav-0.0.0-py3.8.egg-info' (and everything under it)
+[2.201s] Copying ../../build/spider_nav/spider_nav.egg-info to /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_nav/lib/python3.8/site-packages/spider_nav-0.0.0-py3.8.egg-info
+[2.201s] running install_scripts
+[2.235s] Installing gps_waypoint_logger script to /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_nav/lib/spider_nav
+[2.236s] Installing interactive_waypoint_follower script to /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_nav/lib/spider_nav
+[2.236s] Installing logged_waypoint_follower script to /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_nav/lib/spider_nav
+[2.236s] Installing spider_gps_pub script to /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_nav/lib/spider_nav
+[2.236s] Installing spider_nav_main script to /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_nav/lib/spider_nav
+[2.237s] writing list of installed files to '/home/dfolse/repos/SPIDER/SPIDER_ws/build/spider_nav/install.log'
+[2.297s] Invoked command in '/home/dfolse/repos/SPIDER/SPIDER_ws/src/spider_nav' returned '0': AMENT_PREFIX_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_nav:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description:/home/dfolse/repos/SPIDER/SPIDER_ws/install/oak_d_lite:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_gps_waypoint_follower_demo:/home/dfolse/repos/SPIDER/SPIDER_ws/install/data_transfer:/opt/ros/foxy NX_CONNECTION=192.168.1.26 56425 192.168.1.53 4000 PYTHONPATH=/home/dfolse/repos/SPIDER/SPIDER_ws/build/spider_nav/prefix_override:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_nav/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_nav/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/oak_d_lite/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_gps_waypoint_follower_demo/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/data_transfer/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/spider_nav build --build-base /home/dfolse/repos/SPIDER/SPIDER_ws/build/spider_nav/build install --record /home/dfolse/repos/SPIDER/SPIDER_ws/build/spider_nav/install.log --single-version-externally-managed install_data

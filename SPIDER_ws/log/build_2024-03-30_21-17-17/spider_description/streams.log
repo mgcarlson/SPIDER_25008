@@ -1,0 +1,35 @@
+[0.294s] Invoking command in '/home/dfolse/repos/SPIDER/SPIDER_ws/build/spider_description': NX_CONNECTION=192.168.1.26 58481 192.168.1.53 4000 /usr/bin/cmake /home/dfolse/repos/SPIDER/SPIDER_ws/src/spider_description -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description
+[0.539s] -- The C compiler identification is GNU 9.4.0
+[0.736s] -- The CXX compiler identification is GNU 9.4.0
+[0.755s] -- Check for working C compiler: /usr/bin/cc
+[0.939s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.947s] -- Detecting C compiler ABI info
+[1.131s] -- Detecting C compiler ABI info - done
+[1.172s] -- Detecting C compile features
+[1.173s] -- Detecting C compile features - done
+[1.181s] -- Check for working CXX compiler: /usr/bin/c++
+[1.377s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.381s] -- Detecting CXX compiler ABI info
+[1.593s] -- Detecting CXX compiler ABI info - done
+[1.631s] -- Detecting CXX compile features
+[1.632s] -- Detecting CXX compile features - done
+[1.659s] CMake Error at CMakeLists.txt:5 (find_package):
+[1.659s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[1.659s]   asked CMake to find a package configuration file provided by "catkin", but
+[1.659s]   CMake did not find one.
+[1.660s] 
+[1.660s]   Could not find a package configuration file provided by "catkin" with any
+[1.660s]   of the following names:
+[1.660s] 
+[1.660s]     catkinConfig.cmake
+[1.660s]     catkin-config.cmake
+[1.660s] 
+[1.660s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[1.661s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[1.661s]   provides a separate development package or SDK, be sure it has been
+[1.661s]   installed.
+[1.661s] 
+[1.661s] 
+[1.661s] -- Configuring incomplete, errors occurred!
+[1.661s] See also "/home/dfolse/repos/SPIDER/SPIDER_ws/build/spider_description/CMakeFiles/CMakeOutput.log".
+[1.668s] Invoked command in '/home/dfolse/repos/SPIDER/SPIDER_ws/build/spider_description' returned '1': NX_CONNECTION=192.168.1.26 58481 192.168.1.53 4000 /usr/bin/cmake /home/dfolse/repos/SPIDER/SPIDER_ws/src/spider_description -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description

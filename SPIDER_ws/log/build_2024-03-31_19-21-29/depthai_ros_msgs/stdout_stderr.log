@@ -1,0 +1,14 @@
+[  1%] Built target depthai_ros_msgs__cpp
+[ 12%] Built target depthai_ros_msgs__rosidl_typesupport_cpp
+[ 24%] Built target depthai_ros_msgs__rosidl_generator_c
+[ 35%] Built target depthai_ros_msgs__rosidl_typesupport_introspection_c
+[ 47%] Built target depthai_ros_msgs__rosidl_typesupport_fastrtps_cpp
+[ 58%] Built target depthai_ros_msgs__rosidl_typesupport_fastrtps_c
+[ 70%] Built target depthai_ros_msgs__rosidl_typesupport_c
+[ 82%] Built target depthai_ros_msgs__rosidl_typesupport_introspection_cpp
+[ 82%] Built target depthai_ros_msgs
+[ 83%] Built target depthai_ros_msgs__py
+[ 93%] Built target depthai_ros_msgs__python
+[ 95%] Built target depthai_ros_msgs__rosidl_typesupport_fastrtps_c__pyext
+[ 97%] Built target depthai_ros_msgs__rosidl_typesupport_c__pyext
+[100%] Built target depthai_ros_msgs__rosidl_typesupport_introspection_c__pyext

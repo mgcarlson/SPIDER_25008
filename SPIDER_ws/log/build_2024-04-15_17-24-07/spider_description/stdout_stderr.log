@@ -1,0 +1,17 @@
+-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /home/dfolse/.pyenv/shims/python3
+CMake Error at /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_package_templates-extras.cmake:41 (message):
+  execute_process(/home/dfolse/.pyenv/shims/python3
+  /opt/ros/foxy/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py
+  /home/dfolse/repos/SPIDER/SPIDER_ws/build/spider_description/ament_cmake_package_templates/templates.cmake)
+  returned error code No such file or directory
+Call Stack (most recent call first):
+  /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+  /opt/ros/foxy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+  /opt/ros/foxy/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+  CMakeLists.txt:19 (find_package)
+
+
+-- Configuring incomplete, errors occurred!
+See also "/home/dfolse/repos/SPIDER/SPIDER_ws/build/spider_description/CMakeFiles/CMakeOutput.log".
+make: *** [Makefile:222: cmake_check_build_system] Error 1

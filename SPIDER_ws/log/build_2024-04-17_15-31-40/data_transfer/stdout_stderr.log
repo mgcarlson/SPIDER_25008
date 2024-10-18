@@ -1,0 +1,20 @@
+running develop
+running egg_info
+writing data_transfer.egg-info/PKG-INFO
+writing dependency_links to data_transfer.egg-info/dependency_links.txt
+writing entry points to data_transfer.egg-info/entry_points.txt
+writing requirements to data_transfer.egg-info/requires.txt
+writing top-level names to data_transfer.egg-info/top_level.txt
+reading manifest file 'data_transfer.egg-info/SOURCES.txt'
+writing manifest file 'data_transfer.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/dfolse/repos/SPIDER/SPIDER_ws/install/data_transfer/lib/python3.8/site-packages/site.py
+Creating /home/dfolse/repos/SPIDER/SPIDER_ws/install/data_transfer/lib/python3.8/site-packages/data-transfer.egg-link (link to .)
+Installing listener script to /home/dfolse/repos/SPIDER/SPIDER_ws/install/data_transfer/lib/data_transfer
+Installing talker script to /home/dfolse/repos/SPIDER/SPIDER_ws/install/data_transfer/lib/data_transfer
+
+Installed /home/dfolse/repos/SPIDER/SPIDER_ws/build/data_transfer
+running symlink_data
+symbolically linking /home/dfolse/repos/SPIDER/SPIDER_ws/build/data_transfer/resource/data_transfer -> /home/dfolse/repos/SPIDER/SPIDER_ws/install/data_transfer/share/ament_index/resource_index/packages
+symbolically linking /home/dfolse/repos/SPIDER/SPIDER_ws/build/data_transfer/package.xml -> /home/dfolse/repos/SPIDER/SPIDER_ws/install/data_transfer/share/data_transfer
+symbolically linking /home/dfolse/repos/SPIDER/SPIDER_ws/build/data_transfer/launch/data_transfer_sim.launch.py -> /home/dfolse/repos/SPIDER/SPIDER_ws/install/data_transfer/share/data_transfer/launch

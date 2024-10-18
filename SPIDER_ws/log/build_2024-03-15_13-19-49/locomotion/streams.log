@@ -1,0 +1,5 @@
+[0.403s] Invoking command in '/home/dfolse/repos/SPIDER/SPIDER_ws/build/locomotion': NX_CONNECTION=192.168.1.26 54739 192.168.1.53 4000 /usr/bin/cmake --build /home/dfolse/repos/SPIDER/SPIDER_ws/build/locomotion -- -j6 -l6
+[0.435s] CMake Error: The current CMakeCache.txt directory /home/dfolse/repos/SPIDER/SPIDER_ws/build/locomotion/CMakeCache.txt is different than the directory /home/dfolse/SPIDER/SPIDER_ws/build/locomotion where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt
+[0.444s] No such file or directory
+[0.444s] CMake Error: Generator: execution of make failed. Make command was: /usr/bin/gmake -j6 -l6 && 
+[0.448s] Invoked command in '/home/dfolse/repos/SPIDER/SPIDER_ws/build/locomotion' returned '1': NX_CONNECTION=192.168.1.26 54739 192.168.1.53 4000 /usr/bin/cmake --build /home/dfolse/repos/SPIDER/SPIDER_ws/build/locomotion -- -j6 -l6

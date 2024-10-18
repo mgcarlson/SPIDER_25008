@@ -1,0 +1,24 @@
+[0.071s] Invoking command in '/home/dfolse/repos/SPIDER/SPIDER_ws/build/spider_interfaces': NX_CONNECTION=192.168.1.26 63880 192.168.1.53 4000 /usr/bin/cmake --build /home/dfolse/repos/SPIDER/SPIDER_ws/build/spider_interfaces -- -j6 -l6
+[1.627s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.629s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.630s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.631s] -- Configuring incomplete, errors occurred!
+[1.631s] See also "/home/dfolse/repos/SPIDER/SPIDER_ws/build/spider_interfaces/CMakeFiles/CMakeOutput.log".
+[1.632s] Traceback (most recent call last):
+[1.633s]   File "/opt/ros/foxy/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py", line 21, in <module>
+[1.635s]     from ament_package.templates import get_environment_hook_template_path
+[1.637s] ModuleNotFoundError: No module named 'ament_package'
+[1.637s] CMake Error at /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_package_templates-extras.cmake:41 (message):
+[1.637s]   execute_process(/usr/bin/python3
+[1.637s]   /opt/ros/foxy/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py
+[1.637s]   /home/dfolse/repos/SPIDER/SPIDER_ws/build/spider_interfaces/ament_cmake_package_templates/templates.cmake)
+[1.637s]   returned error code 1
+[1.637s] Call Stack (most recent call first):
+[1.638s]   /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[1.638s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[1.638s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[1.640s]   CMakeLists.txt:19 (find_package)
+[1.640s] 
+[1.640s] 
+[1.641s] make: *** [Makefile:988: cmake_check_build_system] Error 1
+[1.645s] Invoked command in '/home/dfolse/repos/SPIDER/SPIDER_ws/build/spider_interfaces' returned '2': NX_CONNECTION=192.168.1.26 63880 192.168.1.53 4000 /usr/bin/cmake --build /home/dfolse/repos/SPIDER/SPIDER_ws/build/spider_interfaces -- -j6 -l6

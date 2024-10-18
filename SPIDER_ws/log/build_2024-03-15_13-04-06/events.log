@@ -1,0 +1,49 @@
+[0.000000] (-) TimerEvent: {}
+[0.001638] (-) JobUnselected: {'identifier': 'costmap_queue'}
+[0.001779] (-) JobUnselected: {'identifier': 'data_transfer'}
+[0.002261] (-) JobUnselected: {'identifier': 'dwb_core'}
+[0.002452] (-) JobUnselected: {'identifier': 'dwb_critics'}
+[0.003438] (-) JobUnselected: {'identifier': 'dwb_msgs'}
+[0.003508] (-) JobUnselected: {'identifier': 'dwb_plugins'}
+[0.003552] (-) JobUnselected: {'identifier': 'nav2_amcl'}
+[0.003590] (-) JobUnselected: {'identifier': 'nav2_behavior_tree'}
+[0.003625] (-) JobUnselected: {'identifier': 'nav2_bringup'}
+[0.003659] (-) JobUnselected: {'identifier': 'nav2_bt_navigator'}
+[0.003693] (-) JobUnselected: {'identifier': 'nav2_common'}
+[0.003726] (-) JobUnselected: {'identifier': 'nav2_controller'}
+[0.003759] (-) JobUnselected: {'identifier': 'nav2_core'}
+[0.003791] (-) JobUnselected: {'identifier': 'nav2_costmap_2d'}
+[0.003824] (-) JobUnselected: {'identifier': 'nav2_dwb_controller'}
+[0.003857] (-) JobUnselected: {'identifier': 'nav2_gazebo_spawner'}
+[0.003889] (-) JobUnselected: {'identifier': 'nav2_lifecycle_manager'}
+[0.003922] (-) JobUnselected: {'identifier': 'nav2_map_server'}
+[0.003955] (-) JobUnselected: {'identifier': 'nav2_msgs'}
+[0.003990] (-) JobUnselected: {'identifier': 'nav2_navfn_planner'}
+[0.004023] (-) JobUnselected: {'identifier': 'nav2_planner'}
+[0.004055] (-) JobUnselected: {'identifier': 'nav2_recoveries'}
+[0.004087] (-) JobUnselected: {'identifier': 'nav2_regulated_pure_pursuit_controller'}
+[0.004120] (-) JobUnselected: {'identifier': 'nav2_rviz_plugins'}
+[0.004158] (-) JobUnselected: {'identifier': 'nav2_system_tests'}
+[0.004203] (-) JobUnselected: {'identifier': 'nav2_util'}
+[0.004245] (-) JobUnselected: {'identifier': 'nav2_voxel_grid'}
+[0.004288] (-) JobUnselected: {'identifier': 'nav2_waypoint_follower'}
+[0.004329] (-) JobUnselected: {'identifier': 'nav_2d_msgs'}
+[0.004371] (-) JobUnselected: {'identifier': 'nav_2d_utils'}
+[0.004410] (-) JobUnselected: {'identifier': 'navigation2'}
+[0.004449] (-) JobUnselected: {'identifier': 'smac_planner'}
+[0.004496] (locomotion) JobQueued: {'identifier': 'locomotion', 'dependencies': OrderedDict()}
+[0.004552] (locomotion) JobStarted: {'identifier': 'locomotion'}
+[0.099270] (-) TimerEvent: {}
+[0.199969] (-) TimerEvent: {}
+[0.300951] (-) TimerEvent: {}
+[0.403550] (-) TimerEvent: {}
+[0.504585] (-) TimerEvent: {}
+[0.605640] (-) TimerEvent: {}
+[0.706462] (-) TimerEvent: {}
+[0.807240] (-) TimerEvent: {}
+[0.907966] (-) TimerEvent: {}
+[1.008604] (-) TimerEvent: {}
+[1.109439] (-) TimerEvent: {}
+[1.175990] (locomotion) StderrLine: {'line': b'Traceback (most recent call last):\n  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__\n    rc = await self.task(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__\n    return await task_method(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_python/build.py", line 51, in build\n    setup_py_data = get_setup_data(self.context.pkg, env)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/python/__init__.py", line 20, in get_setup_data\n    return dict(pkg.metadata[key](env))\n  File "/usr/lib/python3/dist-packages/colcon_ros/package_augmentation/ros_ament_python.py", line 57, in getter\n    return get_setup_information(\n  File "/usr/lib/python3/dist-packages/colcon_python_setup_py/package_identification/python_setup_py.py", line 241, in get_setup_information\n    _setup_information_cache[hashable_env] = _get_setup_information(\n  File "/usr/lib/python3/dist-packages/colcon_python_setup_py/package_identification/python_setup_py.py", line 288, in _get_setup_information\n    result = subprocess.run(\n  File "/usr/lib/python3.8/subprocess.py", line 516, in run\n    raise CalledProcessError(retcode, process.args,\nsubprocess.CalledProcessError: Command \'[\'/usr/bin/python3\', \'-c\', \'import sys;from contextlib import suppress;exec("with suppress(ImportError):    from setuptools.extern.packaging.specifiers    import SpecifierSet");exec("with suppress(ImportError):    from packaging.specifiers import SpecifierSet");from distutils.core import run_setup;dist = run_setup(    \\\'setup.py\\\', script_args=(\\\'--dry-run\\\',), stop_after=\\\'config\\\');skip_keys = (\\\'cmdclass\\\', \\\'distclass\\\', \\\'ext_modules\\\', \\\'metadata\\\');data = {    key: value for key, value in dist.__dict__.items()     if (        not key.startswith(\\\'_\\\') and         not callable(value) and         key not in skip_keys and         key not in dist.display_option_names    )};data[\\\'metadata\\\'] = {    k: v for k, v in dist.metadata.__dict__.items()     if k not in (\\\'license_files\\\', \\\'provides_extras\\\')};sys.stdout.buffer.write(repr(data).encode(\\\'utf-8\\\'))\']\' returned non-zero exit status 1.\n'}
+[1.177780] (locomotion) JobEnded: {'identifier': 'locomotion', 'rc': 1}
+[1.187414] (-) EventReactorShutdown: {}

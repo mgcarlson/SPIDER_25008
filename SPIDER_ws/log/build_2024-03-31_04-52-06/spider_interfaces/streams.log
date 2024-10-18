@@ -1,0 +1,16 @@
+[0.933s] Invoking command in '/home/dfolse/repos/SPIDER/SPIDER_ws/build/spider_interfaces': CMAKE_PREFIX_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_voxel_grid:/home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_nav:/home/dfolse/repos/SPIDER/SPIDER_ws/install/oak_d_lite:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_gazebo_spawner:/home/dfolse/repos/SPIDER/SPIDER_ws/install/data_transfer:/opt/ros/foxy:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_common NX_CONNECTION=192.168.1.26 58481 192.168.1.53 4000 /usr/bin/cmake --build /home/dfolse/repos/SPIDER/SPIDER_ws/build/spider_interfaces -- -j6 -l6
+[1.127s] [ 10%] Built target spider_interfaces__rosidl_generator_c
+[1.129s] [ 12%] Built target spider_interfaces__cpp
+[1.210s] [ 23%] Built target spider_interfaces__rosidl_typesupport_c
+[1.242s] [ 33%] Built target spider_interfaces__rosidl_typesupport_introspection_c
+[1.250s] [ 43%] Built target spider_interfaces__rosidl_typesupport_introspection_cpp
+[1.294s] [ 53%] Built target spider_interfaces__rosidl_typesupport_cpp
+[1.299s] [ 64%] Built target spider_interfaces__rosidl_typesupport_fastrtps_cpp
+[1.383s] [ 74%] Built target spider_interfaces__rosidl_typesupport_fastrtps_c
+[1.450s] [ 74%] Built target spider_interfaces
+[1.528s] [ 76%] Built target spider_interfaces__py
+[1.662s] [ 84%] Built target spider_interfaces__python
+[1.718s] [ 97%] Built target spider_interfaces__rosidl_typesupport_c__pyext
+[1.720s] [ 97%] Built target spider_interfaces__rosidl_typesupport_introspection_c__pyext
+[1.721s] [100%] Built target spider_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[2.065s] Invoked command in '/home/dfolse/repos/SPIDER/SPIDER_ws/build/spider_interfaces' returned '0': CMAKE_PREFIX_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_voxel_grid:/home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_nav:/home/dfolse/repos/SPIDER/SPIDER_ws/install/oak_d_lite:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_gazebo_spawner:/home/dfolse/repos/SPIDER/SPIDER_ws/install/data_transfer:/opt/ros/foxy:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_common NX_CONNECTION=192.168.1.26 58481 192.168.1.53 4000 /usr/bin/cmake --build /home/dfolse/repos/SPIDER/SPIDER_ws/build/spider_interfaces -- -j6 -l6

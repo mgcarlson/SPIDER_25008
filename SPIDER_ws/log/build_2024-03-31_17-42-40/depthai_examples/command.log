@@ -1,0 +1,2 @@
+Invoking command in '/home/dfolse/repos/SPIDER/SPIDER_ws/build/depthai_examples': CMAKE_PREFIX_PATH=/opt/ros/foxy NX_CONNECTION=192.168.1.26 51145 192.168.1.53 4000 /usr/bin/cmake --build /home/dfolse/repos/SPIDER/SPIDER_ws/build/depthai_examples -- -j6 -l6
+Invoked command in '/home/dfolse/repos/SPIDER/SPIDER_ws/build/depthai_examples' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy NX_CONNECTION=192.168.1.26 51145 192.168.1.53 4000 /usr/bin/cmake --build /home/dfolse/repos/SPIDER/SPIDER_ws/build/depthai_examples -- -j6 -l6

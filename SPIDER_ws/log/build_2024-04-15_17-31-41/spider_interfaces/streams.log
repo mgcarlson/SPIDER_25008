@@ -1,0 +1,21 @@
+[0.114s] Invoking command in '/home/dfolse/repos/SPIDER/SPIDER_ws/build/spider_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/dfolse/repos/SPIDER/SPIDER_ws/build/spider_interfaces -- -j4 -l4
+[0.762s] [  2%] Built target spider_interfaces__cpp
+[0.840s] [ 12%] Built target spider_interfaces__rosidl_generator_c
+[1.015s] [ 23%] Built target spider_interfaces__rosidl_typesupport_cpp
+[1.292s] [ 33%] Built target spider_interfaces__rosidl_typesupport_introspection_c
+[1.302s] [ 43%] Built target spider_interfaces__rosidl_typesupport_introspection_cpp
+[1.304s] [ 53%] Built target spider_interfaces__rosidl_typesupport_c
+[1.381s] [ 56%] [32m[1mLinking CXX shared library libspider_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.270s] [ 64%] Built target spider_interfaces__rosidl_typesupport_fastrtps_cpp
+[2.542s] [ 66%] [32m[1mLinking CXX shared library libspider_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[3.307s] [ 74%] Built target spider_interfaces__rosidl_typesupport_fastrtps_c
+[3.450s] [ 74%] Built target spider_interfaces
+[3.619s] [ 76%] Built target spider_interfaces__py
+[3.839s] [ 79%] [32m[1mLinking C shared library rosidl_generator_py/spider_interfaces/libspider_interfaces__python.so[0m
+[4.279s] [ 84%] Built target spider_interfaces__python
+[4.553s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/spider_interfaces/spider_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so[0m
+[4.564s] [ 89%] [32m[1mLinking CXX shared library rosidl_generator_py/spider_interfaces/spider_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so[0m
+[4.666s] [ 92%] [32m[1mLinking C shared library rosidl_generator_py/spider_interfaces/spider_interfaces_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so[0m
+[5.197s] [ 94%] Built target spider_interfaces__rosidl_typesupport_introspection_c__pyext
+[5.226s] [ 97%] Built target spider_interfaces__rosidl_typesupport_c__pyext
+[5.485s] [100%] Built target spider_interfaces__rosidl_typesupport_fastrtps_c__pyext

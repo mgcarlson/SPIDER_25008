@@ -1,0 +1,2 @@
+Invoking command in '/home/dfolse/repos/SPIDER/SPIDER_ws/build/nav_2d_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy NX_CONNECTION=192.168.1.26 58481 192.168.1.53 4000 /usr/bin/cmake --build /home/dfolse/repos/SPIDER/SPIDER_ws/build/nav_2d_msgs -- -j6 -l6
+Invoked command in '/home/dfolse/repos/SPIDER/SPIDER_ws/build/nav_2d_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy NX_CONNECTION=192.168.1.26 58481 192.168.1.53 4000 /usr/bin/cmake --build /home/dfolse/repos/SPIDER/SPIDER_ws/build/nav_2d_msgs -- -j6 -l6

@@ -1,0 +1,5 @@
+[1.280s] Invoking command in '/home/dfolse/repos/SPIDER/SPIDER_ws/build/depthai_ros_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy NX_CONNECTION=192.168.1.26 58481 192.168.1.53 4000 /usr/bin/cmake --build /home/dfolse/repos/SPIDER/SPIDER_ws/build/depthai_ros_msgs -- -j6 -l6
+[1.347s] CMake Error: The source directory "/home/dfolse/repos/SPIDER/SPIDER_ws/src/luxonis/depthai-ros/depthai_ros_msgs" does not exist.
+[1.347s] Specify --help for usage, or press the help button on the CMake GUI.
+[1.353s] make: *** [Makefile:3388: cmake_check_build_system] Error 1
+[2.249s] Invoked command in '/home/dfolse/repos/SPIDER/SPIDER_ws/build/depthai_ros_msgs' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy NX_CONNECTION=192.168.1.26 58481 192.168.1.53 4000 /usr/bin/cmake --build /home/dfolse/repos/SPIDER/SPIDER_ws/build/depthai_ros_msgs -- -j6 -l6

@@ -1,0 +1,48 @@
+[1.947s] Invoking command in '/home/dfolse/repos/SPIDER/SPIDER_ws/build/nav2_common': CMAKE_PREFIX_PATH=/opt/ros/foxy NX_CONNECTION=192.168.1.26 49420 192.168.1.53 4000 /usr/bin/cmake /home/dfolse/repos/SPIDER/SPIDER_ws/src/navigation2/nav2_common -DCMAKE_INSTALL_PREFIX=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_common
+[3.795s] -- Found ament_cmake_core: 0.9.12 (/opt/ros/foxy/share/ament_cmake_core/cmake)
+[3.796s] -- Found PythonInterp: /home/dfolse/.pyenv/shims/python3 (found suitable version "3.8.10", minimum required is "3") 
+[3.798s] -- Using PYTHON_EXECUTABLE: /home/dfolse/.pyenv/shims/python3
+[3.799s] -- Found ament_cmake_python: 0.9.12 (/opt/ros/foxy/share/ament_cmake_python/cmake)
+[3.799s] -- Configuring done
+[3.800s] -- Generating done
+[3.800s] -- Build files have been written to: /home/dfolse/repos/SPIDER/SPIDER_ws/build/nav2_common
+[3.827s] Invoked command in '/home/dfolse/repos/SPIDER/SPIDER_ws/build/nav2_common' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy NX_CONNECTION=192.168.1.26 49420 192.168.1.53 4000 /usr/bin/cmake /home/dfolse/repos/SPIDER/SPIDER_ws/src/navigation2/nav2_common -DCMAKE_INSTALL_PREFIX=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_common
+[3.829s] Invoking command in '/home/dfolse/repos/SPIDER/SPIDER_ws/build/nav2_common': CMAKE_PREFIX_PATH=/opt/ros/foxy NX_CONNECTION=192.168.1.26 49420 192.168.1.53 4000 /usr/bin/cmake --build /home/dfolse/repos/SPIDER/SPIDER_ws/build/nav2_common -- -j6 -l6
+[4.693s] Invoked command in '/home/dfolse/repos/SPIDER/SPIDER_ws/build/nav2_common' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy NX_CONNECTION=192.168.1.26 49420 192.168.1.53 4000 /usr/bin/cmake --build /home/dfolse/repos/SPIDER/SPIDER_ws/build/nav2_common -- -j6 -l6
+[4.799s] Invoking command in '/home/dfolse/repos/SPIDER/SPIDER_ws/build/nav2_common': CMAKE_PREFIX_PATH=/opt/ros/foxy NX_CONNECTION=192.168.1.26 49420 192.168.1.53 4000 /usr/bin/cmake --install /home/dfolse/repos/SPIDER/SPIDER_ws/build/nav2_common
+[4.845s] -- Install configuration: ""
+[4.846s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_common/share/nav2_common/environment/pythonpath.sh
+[4.846s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_common/share/nav2_common/environment/pythonpath.dsv
+[4.846s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_common/lib/python3.8/site-packages/nav2_common
+[4.847s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_common/lib/python3.8/site-packages/nav2_common/launch
+[4.847s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_common/lib/python3.8/site-packages/nav2_common/launch/replace_string.py
+[4.847s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_common/lib/python3.8/site-packages/nav2_common/launch/rewritten_yaml.py
+[4.849s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_common/lib/python3.8/site-packages/nav2_common/launch/has_node_params.py
+[4.849s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_common/lib/python3.8/site-packages/nav2_common/launch/__init__.py
+[4.850s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_common/lib/python3.8/site-packages/nav2_common/__init__.py
+[5.151s] Listing '/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_common/lib/python3.8/site-packages/nav2_common'...
+[5.152s] Compiling '/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_common/lib/python3.8/site-packages/nav2_common/__init__.py'...
+[5.152s] Listing '/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_common/lib/python3.8/site-packages/nav2_common/launch'...
+[5.152s] Compiling '/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_common/lib/python3.8/site-packages/nav2_common/launch/__init__.py'...
+[5.152s] Compiling '/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_common/lib/python3.8/site-packages/nav2_common/launch/has_node_params.py'...
+[5.152s] Compiling '/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_common/lib/python3.8/site-packages/nav2_common/launch/replace_string.py'...
+[5.152s] Compiling '/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_common/lib/python3.8/site-packages/nav2_common/launch/rewritten_yaml.py'...
+[5.166s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_common/share/ament_index/resource_index/package_run_dependencies/nav2_common
+[5.167s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_common/share/ament_index/resource_index/parent_prefix_path/nav2_common
+[5.167s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_common/share/nav2_common/environment/ament_prefix_path.sh
+[5.167s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_common/share/nav2_common/environment/ament_prefix_path.dsv
+[5.168s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_common/share/nav2_common/environment/path.sh
+[5.169s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_common/share/nav2_common/environment/path.dsv
+[5.169s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_common/share/nav2_common/local_setup.bash
+[5.169s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_common/share/nav2_common/local_setup.sh
+[5.169s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_common/share/nav2_common/local_setup.zsh
+[5.169s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_common/share/nav2_common/local_setup.dsv
+[5.169s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_common/share/nav2_common/package.dsv
+[5.170s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_common/share/ament_index/resource_index/packages/nav2_common
+[5.170s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_common/share/nav2_common/cmake/nav2_common-extras.cmake
+[5.171s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_common/share/nav2_common/cmake/nav2_commonConfig.cmake
+[5.172s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_common/share/nav2_common/cmake/nav2_commonConfig-version.cmake
+[5.172s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_common/share/nav2_common/package.xml
+[5.172s] -- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_common/share/nav2_common/cmake
+[5.173s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_common/share/nav2_common/cmake/nav2_package.cmake
+[5.469s] Invoked command in '/home/dfolse/repos/SPIDER/SPIDER_ws/build/nav2_common' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy NX_CONNECTION=192.168.1.26 49420 192.168.1.53 4000 /usr/bin/cmake --install /home/dfolse/repos/SPIDER/SPIDER_ws/build/nav2_common

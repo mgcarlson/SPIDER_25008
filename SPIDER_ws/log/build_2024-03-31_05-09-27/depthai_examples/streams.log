@@ -1,0 +1,59 @@
+[1.628s] Invoking command in '/home/dfolse/repos/SPIDER/SPIDER_ws/build/depthai_examples': CMAKE_PREFIX_PATH=/opt/ros/foxy NX_CONNECTION=192.168.1.26 58481 192.168.1.53 4000 /usr/bin/cmake /home/dfolse/repos/SPIDER/SPIDER_ws/src/luxonis/depthai-ros-examples/depthai_examples -DCMAKE_INSTALL_PREFIX=/home/dfolse/repos/SPIDER/SPIDER_ws/install/depthai_examples
+[1.790s] -- The C compiler identification is GNU 9.4.0
+[1.917s] -- The CXX compiler identification is GNU 9.4.0
+[1.927s] -- Check for working C compiler: /usr/bin/cc
+[2.115s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.118s] -- Detecting C compiler ABI info
+[2.305s] -- Detecting C compiler ABI info - done
+[2.324s] -- Detecting C compile features
+[2.325s] -- Detecting C compile features - done
+[2.330s] -- Check for working CXX compiler: /usr/bin/c++
+[2.527s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.527s] -- Detecting CXX compiler ABI info
+[2.773s] -- Detecting CXX compiler ABI info - done
+[2.798s] -- Detecting CXX compile features
+[2.798s] -- Detecting CXX compile features - done
+[4.769s] -- Found PythonInterp: /home/dfolse/.pyenv/shims/python3 (found suitable version "3.8.10", minimum required is "3") 
+[4.770s] -- Using PYTHON_EXECUTABLE: /home/dfolse/.pyenv/shims/python3
+[5.420s] -- ------------------------------------------
+[5.421s] -- Depthai Bridge is being built using AMENT.
+[5.421s] -- ------------------------------------------
+[5.423s] -- Found camera_info_manager: 2.4.0 (/opt/ros/foxy/share/camera_info_manager/cmake)
+[5.552s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.567s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[5.825s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[5.897s] -- Found FastRTPS: /opt/ros/foxy/include  
+[6.071s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.191s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[6.194s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.196s] -- Looking for pthread.h
+[6.398s] -- Looking for pthread.h - found
+[6.399s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[6.598s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[6.599s] -- Looking for pthread_create in pthreads
+[6.780s] -- Looking for pthread_create in pthreads - not found
+[6.781s] -- Looking for pthread_create in pthread
+[6.965s] -- Looking for pthread_create in pthread - found
+[6.977s] -- Found Threads: TRUE  
+[7.536s] -- Setting yaml-cpp_DIR to: '/opt/ros/foxy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/lib/cmake/yaml-cpp'
+[7.657s] -- Found cv_bridge: 3.0.7 (/opt/ros/foxy/share/cv_bridge/cmake)
+[7.698s] CMake Error at CMakeLists.txt:46 (find_package):
+[7.699s]   By not providing "Finddepthai_ros_msgs.cmake" in CMAKE_MODULE_PATH this
+[7.699s]   project has asked CMake to find a package configuration file provided by
+[7.700s]   "depthai_ros_msgs", but CMake did not find one.
+[7.701s] 
+[7.702s]   Could not find a package configuration file provided by "depthai_ros_msgs"
+[7.703s]   with any of the following names:
+[7.704s] 
+[7.704s]     depthai_ros_msgsConfig.cmake
+[7.705s]     depthai_ros_msgs-config.cmake
+[7.705s] 
+[7.706s]   Add the installation prefix of "depthai_ros_msgs" to CMAKE_PREFIX_PATH or
+[7.706s]   set "depthai_ros_msgs_DIR" to a directory containing one of the above
+[7.709s]   files.  If "depthai_ros_msgs" provides a separate development package or
+[7.710s]   SDK, be sure it has been installed.
+[7.710s] 
+[7.710s] 
+[7.711s] -- Configuring incomplete, errors occurred!
+[7.712s] See also "/home/dfolse/repos/SPIDER/SPIDER_ws/build/depthai_examples/CMakeFiles/CMakeOutput.log".
+[8.930s] Invoked command in '/home/dfolse/repos/SPIDER/SPIDER_ws/build/depthai_examples' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy NX_CONNECTION=192.168.1.26 58481 192.168.1.53 4000 /usr/bin/cmake /home/dfolse/repos/SPIDER/SPIDER_ws/src/luxonis/depthai-ros-examples/depthai_examples -DCMAKE_INSTALL_PREFIX=/home/dfolse/repos/SPIDER/SPIDER_ws/install/depthai_examples

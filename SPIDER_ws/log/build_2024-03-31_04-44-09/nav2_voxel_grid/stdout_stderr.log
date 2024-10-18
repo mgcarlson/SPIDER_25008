@@ -1,0 +1,42 @@
+[35m[1mScanning dependencies of target gtest_main[0m
+[35m[1mScanning dependencies of target gtest[0m
+[35m[1mScanning dependencies of target voxel_grid[0m
+[ 12%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[ 25%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/voxel_grid.dir/src/voxel_grid.cpp.o[0m
+[ 50%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[ 50%] Built target gtest_main
+[ 62%] [32m[1mLinking CXX shared library libvoxel_grid.so[0m
+[ 62%] Built target voxel_grid
+[ 75%] [32m[1mLinking CXX static library libgtest.a[0m
+[ 75%] Built target gtest
+[35m[1mScanning dependencies of target voxel_grid_tests[0m
+[ 87%] [32mBuilding CXX object test/CMakeFiles/voxel_grid_tests.dir/voxel_grid_tests.cpp.o[0m
+[100%] [32m[1mLinking CXX executable voxel_grid_tests[0m
+[100%] Built target voxel_grid_tests
+-- Install configuration: "Release"
+-- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_voxel_grid/lib/libvoxel_grid.so
+-- Set runtime path of "/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_voxel_grid/lib/libvoxel_grid.so" to ""
+-- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_voxel_grid/include
+-- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_voxel_grid/include/nav2_voxel_grid
+-- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_voxel_grid/include/nav2_voxel_grid/voxel_grid.hpp
+-- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/library_path.sh
+-- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/library_path.dsv
+-- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_voxel_grid/share/ament_index/resource_index/package_run_dependencies/nav2_voxel_grid
+-- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_voxel_grid/share/ament_index/resource_index/parent_prefix_path/nav2_voxel_grid
+-- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/ament_prefix_path.sh
+-- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/ament_prefix_path.dsv
+-- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/path.sh
+-- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/path.dsv
+-- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/local_setup.bash
+-- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/local_setup.sh
+-- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/local_setup.zsh
+-- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/local_setup.dsv
+-- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/package.dsv
+-- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_voxel_grid/share/ament_index/resource_index/packages/nav2_voxel_grid
+-- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/nav2_voxel_gridConfig.cmake
+-- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/nav2_voxel_gridConfig-version.cmake
+-- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/package.xml

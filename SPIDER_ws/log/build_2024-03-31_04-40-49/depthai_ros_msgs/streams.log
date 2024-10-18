@@ -1,0 +1,47 @@
+[1.699s] Invoking command in '/home/dfolse/repos/SPIDER/SPIDER_ws/build/depthai_ros_msgs': CMAKE_PREFIX_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_nav:/home/dfolse/repos/SPIDER/SPIDER_ws/install/oak_d_lite:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_gazebo_spawner:/home/dfolse/repos/SPIDER/SPIDER_ws/install/data_transfer:/opt/ros/foxy:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_common NX_CONNECTION=192.168.1.26 58481 192.168.1.53 4000 /usr/bin/cmake /home/dfolse/repos/SPIDER/SPIDER_ws/src/luxonis/depthai-ros/depthai_ros_msgs -DCMAKE_INSTALL_PREFIX=/home/dfolse/repos/SPIDER/SPIDER_ws/install/depthai_ros_msgs
+[2.057s] -- The C compiler identification is GNU 9.4.0
+[2.274s] -- The CXX compiler identification is GNU 9.4.0
+[2.286s] -- Check for working C compiler: /usr/bin/cc
+[2.512s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.515s] -- Detecting C compiler ABI info
+[2.783s] -- Detecting C compiler ABI info - done
+[2.802s] -- Detecting C compile features
+[2.803s] -- Detecting C compile features - done
+[2.808s] -- Check for working CXX compiler: /usr/bin/c++
+[3.077s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[3.085s] -- Detecting CXX compiler ABI info
+[3.511s] -- Detecting CXX compiler ABI info - done
+[3.543s] -- Detecting CXX compile features
+[3.545s] -- Detecting CXX compile features - done
+[3.562s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[4.184s] -- Found PythonInterp: /home/dfolse/.pyenv/shims/python3 (found suitable version "3.8.10", minimum required is "3") 
+[4.184s] -- Using PYTHON_EXECUTABLE: /home/dfolse/.pyenv/shims/python3
+[5.526s] -- ------------------------------------------
+[5.526s] -- Depthai ROS MSGS/INTERFACES is being built using AMENT.
+[5.526s] -- ------------------------------------------
+[5.532s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[5.695s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.746s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[6.472s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[6.632s] -- Found FastRTPS: /opt/ros/foxy/include  
+[6.947s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.373s] CMake Error at CMakeLists.txt:18 (find_package):
+[7.373s]   By not providing "Findvision_msgs.cmake" in CMAKE_MODULE_PATH this project
+[7.373s]   has asked CMake to find a package configuration file provided by
+[7.374s]   "vision_msgs", but CMake did not find one.
+[7.374s] 
+[7.374s]   Could not find a package configuration file provided by "vision_msgs" with
+[7.374s]   any of the following names:
+[7.374s] 
+[7.374s]     vision_msgsConfig.cmake
+[7.374s]     vision_msgs-config.cmake
+[7.374s] 
+[7.375s]   Add the installation prefix of "vision_msgs" to CMAKE_PREFIX_PATH or set
+[7.375s]   "vision_msgs_DIR" to a directory containing one of the above files.  If
+[7.375s]   "vision_msgs" provides a separate development package or SDK, be sure it
+[7.375s]   has been installed.
+[7.375s] 
+[7.375s] 
+[7.375s] -- Configuring incomplete, errors occurred!
+[7.375s] See also "/home/dfolse/repos/SPIDER/SPIDER_ws/build/depthai_ros_msgs/CMakeFiles/CMakeOutput.log".
+[8.941s] Invoked command in '/home/dfolse/repos/SPIDER/SPIDER_ws/build/depthai_ros_msgs' returned '1': CMAKE_PREFIX_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_nav:/home/dfolse/repos/SPIDER/SPIDER_ws/install/oak_d_lite:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_gazebo_spawner:/home/dfolse/repos/SPIDER/SPIDER_ws/install/data_transfer:/opt/ros/foxy:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_common NX_CONNECTION=192.168.1.26 58481 192.168.1.53 4000 /usr/bin/cmake /home/dfolse/repos/SPIDER/SPIDER_ws/src/luxonis/depthai-ros/depthai_ros_msgs -DCMAKE_INSTALL_PREFIX=/home/dfolse/repos/SPIDER/SPIDER_ws/install/depthai_ros_msgs

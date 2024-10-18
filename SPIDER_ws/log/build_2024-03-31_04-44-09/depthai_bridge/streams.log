@@ -1,0 +1,64 @@
+[0.805s] Invoking command in '/home/dfolse/repos/SPIDER/SPIDER_ws/build/depthai_bridge': AMENT_PREFIX_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/depthai_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/depthai_ros_msgs:/home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_nav:/home/dfolse/repos/SPIDER/SPIDER_ws/install/oak_d_lite:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_gazebo_spawner:/home/dfolse/repos/SPIDER/SPIDER_ws/install/data_transfer:/opt/ros/foxy:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_common LD_LIBRARY_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/depthai_ros_msgs/lib:${LD_LIBRARY_PATH} NX_CONNECTION=192.168.1.26 58481 192.168.1.53 4000 PYTHONPATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/depthai_ros_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/dfolse/repos/SPIDER/SPIDER_ws/src/luxonis/depthai-ros/depthai_bridge -DCMAKE_INSTALL_PREFIX=/home/dfolse/repos/SPIDER/SPIDER_ws/install/depthai_bridge
+[0.999s] -- The CXX compiler identification is GNU 9.4.0
+[1.111s] -- The C compiler identification is GNU 9.4.0
+[1.123s] -- Check for working CXX compiler: /usr/bin/c++
+[1.349s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.350s] -- Detecting CXX compiler ABI info
+[1.575s] -- Detecting CXX compiler ABI info - done
+[1.594s] -- Detecting CXX compile features
+[1.595s] -- Detecting CXX compile features - done
+[1.600s] -- Check for working C compiler: /usr/bin/cc
+[1.793s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.795s] -- Detecting C compiler ABI info
+[1.993s] -- Detecting C compiler ABI info - done
+[2.012s] -- Detecting C compile features
+[2.012s] -- Detecting C compile features - done
+[2.029s] -- ------------------------------------------
+[2.029s] -- Depthai Bridge is being built using AMENT.
+[2.029s] -- ------------------------------------------
+[2.034s] -- Found camera_info_manager: 2.4.0 (/opt/ros/foxy/share/camera_info_manager/cmake)
+[2.285s] -- Found PythonInterp: /home/dfolse/.pyenv/shims/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.286s] -- Using PYTHON_EXECUTABLE: /home/dfolse/.pyenv/shims/python3
+[3.160s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.181s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[3.468s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[3.543s] -- Found FastRTPS: /opt/ros/foxy/include  
+[3.742s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.873s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[3.878s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.884s] -- Looking for pthread.h
+[4.091s] -- Looking for pthread.h - found
+[4.092s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.301s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[4.302s] -- Looking for pthread_create in pthreads
+[4.480s] -- Looking for pthread_create in pthreads - not found
+[4.485s] -- Looking for pthread_create in pthread
+[4.689s] -- Looking for pthread_create in pthread - found
+[4.691s] -- Found Threads: TRUE  
+[5.294s] -- Setting yaml-cpp_DIR to: '/opt/ros/foxy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/lib/cmake/yaml-cpp'
+[5.419s] -- Found cv_bridge: 3.0.7 (/opt/ros/foxy/share/cv_bridge/cmake)
+[5.445s] -- Found depthai_ros_msgs: 2.9.0 (/home/dfolse/repos/SPIDER/SPIDER_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/cmake)
+[6.147s] -- Found image_transport: 2.4.0 (/opt/ros/foxy/share/image_transport/cmake)
+[6.263s] -- Found stereo_msgs: 2.0.5 (/opt/ros/foxy/share/stereo_msgs/cmake)
+[6.516s] -- Found tf2_ros: 0.13.14 (/opt/ros/foxy/share/tf2_ros/cmake)
+[7.260s] -- Found tf2_geometry_msgs: 0.13.14 (/opt/ros/foxy/share/tf2_geometry_msgs/cmake)
+[7.286s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[7.300s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[7.498s] -- --------------------------foxy ---
+[7.499s] -- foxy
+[8.319s] -- Configuring done
+[8.505s] -- Generating done
+[8.512s] -- Build files have been written to: /home/dfolse/repos/SPIDER/SPIDER_ws/build/depthai_bridge
+[8.680s] Invoked command in '/home/dfolse/repos/SPIDER/SPIDER_ws/build/depthai_bridge' returned '0': AMENT_PREFIX_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/depthai_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/depthai_ros_msgs:/home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_nav:/home/dfolse/repos/SPIDER/SPIDER_ws/install/oak_d_lite:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_gazebo_spawner:/home/dfolse/repos/SPIDER/SPIDER_ws/install/data_transfer:/opt/ros/foxy:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_common LD_LIBRARY_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/depthai_ros_msgs/lib:${LD_LIBRARY_PATH} NX_CONNECTION=192.168.1.26 58481 192.168.1.53 4000 PYTHONPATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/depthai_ros_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/dfolse/repos/SPIDER/SPIDER_ws/src/luxonis/depthai-ros/depthai_bridge -DCMAKE_INSTALL_PREFIX=/home/dfolse/repos/SPIDER/SPIDER_ws/install/depthai_bridge
+[8.683s] Invoking command in '/home/dfolse/repos/SPIDER/SPIDER_ws/build/depthai_bridge': AMENT_PREFIX_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/depthai_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/depthai_ros_msgs:/home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_nav:/home/dfolse/repos/SPIDER/SPIDER_ws/install/oak_d_lite:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_gazebo_spawner:/home/dfolse/repos/SPIDER/SPIDER_ws/install/data_transfer:/opt/ros/foxy:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_common LD_LIBRARY_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/depthai_ros_msgs/lib:${LD_LIBRARY_PATH} NX_CONNECTION=192.168.1.26 58481 192.168.1.53 4000 PYTHONPATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/depthai_ros_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/dfolse/repos/SPIDER/SPIDER_ws/build/depthai_bridge -- -j6 -l6
+[8.930s] [35m[1mScanning dependencies of target depthai_bridge[0m
+[9.512s] [ 10%] [32mBuilding CXX object CMakeFiles/depthai_bridge.dir/src/DisparityConverter.cpp.o[0m
+[19.330s] [ 20%] [32mBuilding CXX object CMakeFiles/depthai_bridge.dir/src/TFPublisher.cpp.o[0m
+[20.146s] [01m[K/home/dfolse/repos/SPIDER/SPIDER_ws/src/luxonis/depthai-ros/depthai_bridge/src/TFPublisher.cpp:19:10:[m[K [01;31m[Kfatal error: [m[Ktf2_geometry_msgs/tf2_geometry_msgs.hpp: No such file or directory
+[20.147s]    19 | #include [01;31m[K"tf2_geometry_msgs/tf2_geometry_msgs.hpp"[m[K
+[20.147s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[20.147s] compilation terminated.
+[20.174s] make[2]: *** [CMakeFiles/depthai_bridge.dir/build.make:128: CMakeFiles/depthai_bridge.dir/src/TFPublisher.cpp.o] Error 1
+[20.185s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/depthai_bridge.dir/all] Error 2
+[20.200s] make: *** [Makefile:141: all] Error 2
+[20.275s] Invoked command in '/home/dfolse/repos/SPIDER/SPIDER_ws/build/depthai_bridge' returned '2': AMENT_PREFIX_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/depthai_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/depthai_ros_msgs:/home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_nav:/home/dfolse/repos/SPIDER/SPIDER_ws/install/oak_d_lite:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_gazebo_spawner:/home/dfolse/repos/SPIDER/SPIDER_ws/install/data_transfer:/opt/ros/foxy:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_common LD_LIBRARY_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/depthai_ros_msgs/lib:${LD_LIBRARY_PATH} NX_CONNECTION=192.168.1.26 58481 192.168.1.53 4000 PYTHONPATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/depthai_ros_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/dfolse/repos/SPIDER/SPIDER_ws/build/depthai_bridge -- -j6 -l6

@@ -1,0 +1,33 @@
+[1.696s] Invoking command in '/home/dfolse/repos/SPIDER/SPIDER_ws/build/nav2_voxel_grid': AMENT_PREFIX_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_common:/opt/ros/foxy NX_CONNECTION=192.168.1.26 58481 192.168.1.53 4000 PYTHONPATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/dfolse/repos/SPIDER/SPIDER_ws/build/nav2_voxel_grid -- -j6 -l6
+[1.936s] [ 50%] Built target gtest
+[1.937s] [ 37%] Built target gtest_main
+[2.030s] [ 75%] Built target voxel_grid
+[2.387s] [100%] Built target voxel_grid_tests
+[3.571s] Invoked command in '/home/dfolse/repos/SPIDER/SPIDER_ws/build/nav2_voxel_grid' returned '0': AMENT_PREFIX_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_common:/opt/ros/foxy NX_CONNECTION=192.168.1.26 58481 192.168.1.53 4000 PYTHONPATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/dfolse/repos/SPIDER/SPIDER_ws/build/nav2_voxel_grid -- -j6 -l6
+[5.289s] Invoking command in '/home/dfolse/repos/SPIDER/SPIDER_ws/build/nav2_voxel_grid': AMENT_PREFIX_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_common:/opt/ros/foxy NX_CONNECTION=192.168.1.26 58481 192.168.1.53 4000 PYTHONPATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/dfolse/repos/SPIDER/SPIDER_ws/build/nav2_voxel_grid
+[5.341s] -- Install configuration: "Release"
+[5.342s] -- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_voxel_grid/lib/libvoxel_grid.so
+[5.342s] -- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_voxel_grid/include
+[5.342s] -- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_voxel_grid/include/nav2_voxel_grid
+[5.342s] -- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_voxel_grid/include/nav2_voxel_grid/voxel_grid.hpp
+[5.343s] -- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/library_path.sh
+[5.343s] -- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/library_path.dsv
+[5.343s] -- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_voxel_grid/share/ament_index/resource_index/package_run_dependencies/nav2_voxel_grid
+[5.343s] -- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_voxel_grid/share/ament_index/resource_index/parent_prefix_path/nav2_voxel_grid
+[5.344s] -- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/ament_prefix_path.sh
+[5.345s] -- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/ament_prefix_path.dsv
+[5.345s] -- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/path.sh
+[5.345s] -- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/path.dsv
+[5.345s] -- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/local_setup.bash
+[5.345s] -- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/local_setup.sh
+[5.346s] -- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/local_setup.zsh
+[5.346s] -- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/local_setup.dsv
+[5.346s] -- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/package.dsv
+[5.346s] -- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_voxel_grid/share/ament_index/resource_index/packages/nav2_voxel_grid
+[5.346s] -- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.347s] -- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.347s] -- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/ament_cmake_export_libraries-extras.cmake
+[5.347s] -- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/nav2_voxel_gridConfig.cmake
+[5.347s] -- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/nav2_voxel_gridConfig-version.cmake
+[5.347s] -- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/package.xml
+[5.360s] Invoked command in '/home/dfolse/repos/SPIDER/SPIDER_ws/build/nav2_voxel_grid' returned '0': AMENT_PREFIX_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_common:/opt/ros/foxy NX_CONNECTION=192.168.1.26 58481 192.168.1.53 4000 PYTHONPATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/dfolse/repos/SPIDER/SPIDER_ws/build/nav2_voxel_grid

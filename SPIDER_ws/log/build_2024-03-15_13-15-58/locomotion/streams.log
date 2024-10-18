@@ -1,0 +1,27 @@
+[2.273s] Invoking command in '/home/dfolse/repos/SPIDER/SPIDER_ws/src/locomotion': NX_CONNECTION=192.168.1.26 54739 192.168.1.53 4000 PYTHONPATH=/home/dfolse/repos/SPIDER/SPIDER_ws/build/locomotion/prefix_override:/home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/locomotion build --build-base /home/dfolse/repos/SPIDER/SPIDER_ws/build/locomotion/build install --record /home/dfolse/repos/SPIDER/SPIDER_ws/build/locomotion/install.log --single-version-externally-managed
+[2.801s] running egg_info
+[2.802s] writing ../../build/locomotion/locomotion.egg-info/PKG-INFO
+[2.803s] writing dependency_links to ../../build/locomotion/locomotion.egg-info/dependency_links.txt
+[2.803s] writing entry points to ../../build/locomotion/locomotion.egg-info/entry_points.txt
+[2.803s] writing requirements to ../../build/locomotion/locomotion.egg-info/requires.txt
+[2.803s] writing top-level names to ../../build/locomotion/locomotion.egg-info/top_level.txt
+[2.809s] reading manifest file '../../build/locomotion/locomotion.egg-info/SOURCES.txt'
+[2.811s] writing manifest file '../../build/locomotion/locomotion.egg-info/SOURCES.txt'
+[2.811s] running build
+[2.812s] running build_py
+[2.812s] copying locomotion/locomotion_publisher.py -> /home/dfolse/repos/SPIDER/SPIDER_ws/build/locomotion/build/lib/locomotion
+[2.813s] running install
+[2.815s] running install_lib
+[2.817s] copying /home/dfolse/repos/SPIDER/SPIDER_ws/build/locomotion/build/lib/locomotion/locomotion_publisher.py -> /home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion/lib/python3.8/site-packages/locomotion
+[2.818s] byte-compiling /home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion/lib/python3.8/site-packages/locomotion/locomotion_publisher.py to locomotion_publisher.cpython-38.pyc
+[2.819s] running install_data
+[2.820s] copying package.xml -> /home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion/share/locomotion
+[2.821s] running install_egg_info
+[2.824s] removing '/home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion/lib/python3.8/site-packages/locomotion-0.0.0-py3.8.egg-info' (and everything under it)
+[2.824s] Copying ../../build/locomotion/locomotion.egg-info to /home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion/lib/python3.8/site-packages/locomotion-0.0.0-py3.8.egg-info
+[2.826s] running install_scripts
+[2.864s] Installing client script to /home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion/lib/locomotion
+[2.864s] Installing listener script to /home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion/lib/locomotion
+[2.865s] Installing talker script to /home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion/lib/locomotion
+[2.866s] writing list of installed files to '/home/dfolse/repos/SPIDER/SPIDER_ws/build/locomotion/install.log'
+[2.924s] Invoked command in '/home/dfolse/repos/SPIDER/SPIDER_ws/src/locomotion' returned '0': NX_CONNECTION=192.168.1.26 54739 192.168.1.53 4000 PYTHONPATH=/home/dfolse/repos/SPIDER/SPIDER_ws/build/locomotion/prefix_override:/home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/locomotion build --build-base /home/dfolse/repos/SPIDER/SPIDER_ws/build/locomotion/build install --record /home/dfolse/repos/SPIDER/SPIDER_ws/build/locomotion/install.log --single-version-externally-managed

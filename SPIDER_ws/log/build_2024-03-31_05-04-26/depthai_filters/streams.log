@@ -1,0 +1,18 @@
+[1.669s] Invoking command in '/home/dfolse/repos/SPIDER/SPIDER_ws/build/depthai_filters': CMAKE_PREFIX_PATH=/opt/ros/foxy NX_CONNECTION=192.168.1.26 58481 192.168.1.53 4000 /usr/bin/cmake --build /home/dfolse/repos/SPIDER/SPIDER_ws/build/depthai_filters -- -j6 -l6
+[2.078s] -- ----------------Did not find OpenCV 4, trying OpenCV 3--------------
+[2.078s] -- Configuring incomplete, errors occurred!
+[2.078s] See also "/home/dfolse/repos/SPIDER/SPIDER_ws/build/depthai_filters/CMakeFiles/CMakeOutput.log".
+[2.078s] See also "/home/dfolse/repos/SPIDER/SPIDER_ws/build/depthai_filters/CMakeFiles/CMakeError.log".
+[2.078s] CMake Error at CMakeLists.txt:12 (find_package):
+[2.079s]   Could not find a configuration file for package "OpenCV" that is compatible
+[2.080s]   with requested version "3".
+[2.080s] 
+[2.083s]   The following configuration files were considered but not accepted:
+[2.084s] 
+[2.084s]     /usr/lib/aarch64-linux-gnu/cmake/opencv4/OpenCVConfig.cmake, version: 4.5.4
+[2.084s]     /lib/aarch64-linux-gnu/cmake/opencv4/OpenCVConfig.cmake, version: 4.5.4
+[2.085s] 
+[2.085s] 
+[2.085s] 
+[2.085s] make: *** [Makefile:446: cmake_check_build_system] Error 1
+[2.092s] Invoked command in '/home/dfolse/repos/SPIDER/SPIDER_ws/build/depthai_filters' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy NX_CONNECTION=192.168.1.26 58481 192.168.1.53 4000 /usr/bin/cmake --build /home/dfolse/repos/SPIDER/SPIDER_ws/build/depthai_filters -- -j6 -l6

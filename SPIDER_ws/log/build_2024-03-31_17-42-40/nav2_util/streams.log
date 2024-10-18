@@ -1,0 +1,147 @@
+[0.180s] Invoking command in '/home/dfolse/repos/SPIDER/SPIDER_ws/build/nav2_util': AMENT_PREFIX_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_msgs:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_msgs:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} NX_CONNECTION=192.168.1.26 51145 192.168.1.53 4000 PYTHONPATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/dfolse/repos/SPIDER/SPIDER_ws/src/navigation2/nav2_util -DCMAKE_INSTALL_PREFIX=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_util
+[0.598s] -- The C compiler identification is GNU 9.4.0
+[0.915s] -- The CXX compiler identification is GNU 9.4.0
+[0.934s] -- Check for working C compiler: /usr/bin/cc
+[1.279s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.283s] -- Detecting C compiler ABI info
+[1.669s] -- Detecting C compiler ABI info - done
+[1.744s] -- Detecting C compile features
+[1.754s] -- Detecting C compile features - done
+[1.771s] -- Check for working CXX compiler: /usr/bin/c++
+[2.105s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.105s] -- Detecting CXX compiler ABI info
+[2.487s] -- Detecting CXX compiler ABI info - done
+[2.508s] -- Detecting CXX compile features
+[2.511s] -- Detecting CXX compile features - done
+[2.573s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[2.963s] -- Found PythonInterp: /home/dfolse/.pyenv/shims/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.964s] -- Using PYTHON_EXECUTABLE: /home/dfolse/.pyenv/shims/python3
+[4.168s] -- Found nav2_common: 0.4.7 (/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_common/share/nav2_common/cmake)
+[4.173s] -- Found nav2_msgs: 0.4.7 (/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_msgs/share/nav2_msgs/cmake)
+[4.293s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.317s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[26.606s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[26.716s] -- Found FastRTPS: /opt/ros/foxy/include  
+[26.937s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[27.839s] -- Found tf2_ros: 0.13.14 (/opt/ros/foxy/share/tf2_ros/cmake)
+[28.005s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[28.009s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[28.014s] -- Looking for pthread.h
+[28.371s] -- Looking for pthread.h - found
+[28.371s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[28.594s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[28.594s] -- Looking for pthread_create in pthreads
+[28.806s] -- Looking for pthread_create in pthreads - not found
+[28.806s] -- Looking for pthread_create in pthread
+[29.024s] -- Looking for pthread_create in pthread - found
+[29.024s] -- Found Threads: TRUE  
+[29.943s] -- Found tf2_geometry_msgs: 0.13.14 (/opt/ros/foxy/share/tf2_geometry_msgs/cmake)
+[29.967s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[29.980s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[30.034s] -- Found lifecycle_msgs: 1.0.0 (/opt/ros/foxy/share/lifecycle_msgs/cmake)
+[30.069s] -- Found test_msgs: 1.0.0 (/opt/ros/foxy/share/test_msgs/cmake)
+[30.194s] -- Found rclcpp_lifecycle: 2.4.3 (/opt/ros/foxy/share/rclcpp_lifecycle/cmake)
+[30.232s] -- Setting build type to Release as none was specified.
+[30.285s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: program_options 
+[30.298s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[30.310s] -- Found ament_cmake_pytest: 0.9.12 (/opt/ros/foxy/share/ament_cmake_pytest/cmake)
+[30.320s] -- Found launch_testing_ament_cmake: 0.10.10 (/opt/ros/foxy/share/launch_testing_ament_cmake/cmake)
+[30.325s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[30.635s] -- Found PythonInterp: /home/dfolse/.pyenv/shims/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[30.656s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[30.657s] -- Using PYTHON_EXECUTABLE: /home/dfolse/.pyenv/shims/python3
+[30.657s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[30.657s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.8.so
+[30.998s] -- Found PythonExtra: .so  
+[31.508s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[31.520s] -- Check if compiler accepts -pthread
+[31.970s] -- Check if compiler accepts -pthread - yes
+[32.048s] -- Added test 'copyright' to check source files copyright and LICENSE
+[32.056s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[32.056s] -- Configured cppcheck include dirs: /home/dfolse/repos/SPIDER/SPIDER_ws/src/navigation2/nav2_util/include
+[32.056s] -- Configured cppcheck exclude dirs and/or files: 
+[32.063s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[32.063s] -- Configured cpplint exclude dirs and/or files: 
+[32.067s] -- Added test 'flake8' to check Python code syntax and style conventions
+[32.070s] -- Added test 'lint_cmake' to check CMake code style
+[32.072s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[32.078s] -- Added test 'uncrustify' to check C / C++ code style
+[32.078s] -- Configured uncrustify additional arguments: 
+[32.080s] -- Added test 'xmllint' to check XML markup files
+[32.143s] -- Configuring done
+[32.372s] -- Generating done
+[32.381s] -- Build files have been written to: /home/dfolse/repos/SPIDER/SPIDER_ws/build/nav2_util
+[32.433s] Invoked command in '/home/dfolse/repos/SPIDER/SPIDER_ws/build/nav2_util' returned '0': AMENT_PREFIX_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_msgs:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_msgs:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} NX_CONNECTION=192.168.1.26 51145 192.168.1.53 4000 PYTHONPATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/dfolse/repos/SPIDER/SPIDER_ws/src/navigation2/nav2_util -DCMAKE_INSTALL_PREFIX=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_util
+[32.442s] Invoking command in '/home/dfolse/repos/SPIDER/SPIDER_ws/build/nav2_util': AMENT_PREFIX_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_msgs:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_msgs:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} NX_CONNECTION=192.168.1.26 51145 192.168.1.53 4000 PYTHONPATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/dfolse/repos/SPIDER/SPIDER_ws/build/nav2_util -- -j6 -l6
+[32.584s] [35m[1mScanning dependencies of target dump_params[0m
+[32.761s] [  2%] [32mBuilding CXX object src/CMakeFiles/dump_params.dir/dump_params.cpp.o[0m
+[66.492s] [  5%] [32m[1mLinking CXX executable dump_params[0m
+[66.848s] [  5%] Built target dump_params
+[66.888s] [35m[1mScanning dependencies of target gtest_main[0m
+[66.938s] [  7%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[68.688s] [ 10%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[68.805s] [ 10%] Built target gtest_main
+[68.840s] [35m[1mScanning dependencies of target gtest[0m
+[68.893s] [ 12%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[86.403s] [ 15%] [32m[1mLinking CXX static library libgtest.a[0m
+[86.556s] [ 15%] Built target gtest
+[86.565s] [35m[1mScanning dependencies of target nav2_util_core[0m
+[86.813s] [ 17%] [32mBuilding CXX object src/CMakeFiles/nav2_util_core.dir/costmap.cpp.o[0m
+[91.922s] [ 20%] [32mBuilding CXX object src/CMakeFiles/nav2_util_core.dir/lifecycle_utils.cpp.o[0m
+[95.999s] [ 22%] [32mBuilding CXX object src/CMakeFiles/nav2_util_core.dir/lifecycle_node.cpp.o[0m
+[101.135s] [ 25%] [32mBuilding CXX object src/CMakeFiles/nav2_util_core.dir/robot_utils.cpp.o[0m
+[106.203s] [ 27%] [32mBuilding CXX object src/CMakeFiles/nav2_util_core.dir/node_thread.cpp.o[0m
+[110.279s] [ 30%] [32mBuilding CXX object src/CMakeFiles/nav2_util_core.dir/odometry_utils.cpp.o[0m
+[124.952s] [ 32%] [32mBuilding CXX object src/CMakeFiles/nav2_util_core.dir/string_utils.cpp.o[0m
+[125.608s] [ 35%] [32mBuilding CXX object src/CMakeFiles/nav2_util_core.dir/lifecycle_service_client.cpp.o[0m
+[134.663s] [ 37%] [32mBuilding CXX object src/CMakeFiles/nav2_util_core.dir/node_utils.cpp.o[0m
+[139.091s] [ 40%] [32m[1mLinking CXX shared library libnav2_util_core.so[0m
+[139.517s] [ 40%] Built target nav2_util_core
+[139.550s] [35m[1mScanning dependencies of target test_execution_timer[0m
+[139.550s] [35m[1mScanning dependencies of target lifecycle_bringup[0m
+[139.550s] [35m[1mScanning dependencies of target test_service_client[0m
+[139.601s] [ 42%] [32mBuilding CXX object test/CMakeFiles/test_execution_timer.dir/test_execution_timer.cpp.o[0m
+[139.602s] [35m[1mScanning dependencies of target test_lifecycle_utils[0m
+[139.629s] [ 45%] [32mBuilding CXX object src/CMakeFiles/lifecycle_bringup.dir/lifecycle_bringup_commandline.cpp.o[0m
+[139.644s] [ 47%] [32mBuilding CXX object test/CMakeFiles/test_service_client.dir/test_service_client.cpp.o[0m
+[139.698s] [ 50%] [32mBuilding CXX object test/CMakeFiles/test_lifecycle_utils.dir/test_lifecycle_utils.cpp.o[0m
+[140.697s] [35m[1mScanning dependencies of target test_lifecycle_node[0m
+[140.803s] [ 52%] [32mBuilding CXX object test/CMakeFiles/test_lifecycle_node.dir/test_lifecycle_node.cpp.o[0m
+[141.800s] [35m[1mScanning dependencies of target test_string_utils[0m
+[141.865s] [ 55%] [32mBuilding CXX object test/CMakeFiles/test_string_utils.dir/test_string_utils.cpp.o[0m
+[142.306s] [ 57%] [32m[1mLinking CXX executable test_execution_timer[0m
+[142.555s] [ 57%] Built target test_execution_timer
+[142.603s] [35m[1mScanning dependencies of target test_actions[0m
+[142.760s] [ 60%] [32mBuilding CXX object test/CMakeFiles/test_actions.dir/test_actions.cpp.o[0m
+[144.132s] [ 62%] [32m[1mLinking CXX executable lifecycle_bringup[0m
+[144.460s] [ 62%] Built target lifecycle_bringup
+[144.498s] [35m[1mScanning dependencies of target test_node_utils[0m
+[144.612s] [ 65%] [32mBuilding CXX object test/CMakeFiles/test_node_utils.dir/test_node_utils.cpp.o[0m
+[144.890s] [ 67%] [32m[1mLinking CXX executable test_string_utils[0m
+[145.284s] [ 67%] Built target test_string_utils
+[145.337s] [35m[1mScanning dependencies of target test_lifecycle_cli_node[0m
+[145.453s] [ 70%] [32mBuilding CXX object test/CMakeFiles/test_lifecycle_cli_node.dir/test_lifecycle_cli_node.cpp.o[0m
+[146.728s] [ 72%] [32m[1mLinking CXX executable test_lifecycle_utils[0m
+[147.158s] [ 72%] Built target test_lifecycle_utils
+[147.202s] [35m[1mScanning dependencies of target test_geometry_utils[0m
+[147.331s] [ 75%] [32mBuilding CXX object test/CMakeFiles/test_geometry_utils.dir/test_geometry_utils.cpp.o[0m
+[147.788s] [ 77%] [32m[1mLinking CXX executable test_lifecycle_node[0m
+[148.228s] [ 80%] [32m[1mLinking CXX executable test_service_client[0m
+[148.228s] [ 80%] Built target test_lifecycle_node
+[148.264s] [35m[1mScanning dependencies of target test_odometry_utils[0m
+[148.387s] [ 82%] [32mBuilding CXX object test/CMakeFiles/test_odometry_utils.dir/test_odometry_utils.cpp.o[0m
+[148.660s] [ 82%] Built target test_service_client
+[148.700s] [35m[1mScanning dependencies of target test_robot_utils[0m
+[148.846s] [ 85%] [32mBuilding CXX object test/CMakeFiles/test_robot_utils.dir/test_robot_utils.cpp.o[0m
+[152.814s] [ 87%] [32m[1mLinking CXX executable test_lifecycle_cli_node[0m
+[153.242s] [ 87%] Built target test_lifecycle_cli_node
+[153.730s] [ 90%] [32m[1mLinking CXX executable test_geometry_utils[0m
+[153.988s] [ 92%] [32m[1mLinking CXX executable test_node_utils[0m
+[154.039s] [ 92%] Built target test_geometry_utils
+[154.363s] [ 92%] Built target test_node_utils
+[155.997s] [ 95%] [32m[1mLinking CXX executable test_robot_utils[0m
+[156.394s] [ 95%] Built target test_robot_utils
+[159.613s] [ 97%] [32m[1mLinking CXX executable test_odometry_utils[0m
+[159.984s] [ 97%] Built target test_odometry_utils
+[176.060s] [100%] [32m[1mLinking CXX executable test_actions[0m
+[176.500s] [100%] Built target test_actions

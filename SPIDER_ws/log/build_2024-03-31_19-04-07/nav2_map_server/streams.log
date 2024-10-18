@@ -1,0 +1,124 @@
+[0.135s] Invoking command in '/home/dfolse/repos/SPIDER/SPIDER_ws/build/nav2_map_server': AMENT_PREFIX_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_util:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_msgs:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_util:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_msgs:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_util/lib:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} NX_CONNECTION=192.168.1.26 63880 192.168.1.53 4000 PYTHONPATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/dfolse/repos/SPIDER/SPIDER_ws/src/navigation2/nav2_map_server -DCMAKE_INSTALL_PREFIX=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_map_server
+[0.434s] -- The C compiler identification is GNU 9.4.0
+[0.601s] -- The CXX compiler identification is GNU 9.4.0
+[0.609s] -- Check for working C compiler: /usr/bin/cc
+[0.965s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.968s] -- Detecting C compiler ABI info
+[1.260s] -- Detecting C compiler ABI info - done
+[1.279s] -- Detecting C compile features
+[1.280s] -- Detecting C compile features - done
+[1.284s] -- Check for working CXX compiler: /usr/bin/c++
+[1.579s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.581s] -- Detecting CXX compiler ABI info
+[1.861s] -- Detecting CXX compiler ABI info - done
+[1.885s] -- Detecting CXX compile features
+[1.887s] -- Detecting CXX compile features - done
+[1.894s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[2.311s] -- Found PythonInterp: /home/dfolse/.pyenv/shims/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.312s] -- Using PYTHON_EXECUTABLE: /home/dfolse/.pyenv/shims/python3
+[3.218s] -- Found nav2_common: 0.4.7 (/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_common/share/nav2_common/cmake)
+[3.222s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[3.343s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.363s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[3.727s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[3.806s] -- Found FastRTPS: /opt/ros/foxy/include  
+[4.064s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.217s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[4.219s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.221s] -- Looking for pthread.h
+[4.552s] -- Looking for pthread.h - found
+[4.553s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.877s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[4.878s] -- Looking for pthread_create in pthreads
+[5.157s] -- Looking for pthread_create in pthreads - not found
+[5.157s] -- Looking for pthread_create in pthread
+[5.424s] -- Looking for pthread_create in pthread - found
+[5.427s] -- Found Threads: TRUE  
+[5.778s] -- Found rclcpp_lifecycle: 2.4.3 (/opt/ros/foxy/share/rclcpp_lifecycle/cmake)
+[5.867s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[6.120s] -- Found nav2_msgs: 0.4.7 (/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_msgs/share/nav2_msgs/cmake)
+[6.693s] -- Found yaml_cpp_vendor: 7.0.3 (/opt/ros/foxy/share/yaml_cpp_vendor/cmake)
+[6.694s] -- Setting yaml-cpp_DIR to: '/opt/ros/foxy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/lib/cmake/yaml-cpp'
+[6.711s] -- Found tf2: 0.13.14 (/opt/ros/foxy/share/tf2/cmake)
+[6.734s] -- Found nav2_util: 0.4.7 (/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_util/share/nav2_util/cmake)
+[7.400s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[7.414s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[7.762s] -- Found GRAPHICSMAGICKCPP: /usr/include/GraphicsMagick  
+[7.762s] -- Setting build type to Release as none was specified.
+[9.193s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[9.829s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[9.838s] -- Check if compiler accepts -pthread
+[10.191s] -- Check if compiler accepts -pthread - yes
+[10.203s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[10.218s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[10.246s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[10.247s] -- Configured cppcheck include dirs: /home/dfolse/repos/SPIDER/SPIDER_ws/src/navigation2/nav2_map_server/include
+[10.247s] -- Configured cppcheck exclude dirs and/or files: 
+[10.251s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[10.251s] -- Configured cpplint exclude dirs and/or files: 
+[10.253s] -- Added test 'flake8' to check Python code syntax and style conventions
+[10.255s] -- Added test 'lint_cmake' to check CMake code style
+[10.257s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[10.261s] -- Added test 'uncrustify' to check C / C++ code style
+[10.261s] -- Configured uncrustify additional arguments: 
+[10.262s] -- Added test 'xmllint' to check XML markup files
+[10.278s] -- Configuring done
+[10.886s] -- Generating done
+[10.895s] -- Build files have been written to: /home/dfolse/repos/SPIDER/SPIDER_ws/build/nav2_map_server
+[10.953s] Invoked command in '/home/dfolse/repos/SPIDER/SPIDER_ws/build/nav2_map_server' returned '0': AMENT_PREFIX_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_util:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_msgs:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_util:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_msgs:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_util/lib:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} NX_CONNECTION=192.168.1.26 63880 192.168.1.53 4000 PYTHONPATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/dfolse/repos/SPIDER/SPIDER_ws/src/navigation2/nav2_map_server -DCMAKE_INSTALL_PREFIX=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_map_server
+[10.956s] Invoking command in '/home/dfolse/repos/SPIDER/SPIDER_ws/build/nav2_map_server': AMENT_PREFIX_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_util:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_msgs:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_util:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_msgs:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_util/lib:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} NX_CONNECTION=192.168.1.26 63880 192.168.1.53 4000 PYTHONPATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/dfolse/repos/SPIDER/SPIDER_ws/build/nav2_map_server
+[11.412s] [35m[1mScanning dependencies of target map_io[0m
+[11.437s] [  3%] [32mBuilding CXX object CMakeFiles/map_io.dir/src/map_mode.cpp.o[0m
+[12.220s] [  6%] [32mBuilding CXX object CMakeFiles/map_io.dir/src/map_io.cpp.o[0m
+[25.143s] [  9%] [32m[1mLinking CXX shared library libmap_io.so[0m
+[26.061s] [  9%] Built target map_io
+[26.160s] [35m[1mScanning dependencies of target map_server_core[0m
+[26.365s] [ 12%] [32mBuilding CXX object CMakeFiles/map_server_core.dir/src/map_server/map_server.cpp.o[0m
+[42.585s] [ 16%] [32mBuilding CXX object CMakeFiles/map_server_core.dir/src/map_saver/map_saver.cpp.o[0m
+[64.549s] [ 19%] [32m[1mLinking CXX shared library libmap_server_core.so[0m
+[65.345s] [ 19%] Built target map_server_core
+[65.386s] [35m[1mScanning dependencies of target map_server[0m
+[65.537s] [ 22%] [32mBuilding CXX object CMakeFiles/map_server.dir/src/map_server/main.cpp.o[0m
+[71.255s] [ 25%] [32m[1mLinking CXX executable map_server[0m
+[72.020s] [ 25%] Built target map_server
+[72.072s] [35m[1mScanning dependencies of target map_saver_cli[0m
+[72.185s] [ 29%] [32mBuilding CXX object CMakeFiles/map_saver_cli.dir/src/map_saver/main_cli.cpp.o[0m
+[78.640s] [ 32%] [32m[1mLinking CXX executable map_saver_cli[0m
+[79.578s] [ 32%] Built target map_saver_cli
+[79.661s] [35m[1mScanning dependencies of target map_saver_server[0m
+[79.804s] [ 35%] [32mBuilding CXX object CMakeFiles/map_saver_server.dir/src/map_saver/main_server.cpp.o[0m
+[86.156s] [ 38%] [32m[1mLinking CXX executable map_saver_server[0m
+[86.920s] [ 38%] Built target map_saver_server
+[86.997s] [35m[1mScanning dependencies of target gtest[0m
+[87.128s] [ 41%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[106.224s] [ 45%] [32m[1mLinking CXX static library libgtest.a[0m
+[106.338s] [ 45%] Built target gtest
+[106.372s] [35m[1mScanning dependencies of target gtest_main[0m
+[106.414s] [ 48%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[108.100s] [ 51%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[108.211s] [ 51%] Built target gtest_main
+[108.250s] [35m[1mScanning dependencies of target test_map_io[0m
+[108.365s] [ 54%] [32mBuilding CXX object test/unit/CMakeFiles/test_map_io.dir/test_map_io.cpp.o[0m
+[117.969s] [ 58%] [32mBuilding CXX object test/unit/CMakeFiles/test_map_io.dir/__/test_constants.cpp.o[0m
+[118.285s] [ 61%] [32m[1mLinking CXX executable test_map_io[0m
+[118.820s] [ 61%] Built target test_map_io
+[118.863s] [35m[1mScanning dependencies of target test_map_saver_publisher[0m
+[118.957s] [ 64%] [32mBuilding CXX object test/component/CMakeFiles/test_map_saver_publisher.dir/test_map_saver_publisher.cpp.o[0m
+[129.460s] [ 67%] [32mBuilding CXX object test/component/CMakeFiles/test_map_saver_publisher.dir/__/test_constants.cpp.o[0m
+[129.770s] [ 70%] [32m[1mLinking CXX executable test_map_saver_publisher[0m
+[130.242s] [ 70%] Built target test_map_saver_publisher
+[130.277s] [35m[1mScanning dependencies of target test_map_saver_node[0m
+[130.400s] [ 74%] [32mBuilding CXX object test/component/CMakeFiles/test_map_saver_node.dir/test_map_saver_node.cpp.o[0m
+[141.181s] [ 77%] [32mBuilding CXX object test/component/CMakeFiles/test_map_saver_node.dir/__/test_constants.cpp.o[0m
+[141.486s] [ 80%] [32m[1mLinking CXX executable test_map_saver_node[0m
+[142.044s] [ 80%] Built target test_map_saver_node
+[142.081s] [35m[1mScanning dependencies of target test_map_server_node[0m
+[142.188s] [ 83%] [32mBuilding CXX object test/component/CMakeFiles/test_map_server_node.dir/test_map_server_node.cpp.o[0m
+[153.674s] [ 87%] [32mBuilding CXX object test/component/CMakeFiles/test_map_server_node.dir/__/test_constants.cpp.o[0m
+[153.992s] [ 90%] [32m[1mLinking CXX executable test_map_server_node[0m
+[154.458s] [ 90%] Built target test_map_server_node
+[154.498s] [35m[1mScanning dependencies of target test_map_saver_cli[0m
+[154.592s] [ 93%] [32mBuilding CXX object test/map_saver_cli/CMakeFiles/test_map_saver_cli.dir/test_map_saver_cli.cpp.o[0m
+[165.463s] [ 96%] [32mBuilding CXX object test/map_saver_cli/CMakeFiles/test_map_saver_cli.dir/__/test_constants.cpp.o[0m
+[165.776s] [100%] [32m[1mLinking CXX executable test_map_saver_cli[0m
+[166.119s] [100%] Built target test_map_saver_cli

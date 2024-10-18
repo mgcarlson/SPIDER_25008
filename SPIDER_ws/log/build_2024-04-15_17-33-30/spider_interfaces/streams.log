@@ -1,0 +1,15 @@
+[0.166s] Invoking command in '/home/dfolse/repos/SPIDER/SPIDER_ws/build/spider_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/dfolse/repos/SPIDER/SPIDER_ws/build/spider_interfaces -- -j4 -l4
+[0.831s] [  2%] Built target spider_interfaces__cpp
+[0.843s] [ 12%] Built target spider_interfaces__rosidl_generator_c
+[1.282s] [ 23%] Built target spider_interfaces__rosidl_typesupport_cpp
+[1.309s] [ 33%] Built target spider_interfaces__rosidl_typesupport_c
+[1.329s] [ 43%] Built target spider_interfaces__rosidl_typesupport_introspection_c
+[1.376s] [ 53%] Built target spider_interfaces__rosidl_typesupport_fastrtps_cpp
+[1.568s] [ 64%] Built target spider_interfaces__rosidl_typesupport_introspection_cpp
+[1.692s] [ 74%] Built target spider_interfaces__rosidl_typesupport_fastrtps_c
+[1.866s] [ 74%] Built target spider_interfaces
+[2.079s] [ 76%] Built target spider_interfaces__py
+[2.290s] [ 84%] Built target spider_interfaces__python
+[2.570s] [ 89%] Built target spider_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[2.599s] [ 94%] Built target spider_interfaces__rosidl_typesupport_c__pyext
+[2.638s] [100%] Built target spider_interfaces__rosidl_typesupport_introspection_c__pyext

@@ -1,0 +1,6 @@
+CMake Error at cmake_install.cmake:41 (file):
+  file INSTALL cannot find
+  "/home/dfolse/repos/SPIDER/SPIDER_ws/src/spider_description/src": No such
+  file or directory.
+
+

@@ -1,0 +1,25 @@
+[0.879s] Invoking command in '/home/dfolse/SPIDER/SPIDER_ws/src/data_transfer': PYTHONPATH=/home/dfolse/SPIDER/SPIDER_ws/build/data_transfer/prefix_override:/home/dfolse/SPIDER/SPIDER_ws/install/data_transfer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/data_transfer build --build-base /home/dfolse/SPIDER/SPIDER_ws/build/data_transfer/build install --record /home/dfolse/SPIDER/SPIDER_ws/build/data_transfer/install.log --single-version-externally-managed
+[1.118s] running egg_info
+[1.120s] writing ../../build/data_transfer/data_transfer.egg-info/PKG-INFO
+[1.120s] writing dependency_links to ../../build/data_transfer/data_transfer.egg-info/dependency_links.txt
+[1.120s] writing entry points to ../../build/data_transfer/data_transfer.egg-info/entry_points.txt
+[1.120s] writing requirements to ../../build/data_transfer/data_transfer.egg-info/requires.txt
+[1.121s] writing top-level names to ../../build/data_transfer/data_transfer.egg-info/top_level.txt
+[1.122s] reading manifest file '../../build/data_transfer/data_transfer.egg-info/SOURCES.txt'
+[1.123s] writing manifest file '../../build/data_transfer/data_transfer.egg-info/SOURCES.txt'
+[1.123s] running build
+[1.123s] running build_py
+[1.123s] copying data_transfer/publish_transfer.py -> /home/dfolse/SPIDER/SPIDER_ws/build/data_transfer/build/lib/data_transfer
+[1.123s] running install
+[1.124s] running install_lib
+[1.124s] copying /home/dfolse/SPIDER/SPIDER_ws/build/data_transfer/build/lib/data_transfer/publish_transfer.py -> /home/dfolse/SPIDER/SPIDER_ws/install/data_transfer/lib/python3.10/site-packages/data_transfer
+[1.126s] byte-compiling /home/dfolse/SPIDER/SPIDER_ws/install/data_transfer/lib/python3.10/site-packages/data_transfer/publish_transfer.py to publish_transfer.cpython-310.pyc
+[1.126s] running install_data
+[1.127s] running install_egg_info
+[1.129s] removing '/home/dfolse/SPIDER/SPIDER_ws/install/data_transfer/lib/python3.10/site-packages/data_transfer-0.0.0-py3.10.egg-info' (and everything under it)
+[1.129s] Copying ../../build/data_transfer/data_transfer.egg-info to /home/dfolse/SPIDER/SPIDER_ws/install/data_transfer/lib/python3.10/site-packages/data_transfer-0.0.0-py3.10.egg-info
+[1.130s] running install_scripts
+[1.149s] Installing listener script to /home/dfolse/SPIDER/SPIDER_ws/install/data_transfer/lib/data_transfer
+[1.149s] Installing talker script to /home/dfolse/SPIDER/SPIDER_ws/install/data_transfer/lib/data_transfer
+[1.149s] writing list of installed files to '/home/dfolse/SPIDER/SPIDER_ws/build/data_transfer/install.log'
+[1.184s] Invoked command in '/home/dfolse/SPIDER/SPIDER_ws/src/data_transfer' returned '0': PYTHONPATH=/home/dfolse/SPIDER/SPIDER_ws/build/data_transfer/prefix_override:/home/dfolse/SPIDER/SPIDER_ws/install/data_transfer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/data_transfer build --build-base /home/dfolse/SPIDER/SPIDER_ws/build/data_transfer/build install --record /home/dfolse/SPIDER/SPIDER_ws/build/data_transfer/install.log --single-version-externally-managed

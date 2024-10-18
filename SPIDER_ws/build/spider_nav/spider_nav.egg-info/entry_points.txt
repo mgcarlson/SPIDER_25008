@@ -1,0 +1,7 @@
+[console_scripts]
+gps_waypoint_logger = spider_nav.gps_waypoint_logger:main
+interactive_waypoint_follower = spider_nav.interactive_waypoint_follower:main
+logged_waypoint_follower = spider_nav.logged_waypoint_follower:main
+spider_gps_pub = spider_nav.spider_gps_pub:main
+spider_nav_main = spider_nav.spider_nav_main:main
+

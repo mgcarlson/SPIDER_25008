@@ -1,0 +1,20 @@
+running egg_info
+writing ../../build/data_transfer/data_transfer.egg-info/PKG-INFO
+writing dependency_links to ../../build/data_transfer/data_transfer.egg-info/dependency_links.txt
+writing entry points to ../../build/data_transfer/data_transfer.egg-info/entry_points.txt
+writing requirements to ../../build/data_transfer/data_transfer.egg-info/requires.txt
+writing top-level names to ../../build/data_transfer/data_transfer.egg-info/top_level.txt
+reading manifest file '../../build/data_transfer/data_transfer.egg-info/SOURCES.txt'
+writing manifest file '../../build/data_transfer/data_transfer.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/dfolse/SPIDER/SPIDER_ws/install/data_transfer/lib/python3.10/site-packages/data_transfer-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/data_transfer/data_transfer.egg-info to /home/dfolse/SPIDER/SPIDER_ws/install/data_transfer/lib/python3.10/site-packages/data_transfer-0.0.0-py3.10.egg-info
+running install_scripts
+Installing listener script to /home/dfolse/SPIDER/SPIDER_ws/install/data_transfer/lib/data_transfer
+Installing talker script to /home/dfolse/SPIDER/SPIDER_ws/install/data_transfer/lib/data_transfer
+writing list of installed files to '/home/dfolse/SPIDER/SPIDER_ws/build/data_transfer/install.log'

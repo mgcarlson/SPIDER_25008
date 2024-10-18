@@ -1,0 +1,28 @@
+[  7%] [32mBuilding CXX object CMakeFiles/mobilenet_node.dir/ros2_src/mobilenet_publisher.cpp.o[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/rgb_stereo_node.dir/ros2_src/rgb_stereo_node.cpp.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/stereo_node.dir/ros2_src/stereo_publisher.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/crop_control_service.dir/ros2_src/crop_control_service.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/yolov4_spatial_node.dir/ros2_src/yolov4_spatial_publisher.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/stereo_inertial_node.dir/ros2_src/stereo_inertial_publisher.cpp.o[0m
+[01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+compilation terminated.
+make[2]: *** [CMakeFiles/rgb_stereo_node.dir/build.make:63: CMakeFiles/rgb_stereo_node.dir/ros2_src/rgb_stereo_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:252: CMakeFiles/rgb_stereo_node.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+[ 50%] [32m[1mLinking CXX executable crop_control_service[0m
+[ 50%] Built target crop_control_service
+[01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+compilation terminated.
+make[2]: *** [CMakeFiles/mobilenet_node.dir/build.make:63: CMakeFiles/mobilenet_node.dir/ros2_src/mobilenet_publisher.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:144: CMakeFiles/mobilenet_node.dir/all] Error 2
+[01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+compilation terminated.
+make[2]: *** [CMakeFiles/stereo_node.dir/build.make:63: CMakeFiles/stereo_node.dir/ros2_src/stereo_publisher.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:198: CMakeFiles/stereo_node.dir/all] Error 2
+[ 57%] [32m[1mLinking CXX executable yolov4_spatial_node[0m
+/usr/bin/ld: warning: libopencv_imgcodecs.so.4.2, needed by /opt/ros/foxy/lib/libdepthai_bridge.so, may conflict with libopencv_imgcodecs.so.4.5
+[ 57%] Built target yolov4_spatial_node
+[ 64%] [32m[1mLinking CXX executable stereo_inertial_node[0m
+/usr/bin/ld: warning: libopencv_imgcodecs.so.4.2, needed by /opt/ros/foxy/lib/libdepthai_bridge.so, may conflict with libopencv_imgcodecs.so.4.5
+[ 64%] Built target stereo_inertial_node
+make: *** [Makefile:141: all] Error 2

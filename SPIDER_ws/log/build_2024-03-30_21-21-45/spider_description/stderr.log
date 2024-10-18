@@ -1,0 +1,23 @@
+CMake Warning at CMakeLists.txt:21 (find_package):
+  By not providing "Findroslaunch.cmake" in CMAKE_MODULE_PATH this project
+  has asked CMake to find a package configuration file provided by
+  "roslaunch", but CMake did not find one.
+
+  Could not find a package configuration file provided by "roslaunch" with
+  any of the following names:
+
+    roslaunchConfig.cmake
+    roslaunch-config.cmake
+
+  Add the installation prefix of "roslaunch" to CMAKE_PREFIX_PATH or set
+  "roslaunch_DIR" to a directory containing one of the above files.  If
+  "roslaunch" provides a separate development package or SDK, be sure it has
+  been installed.
+
+
+CMake Error at cmake_install.cmake:49 (file):
+  file INSTALL cannot find
+  "/home/dfolse/repos/SPIDER/SPIDER_ws/src/spider_description/config": No
+  such file or directory.
+
+

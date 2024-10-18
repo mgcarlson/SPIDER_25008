@@ -1,0 +1,16 @@
+[0.769s] Invoking command in '/home/dfolse/repos/SPIDER/SPIDER_ws/build/dwb_msgs': AMENT_PREFIX_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} NX_CONNECTION=192.168.1.26 58481 192.168.1.53 4000 PYTHONPATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/dfolse/repos/SPIDER/SPIDER_ws/build/dwb_msgs -- -j6 -l6
+[0.959s] [  3%] Built target dwb_msgs__cpp
+[0.960s] [ 12%] Built target dwb_msgs__rosidl_generator_c
+[1.057s] [ 24%] Built target dwb_msgs__rosidl_typesupport_cpp
+[1.068s] [ 35%] Built target dwb_msgs__rosidl_typesupport_introspection_c
+[1.077s] [ 47%] Built target dwb_msgs__rosidl_typesupport_introspection_cpp
+[1.083s] [ 58%] Built target dwb_msgs__rosidl_typesupport_fastrtps_cpp
+[1.096s] [ 70%] Built target dwb_msgs__rosidl_typesupport_c
+[1.187s] [ 82%] Built target dwb_msgs__rosidl_typesupport_fastrtps_c
+[1.256s] [ 82%] Built target dwb_msgs
+[1.330s] [ 83%] Built target dwb_msgs__py
+[1.428s] [ 93%] Built target dwb_msgs__python
+[1.521s] [ 95%] Built target dwb_msgs__rosidl_typesupport_c__pyext
+[1.521s] [ 97%] Built target dwb_msgs__rosidl_typesupport_introspection_c__pyext
+[1.523s] [100%] Built target dwb_msgs__rosidl_typesupport_fastrtps_c__pyext
+[1.662s] Invoked command in '/home/dfolse/repos/SPIDER/SPIDER_ws/build/dwb_msgs' returned '0': AMENT_PREFIX_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} NX_CONNECTION=192.168.1.26 58481 192.168.1.53 4000 PYTHONPATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/dfolse/repos/SPIDER/SPIDER_ws/build/dwb_msgs -- -j6 -l6

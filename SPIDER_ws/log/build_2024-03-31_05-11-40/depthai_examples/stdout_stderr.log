@@ -1,0 +1,34 @@
+-- Using PYTHON_EXECUTABLE: /home/dfolse/.pyenv/shims/python3
+-- ------------------------------------------
+-- Depthai Bridge is being built using AMENT.
+-- ------------------------------------------
+-- Found camera_info_manager: 2.4.0 (/opt/ros/foxy/share/camera_info_manager/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Setting yaml-cpp_DIR to: '/opt/ros/foxy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/lib/cmake/yaml-cpp'
+-- Found cv_bridge: 3.0.7 (/opt/ros/foxy/share/cv_bridge/cmake)
+-- Found depthai_ros_msgs: 2.7.1 (/opt/ros/foxy/share/depthai_ros_msgs/cmake)
+-- Found depthai_bridge: 2.7.1 (/opt/ros/foxy/share/depthai_bridge/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/dfolse/repos/SPIDER/SPIDER_ws/build/depthai_examples
+[35m[1mScanning dependencies of target stereo_inertial_node[0m
+[35m[1mScanning dependencies of target stereo_node[0m
+[35m[1mScanning dependencies of target rgb_stereo_node[0m
+[35m[1mScanning dependencies of target crop_control_service[0m
+[35m[1mScanning dependencies of target yolov4_spatial_node[0m
+[35m[1mScanning dependencies of target mobilenet_node[0m
+[  7%] [32mBuilding CXX object CMakeFiles/crop_control_service.dir/ros2_src/crop_control_service.cpp.o[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/stereo_node.dir/ros2_src/stereo_publisher.cpp.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/rgb_stereo_node.dir/ros2_src/rgb_stereo_node.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/yolov4_spatial_node.dir/ros2_src/yolov4_spatial_publisher.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/stereo_inertial_node.dir/ros2_src/stereo_inertial_publisher.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/mobilenet_node.dir/ros2_src/mobilenet_publisher.cpp.o[0m
+[01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+compilation terminated.
+make[2]: *** [CMakeFiles/rgb_stereo_node.dir/build.make:63: CMakeFiles/rgb_stereo_node.dir/ros2_src/rgb_stereo_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:252: CMakeFiles/rgb_stereo_node.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....

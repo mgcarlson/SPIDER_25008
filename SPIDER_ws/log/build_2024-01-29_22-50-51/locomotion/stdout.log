@@ -1,0 +1,42 @@
+running egg_info
+creating ../../build/locomotion/locomotion.egg-info
+writing ../../build/locomotion/locomotion.egg-info/PKG-INFO
+writing dependency_links to ../../build/locomotion/locomotion.egg-info/dependency_links.txt
+writing entry points to ../../build/locomotion/locomotion.egg-info/entry_points.txt
+writing requirements to ../../build/locomotion/locomotion.egg-info/requires.txt
+writing top-level names to ../../build/locomotion/locomotion.egg-info/top_level.txt
+writing manifest file '../../build/locomotion/locomotion.egg-info/SOURCES.txt'
+reading manifest file '../../build/locomotion/locomotion.egg-info/SOURCES.txt'
+writing manifest file '../../build/locomotion/locomotion.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/dfolse/repos/SPIDER/SPIDER_ws/build/locomotion/build
+creating /home/dfolse/repos/SPIDER/SPIDER_ws/build/locomotion/build/lib
+creating /home/dfolse/repos/SPIDER/SPIDER_ws/build/locomotion/build/lib/locomotion
+copying locomotion/servoControllerBack.py -> /home/dfolse/repos/SPIDER/SPIDER_ws/build/locomotion/build/lib/locomotion
+copying locomotion/locomotion_subscriber.py -> /home/dfolse/repos/SPIDER/SPIDER_ws/build/locomotion/build/lib/locomotion
+copying locomotion/__init__.py -> /home/dfolse/repos/SPIDER/SPIDER_ws/build/locomotion/build/lib/locomotion
+copying locomotion/locomotion_publisher.py -> /home/dfolse/repos/SPIDER/SPIDER_ws/build/locomotion/build/lib/locomotion
+copying locomotion/servoController.py -> /home/dfolse/repos/SPIDER/SPIDER_ws/build/locomotion/build/lib/locomotion
+running install
+running install_lib
+creating /home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion/lib/python3.8/site-packages/locomotion
+copying /home/dfolse/repos/SPIDER/SPIDER_ws/build/locomotion/build/lib/locomotion/servoControllerBack.py -> /home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion/lib/python3.8/site-packages/locomotion
+copying /home/dfolse/repos/SPIDER/SPIDER_ws/build/locomotion/build/lib/locomotion/locomotion_subscriber.py -> /home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion/lib/python3.8/site-packages/locomotion
+copying /home/dfolse/repos/SPIDER/SPIDER_ws/build/locomotion/build/lib/locomotion/__init__.py -> /home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion/lib/python3.8/site-packages/locomotion
+copying /home/dfolse/repos/SPIDER/SPIDER_ws/build/locomotion/build/lib/locomotion/locomotion_publisher.py -> /home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion/lib/python3.8/site-packages/locomotion
+copying /home/dfolse/repos/SPIDER/SPIDER_ws/build/locomotion/build/lib/locomotion/servoController.py -> /home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion/lib/python3.8/site-packages/locomotion
+byte-compiling /home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion/lib/python3.8/site-packages/locomotion/servoControllerBack.py to servoControllerBack.cpython-38.pyc
+byte-compiling /home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion/lib/python3.8/site-packages/locomotion/locomotion_subscriber.py to locomotion_subscriber.cpython-38.pyc
+byte-compiling /home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion/lib/python3.8/site-packages/locomotion/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion/lib/python3.8/site-packages/locomotion/locomotion_publisher.py to locomotion_publisher.cpython-38.pyc
+byte-compiling /home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion/lib/python3.8/site-packages/locomotion/servoController.py to servoController.cpython-38.pyc
+running install_data
+copying resource/locomotion -> /home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion/share/ament_index/resource_index/packages
+copying package.xml -> /home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion/share/locomotion
+running install_egg_info
+Copying ../../build/locomotion/locomotion.egg-info to /home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion/lib/python3.8/site-packages/locomotion-0.0.0-py3.8.egg-info
+running install_scripts
+Installing listener script to /home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion/lib/locomotion
+Installing talker script to /home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion/lib/locomotion
+writing list of installed files to '/home/dfolse/repos/SPIDER/SPIDER_ws/build/locomotion/install.log'

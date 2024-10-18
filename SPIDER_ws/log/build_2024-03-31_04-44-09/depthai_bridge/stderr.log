@@ -1,0 +1,7 @@
+[01m[K/home/dfolse/repos/SPIDER/SPIDER_ws/src/luxonis/depthai-ros/depthai_bridge/src/TFPublisher.cpp:19:10:[m[K [01;31m[Kfatal error: [m[Ktf2_geometry_msgs/tf2_geometry_msgs.hpp: No such file or directory
+   19 | #include [01;31m[K"tf2_geometry_msgs/tf2_geometry_msgs.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/depthai_bridge.dir/build.make:128: CMakeFiles/depthai_bridge.dir/src/TFPublisher.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/depthai_bridge.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

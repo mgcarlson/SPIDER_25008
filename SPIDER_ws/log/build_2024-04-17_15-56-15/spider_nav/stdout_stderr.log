@@ -1,0 +1,19 @@
+running develop
+running egg_info
+writing spider_nav.egg-info/PKG-INFO
+writing dependency_links to spider_nav.egg-info/dependency_links.txt
+writing entry points to spider_nav.egg-info/entry_points.txt
+writing requirements to spider_nav.egg-info/requires.txt
+writing top-level names to spider_nav.egg-info/top_level.txt
+reading manifest file 'spider_nav.egg-info/SOURCES.txt'
+writing manifest file 'spider_nav.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_nav/lib/python3.8/site-packages/spider-nav.egg-link (link to .)
+Installing gps_waypoint_logger script to /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_nav/lib/spider_nav
+Installing interactive_waypoint_follower script to /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_nav/lib/spider_nav
+Installing logged_waypoint_follower script to /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_nav/lib/spider_nav
+Installing spider_gps_pub script to /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_nav/lib/spider_nav
+Installing spider_nav_main script to /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_nav/lib/spider_nav
+
+Installed /home/dfolse/repos/SPIDER/SPIDER_ws/build/spider_nav
+running symlink_data

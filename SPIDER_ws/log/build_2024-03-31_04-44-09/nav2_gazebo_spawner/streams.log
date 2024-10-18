@@ -1,0 +1,21 @@
+[8.264s] Invoking command in '/home/dfolse/repos/SPIDER/SPIDER_ws/src/navigation2/nav2_bringup/nav2_gazebo_spawner': NX_CONNECTION=192.168.1.26 58481 192.168.1.53 4000 PYTHONPATH=/home/dfolse/repos/SPIDER/SPIDER_ws/build/nav2_gazebo_spawner/prefix_override:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_gazebo_spawner/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/nav2_gazebo_spawner build --build-base /home/dfolse/repos/SPIDER/SPIDER_ws/build/nav2_gazebo_spawner/build install --record /home/dfolse/repos/SPIDER/SPIDER_ws/build/nav2_gazebo_spawner/install.log --single-version-externally-managed
+[9.825s] running egg_info
+[9.828s] writing ../../../../build/nav2_gazebo_spawner/nav2_gazebo_spawner.egg-info/PKG-INFO
+[9.829s] writing dependency_links to ../../../../build/nav2_gazebo_spawner/nav2_gazebo_spawner.egg-info/dependency_links.txt
+[9.830s] writing entry points to ../../../../build/nav2_gazebo_spawner/nav2_gazebo_spawner.egg-info/entry_points.txt
+[9.831s] writing requirements to ../../../../build/nav2_gazebo_spawner/nav2_gazebo_spawner.egg-info/requires.txt
+[9.832s] writing top-level names to ../../../../build/nav2_gazebo_spawner/nav2_gazebo_spawner.egg-info/top_level.txt
+[9.861s] reading manifest file '../../../../build/nav2_gazebo_spawner/nav2_gazebo_spawner.egg-info/SOURCES.txt'
+[9.873s] writing manifest file '../../../../build/nav2_gazebo_spawner/nav2_gazebo_spawner.egg-info/SOURCES.txt'
+[9.876s] running build
+[9.877s] running build_py
+[9.880s] running install
+[9.896s] running install_lib
+[9.906s] running install_data
+[9.913s] running install_egg_info
+[9.922s] removing '/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_gazebo_spawner/lib/python3.8/site-packages/nav2_gazebo_spawner-0.3.0-py3.8.egg-info' (and everything under it)
+[9.923s] Copying ../../../../build/nav2_gazebo_spawner/nav2_gazebo_spawner.egg-info to /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_gazebo_spawner/lib/python3.8/site-packages/nav2_gazebo_spawner-0.3.0-py3.8.egg-info
+[9.930s] running install_scripts
+[10.071s] Installing nav2_gazebo_spawner script to /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_gazebo_spawner/lib/nav2_gazebo_spawner
+[10.072s] writing list of installed files to '/home/dfolse/repos/SPIDER/SPIDER_ws/build/nav2_gazebo_spawner/install.log'
+[10.369s] Invoked command in '/home/dfolse/repos/SPIDER/SPIDER_ws/src/navigation2/nav2_bringup/nav2_gazebo_spawner' returned '0': NX_CONNECTION=192.168.1.26 58481 192.168.1.53 4000 PYTHONPATH=/home/dfolse/repos/SPIDER/SPIDER_ws/build/nav2_gazebo_spawner/prefix_override:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_gazebo_spawner/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/nav2_gazebo_spawner build --build-base /home/dfolse/repos/SPIDER/SPIDER_ws/build/nav2_gazebo_spawner/build install --record /home/dfolse/repos/SPIDER/SPIDER_ws/build/nav2_gazebo_spawner/install.log --single-version-externally-managed

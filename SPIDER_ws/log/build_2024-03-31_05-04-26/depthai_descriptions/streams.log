@@ -1,0 +1,39 @@
+[1.007s] Invoking command in '/home/dfolse/repos/SPIDER/SPIDER_ws/build/depthai_descriptions': CMAKE_PREFIX_PATH=/opt/ros/foxy NX_CONNECTION=192.168.1.26 58481 192.168.1.53 4000 /usr/bin/cmake --build /home/dfolse/repos/SPIDER/SPIDER_ws/build/depthai_descriptions -- -j6 -l6
+[1.084s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.464s] -- Using PYTHON_EXECUTABLE: /home/dfolse/.pyenv/shims/python3
+[2.509s] -- Configuring done
+[2.520s] -- Generating done
+[2.523s] -- Build files have been written to: /home/dfolse/repos/SPIDER/SPIDER_ws/build/depthai_descriptions
+[3.043s] Invoked command in '/home/dfolse/repos/SPIDER/SPIDER_ws/build/depthai_descriptions' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy NX_CONNECTION=192.168.1.26 58481 192.168.1.53 4000 /usr/bin/cmake --build /home/dfolse/repos/SPIDER/SPIDER_ws/build/depthai_descriptions -- -j6 -l6
+[4.122s] Invoking command in '/home/dfolse/repos/SPIDER/SPIDER_ws/build/depthai_descriptions': CMAKE_PREFIX_PATH=/opt/ros/foxy NX_CONNECTION=192.168.1.26 58481 192.168.1.53 4000 /usr/bin/cmake --install /home/dfolse/repos/SPIDER/SPIDER_ws/build/depthai_descriptions
+[4.462s] -- Install configuration: ""
+[4.463s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/depthai_descriptions/share/depthai_descriptions/launch
+[4.463s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/depthai_descriptions/share/depthai_descriptions/launch/urdf_launch.py
+[4.463s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/depthai_descriptions/share/depthai_descriptions/urdf
+[4.464s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/depthai_descriptions/share/depthai_descriptions/urdf/depthai_descr.urdf.xacro
+[4.464s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/depthai_descriptions/share/depthai_descriptions/urdf/include
+[4.464s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/depthai_descriptions/share/depthai_descriptions/urdf/include/depthai_macro.urdf.xacro
+[4.465s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/depthai_descriptions/share/depthai_descriptions/urdf/models
+[4.465s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/depthai_descriptions/share/depthai_descriptions/urdf/models/OAK-D-PRO.stl
+[4.465s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/depthai_descriptions/share/depthai_descriptions/urdf/models/OAK-D-IOT-75.stl
+[4.465s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/depthai_descriptions/share/depthai_descriptions/urdf/models/OAK-D.stl
+[4.465s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/depthai_descriptions/share/depthai_descriptions/urdf/models/OAK-D-CM4-POE.stl
+[4.466s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/depthai_descriptions/share/depthai_descriptions/urdf/models/OAK-D-S2.stl
+[4.466s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/depthai_descriptions/share/depthai_descriptions/urdf/models/OAK-D-LITE.stl
+[4.466s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/depthai_descriptions/share/depthai_descriptions/urdf/models/OAK-D-POE.stl
+[4.466s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/depthai_descriptions/share/ament_index/resource_index/package_run_dependencies/depthai_descriptions
+[4.466s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/depthai_descriptions/share/ament_index/resource_index/parent_prefix_path/depthai_descriptions
+[4.466s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/depthai_descriptions/share/depthai_descriptions/environment/ament_prefix_path.sh
+[4.467s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/depthai_descriptions/share/depthai_descriptions/environment/ament_prefix_path.dsv
+[4.467s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/depthai_descriptions/share/depthai_descriptions/environment/path.sh
+[4.467s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/depthai_descriptions/share/depthai_descriptions/environment/path.dsv
+[4.467s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/depthai_descriptions/share/depthai_descriptions/local_setup.bash
+[4.467s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/depthai_descriptions/share/depthai_descriptions/local_setup.sh
+[4.467s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/depthai_descriptions/share/depthai_descriptions/local_setup.zsh
+[4.468s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/depthai_descriptions/share/depthai_descriptions/local_setup.dsv
+[4.468s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/depthai_descriptions/share/depthai_descriptions/package.dsv
+[4.468s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/depthai_descriptions/share/ament_index/resource_index/packages/depthai_descriptions
+[4.468s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/depthai_descriptions/share/depthai_descriptions/cmake/depthai_descriptionsConfig.cmake
+[4.468s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/depthai_descriptions/share/depthai_descriptions/cmake/depthai_descriptionsConfig-version.cmake
+[4.468s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/depthai_descriptions/share/depthai_descriptions/package.xml
+[5.506s] Invoked command in '/home/dfolse/repos/SPIDER/SPIDER_ws/build/depthai_descriptions' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy NX_CONNECTION=192.168.1.26 58481 192.168.1.53 4000 /usr/bin/cmake --install /home/dfolse/repos/SPIDER/SPIDER_ws/build/depthai_descriptions

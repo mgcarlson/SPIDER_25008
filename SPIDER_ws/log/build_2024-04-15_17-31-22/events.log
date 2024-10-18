@@ -1,0 +1,148 @@
+[0.000000] (-) TimerEvent: {}
+[0.001147] (spider_description) JobQueued: {'identifier': 'spider_description', 'dependencies': OrderedDict()}
+[0.001438] (spider_interfaces) JobQueued: {'identifier': 'spider_interfaces', 'dependencies': OrderedDict()}
+[0.002181] (locomotion) JobQueued: {'identifier': 'locomotion', 'dependencies': OrderedDict([('spider_interfaces', '/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces')])}
+[0.002764] (spider_nav) JobQueued: {'identifier': 'spider_nav', 'dependencies': OrderedDict([('spider_interfaces', '/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces'), ('locomotion', '/home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion')])}
+[0.003262] (data_transfer) JobQueued: {'identifier': 'data_transfer', 'dependencies': OrderedDict([('spider_interfaces', '/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces'), ('locomotion', '/home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion'), ('spider_nav', '/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_nav')])}
+[0.003452] (spider_interfaces) JobStarted: {'identifier': 'spider_interfaces'}
+[0.053163] (spider_description) JobStarted: {'identifier': 'spider_description'}
+[0.101441] (-) TimerEvent: {}
+[0.123033] (spider_interfaces) JobProgress: {'identifier': 'spider_interfaces', 'progress': 'cmake'}
+[0.144635] (spider_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/dfolse/repos/SPIDER/SPIDER_ws/src/spider_interfaces', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces'], 'cwd': '/home/dfolse/repos/SPIDER/SPIDER_ws/build/spider_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'dfolse'), ('SSH_AGENT_PID', '1817'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/dfolse'), ('OLDPWD', '/home/dfolse/repos/SPIDER'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1722'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'dfolse'), ('JOURNAL_STREAM', '9:36641'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dfolse'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/spiderpi:@/tmp/.ICE-unix/1900,unix/spiderpi:/tmp/.ICE-unix/1900'), ('INVOCATION_ID', '41c245ae9a724329b80b37abce1cdc5f'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7c2530b3_374c_4e09_9b8c_0a87894eeb0f'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.96'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dfolse/repos/SPIDER/SPIDER_ws/build/spider_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.207104] (-) TimerEvent: {}
+[0.224809] (spider_description) JobProgress: {'identifier': 'spider_description', 'progress': 'cmake'}
+[0.232102] (spider_description) Command: {'cmd': ['/usr/bin/cmake', '/home/dfolse/repos/SPIDER/SPIDER_ws/src/spider_description', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description'], 'cwd': '/home/dfolse/repos/SPIDER/SPIDER_ws/build/spider_description', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'dfolse'), ('SSH_AGENT_PID', '1817'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/dfolse'), ('OLDPWD', '/home/dfolse/repos/SPIDER'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1722'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'dfolse'), ('JOURNAL_STREAM', '9:36641'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dfolse'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/spiderpi:@/tmp/.ICE-unix/1900,unix/spiderpi:/tmp/.ICE-unix/1900'), ('INVOCATION_ID', '41c245ae9a724329b80b37abce1cdc5f'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7c2530b3_374c_4e09_9b8c_0a87894eeb0f'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.96'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dfolse/repos/SPIDER/SPIDER_ws/build/spider_description'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.289730] (spider_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.307436] (-) TimerEvent: {}
+[0.408557] (-) TimerEvent: {}
+[0.412178] (spider_description) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.508883] (-) TimerEvent: {}
+[0.534122] (spider_description) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /home/dfolse/.pyenv/shims/python3\n'}
+[0.555194] (spider_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.556031] (spider_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.575582] (spider_description) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_package_templates-extras.cmake:41 (message):\n'}
+[0.576577] (spider_description) StderrLine: {'line': b'  execute_process(/home/dfolse/.pyenv/shims/python3\n'}
+[0.578150] (spider_description) StderrLine: {'line': b'  /opt/ros/foxy/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py\n'}
+[0.580842] (spider_description) StderrLine: {'line': b'  /home/dfolse/repos/SPIDER/SPIDER_ws/build/spider_description/ament_cmake_package_templates/templates.cmake)\n'}
+[0.582903] (spider_description) StderrLine: {'line': b'  returned error code No such file or directory\n'}
+[0.583937] (spider_description) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.584974] (spider_description) StderrLine: {'line': b'  /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)\n'}
+[0.586013] (spider_description) StderrLine: {'line': b'  /opt/ros/foxy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)\n'}
+[0.587714] (spider_description) StderrLine: {'line': b'  /opt/ros/foxy/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)\n'}
+[0.589006] (spider_description) StderrLine: {'line': b'  CMakeLists.txt:19 (find_package)\n'}
+[0.590216] (spider_description) StderrLine: {'line': b'\n'}
+[0.591418] (spider_description) StderrLine: {'line': b'\n'}
+[0.592634] (spider_description) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.593754] (spider_description) StdoutLine: {'line': b'See also "/home/dfolse/repos/SPIDER/SPIDER_ws/build/spider_description/CMakeFiles/CMakeOutput.log".\n'}
+[0.601128] (spider_description) CommandEnded: {'returncode': 1}
+[0.619813] (-) TimerEvent: {}
+[0.726273] (-) TimerEvent: {}
+[0.828487] (-) TimerEvent: {}
+[0.866808] (spider_description) JobEnded: {'identifier': 'spider_description', 'rc': 1}
+[0.928993] (-) TimerEvent: {}
+[1.031331] (-) TimerEvent: {}
+[1.132847] (-) TimerEvent: {}
+[1.234910] (-) TimerEvent: {}
+[1.341497] (-) TimerEvent: {}
+[1.443303] (-) TimerEvent: {}
+[1.545163] (-) TimerEvent: {}
+[1.649966] (-) TimerEvent: {}
+[1.753204] (-) TimerEvent: {}
+[1.857828] (-) TimerEvent: {}
+[1.959532] (-) TimerEvent: {}
+[2.061051] (-) TimerEvent: {}
+[2.163809] (-) TimerEvent: {}
+[2.274885] (-) TimerEvent: {}
+[2.379000] (-) TimerEvent: {}
+[2.482811] (-) TimerEvent: {}
+[2.585841] (-) TimerEvent: {}
+[2.689437] (-) TimerEvent: {}
+[2.697561] (spider_interfaces) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[2.787128] (spider_interfaces) StdoutLine: {'line': b'-- Found std_msgs: 2.0.5 (/opt/ros/foxy/share/std_msgs/cmake)\n'}
+[2.789905] (-) TimerEvent: {}
+[2.891235] (-) TimerEvent: {}
+[2.961067] (spider_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.988394] (spider_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[2.991358] (-) TimerEvent: {}
+[3.092451] (-) TimerEvent: {}
+[3.194951] (-) TimerEvent: {}
+[3.296419] (-) TimerEvent: {}
+[3.397076] (-) TimerEvent: {}
+[3.497906] (-) TimerEvent: {}
+[3.598774] (-) TimerEvent: {}
+[3.703945] (-) TimerEvent: {}
+[3.805992] (-) TimerEvent: {}
+[3.913088] (-) TimerEvent: {}
+[4.013736] (-) TimerEvent: {}
+[4.114797] (-) TimerEvent: {}
+[4.216972] (-) TimerEvent: {}
+[4.321599] (spider_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.333465] (-) TimerEvent: {}
+[4.440051] (-) TimerEvent: {}
+[4.541143] (-) TimerEvent: {}
+[4.628181] (spider_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[4.641389] (-) TimerEvent: {}
+[4.742400] (-) TimerEvent: {}
+[4.843319] (-) TimerEvent: {}
+[4.853729] (spider_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[4.943594] (-) TimerEvent: {}
+[5.045654] (-) TimerEvent: {}
+[5.147037] (-) TimerEvent: {}
+[5.248020] (-) TimerEvent: {}
+[5.349099] (-) TimerEvent: {}
+[5.450881] (-) TimerEvent: {}
+[5.556350] (-) TimerEvent: {}
+[5.657534] (-) TimerEvent: {}
+[5.762728] (-) TimerEvent: {}
+[5.864321] (-) TimerEvent: {}
+[5.975615] (-) TimerEvent: {}
+[6.079256] (-) TimerEvent: {}
+[6.116340] (spider_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[6.179812] (-) TimerEvent: {}
+[6.282416] (-) TimerEvent: {}
+[6.383134] (-) TimerEvent: {}
+[6.484084] (-) TimerEvent: {}
+[6.585105] (-) TimerEvent: {}
+[6.692586] (-) TimerEvent: {}
+[6.793965] (-) TimerEvent: {}
+[6.899748] (-) TimerEvent: {}
+[7.001026] (-) TimerEvent: {}
+[7.102470] (-) TimerEvent: {}
+[7.206783] (-) TimerEvent: {}
+[7.308502] (-) TimerEvent: {}
+[7.410238] (-) TimerEvent: {}
+[7.511937] (-) TimerEvent: {}
+[7.612654] (-) TimerEvent: {}
+[7.715008] (-) TimerEvent: {}
+[7.817434] (-) TimerEvent: {}
+[7.842397] (spider_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[7.918003] (-) TimerEvent: {}
+[8.022923] (-) TimerEvent: {}
+[8.124114] (-) TimerEvent: {}
+[8.224804] (-) TimerEvent: {}
+[8.302670] (spider_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[8.325318] (-) TimerEvent: {}
+[8.427272] (-) TimerEvent: {}
+[8.493360] (spider_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[8.499608] (spider_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[8.527840] (-) TimerEvent: {}
+[8.629456] (-) TimerEvent: {}
+[8.659028] (spider_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[8.659942] (spider_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[8.660683] (spider_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.8.so\n'}
+[8.730358] (-) TimerEvent: {}
+[8.832584] (-) TimerEvent: {}
+[8.933709] (-) TimerEvent: {}
+[8.987312] (spider_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[9.037697] (-) TimerEvent: {}
+[9.139584] (-) TimerEvent: {}
+[9.240283] (-) TimerEvent: {}
+[9.341040] (-) TimerEvent: {}
+[9.348320] (spider_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[9.363633] (spider_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/dfolse/repos/SPIDER/SPIDER_ws/build/spider_interfaces\n'}
+[9.438753] (spider_interfaces) JobEnded: {'identifier': 'spider_interfaces', 'rc': 'SIGINT'}
+[9.449957] (-) TimerEvent: {}
+[9.450297] (locomotion) JobSkipped: {'identifier': 'locomotion'}
+[9.450398] (spider_nav) JobSkipped: {'identifier': 'spider_nav'}
+[9.450476] (data_transfer) JobSkipped: {'identifier': 'data_transfer'}
+[9.450591] (-) EventReactorShutdown: {}

@@ -1,0 +1,16 @@
+/home/dfolse/repos/SPIDER/SPIDER_ws/build/depthai_examples/CMakeFiles/install/strip.dir
+/home/dfolse/repos/SPIDER/SPIDER_ws/build/depthai_examples/CMakeFiles/install/local.dir
+/home/dfolse/repos/SPIDER/SPIDER_ws/build/depthai_examples/CMakeFiles/install.dir
+/home/dfolse/repos/SPIDER/SPIDER_ws/build/depthai_examples/CMakeFiles/depthai_examples_uninstall.dir
+/home/dfolse/repos/SPIDER/SPIDER_ws/build/depthai_examples/CMakeFiles/crop_control_service.dir
+/home/dfolse/repos/SPIDER/SPIDER_ws/build/depthai_examples/CMakeFiles/mobilenet_node.dir
+/home/dfolse/repos/SPIDER/SPIDER_ws/build/depthai_examples/CMakeFiles/uninstall.dir
+/home/dfolse/repos/SPIDER/SPIDER_ws/build/depthai_examples/CMakeFiles/test.dir
+/home/dfolse/repos/SPIDER/SPIDER_ws/build/depthai_examples/CMakeFiles/stereo_node.dir
+/home/dfolse/repos/SPIDER/SPIDER_ws/build/depthai_examples/CMakeFiles/stereo_inertial_node.dir
+/home/dfolse/repos/SPIDER/SPIDER_ws/build/depthai_examples/CMakeFiles/rgb_stereo_node.dir
+/home/dfolse/repos/SPIDER/SPIDER_ws/build/depthai_examples/CMakeFiles/yolov4_spatial_node.dir
+/home/dfolse/repos/SPIDER/SPIDER_ws/build/depthai_examples/CMakeFiles/edit_cache.dir
+/home/dfolse/repos/SPIDER/SPIDER_ws/build/depthai_examples/CMakeFiles/rgb_node.dir
+/home/dfolse/repos/SPIDER/SPIDER_ws/build/depthai_examples/CMakeFiles/rebuild_cache.dir
+/home/dfolse/repos/SPIDER/SPIDER_ws/build/depthai_examples/CMakeFiles/list_install_components.dir

@@ -1,0 +1,210 @@
+[0.308s] Invoking command in '/home/dfolse/repos/SPIDER/SPIDER_ws/build/nav2_costmap_2d': AMENT_PREFIX_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_map_server:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_map_server:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_lifecycle_manager:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_util:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_voxel_grid:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_msgs:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_common:/home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_nav:/home/dfolse/repos/SPIDER/SPIDER_ws/install/oak_d_lite:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_gazebo_spawner:/home/dfolse/repos/SPIDER/SPIDER_ws/install/data_transfer:/opt/ros/foxy:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_utils:/home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_waypoint_follower:/home/dfolse/repos/SPIDER/SPIDER_ws/install/depthai_ros_msgs:/home/dfolse/repos/SPIDER/SPIDER_ws/install/depthai_descriptions LD_LIBRARY_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_map_server/lib:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_lifecycle_manager/lib:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_util/lib:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_voxel_grid/lib:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_msgs/lib:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/lib:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_utils/lib:/home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/lib:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/lib:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_waypoint_follower/lib:/home/dfolse/repos/SPIDER/SPIDER_ws/install/depthai_ros_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib NX_CONNECTION=192.168.1.26 63880 192.168.1.53 4000 PYTHONPATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_common/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_nav/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/oak_d_lite/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_gazebo_spawner/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/depthai_ros_msgs/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/data_transfer/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake /home/dfolse/repos/SPIDER/SPIDER_ws/src/navigation2/nav2_costmap_2d -DCMAKE_INSTALL_PREFIX=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_costmap_2d
+[0.752s] -- The C compiler identification is GNU 9.4.0
+[1.160s] -- The CXX compiler identification is GNU 9.4.0
+[1.171s] -- Check for working C compiler: /usr/bin/cc
+[1.726s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.728s] -- Detecting C compiler ABI info
+[2.399s] -- Detecting C compiler ABI info - done
+[2.459s] -- Detecting C compile features
+[2.467s] -- Detecting C compile features - done
+[2.498s] -- Check for working CXX compiler: /usr/bin/c++
+[2.998s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[3.002s] -- Detecting CXX compiler ABI info
+[3.458s] -- Detecting CXX compiler ABI info - done
+[3.522s] -- Detecting CXX compile features
+[3.530s] -- Detecting CXX compile features - done
+[3.556s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[4.526s] -- Found PythonInterp: /home/dfolse/.pyenv/shims/python3 (found suitable version "3.8.10", minimum required is "3") 
+[4.527s] -- Using PYTHON_EXECUTABLE: /home/dfolse/.pyenv/shims/python3
+[7.991s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[8.242s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[8.367s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[9.117s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[9.289s] -- Found FastRTPS: /opt/ros/foxy/include  
+[9.809s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[10.670s] -- Found laser_geometry: 2.2.0 (/opt/ros/foxy/share/laser_geometry/cmake)
+[10.737s] -- Found map_msgs: 2.0.2 (/opt/ros/foxy/share/map_msgs/cmake)
+[12.249s] -- Found message_filters: 3.2.7 (/opt/ros/foxy/share/message_filters/cmake)
+[12.304s] -- Found nav2_common: 0.4.7 (/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_common/share/nav2_common/cmake)
+[12.325s] -- Found nav2_msgs: 0.4.7 (/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_msgs/share/nav2_msgs/cmake)
+[13.544s] -- Found nav2_util: 0.4.7 (/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_util/share/nav2_util/cmake)
+[14.198s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[14.271s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[14.300s] -- Looking for pthread.h
+[15.535s] -- Looking for pthread.h - found
+[15.536s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[16.250s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[16.252s] -- Looking for pthread_create in pthreads
+[17.232s] -- Looking for pthread_create in pthreads - not found
+[17.233s] -- Looking for pthread_create in pthread
+[18.334s] -- Looking for pthread_create in pthread - found
+[18.363s] -- Found Threads: TRUE  
+[20.668s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[21.094s] -- Found nav2_voxel_grid: 0.4.7 (/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake)
+[21.113s] -- Found pluginlib: 2.5.4 (/opt/ros/foxy/share/pluginlib/cmake)
+[21.391s] -- Found tf2_sensor_msgs: 0.13.14 (/opt/ros/foxy/share/tf2_sensor_msgs/cmake)
+[21.437s] -- Found visualization_msgs: 2.0.5 (/opt/ros/foxy/share/visualization_msgs/cmake)
+[21.702s] -- Found angles: 1.12.6 (/opt/ros/foxy/share/angles/cmake)
+[21.719s] -- Setting build type to Release as none was specified.
+[24.195s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[26.203s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[26.250s] -- Check if compiler accepts -pthread
+[27.183s] -- Check if compiler accepts -pthread - yes
+[27.214s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[28.782s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[28.783s] -- Configured cppcheck include dirs: /home/dfolse/repos/SPIDER/SPIDER_ws/src/navigation2/nav2_costmap_2d/include
+[28.783s] -- Configured cppcheck exclude dirs and/or files: 
+[28.800s] -- Added test 'flake8' to check Python code syntax and style conventions
+[28.805s] -- Added test 'lint_cmake' to check CMake code style
+[28.808s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[28.815s] -- Added test 'uncrustify' to check C / C++ code style
+[28.815s] -- Configured uncrustify additional arguments: 
+[28.818s] -- Added test 'xmllint' to check XML markup files
+[28.968s] -- Configuring done
+[30.118s] -- Generating done
+[30.129s] -- Build files have been written to: /home/dfolse/repos/SPIDER/SPIDER_ws/build/nav2_costmap_2d
+[30.485s] Invoked command in '/home/dfolse/repos/SPIDER/SPIDER_ws/build/nav2_costmap_2d' returned '0': AMENT_PREFIX_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_map_server:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_map_server:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_lifecycle_manager:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_util:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_voxel_grid:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_msgs:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_common:/home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_nav:/home/dfolse/repos/SPIDER/SPIDER_ws/install/oak_d_lite:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_gazebo_spawner:/home/dfolse/repos/SPIDER/SPIDER_ws/install/data_transfer:/opt/ros/foxy:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_utils:/home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_waypoint_follower:/home/dfolse/repos/SPIDER/SPIDER_ws/install/depthai_ros_msgs:/home/dfolse/repos/SPIDER/SPIDER_ws/install/depthai_descriptions LD_LIBRARY_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_map_server/lib:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_lifecycle_manager/lib:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_util/lib:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_voxel_grid/lib:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_msgs/lib:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/lib:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_utils/lib:/home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/lib:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/lib:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_waypoint_follower/lib:/home/dfolse/repos/SPIDER/SPIDER_ws/install/depthai_ros_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib NX_CONNECTION=192.168.1.26 63880 192.168.1.53 4000 PYTHONPATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_common/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_nav/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/oak_d_lite/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_gazebo_spawner/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/depthai_ros_msgs/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/data_transfer/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake /home/dfolse/repos/SPIDER/SPIDER_ws/src/navigation2/nav2_costmap_2d -DCMAKE_INSTALL_PREFIX=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_costmap_2d
+[30.569s] Invoking command in '/home/dfolse/repos/SPIDER/SPIDER_ws/build/nav2_costmap_2d': AMENT_PREFIX_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_map_server:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_map_server:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_lifecycle_manager:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_util:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_voxel_grid:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_msgs:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_common:/home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_nav:/home/dfolse/repos/SPIDER/SPIDER_ws/install/oak_d_lite:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_gazebo_spawner:/home/dfolse/repos/SPIDER/SPIDER_ws/install/data_transfer:/opt/ros/foxy:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_utils:/home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_waypoint_follower:/home/dfolse/repos/SPIDER/SPIDER_ws/install/depthai_ros_msgs:/home/dfolse/repos/SPIDER/SPIDER_ws/install/depthai_descriptions LD_LIBRARY_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_map_server/lib:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_lifecycle_manager/lib:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_util/lib:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_voxel_grid/lib:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_msgs/lib:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/lib:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_utils/lib:/home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/lib:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/lib:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_waypoint_follower/lib:/home/dfolse/repos/SPIDER/SPIDER_ws/install/depthai_ros_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib NX_CONNECTION=192.168.1.26 63880 192.168.1.53 4000 PYTHONPATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_common/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_nav/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/oak_d_lite/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_gazebo_spawner/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/depthai_ros_msgs/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/data_transfer/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/dfolse/repos/SPIDER/SPIDER_ws/build/nav2_costmap_2d -- -j6 -l6
+[30.820s] [35m[1mScanning dependencies of target nav2_costmap_2d_core[0m
+[31.611s] [  2%] [32mBuilding CXX object CMakeFiles/nav2_costmap_2d_core.dir/src/array_parser.cpp.o[0m
+[33.242s] [  4%] [32mBuilding CXX object CMakeFiles/nav2_costmap_2d_core.dir/src/layered_costmap.cpp.o[0m
+[40.246s] [  6%] [32mBuilding CXX object CMakeFiles/nav2_costmap_2d_core.dir/src/costmap_2d_ros.cpp.o[0m
+[81.457s] [  8%] [32mBuilding CXX object CMakeFiles/nav2_costmap_2d_core.dir/src/costmap_2d_publisher.cpp.o[0m
+[94.642s] [ 10%] [32mBuilding CXX object CMakeFiles/nav2_costmap_2d_core.dir/src/costmap_math.cpp.o[0m
+[95.449s] [ 12%] [32mBuilding CXX object CMakeFiles/nav2_costmap_2d_core.dir/src/footprint.cpp.o[0m
+[100.750s] [ 14%] [32mBuilding CXX object CMakeFiles/nav2_costmap_2d_core.dir/src/costmap_layer.cpp.o[0m
+[105.928s] [ 16%] [32mBuilding CXX object CMakeFiles/nav2_costmap_2d_core.dir/src/observation_buffer.cpp.o[0m
+[108.975s] [ 18%] [32mBuilding CXX object CMakeFiles/nav2_costmap_2d_core.dir/src/clear_costmap_service.cpp.o[0m
+[111.017s] [ 20%] [32mBuilding CXX object CMakeFiles/nav2_costmap_2d_core.dir/src/layer.cpp.o[0m
+[113.101s] [ 22%] [32mBuilding CXX object CMakeFiles/nav2_costmap_2d_core.dir/src/costmap_2d.cpp.o[0m
+[123.302s] [ 25%] [32mBuilding CXX object CMakeFiles/nav2_costmap_2d_core.dir/src/footprint_collision_checker.cpp.o[0m
+[128.990s] [ 27%] [32m[1mLinking CXX shared library libnav2_costmap_2d_core.so[0m
+[129.669s] [ 27%] Built target nav2_costmap_2d_core
+[129.726s] [35m[1mScanning dependencies of target gtest_main[0m
+[129.737s] [35m[1mScanning dependencies of target gtest[0m
+[129.786s] [ 29%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[129.792s] [ 31%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[131.713s] [ 33%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[132.041s] [ 33%] Built target gtest_main
+[132.160s] [35m[1mScanning dependencies of target nav2_costmap_2d_cloud[0m
+[132.408s] [ 35%] [32mBuilding CXX object CMakeFiles/nav2_costmap_2d_cloud.dir/src/costmap_2d_cloud.cpp.o[0m
+[162.610s] [ 37%] [32m[1mLinking CXX executable nav2_costmap_2d_cloud[0m
+[163.098s] [ 37%] Built target nav2_costmap_2d_cloud
+[164.296s] [ 39%] [32m[1mLinking CXX static library libgtest.a[0m
+[164.437s] [ 39%] Built target gtest
+[164.479s] [35m[1mScanning dependencies of target nav2_costmap_2d_markers[0m
+[164.587s] [ 41%] [32mBuilding CXX object CMakeFiles/nav2_costmap_2d_markers.dir/src/costmap_2d_markers.cpp.o[0m
+[181.705s] [ 43%] [32m[1mLinking CXX executable nav2_costmap_2d_markers[0m
+[182.125s] [ 43%] Built target nav2_costmap_2d_markers
+[182.165s] [35m[1mScanning dependencies of target array_parser_test[0m
+[182.216s] [ 45%] [32mBuilding CXX object test/unit/CMakeFiles/array_parser_test.dir/array_parser_test.cpp.o[0m
+[185.094s] [ 47%] [32m[1mLinking CXX executable array_parser_test[0m
+[185.553s] [ 47%] Built target array_parser_test
+[185.595s] [35m[1mScanning dependencies of target collision_footprint_test[0m
+[185.737s] [ 50%] [32mBuilding CXX object test/unit/CMakeFiles/collision_footprint_test.dir/footprint_collision_checker_test.cpp.o[0m
+[192.502s] [ 52%] [32m[1mLinking CXX executable collision_footprint_test[0m
+[192.949s] [ 52%] Built target collision_footprint_test
+[192.992s] [35m[1mScanning dependencies of target nav2_costmap_2d_client[0m
+[192.993s] [35m[1mScanning dependencies of target layers[0m
+[193.131s] [ 54%] [32mBuilding CXX object CMakeFiles/nav2_costmap_2d_client.dir/src/costmap_subscriber.cpp.o[0m
+[193.131s] [ 56%] [32mBuilding CXX object CMakeFiles/nav2_costmap_2d_client.dir/src/footprint_subscriber.cpp.o[0m
+[193.353s] [ 58%] [32mBuilding CXX object CMakeFiles/layers.dir/plugins/inflation_layer.cpp.o[0m
+[193.373s] [ 60%] [32mBuilding CXX object CMakeFiles/layers.dir/plugins/static_layer.cpp.o[0m
+[210.236s] [ 62%] [32mBuilding CXX object CMakeFiles/nav2_costmap_2d_client.dir/src/costmap_topic_collision_checker.cpp.o[0m
+[216.099s] [ 64%] [32m[1mLinking CXX shared library libnav2_costmap_2d_client.so[0m
+[216.767s] [ 64%] Built target nav2_costmap_2d_client
+[217.193s] [ 66%] [32mBuilding CXX object CMakeFiles/layers.dir/plugins/range_sensor_layer.cpp.o[0m
+[235.644s] [ 68%] [32mBuilding CXX object CMakeFiles/layers.dir/src/observation_buffer.cpp.o[0m
+[235.645s] [ 70%] [32mBuilding CXX object CMakeFiles/layers.dir/plugins/voxel_layer.cpp.o[0m
+[245.828s] [ 72%] [32mBuilding CXX object CMakeFiles/layers.dir/plugins/obstacle_layer.cpp.o[0m
+[282.284s] [ 75%] [32m[1mLinking CXX shared library liblayers.so[0m
+[283.175s] [ 75%] Built target layers
+[283.218s] [35m[1mScanning dependencies of target nav2_costmap_2d[0m
+[283.221s] [35m[1mScanning dependencies of target inflation_tests_exec[0m
+[283.226s] [35m[1mScanning dependencies of target obstacle_tests_exec[0m
+[283.236s] [35m[1mScanning dependencies of target test_collision_checker_exec[0m
+[283.263s] [35m[1mScanning dependencies of target range_tests_exec[0m
+[283.275s] [35m[1mScanning dependencies of target footprint_tests_exec[0m
+[283.434s] [ 77%] [32mBuilding CXX object test/integration/CMakeFiles/footprint_tests_exec.dir/footprint_tests.cpp.o[0m
+[283.470s] [ 79%] [32mBuilding CXX object CMakeFiles/nav2_costmap_2d.dir/src/costmap_2d_node.cpp.o[0m
+[283.506s] [ 83%] [32mBuilding CXX object test/integration/CMakeFiles/range_tests_exec.dir/range_tests.cpp.o[0m
+[283.506s] [ 83%] [32mBuilding CXX object test/integration/CMakeFiles/inflation_tests_exec.dir/inflation_tests.cpp.o[0m
+[283.572s] [ 85%] [32mBuilding CXX object test/integration/CMakeFiles/test_collision_checker_exec.dir/test_costmap_topic_collision_checker.cpp.o[0m
+[283.611s] [ 87%] [32mBuilding CXX object test/integration/CMakeFiles/obstacle_tests_exec.dir/obstacle_tests.cpp.o[0m
+[293.699s] [ 89%] [32m[1mLinking CXX executable footprint_tests_exec[0m
+[295.061s] [ 91%] [32m[1mLinking CXX executable nav2_costmap_2d[0m
+[295.083s] [ 91%] Built target footprint_tests_exec
+[295.672s] [ 91%] Built target nav2_costmap_2d
+[301.770s] [ 93%] [32m[1mLinking CXX executable range_tests_exec[0m
+[302.018s] [ 95%] [32m[1mLinking CXX executable obstacle_tests_exec[0m
+[302.853s] [ 95%] Built target range_tests_exec
+[303.085s] [ 95%] Built target obstacle_tests_exec
+[303.289s] [ 97%] [32m[1mLinking CXX executable inflation_tests_exec[0m
+[304.072s] [ 97%] Built target inflation_tests_exec
+[305.189s] [100%] [32m[1mLinking CXX executable test_collision_checker_exec[0m
+[306.061s] [100%] Built target test_collision_checker_exec
+[306.167s] Invoked command in '/home/dfolse/repos/SPIDER/SPIDER_ws/build/nav2_costmap_2d' returned '0': AMENT_PREFIX_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_map_server:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_map_server:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_lifecycle_manager:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_util:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_voxel_grid:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_msgs:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_common:/home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_nav:/home/dfolse/repos/SPIDER/SPIDER_ws/install/oak_d_lite:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_gazebo_spawner:/home/dfolse/repos/SPIDER/SPIDER_ws/install/data_transfer:/opt/ros/foxy:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_utils:/home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_waypoint_follower:/home/dfolse/repos/SPIDER/SPIDER_ws/install/depthai_ros_msgs:/home/dfolse/repos/SPIDER/SPIDER_ws/install/depthai_descriptions LD_LIBRARY_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_map_server/lib:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_lifecycle_manager/lib:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_util/lib:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_voxel_grid/lib:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_msgs/lib:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/lib:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_utils/lib:/home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/lib:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/lib:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_waypoint_follower/lib:/home/dfolse/repos/SPIDER/SPIDER_ws/install/depthai_ros_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib NX_CONNECTION=192.168.1.26 63880 192.168.1.53 4000 PYTHONPATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_common/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_nav/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/oak_d_lite/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_gazebo_spawner/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/depthai_ros_msgs/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/data_transfer/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/dfolse/repos/SPIDER/SPIDER_ws/build/nav2_costmap_2d -- -j6 -l6
+[306.691s] Invoking command in '/home/dfolse/repos/SPIDER/SPIDER_ws/build/nav2_costmap_2d': AMENT_PREFIX_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_map_server:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_map_server:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_lifecycle_manager:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_util:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_voxel_grid:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_msgs:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_common:/home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_nav:/home/dfolse/repos/SPIDER/SPIDER_ws/install/oak_d_lite:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_gazebo_spawner:/home/dfolse/repos/SPIDER/SPIDER_ws/install/data_transfer:/opt/ros/foxy:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_utils:/home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_waypoint_follower:/home/dfolse/repos/SPIDER/SPIDER_ws/install/depthai_ros_msgs:/home/dfolse/repos/SPIDER/SPIDER_ws/install/depthai_descriptions LD_LIBRARY_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_map_server/lib:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_lifecycle_manager/lib:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_util/lib:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_voxel_grid/lib:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_msgs/lib:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/lib:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_utils/lib:/home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/lib:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/lib:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_waypoint_follower/lib:/home/dfolse/repos/SPIDER/SPIDER_ws/install/depthai_ros_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib NX_CONNECTION=192.168.1.26 63880 192.168.1.53 4000 PYTHONPATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_common/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_nav/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/oak_d_lite/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_gazebo_spawner/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/depthai_ros_msgs/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/data_transfer/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --install /home/dfolse/repos/SPIDER/SPIDER_ws/build/nav2_costmap_2d
+[306.718s] -- Install configuration: "Release"
+[306.719s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_costmap_2d/lib/libnav2_costmap_2d_core.so
+[306.724s] -- Set runtime path of "/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_costmap_2d/lib/libnav2_costmap_2d_core.so" to ""
+[306.724s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_costmap_2d/lib/liblayers.so
+[306.729s] -- Set runtime path of "/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_costmap_2d/lib/liblayers.so" to ""
+[306.729s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_costmap_2d/lib/libnav2_costmap_2d_client.so
+[306.731s] -- Set runtime path of "/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_costmap_2d/lib/libnav2_costmap_2d_client.so" to ""
+[306.732s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_costmap_2d/lib/nav2_costmap_2d/nav2_costmap_2d
+[306.732s] -- Set runtime path of "/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_costmap_2d/lib/nav2_costmap_2d/nav2_costmap_2d" to ""
+[306.733s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_costmap_2d/lib/nav2_costmap_2d/nav2_costmap_2d_markers
+[306.734s] -- Set runtime path of "/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_costmap_2d/lib/nav2_costmap_2d/nav2_costmap_2d_markers" to ""
+[306.735s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_costmap_2d/lib/nav2_costmap_2d/nav2_costmap_2d_cloud
+[306.736s] -- Set runtime path of "/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_costmap_2d/lib/nav2_costmap_2d/nav2_costmap_2d_cloud" to ""
+[306.736s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/costmap_plugins.xml
+[306.737s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_costmap_2d/include/
+[306.737s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_costmap_2d/include//nav2_costmap_2d
+[306.737s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/costmap_2d_ros.hpp
+[306.737s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/static_layer.hpp
+[306.737s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/clear_costmap_service.hpp
+[306.738s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/exceptions.hpp
+[306.738s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/costmap_topic_collision_checker.hpp
+[306.738s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/costmap_math.hpp
+[306.738s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/observation.hpp
+[306.739s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/footprint_collision_checker.hpp
+[306.739s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/costmap_2d.hpp
+[306.739s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/voxel_layer.hpp
+[306.739s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/layered_costmap.hpp
+[306.740s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/costmap_subscriber.hpp
+[306.742s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/footprint_subscriber.hpp
+[306.743s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/cost_values.hpp
+[306.743s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/layer.hpp
+[306.743s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/costmap_layer.hpp
+[306.743s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/inflation_layer.hpp
+[306.744s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/obstacle_layer.hpp
+[306.744s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/costmap_2d_publisher.hpp
+[306.744s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/array_parser.hpp
+[306.744s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/range_sensor_layer.hpp
+[306.744s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/observation_buffer.hpp
+[306.744s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/footprint.hpp
+[306.744s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/environment/library_path.sh
+[306.744s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/environment/library_path.dsv
+[306.745s] -- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/costmap_plugins.xml
+[306.745s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_costmap_2d/share/ament_index/resource_index/package_run_dependencies/nav2_costmap_2d
+[306.746s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_costmap_2d/share/ament_index/resource_index/parent_prefix_path/nav2_costmap_2d
+[306.746s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/environment/ament_prefix_path.sh
+[306.746s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/environment/ament_prefix_path.dsv
+[306.747s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/environment/path.sh
+[306.747s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/environment/path.dsv
+[306.748s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/local_setup.bash
+[306.748s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/local_setup.sh
+[306.748s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/local_setup.zsh
+[306.749s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/local_setup.dsv
+[306.749s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/package.dsv
+[306.752s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_costmap_2d/share/ament_index/resource_index/packages/nav2_costmap_2d
+[306.752s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_costmap_2d/share/ament_index/resource_index/nav2_costmap_2d__pluginlib__plugin/nav2_costmap_2d
+[306.753s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake/ament_cmake_export_include_directories-extras.cmake
+[306.754s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake/ament_cmake_export_libraries-extras.cmake
+[306.754s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake/ament_cmake_export_dependencies-extras.cmake
+[306.755s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake/ament_cmake_export_definitions-extras.cmake
+[306.755s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake/nav2_costmap_2dConfig.cmake
+[306.756s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake/nav2_costmap_2dConfig-version.cmake
+[306.756s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/package.xml
+[306.765s] Invoked command in '/home/dfolse/repos/SPIDER/SPIDER_ws/build/nav2_costmap_2d' returned '0': AMENT_PREFIX_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_map_server:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_map_server:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_lifecycle_manager:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_util:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_voxel_grid:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_msgs:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_common:/home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_nav:/home/dfolse/repos/SPIDER/SPIDER_ws/install/oak_d_lite:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_gazebo_spawner:/home/dfolse/repos/SPIDER/SPIDER_ws/install/data_transfer:/opt/ros/foxy:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_utils:/home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_waypoint_follower:/home/dfolse/repos/SPIDER/SPIDER_ws/install/depthai_ros_msgs:/home/dfolse/repos/SPIDER/SPIDER_ws/install/depthai_descriptions LD_LIBRARY_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_map_server/lib:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_lifecycle_manager/lib:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_util/lib:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_voxel_grid/lib:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_msgs/lib:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/lib:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_utils/lib:/home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/lib:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/lib:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_waypoint_follower/lib:/home/dfolse/repos/SPIDER/SPIDER_ws/install/depthai_ros_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib NX_CONNECTION=192.168.1.26 63880 192.168.1.53 4000 PYTHONPATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_common/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_nav/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/oak_d_lite/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_gazebo_spawner/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/depthai_ros_msgs/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/data_transfer/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --install /home/dfolse/repos/SPIDER/SPIDER_ws/build/nav2_costmap_2d

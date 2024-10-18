@@ -1,0 +1,110 @@
+[0.119s] Invoking command in '/home/dfolse/repos/SPIDER/SPIDER_ws/build/nav_2d_utils': AMENT_PREFIX_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_util:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_msgs:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_util:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_msgs:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_util/lib:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_msgs/lib:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} NX_CONNECTION=192.168.1.26 63880 192.168.1.53 4000 PYTHONPATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/dfolse/repos/SPIDER/SPIDER_ws/src/navigation2/nav2_dwb_controller/nav_2d_utils -DCMAKE_INSTALL_PREFIX=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_utils
+[0.469s] -- The C compiler identification is GNU 9.4.0
+[0.644s] -- The CXX compiler identification is GNU 9.4.0
+[0.655s] -- Check for working C compiler: /usr/bin/cc
+[0.964s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.966s] -- Detecting C compiler ABI info
+[1.300s] -- Detecting C compiler ABI info - done
+[1.332s] -- Detecting C compile features
+[1.332s] -- Detecting C compile features - done
+[1.337s] -- Check for working CXX compiler: /usr/bin/c++
+[1.651s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.653s] -- Detecting CXX compiler ABI info
+[1.949s] -- Detecting CXX compiler ABI info - done
+[1.971s] -- Detecting CXX compile features
+[1.973s] -- Detecting CXX compile features - done
+[1.977s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[2.347s] -- Found PythonInterp: /home/dfolse/.pyenv/shims/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.347s] -- Using PYTHON_EXECUTABLE: /home/dfolse/.pyenv/shims/python3
+[3.195s] -- Found nav2_common: 0.4.7 (/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_common/share/nav2_common/cmake)
+[3.199s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[3.274s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.293s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[3.746s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[3.820s] -- Found FastRTPS: /opt/ros/foxy/include  
+[4.018s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.211s] -- Found nav_2d_msgs: 0.4.7 (/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake)
+[4.364s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[4.520s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[4.641s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[4.647s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.647s] -- Looking for pthread.h
+[4.910s] -- Looking for pthread.h - found
+[4.910s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.207s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[5.208s] -- Looking for pthread_create in pthreads
+[5.446s] -- Looking for pthread_create in pthreads - not found
+[5.447s] -- Looking for pthread_create in pthread
+[5.750s] -- Looking for pthread_create in pthread - found
+[5.754s] -- Found Threads: TRUE  
+[6.070s] -- Found tf2: 0.13.14 (/opt/ros/foxy/share/tf2/cmake)
+[6.097s] -- Found tf2_geometry_msgs: 0.13.14 (/opt/ros/foxy/share/tf2_geometry_msgs/cmake)
+[6.116s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[6.123s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[6.928s] -- Found nav2_msgs: 0.4.7 (/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_msgs/share/nav2_msgs/cmake)
+[7.365s] -- Found nav2_util: 0.4.7 (/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_util/share/nav2_util/cmake)
+[7.888s] -- Setting build type to Release as none was specified.
+[8.537s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[9.281s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[9.283s] -- Configured cppcheck include dirs: /home/dfolse/repos/SPIDER/SPIDER_ws/src/navigation2/nav2_dwb_controller/nav_2d_utils/include
+[9.283s] -- Configured cppcheck exclude dirs and/or files: 
+[9.284s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[9.284s] -- Configured cpplint exclude dirs and/or files: 
+[9.287s] -- Added test 'lint_cmake' to check CMake code style
+[9.292s] -- Added test 'uncrustify' to check C / C++ code style
+[9.292s] -- Configured uncrustify additional arguments: 
+[9.293s] -- Added test 'xmllint' to check XML markup files
+[9.324s] -- Configuring done
+[9.549s] -- Generating done
+[9.555s] -- Build files have been written to: /home/dfolse/repos/SPIDER/SPIDER_ws/build/nav_2d_utils
+[9.616s] Invoked command in '/home/dfolse/repos/SPIDER/SPIDER_ws/build/nav_2d_utils' returned '0': AMENT_PREFIX_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_util:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_msgs:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_util:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_msgs:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_util/lib:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_msgs/lib:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} NX_CONNECTION=192.168.1.26 63880 192.168.1.53 4000 PYTHONPATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/dfolse/repos/SPIDER/SPIDER_ws/src/navigation2/nav2_dwb_controller/nav_2d_utils -DCMAKE_INSTALL_PREFIX=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_utils
+[9.617s] Invoking command in '/home/dfolse/repos/SPIDER/SPIDER_ws/build/nav_2d_utils': AMENT_PREFIX_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_util:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_msgs:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_util:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_msgs:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_util/lib:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_msgs/lib:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} NX_CONNECTION=192.168.1.26 63880 192.168.1.53 4000 PYTHONPATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/dfolse/repos/SPIDER/SPIDER_ws/build/nav_2d_utils
+[10.043s] [35m[1mScanning dependencies of target conversions[0m
+[10.121s] [ 16%] [32mBuilding CXX object CMakeFiles/conversions.dir/src/conversions.cpp.o[0m
+[17.445s] [ 33%] [32m[1mLinking CXX shared library libconversions.so[0m
+[18.422s] [ 33%] Built target conversions
+[18.478s] [35m[1mScanning dependencies of target tf_help[0m
+[18.744s] [ 50%] [32mBuilding CXX object CMakeFiles/tf_help.dir/src/tf_help.cpp.o[0m
+[25.833s] [ 66%] [32m[1mLinking CXX shared library libtf_help.so[0m
+[26.324s] [ 66%] Built target tf_help
+[26.429s] [35m[1mScanning dependencies of target path_ops[0m
+[26.513s] [ 83%] [32mBuilding CXX object CMakeFiles/path_ops.dir/src/path_ops.cpp.o[0m
+[27.798s] [100%] [32m[1mLinking CXX shared library libpath_ops.so[0m
+[28.868s] [100%] Built target path_ops
+[28.965s] Invoked command in '/home/dfolse/repos/SPIDER/SPIDER_ws/build/nav_2d_utils' returned '0': AMENT_PREFIX_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_util:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_msgs:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_util:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_msgs:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_util/lib:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_msgs/lib:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} NX_CONNECTION=192.168.1.26 63880 192.168.1.53 4000 PYTHONPATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/dfolse/repos/SPIDER/SPIDER_ws/build/nav_2d_utils
+[29.457s] Invoking command in '/home/dfolse/repos/SPIDER/SPIDER_ws/build/nav_2d_utils': AMENT_PREFIX_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_util:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_msgs:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_util:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_msgs:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_util/lib:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_msgs/lib:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} NX_CONNECTION=192.168.1.26 63880 192.168.1.53 4000 PYTHONPATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/dfolse/repos/SPIDER/SPIDER_ws/build/nav_2d_utils
+[31.429s] -- Install configuration: "Release"
+[31.432s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_utils/lib/libconversions.so
+[31.432s] -- Set runtime path of "/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_utils/lib/libconversions.so" to ""
+[31.432s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_utils/lib/libpath_ops.so
+[31.432s] -- Set runtime path of "/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_utils/lib/libpath_ops.so" to ""
+[31.433s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_utils/lib/libtf_help.so
+[31.433s] -- Set runtime path of "/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_utils/lib/libtf_help.so" to ""
+[31.433s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_utils/include/
+[31.433s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_utils/include//nav_2d_utils
+[31.433s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_utils/include//nav_2d_utils/path_ops.hpp
+[31.433s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_utils/include//nav_2d_utils/parameters.hpp
+[31.433s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_utils/include//nav_2d_utils/odom_subscriber.hpp
+[31.434s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_utils/include//nav_2d_utils/conversions.hpp
+[31.434s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_utils/include//nav_2d_utils/tf_help.hpp
+[31.434s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_utils/share/nav_2d_utils/environment/library_path.sh
+[31.434s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_utils/share/nav_2d_utils/environment/library_path.dsv
+[31.434s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_utils/share/ament_index/resource_index/package_run_dependencies/nav_2d_utils
+[31.434s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_utils/share/ament_index/resource_index/parent_prefix_path/nav_2d_utils
+[31.434s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_utils/share/nav_2d_utils/environment/ament_prefix_path.sh
+[31.434s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_utils/share/nav_2d_utils/environment/ament_prefix_path.dsv
+[31.434s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_utils/share/nav_2d_utils/environment/path.sh
+[31.435s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_utils/share/nav_2d_utils/environment/path.dsv
+[31.435s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_utils/share/nav_2d_utils/local_setup.bash
+[31.435s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_utils/share/nav_2d_utils/local_setup.sh
+[31.435s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_utils/share/nav_2d_utils/local_setup.zsh
+[31.435s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_utils/share/nav_2d_utils/local_setup.dsv
+[31.435s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_utils/share/nav_2d_utils/package.dsv
+[31.435s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_utils/share/ament_index/resource_index/packages/nav_2d_utils
+[31.435s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_utils/share/nav_2d_utils/cmake/ament_cmake_export_include_directories-extras.cmake
+[31.436s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_utils/share/nav_2d_utils/cmake/ament_cmake_export_libraries-extras.cmake
+[31.436s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_utils/share/nav_2d_utils/cmake/ament_cmake_export_dependencies-extras.cmake
+[31.445s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_utils/share/nav_2d_utils/cmake/nav_2d_utilsConfig.cmake
+[31.446s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_utils/share/nav_2d_utils/cmake/nav_2d_utilsConfig-version.cmake
+[31.446s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_utils/share/nav_2d_utils/package.xml
+[31.477s] Invoked command in '/home/dfolse/repos/SPIDER/SPIDER_ws/build/nav_2d_utils' returned '0': AMENT_PREFIX_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_util:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_msgs:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_util:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_msgs:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_util/lib:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_msgs/lib:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} NX_CONNECTION=192.168.1.26 63880 192.168.1.53 4000 PYTHONPATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/dfolse/repos/SPIDER/SPIDER_ws/build/nav_2d_utils

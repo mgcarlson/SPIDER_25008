@@ -1,0 +1,33 @@
+[0.897s] Invoking command in '/home/dfolse/SPIDER/SPIDER_ws/src/data_transfer': PYTHONPATH=/home/dfolse/SPIDER/SPIDER_ws/build/data_transfer/prefix_override:/home/dfolse/SPIDER/SPIDER_ws/install/data_transfer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/data_transfer build --build-base /home/dfolse/SPIDER/SPIDER_ws/build/data_transfer/build install --record /home/dfolse/SPIDER/SPIDER_ws/build/data_transfer/install.log --single-version-externally-managed
+[1.123s] running egg_info
+[1.124s] creating ../../build/data_transfer/DataTransfer.egg-info
+[1.124s] writing ../../build/data_transfer/DataTransfer.egg-info/PKG-INFO
+[1.125s] writing dependency_links to ../../build/data_transfer/DataTransfer.egg-info/dependency_links.txt
+[1.125s] writing entry points to ../../build/data_transfer/DataTransfer.egg-info/entry_points.txt
+[1.125s] writing requirements to ../../build/data_transfer/DataTransfer.egg-info/requires.txt
+[1.126s] writing top-level names to ../../build/data_transfer/DataTransfer.egg-info/top_level.txt
+[1.127s] writing manifest file '../../build/data_transfer/DataTransfer.egg-info/SOURCES.txt'
+[1.129s] reading manifest file '../../build/data_transfer/DataTransfer.egg-info/SOURCES.txt'
+[1.130s] writing manifest file '../../build/data_transfer/DataTransfer.egg-info/SOURCES.txt'
+[1.131s] running build
+[1.131s] running build_py
+[1.131s] creating /home/dfolse/SPIDER/SPIDER_ws/build/data_transfer/build
+[1.131s] creating /home/dfolse/SPIDER/SPIDER_ws/build/data_transfer/build/lib
+[1.132s] creating /home/dfolse/SPIDER/SPIDER_ws/build/data_transfer/build/lib/data_transfer
+[1.132s] copying data_transfer/__init__.py -> /home/dfolse/SPIDER/SPIDER_ws/build/data_transfer/build/lib/data_transfer
+[1.132s] copying data_transfer/publish_transfer.py -> /home/dfolse/SPIDER/SPIDER_ws/build/data_transfer/build/lib/data_transfer
+[1.132s] copying data_transfer/subscribe_transfer.py -> /home/dfolse/SPIDER/SPIDER_ws/build/data_transfer/build/lib/data_transfer
+[1.133s] running install
+[1.133s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.134s]   warnings.warn(
+[1.134s] running install_lib
+[1.135s] creating /home/dfolse/SPIDER/SPIDER_ws/install/data_transfer/lib/python3.10/site-packages/data_transfer
+[1.135s] copying /home/dfolse/SPIDER/SPIDER_ws/build/data_transfer/build/lib/data_transfer/__init__.py -> /home/dfolse/SPIDER/SPIDER_ws/install/data_transfer/lib/python3.10/site-packages/data_transfer
+[1.136s] copying /home/dfolse/SPIDER/SPIDER_ws/build/data_transfer/build/lib/data_transfer/publish_transfer.py -> /home/dfolse/SPIDER/SPIDER_ws/install/data_transfer/lib/python3.10/site-packages/data_transfer
+[1.137s] copying /home/dfolse/SPIDER/SPIDER_ws/build/data_transfer/build/lib/data_transfer/subscribe_transfer.py -> /home/dfolse/SPIDER/SPIDER_ws/install/data_transfer/lib/python3.10/site-packages/data_transfer
+[1.138s] byte-compiling /home/dfolse/SPIDER/SPIDER_ws/install/data_transfer/lib/python3.10/site-packages/data_transfer/__init__.py to __init__.cpython-310.pyc
+[1.139s] byte-compiling /home/dfolse/SPIDER/SPIDER_ws/install/data_transfer/lib/python3.10/site-packages/data_transfer/publish_transfer.py to publish_transfer.cpython-310.pyc
+[1.140s] byte-compiling /home/dfolse/SPIDER/SPIDER_ws/install/data_transfer/lib/python3.10/site-packages/data_transfer/subscribe_transfer.py to subscribe_transfer.cpython-310.pyc
+[1.140s] running install_data
+[1.141s] error: can't copy 'resource/DataTransfer': doesn't exist or not a regular file
+[1.160s] Invoked command in '/home/dfolse/SPIDER/SPIDER_ws/src/data_transfer' returned '1': PYTHONPATH=/home/dfolse/SPIDER/SPIDER_ws/build/data_transfer/prefix_override:/home/dfolse/SPIDER/SPIDER_ws/install/data_transfer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/data_transfer build --build-base /home/dfolse/SPIDER/SPIDER_ws/build/data_transfer/build install --record /home/dfolse/SPIDER/SPIDER_ws/build/data_transfer/install.log --single-version-externally-managed

@@ -1,0 +1,3 @@
+[console_scripts]
+stereo = oak_d_lite.stereo:main
+

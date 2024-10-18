@@ -1,0 +1,23 @@
+[1.289s] Invoking command in '/home/dfolse/repos/SPIDER/SPIDER_ws/build/depthai_descriptions': CMAKE_PREFIX_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_nav:/home/dfolse/repos/SPIDER/SPIDER_ws/install/oak_d_lite:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_gazebo_spawner:/home/dfolse/repos/SPIDER/SPIDER_ws/install/data_transfer:/opt/ros/foxy:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_common NX_CONNECTION=192.168.1.26 58481 192.168.1.53 4000 /usr/bin/cmake /home/dfolse/repos/SPIDER/SPIDER_ws/src/luxonis/depthai-ros/depthai_descriptions -DCMAKE_INSTALL_PREFIX=/home/dfolse/repos/SPIDER/SPIDER_ws/install/depthai_descriptions
+[1.616s] -- The C compiler identification is GNU 9.4.0
+[1.853s] -- The CXX compiler identification is GNU 9.4.0
+[1.867s] -- Check for working C compiler: /usr/bin/cc
+[2.140s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.141s] -- Detecting C compiler ABI info
+[2.394s] -- Detecting C compiler ABI info - done
+[2.416s] -- Detecting C compile features
+[2.418s] -- Detecting C compile features - done
+[2.420s] -- Check for working CXX compiler: /usr/bin/c++
+[2.665s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.666s] -- Detecting CXX compiler ABI info
+[3.111s] -- Detecting CXX compiler ABI info - done
+[3.148s] -- Detecting CXX compile features
+[3.149s] -- Detecting CXX compile features - done
+[3.157s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[3.763s] -- Found PythonInterp: /home/dfolse/.pyenv/shims/python3 (found suitable version "3.8.10", minimum required is "3") 
+[3.764s] -- Using PYTHON_EXECUTABLE: /home/dfolse/.pyenv/shims/python3
+[5.866s] -- Configuring done
+[5.876s] -- Generating done
+[5.890s] -- Build files have been written to: /home/dfolse/repos/SPIDER/SPIDER_ws/build/depthai_descriptions
+[8.475s] Invoked command in '/home/dfolse/repos/SPIDER/SPIDER_ws/build/depthai_descriptions' returned '0': CMAKE_PREFIX_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_nav:/home/dfolse/repos/SPIDER/SPIDER_ws/install/oak_d_lite:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_gazebo_spawner:/home/dfolse/repos/SPIDER/SPIDER_ws/install/data_transfer:/opt/ros/foxy:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_common NX_CONNECTION=192.168.1.26 58481 192.168.1.53 4000 /usr/bin/cmake /home/dfolse/repos/SPIDER/SPIDER_ws/src/luxonis/depthai-ros/depthai_descriptions -DCMAKE_INSTALL_PREFIX=/home/dfolse/repos/SPIDER/SPIDER_ws/install/depthai_descriptions
+[8.478s] Invoking command in '/home/dfolse/repos/SPIDER/SPIDER_ws/build/depthai_descriptions': CMAKE_PREFIX_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_nav:/home/dfolse/repos/SPIDER/SPIDER_ws/install/oak_d_lite:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_gazebo_spawner:/home/dfolse/repos/SPIDER/SPIDER_ws/install/data_transfer:/opt/ros/foxy:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_common NX_CONNECTION=192.168.1.26 58481 192.168.1.53 4000 /usr/bin/cmake --build /home/dfolse/repos/SPIDER/SPIDER_ws/build/depthai_descriptions -- -j6 -l6

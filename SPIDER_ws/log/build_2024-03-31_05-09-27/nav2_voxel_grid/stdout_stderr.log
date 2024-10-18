@@ -1,0 +1,4 @@
+[ 25%] Built target gtest_main
+[ 50%] Built target gtest
+[ 75%] Built target voxel_grid
+[100%] Built target voxel_grid_tests

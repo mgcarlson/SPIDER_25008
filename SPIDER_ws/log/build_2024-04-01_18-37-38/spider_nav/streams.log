@@ -1,0 +1,30 @@
+[3.336s] Invoking command in '/home/dfolse/repos/SPIDER/SPIDER_ws/src/spider_nav': NX_CONNECTION=192.168.1.26 61486 192.168.1.53 4000 PYTHONPATH=/home/dfolse/repos/SPIDER/SPIDER_ws/build/spider_nav/prefix_override:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_nav/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/spider_nav build --build-base /home/dfolse/repos/SPIDER/SPIDER_ws/build/spider_nav/build install --record /home/dfolse/repos/SPIDER/SPIDER_ws/build/spider_nav/install.log --single-version-externally-managed install_data
+[3.910s] running egg_info
+[3.911s] writing ../../build/spider_nav/spider_nav.egg-info/PKG-INFO
+[3.912s] writing dependency_links to ../../build/spider_nav/spider_nav.egg-info/dependency_links.txt
+[3.912s] writing entry points to ../../build/spider_nav/spider_nav.egg-info/entry_points.txt
+[3.912s] writing requirements to ../../build/spider_nav/spider_nav.egg-info/requires.txt
+[3.912s] writing top-level names to ../../build/spider_nav/spider_nav.egg-info/top_level.txt
+[3.919s] reading manifest file '../../build/spider_nav/spider_nav.egg-info/SOURCES.txt'
+[3.921s] writing manifest file '../../build/spider_nav/spider_nav.egg-info/SOURCES.txt'
+[3.921s] running build
+[3.921s] running build_py
+[3.922s] copying spider_nav/spider_gps_pub.py -> /home/dfolse/repos/SPIDER/SPIDER_ws/build/spider_nav/build/lib/spider_nav
+[3.922s] copying spider_nav/interactive_waypoint_follower.py -> /home/dfolse/repos/SPIDER/SPIDER_ws/build/spider_nav/build/lib/spider_nav
+[3.924s] running install
+[3.926s] running install_lib
+[3.928s] copying /home/dfolse/repos/SPIDER/SPIDER_ws/build/spider_nav/build/lib/spider_nav/spider_gps_pub.py -> /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_nav/lib/python3.8/site-packages/spider_nav
+[3.928s] copying /home/dfolse/repos/SPIDER/SPIDER_ws/build/spider_nav/build/lib/spider_nav/interactive_waypoint_follower.py -> /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_nav/lib/python3.8/site-packages/spider_nav
+[3.929s] byte-compiling /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_nav/lib/python3.8/site-packages/spider_nav/spider_gps_pub.py to spider_gps_pub.cpython-38.pyc
+[3.931s] byte-compiling /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_nav/lib/python3.8/site-packages/spider_nav/interactive_waypoint_follower.py to interactive_waypoint_follower.cpython-38.pyc
+[3.932s] running install_data
+[3.933s] running install_egg_info
+[3.936s] removing '/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_nav/lib/python3.8/site-packages/spider_nav-0.0.0-py3.8.egg-info' (and everything under it)
+[3.937s] Copying ../../build/spider_nav/spider_nav.egg-info to /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_nav/lib/python3.8/site-packages/spider_nav-0.0.0-py3.8.egg-info
+[3.939s] running install_scripts
+[3.979s] Installing gps_waypoint_logger script to /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_nav/lib/spider_nav
+[3.980s] Installing interactive_waypoint_follower script to /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_nav/lib/spider_nav
+[3.981s] Installing logged_waypoint_follower script to /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_nav/lib/spider_nav
+[3.981s] Installing spider_gps_pub script to /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_nav/lib/spider_nav
+[3.981s] writing list of installed files to '/home/dfolse/repos/SPIDER/SPIDER_ws/build/spider_nav/install.log'
+[4.087s] Invoked command in '/home/dfolse/repos/SPIDER/SPIDER_ws/src/spider_nav' returned '0': NX_CONNECTION=192.168.1.26 61486 192.168.1.53 4000 PYTHONPATH=/home/dfolse/repos/SPIDER/SPIDER_ws/build/spider_nav/prefix_override:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_nav/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/spider_nav build --build-base /home/dfolse/repos/SPIDER/SPIDER_ws/build/spider_nav/build install --record /home/dfolse/repos/SPIDER/SPIDER_ws/build/spider_nav/install.log --single-version-externally-managed install_data

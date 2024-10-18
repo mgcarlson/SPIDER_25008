@@ -1,0 +1,38 @@
+[0.406s] Invoking command in '/home/dfolse/repos/SPIDER/SPIDER_ws/build/locomotion': NX_CONNECTION=192.168.1.26 54739 192.168.1.53 4000 /usr/bin/cmake /home/dfolse/repos/SPIDER/SPIDER_ws/src/locomotion -DCMAKE_INSTALL_PREFIX=/home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion
+[0.442s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.490s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.490s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.906s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.909s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.915s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.199s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.293s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[1.531s] Error parsing '/home/dfolse/repos/SPIDER/SPIDER_ws/src/locomotion/package.xml':
+[1.776s] Traceback (most recent call last):
+[1.777s]   File "/opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 143, in <module>
+[1.777s]     main()
+[1.777s]   File "/opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 52, in main
+[1.777s]     raise e
+[1.777s]   File "/opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 48, in main
+[1.777s]     package = parse_package_string(
+[1.777s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 788, in parse_package_string
+[1.777s]     pkg.validate(warnings=warnings)
+[1.777s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 330, in validate
+[1.778s]     raise InvalidPackage('\n'.join(errors), self.filename)
+[1.778s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/dfolse/repos/SPIDER/SPIDER_ws/src/locomotion/package.xml':
+[1.778s] The package "locomotion" must not "exec_depend" on a package with the same name as this package
+[1.840s] CMake Error at /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:94 (message):
+[1.840s]   execute_process(/usr/bin/python3
+[1.841s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[1.841s]   /home/dfolse/repos/SPIDER/SPIDER_ws/src/locomotion/package.xml
+[1.841s]   /home/dfolse/repos/SPIDER/SPIDER_ws/build/locomotion/ament_cmake_core/package.cmake)
+[1.841s]   returned error code 1
+[1.841s] Call Stack (most recent call first):
+[1.842s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[1.842s]   /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:226 (ament_package_xml)
+[1.842s]   CMakeLists.txt:15 (rosidl_generate_interfaces)
+[1.842s] 
+[1.843s] 
+[1.845s] -- Configuring incomplete, errors occurred!
+[1.845s] See also "/home/dfolse/repos/SPIDER/SPIDER_ws/build/locomotion/CMakeFiles/CMakeOutput.log".
+[1.872s] Invoked command in '/home/dfolse/repos/SPIDER/SPIDER_ws/build/locomotion' returned '1': NX_CONNECTION=192.168.1.26 54739 192.168.1.53 4000 /usr/bin/cmake /home/dfolse/repos/SPIDER/SPIDER_ws/src/locomotion -DCMAKE_INSTALL_PREFIX=/home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion

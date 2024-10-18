@@ -1,0 +1,7 @@
+{
+  "package_name": "spider_interfaces",
+  "non_idl_tuples": [
+    "/home/dfolse/repos/SPIDER/SPIDER_ws/src/spider_interfaces:msg/LocCommands.msg",
+    "/home/dfolse/repos/SPIDER/SPIDER_ws/src/spider_interfaces:srv/LocService.srv"
+  ]
+}

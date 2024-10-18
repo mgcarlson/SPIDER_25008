@@ -1,0 +1,22 @@
+[0.085s] Invoking command in '/home/dfolse/repos/SPIDER/SPIDER_ws/build/spider_interfaces': NX_CONNECTION=192.168.1.26 63880 192.168.1.53 4000 /usr/bin/cmake --build /home/dfolse/repos/SPIDER/SPIDER_ws/build/spider_interfaces -- -j6 -l6
+[1.633s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.635s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.636s] -- Configuring incomplete, errors occurred!
+[1.637s] Traceback (most recent call last):
+[1.637s]   File "/opt/ros/foxy/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py", line 21, in <module>
+[1.638s]     from ament_package.templates import get_environment_hook_template_path
+[1.639s] ModuleNotFoundError: No module named 'ament_package'
+[1.639s] CMake Error at /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_package_templates-extras.cmake:41 (message):
+[1.639s]   execute_process(/usr/bin/python3
+[1.639s]   /opt/ros/foxy/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py
+[1.640s]   /home/dfolse/repos/SPIDER/SPIDER_ws/build/spider_interfaces/ament_cmake_package_templates/templates.cmake)
+[1.640s]   returned error code 1
+[1.640s] Call Stack (most recent call first):
+[1.640s]   /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[1.640s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[1.640s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[1.640s]   CMakeLists.txt:19 (find_package)
+[1.640s] 
+[1.641s] 
+[1.641s] make: *** [Makefile:988: cmake_check_build_system] Error 1
+[1.642s] Invoked command in '/home/dfolse/repos/SPIDER/SPIDER_ws/build/spider_interfaces' returned '2': NX_CONNECTION=192.168.1.26 63880 192.168.1.53 4000 /usr/bin/cmake --build /home/dfolse/repos/SPIDER/SPIDER_ws/build/spider_interfaces -- -j6 -l6

@@ -1,0 +1,57 @@
+[1.879s] Invoking command in '/home/dfolse/repos/SPIDER/SPIDER_ws/src/locomotion': NX_CONNECTION=192.168.1.25 57198 192.168.1.42 4000 PYTHONPATH=/home/dfolse/repos/SPIDER/SPIDER_ws/build/locomotion/prefix_override:/home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/locomotion build --build-base /home/dfolse/repos/SPIDER/SPIDER_ws/build/locomotion/build install --record /home/dfolse/repos/SPIDER/SPIDER_ws/build/locomotion/install.log --install-scripts $base/lib/locomotion --single-version-externally-managed
+[2.147s] /usr/local/lib/python3.8/dist-packages/setuptools/dist.py:472: SetuptoolsDeprecationWarning: Invalid dash-separated options
+[2.148s] !!
+[2.148s] 
+[2.148s]         ********************************************************************************
+[2.148s]         Usage of dash-separated 'script-dir' will not be supported in future
+[2.148s]         versions. Please use the underscore name 'script_dir' instead.
+[2.148s] 
+[2.149s]         By 2024-Sep-26, you need to update your project and remove deprecated calls
+[2.149s]         or your builds will no longer be supported.
+[2.149s] 
+[2.149s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[2.149s]         ********************************************************************************
+[2.149s] 
+[2.149s] !!
+[2.149s]   opt = self.warn_dash_deprecation(opt, section)
+[2.340s] running egg_info
+[2.372s] writing ../../build/locomotion/locomotion.egg-info/PKG-INFO
+[2.373s] writing dependency_links to ../../build/locomotion/locomotion.egg-info/dependency_links.txt
+[2.374s] writing entry points to ../../build/locomotion/locomotion.egg-info/entry_points.txt
+[2.374s] writing requirements to ../../build/locomotion/locomotion.egg-info/requires.txt
+[2.374s] writing top-level names to ../../build/locomotion/locomotion.egg-info/top_level.txt
+[2.626s] reading manifest file '../../build/locomotion/locomotion.egg-info/SOURCES.txt'
+[2.627s] writing manifest file '../../build/locomotion/locomotion.egg-info/SOURCES.txt'
+[2.628s] running build
+[2.628s] running build_py
+[2.629s] copying locomotion/servoControllerBack.py -> /home/dfolse/repos/SPIDER/SPIDER_ws/build/locomotion/build/lib/locomotion
+[2.629s] copying locomotion/locomotion_subscriber.py -> /home/dfolse/repos/SPIDER/SPIDER_ws/build/locomotion/build/lib/locomotion
+[2.629s] copying locomotion/__init__.py -> /home/dfolse/repos/SPIDER/SPIDER_ws/build/locomotion/build/lib/locomotion
+[2.629s] copying locomotion/locomotion_publisher.py -> /home/dfolse/repos/SPIDER/SPIDER_ws/build/locomotion/build/lib/locomotion
+[2.630s] copying locomotion/servoController.py -> /home/dfolse/repos/SPIDER/SPIDER_ws/build/locomotion/build/lib/locomotion
+[2.630s] running install
+[2.631s] /usr/local/lib/python3.8/dist-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[2.631s] !!
+[2.632s] 
+[2.632s]         ********************************************************************************
+[2.632s]         Please avoid running ``setup.py`` directly.
+[2.632s]         Instead, use pypa/build, pypa/installer or other
+[2.632s]         standards-based tools.
+[2.632s] 
+[2.633s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[2.633s]         ********************************************************************************
+[2.633s] 
+[2.633s] !!
+[2.633s]   self.initialize_options()
+[2.642s] running install_lib
+[2.675s] running install_data
+[2.704s] copying resource/locomotion -> /home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion/share/ament_index/resource_index/packages
+[2.705s] copying package.xml -> /home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion/share/locomotion
+[2.705s] running install_egg_info
+[2.736s] removing '/home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion/lib/python3.8/site-packages/locomotion-0.0.0-py3.8.egg-info' (and everything under it)
+[2.737s] Copying ../../build/locomotion/locomotion.egg-info to /home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion/lib/python3.8/site-packages/locomotion-0.0.0-py3.8.egg-info
+[2.738s] running install_scripts
+[2.835s] Installing listener script to /home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion/lib/locomotion
+[2.835s] Installing talker script to /home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion/lib/locomotion
+[2.836s] writing list of installed files to '/home/dfolse/repos/SPIDER/SPIDER_ws/build/locomotion/install.log'
+[2.912s] Invoked command in '/home/dfolse/repos/SPIDER/SPIDER_ws/src/locomotion' returned '0': NX_CONNECTION=192.168.1.25 57198 192.168.1.42 4000 PYTHONPATH=/home/dfolse/repos/SPIDER/SPIDER_ws/build/locomotion/prefix_override:/home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/locomotion build --build-base /home/dfolse/repos/SPIDER/SPIDER_ws/build/locomotion/build install --record /home/dfolse/repos/SPIDER/SPIDER_ws/build/locomotion/install.log --install-scripts $base/lib/locomotion --single-version-externally-managed

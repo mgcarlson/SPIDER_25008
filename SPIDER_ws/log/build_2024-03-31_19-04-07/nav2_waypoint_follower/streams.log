@@ -1,0 +1,95 @@
+[0.071s] Invoking command in '/home/dfolse/repos/SPIDER/SPIDER_ws/build/nav2_waypoint_follower': AMENT_PREFIX_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_util:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_msgs:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_util:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_msgs:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_util/lib:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} NX_CONNECTION=192.168.1.26 63880 192.168.1.53 4000 PYTHONPATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/dfolse/repos/SPIDER/SPIDER_ws/src/navigation2/nav2_waypoint_follower -DCMAKE_INSTALL_PREFIX=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_waypoint_follower
+[8.917s] -- The C compiler identification is GNU 9.4.0
+[8.917s] -- The CXX compiler identification is GNU 9.4.0
+[8.918s] -- Check for working C compiler: /usr/bin/cc
+[8.918s] -- Check for working C compiler: /usr/bin/cc -- works
+[8.918s] -- Detecting C compiler ABI info
+[8.918s] -- Detecting C compiler ABI info - done
+[8.918s] -- Detecting C compile features
+[8.918s] -- Detecting C compile features - done
+[8.918s] -- Check for working CXX compiler: /usr/bin/c++
+[8.918s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[8.919s] -- Detecting CXX compiler ABI info
+[8.919s] -- Detecting CXX compiler ABI info - done
+[8.919s] -- Detecting CXX compile features
+[8.919s] -- Detecting CXX compile features - done
+[8.919s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[8.919s] -- Found PythonInterp: /home/dfolse/.pyenv/shims/python3 (found suitable version "3.8.10", minimum required is "3") 
+[8.919s] -- Using PYTHON_EXECUTABLE: /home/dfolse/.pyenv/shims/python3
+[8.919s] -- Found nav2_common: 0.4.7 (/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_common/share/nav2_common/cmake)
+[8.920s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[8.920s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[8.920s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[8.920s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[8.920s] -- Found FastRTPS: /opt/ros/foxy/include  
+[8.920s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.920s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[8.920s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[8.921s] -- Looking for pthread.h
+[8.921s] -- Looking for pthread.h - found
+[8.921s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[8.921s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[8.921s] -- Looking for pthread_create in pthreads
+[8.921s] -- Looking for pthread_create in pthreads - not found
+[8.921s] -- Looking for pthread_create in pthread
+[8.921s] -- Looking for pthread_create in pthread - found
+[8.922s] -- Found Threads: TRUE  
+[8.922s] -- Found rclcpp_action: 2.4.3 (/opt/ros/foxy/share/rclcpp_action/cmake)
+[8.922s] -- Found rclcpp_lifecycle: 2.4.3 (/opt/ros/foxy/share/rclcpp_lifecycle/cmake)
+[8.922s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[8.922s] -- Found nav2_msgs: 0.4.7 (/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_msgs/share/nav2_msgs/cmake)
+[8.922s] -- Found nav2_util: 0.4.7 (/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_util/share/nav2_util/cmake)
+[8.922s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[8.922s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[8.922s] -- Setting build type to Release as none was specified.
+[8.923s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[9.176s] -- Added test 'copyright' to check source files copyright and LICENSE
+[9.186s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[9.187s] -- Configured cppcheck include dirs: /home/dfolse/repos/SPIDER/SPIDER_ws/src/navigation2/nav2_waypoint_follower/include
+[9.187s] -- Configured cppcheck exclude dirs and/or files: 
+[9.189s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[9.189s] -- Configured cpplint exclude dirs and/or files: 
+[9.190s] -- Added test 'lint_cmake' to check CMake code style
+[9.193s] -- Added test 'uncrustify' to check C / C++ code style
+[9.193s] -- Configured uncrustify additional arguments: 
+[9.194s] -- Added test 'xmllint' to check XML markup files
+[9.205s] -- Configuring done
+[9.334s] -- Generating done
+[9.338s] -- Build files have been written to: /home/dfolse/repos/SPIDER/SPIDER_ws/build/nav2_waypoint_follower
+[9.373s] Invoked command in '/home/dfolse/repos/SPIDER/SPIDER_ws/build/nav2_waypoint_follower' returned '0': AMENT_PREFIX_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_util:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_msgs:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_util:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_msgs:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_util/lib:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} NX_CONNECTION=192.168.1.26 63880 192.168.1.53 4000 PYTHONPATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/dfolse/repos/SPIDER/SPIDER_ws/src/navigation2/nav2_waypoint_follower -DCMAKE_INSTALL_PREFIX=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_waypoint_follower
+[9.380s] Invoking command in '/home/dfolse/repos/SPIDER/SPIDER_ws/build/nav2_waypoint_follower': AMENT_PREFIX_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_util:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_msgs:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_util:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_msgs:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_util/lib:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} NX_CONNECTION=192.168.1.26 63880 192.168.1.53 4000 PYTHONPATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/dfolse/repos/SPIDER/SPIDER_ws/build/nav2_waypoint_follower
+[10.312s] [35m[1mScanning dependencies of target waypoint_follower_core[0m
+[10.312s] [ 25%] [32mBuilding CXX object CMakeFiles/waypoint_follower_core.dir/src/waypoint_follower.cpp.o[0m
+[34.430s] [ 50%] [32m[1mLinking CXX shared library libwaypoint_follower_core.so[0m
+[35.205s] [ 50%] Built target waypoint_follower_core
+[35.268s] [35m[1mScanning dependencies of target waypoint_follower[0m
+[35.560s] [ 75%] [32mBuilding CXX object CMakeFiles/waypoint_follower.dir/src/main.cpp.o[0m
+[42.728s] [100%] [32m[1mLinking CXX executable waypoint_follower[0m
+[43.459s] [100%] Built target waypoint_follower
+[43.562s] Invoked command in '/home/dfolse/repos/SPIDER/SPIDER_ws/build/nav2_waypoint_follower' returned '0': AMENT_PREFIX_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_util:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_msgs:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_util:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_msgs:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_util/lib:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} NX_CONNECTION=192.168.1.26 63880 192.168.1.53 4000 PYTHONPATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/dfolse/repos/SPIDER/SPIDER_ws/build/nav2_waypoint_follower
+[43.732s] Invoking command in '/home/dfolse/repos/SPIDER/SPIDER_ws/build/nav2_waypoint_follower': AMENT_PREFIX_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_util:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_msgs:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_util:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_msgs:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_util/lib:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} NX_CONNECTION=192.168.1.26 63880 192.168.1.53 4000 PYTHONPATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/dfolse/repos/SPIDER/SPIDER_ws/build/nav2_waypoint_follower
+[75.043s] -- Install configuration: "Release"
+[75.048s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_waypoint_follower/lib/libwaypoint_follower_core.so
+[75.049s] -- Set runtime path of "/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_waypoint_follower/lib/libwaypoint_follower_core.so" to ""
+[75.049s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_waypoint_follower/lib/nav2_waypoint_follower/waypoint_follower
+[75.049s] -- Set runtime path of "/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_waypoint_follower/lib/nav2_waypoint_follower/waypoint_follower" to ""
+[75.049s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_waypoint_follower/include/
+[75.049s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_waypoint_follower/include//nav2_waypoint_follower
+[75.049s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_waypoint_follower/include//nav2_waypoint_follower/waypoint_follower.hpp
+[75.049s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_waypoint_follower/share/ament_index/resource_index/package_run_dependencies/nav2_waypoint_follower
+[75.050s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_waypoint_follower/share/ament_index/resource_index/parent_prefix_path/nav2_waypoint_follower
+[75.050s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_waypoint_follower/share/nav2_waypoint_follower/environment/ament_prefix_path.sh
+[75.050s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_waypoint_follower/share/nav2_waypoint_follower/environment/ament_prefix_path.dsv
+[75.050s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_waypoint_follower/share/nav2_waypoint_follower/environment/path.sh
+[75.050s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_waypoint_follower/share/nav2_waypoint_follower/environment/path.dsv
+[75.050s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_waypoint_follower/share/nav2_waypoint_follower/local_setup.bash
+[75.050s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_waypoint_follower/share/nav2_waypoint_follower/local_setup.sh
+[75.051s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_waypoint_follower/share/nav2_waypoint_follower/local_setup.zsh
+[75.051s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_waypoint_follower/share/nav2_waypoint_follower/local_setup.dsv
+[75.051s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_waypoint_follower/share/nav2_waypoint_follower/package.dsv
+[75.051s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_waypoint_follower/share/ament_index/resource_index/packages/nav2_waypoint_follower
+[75.052s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_waypoint_follower/share/nav2_waypoint_follower/cmake/ament_cmake_export_include_directories-extras.cmake
+[75.052s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_waypoint_follower/share/nav2_waypoint_follower/cmake/nav2_waypoint_followerConfig.cmake
+[75.052s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_waypoint_follower/share/nav2_waypoint_follower/cmake/nav2_waypoint_followerConfig-version.cmake
+[75.052s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_waypoint_follower/share/nav2_waypoint_follower/package.xml
+[75.053s] Invoked command in '/home/dfolse/repos/SPIDER/SPIDER_ws/build/nav2_waypoint_follower' returned '0': AMENT_PREFIX_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_util:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_msgs:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_util:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_msgs:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_util/lib:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} NX_CONNECTION=192.168.1.26 63880 192.168.1.53 4000 PYTHONPATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/dfolse/repos/SPIDER/SPIDER_ws/build/nav2_waypoint_follower

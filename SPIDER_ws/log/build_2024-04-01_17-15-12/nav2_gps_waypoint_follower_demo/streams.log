@@ -1,0 +1,71 @@
+[4.133s] Invoking command in '/home/dfolse/repos/SPIDER/SPIDER_ws/src/nav2_gps_waypoint_follower_demo': NX_CONNECTION=192.168.1.26 61486 192.168.1.53 4000 PYTHONPATH=/home/dfolse/repos/SPIDER/SPIDER_ws/build/nav2_gps_waypoint_follower_demo/prefix_override:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_gps_waypoint_follower_demo/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/nav2_gps_waypoint_follower_demo build --build-base /home/dfolse/repos/SPIDER/SPIDER_ws/build/nav2_gps_waypoint_follower_demo/build install --record /home/dfolse/repos/SPIDER/SPIDER_ws/build/nav2_gps_waypoint_follower_demo/install.log --single-version-externally-managed install_data
+[4.691s] running egg_info
+[4.692s] creating ../../build/nav2_gps_waypoint_follower_demo/nav2_gps_waypoint_follower_demo.egg-info
+[4.693s] writing ../../build/nav2_gps_waypoint_follower_demo/nav2_gps_waypoint_follower_demo.egg-info/PKG-INFO
+[4.693s] writing dependency_links to ../../build/nav2_gps_waypoint_follower_demo/nav2_gps_waypoint_follower_demo.egg-info/dependency_links.txt
+[4.694s] writing entry points to ../../build/nav2_gps_waypoint_follower_demo/nav2_gps_waypoint_follower_demo.egg-info/entry_points.txt
+[4.694s] writing requirements to ../../build/nav2_gps_waypoint_follower_demo/nav2_gps_waypoint_follower_demo.egg-info/requires.txt
+[4.695s] writing top-level names to ../../build/nav2_gps_waypoint_follower_demo/nav2_gps_waypoint_follower_demo.egg-info/top_level.txt
+[4.698s] writing manifest file '../../build/nav2_gps_waypoint_follower_demo/nav2_gps_waypoint_follower_demo.egg-info/SOURCES.txt'
+[4.703s] reading manifest file '../../build/nav2_gps_waypoint_follower_demo/nav2_gps_waypoint_follower_demo.egg-info/SOURCES.txt'
+[4.705s] writing manifest file '../../build/nav2_gps_waypoint_follower_demo/nav2_gps_waypoint_follower_demo.egg-info/SOURCES.txt'
+[4.706s] running build
+[4.706s] running build_py
+[4.707s] creating /home/dfolse/repos/SPIDER/SPIDER_ws/build/nav2_gps_waypoint_follower_demo/build
+[4.707s] creating /home/dfolse/repos/SPIDER/SPIDER_ws/build/nav2_gps_waypoint_follower_demo/build/lib
+[4.707s] creating /home/dfolse/repos/SPIDER/SPIDER_ws/build/nav2_gps_waypoint_follower_demo/build/lib/nav2_gps_waypoint_follower_demo
+[4.707s] copying nav2_gps_waypoint_follower_demo/gps_waypoint_logger.py -> /home/dfolse/repos/SPIDER/SPIDER_ws/build/nav2_gps_waypoint_follower_demo/build/lib/nav2_gps_waypoint_follower_demo
+[4.708s] copying nav2_gps_waypoint_follower_demo/logged_waypoint_follower.py -> /home/dfolse/repos/SPIDER/SPIDER_ws/build/nav2_gps_waypoint_follower_demo/build/lib/nav2_gps_waypoint_follower_demo
+[4.708s] copying nav2_gps_waypoint_follower_demo/interactive_waypoint_follower.py -> /home/dfolse/repos/SPIDER/SPIDER_ws/build/nav2_gps_waypoint_follower_demo/build/lib/nav2_gps_waypoint_follower_demo
+[4.708s] copying nav2_gps_waypoint_follower_demo/__init__.py -> /home/dfolse/repos/SPIDER/SPIDER_ws/build/nav2_gps_waypoint_follower_demo/build/lib/nav2_gps_waypoint_follower_demo
+[4.709s] creating /home/dfolse/repos/SPIDER/SPIDER_ws/build/nav2_gps_waypoint_follower_demo/build/lib/nav2_gps_waypoint_follower_demo/utils
+[4.709s] copying nav2_gps_waypoint_follower_demo/utils/gps_utils.py -> /home/dfolse/repos/SPIDER/SPIDER_ws/build/nav2_gps_waypoint_follower_demo/build/lib/nav2_gps_waypoint_follower_demo/utils
+[4.710s] copying nav2_gps_waypoint_follower_demo/utils/__init__.py -> /home/dfolse/repos/SPIDER/SPIDER_ws/build/nav2_gps_waypoint_follower_demo/build/lib/nav2_gps_waypoint_follower_demo/utils
+[4.710s] running install
+[4.712s] running install_lib
+[4.715s] creating /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_gps_waypoint_follower_demo/lib/python3.8/site-packages/nav2_gps_waypoint_follower_demo
+[4.715s] copying /home/dfolse/repos/SPIDER/SPIDER_ws/build/nav2_gps_waypoint_follower_demo/build/lib/nav2_gps_waypoint_follower_demo/gps_waypoint_logger.py -> /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_gps_waypoint_follower_demo/lib/python3.8/site-packages/nav2_gps_waypoint_follower_demo
+[4.715s] copying /home/dfolse/repos/SPIDER/SPIDER_ws/build/nav2_gps_waypoint_follower_demo/build/lib/nav2_gps_waypoint_follower_demo/logged_waypoint_follower.py -> /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_gps_waypoint_follower_demo/lib/python3.8/site-packages/nav2_gps_waypoint_follower_demo
+[4.716s] copying /home/dfolse/repos/SPIDER/SPIDER_ws/build/nav2_gps_waypoint_follower_demo/build/lib/nav2_gps_waypoint_follower_demo/interactive_waypoint_follower.py -> /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_gps_waypoint_follower_demo/lib/python3.8/site-packages/nav2_gps_waypoint_follower_demo
+[4.716s] copying /home/dfolse/repos/SPIDER/SPIDER_ws/build/nav2_gps_waypoint_follower_demo/build/lib/nav2_gps_waypoint_follower_demo/__init__.py -> /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_gps_waypoint_follower_demo/lib/python3.8/site-packages/nav2_gps_waypoint_follower_demo
+[4.716s] creating /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_gps_waypoint_follower_demo/lib/python3.8/site-packages/nav2_gps_waypoint_follower_demo/utils
+[4.717s] copying /home/dfolse/repos/SPIDER/SPIDER_ws/build/nav2_gps_waypoint_follower_demo/build/lib/nav2_gps_waypoint_follower_demo/utils/gps_utils.py -> /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_gps_waypoint_follower_demo/lib/python3.8/site-packages/nav2_gps_waypoint_follower_demo/utils
+[4.717s] copying /home/dfolse/repos/SPIDER/SPIDER_ws/build/nav2_gps_waypoint_follower_demo/build/lib/nav2_gps_waypoint_follower_demo/utils/__init__.py -> /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_gps_waypoint_follower_demo/lib/python3.8/site-packages/nav2_gps_waypoint_follower_demo/utils
+[4.719s] byte-compiling /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_gps_waypoint_follower_demo/lib/python3.8/site-packages/nav2_gps_waypoint_follower_demo/gps_waypoint_logger.py to gps_waypoint_logger.cpython-38.pyc
+[4.727s] byte-compiling /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_gps_waypoint_follower_demo/lib/python3.8/site-packages/nav2_gps_waypoint_follower_demo/logged_waypoint_follower.py to logged_waypoint_follower.cpython-38.pyc
+[4.727s] byte-compiling /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_gps_waypoint_follower_demo/lib/python3.8/site-packages/nav2_gps_waypoint_follower_demo/interactive_waypoint_follower.py to interactive_waypoint_follower.cpython-38.pyc
+[4.727s] byte-compiling /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_gps_waypoint_follower_demo/lib/python3.8/site-packages/nav2_gps_waypoint_follower_demo/__init__.py to __init__.cpython-38.pyc
+[4.728s] byte-compiling /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_gps_waypoint_follower_demo/lib/python3.8/site-packages/nav2_gps_waypoint_follower_demo/utils/gps_utils.py to gps_utils.cpython-38.pyc
+[4.729s] byte-compiling /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_gps_waypoint_follower_demo/lib/python3.8/site-packages/nav2_gps_waypoint_follower_demo/utils/__init__.py to __init__.cpython-38.pyc
+[4.730s] running install_data
+[4.730s] creating /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_gps_waypoint_follower_demo/share/ament_index
+[4.731s] creating /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_gps_waypoint_follower_demo/share/ament_index/resource_index
+[4.731s] creating /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_gps_waypoint_follower_demo/share/ament_index/resource_index/packages
+[4.732s] copying resource/nav2_gps_waypoint_follower_demo -> /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_gps_waypoint_follower_demo/share/ament_index/resource_index/packages
+[4.732s] copying package.xml -> /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo
+[4.733s] creating /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo/launch
+[4.734s] copying launch/gazebo_gps_world.launch.py -> /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo/launch
+[4.735s] copying launch/gps_waypoint_follower.launch.py -> /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo/launch
+[4.736s] copying launch/mapviz.launch.py -> /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo/launch
+[4.736s] copying launch/dual_ekf_navsat.launch.py -> /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo/launch
+[4.738s] creating /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo/config
+[4.739s] copying config/dual_ekf_navsat_params.yaml -> /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo/config
+[4.739s] copying config/gps_wpf_demo.mvc -> /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo/config
+[4.740s] copying config/demo_waypoints.yaml -> /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo/config
+[4.740s] copying config/nav2_no_map_params.yaml -> /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo/config
+[4.741s] creating /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo/urdf
+[4.742s] copying urdf/turtlebot3_waffle_gps.urdf -> /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo/urdf
+[4.742s] creating /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo/worlds
+[4.742s] copying worlds/sonoma_raceway.world -> /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo/worlds
+[4.743s] creating /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo/models
+[4.745s] creating /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo/models/turtlebot_waffle_gps
+[4.745s] copying models/turtlebot_waffle_gps/model.sdf -> /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo/models/turtlebot_waffle_gps
+[4.746s] copying models/turtlebot_waffle_gps/model.config -> /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo/models/turtlebot_waffle_gps
+[4.746s] running install_egg_info
+[4.748s] Copying ../../build/nav2_gps_waypoint_follower_demo/nav2_gps_waypoint_follower_demo.egg-info to /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_gps_waypoint_follower_demo/lib/python3.8/site-packages/nav2_gps_waypoint_follower_demo-0.0.1-py3.8.egg-info
+[4.752s] running install_scripts
+[4.796s] Installing gps_waypoint_logger script to /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_gps_waypoint_follower_demo/lib/nav2_gps_waypoint_follower_demo
+[4.797s] Installing interactive_waypoint_follower script to /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_gps_waypoint_follower_demo/lib/nav2_gps_waypoint_follower_demo
+[4.797s] Installing logged_waypoint_follower script to /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_gps_waypoint_follower_demo/lib/nav2_gps_waypoint_follower_demo
+[4.798s] writing list of installed files to '/home/dfolse/repos/SPIDER/SPIDER_ws/build/nav2_gps_waypoint_follower_demo/install.log'
+[4.897s] Invoked command in '/home/dfolse/repos/SPIDER/SPIDER_ws/src/nav2_gps_waypoint_follower_demo' returned '0': NX_CONNECTION=192.168.1.26 61486 192.168.1.53 4000 PYTHONPATH=/home/dfolse/repos/SPIDER/SPIDER_ws/build/nav2_gps_waypoint_follower_demo/prefix_override:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_gps_waypoint_follower_demo/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/nav2_gps_waypoint_follower_demo build --build-base /home/dfolse/repos/SPIDER/SPIDER_ws/build/nav2_gps_waypoint_follower_demo/build install --record /home/dfolse/repos/SPIDER/SPIDER_ws/build/nav2_gps_waypoint_follower_demo/install.log --single-version-externally-managed install_data

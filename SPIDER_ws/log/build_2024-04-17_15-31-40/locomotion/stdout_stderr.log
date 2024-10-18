@@ -1,0 +1,20 @@
+running develop
+running egg_info
+writing locomotion.egg-info/PKG-INFO
+writing dependency_links to locomotion.egg-info/dependency_links.txt
+writing entry points to locomotion.egg-info/entry_points.txt
+writing requirements to locomotion.egg-info/requires.txt
+writing top-level names to locomotion.egg-info/top_level.txt
+reading manifest file 'locomotion.egg-info/SOURCES.txt'
+writing manifest file 'locomotion.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion/lib/python3.8/site-packages/site.py
+Creating /home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion/lib/python3.8/site-packages/locomotion.egg-link (link to .)
+Installing client script to /home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion/lib/locomotion
+Installing imu_pub script to /home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion/lib/locomotion
+Installing service script to /home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion/lib/locomotion
+
+Installed /home/dfolse/repos/SPIDER/SPIDER_ws/build/locomotion
+running symlink_data
+symbolically linking /home/dfolse/repos/SPIDER/SPIDER_ws/build/locomotion/resource/locomotion -> /home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion/share/ament_index/resource_index/packages
+symbolically linking /home/dfolse/repos/SPIDER/SPIDER_ws/build/locomotion/package.xml -> /home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion/share/locomotion

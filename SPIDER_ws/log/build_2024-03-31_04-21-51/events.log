@@ -1,0 +1,98 @@
+[0.000000] (-) TimerEvent: {}
+[0.000915] (-) JobUnselected: {'identifier': 'costmap_queue'}
+[0.001493] (-) JobUnselected: {'identifier': 'data_transfer'}
+[0.001758] (-) JobUnselected: {'identifier': 'dwb_core'}
+[0.002450] (-) JobUnselected: {'identifier': 'dwb_critics'}
+[0.002822] (-) JobUnselected: {'identifier': 'dwb_msgs'}
+[0.003000] (-) JobUnselected: {'identifier': 'dwb_plugins'}
+[0.003053] (-) JobUnselected: {'identifier': 'locomotion'}
+[0.003089] (-) JobUnselected: {'identifier': 'nav2_amcl'}
+[0.003123] (-) JobUnselected: {'identifier': 'nav2_behavior_tree'}
+[0.003157] (-) JobUnselected: {'identifier': 'nav2_bringup'}
+[0.003190] (-) JobUnselected: {'identifier': 'nav2_bt_navigator'}
+[0.003224] (-) JobUnselected: {'identifier': 'nav2_common'}
+[0.003257] (-) JobUnselected: {'identifier': 'nav2_controller'}
+[0.003290] (-) JobUnselected: {'identifier': 'nav2_core'}
+[0.003323] (-) JobUnselected: {'identifier': 'nav2_costmap_2d'}
+[0.003355] (-) JobUnselected: {'identifier': 'nav2_dwb_controller'}
+[0.003388] (-) JobUnselected: {'identifier': 'nav2_gazebo_spawner'}
+[0.003420] (-) JobUnselected: {'identifier': 'nav2_lifecycle_manager'}
+[0.003454] (-) JobUnselected: {'identifier': 'nav2_map_server'}
+[0.003490] (-) JobUnselected: {'identifier': 'nav2_msgs'}
+[0.003523] (-) JobUnselected: {'identifier': 'nav2_navfn_planner'}
+[0.003556] (-) JobUnselected: {'identifier': 'nav2_planner'}
+[0.003588] (-) JobUnselected: {'identifier': 'nav2_recoveries'}
+[0.003621] (-) JobUnselected: {'identifier': 'nav2_regulated_pure_pursuit_controller'}
+[0.003655] (-) JobUnselected: {'identifier': 'nav2_rviz_plugins'}
+[0.003688] (-) JobUnselected: {'identifier': 'nav2_system_tests'}
+[0.003721] (-) JobUnselected: {'identifier': 'nav2_util'}
+[0.003753] (-) JobUnselected: {'identifier': 'nav2_voxel_grid'}
+[0.003786] (-) JobUnselected: {'identifier': 'nav2_waypoint_follower'}
+[0.003819] (-) JobUnselected: {'identifier': 'nav_2d_msgs'}
+[0.003851] (-) JobUnselected: {'identifier': 'nav_2d_utils'}
+[0.003884] (-) JobUnselected: {'identifier': 'navigation2'}
+[0.003947] (-) JobUnselected: {'identifier': 'oak_d_lite'}
+[0.004026] (-) JobUnselected: {'identifier': 'smac_planner'}
+[0.004079] (-) JobUnselected: {'identifier': 'spider_description'}
+[0.004130] (-) JobUnselected: {'identifier': 'spider_interfaces'}
+[0.004181] (spider_nav) JobQueued: {'identifier': 'spider_nav', 'dependencies': OrderedDict([('nav2_common', '/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_common'), ('nav_2d_msgs', '/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs'), ('dwb_msgs', '/home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_msgs'), ('nav2_msgs', '/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_msgs'), ('nav2_voxel_grid', '/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_voxel_grid'), ('nav2_util', '/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_util'), ('nav2_amcl', '/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_amcl'), ('nav2_behavior_tree', '/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_behavior_tree'), ('nav2_lifecycle_manager', '/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_lifecycle_manager'), ('nav2_map_server', '/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_map_server'), ('nav2_waypoint_follower', '/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_waypoint_follower'), ('nav_2d_utils', '/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_utils'), ('nav2_bt_navigator', '/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_bt_navigator'), ('nav2_costmap_2d', '/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_costmap_2d'), ('nav2_rviz_plugins', '/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_rviz_plugins'), ('costmap_queue', '/home/dfolse/repos/SPIDER/SPIDER_ws/install/costmap_queue'), ('nav2_core', '/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_core'), ('dwb_core', '/home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_core'), ('nav2_controller', '/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_controller'), ('nav2_navfn_planner', '/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_navfn_planner'), ('nav2_planner', '/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_planner'), ('nav2_recoveries', '/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_recoveries'), ('nav2_regulated_pure_pursuit_controller', '/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_regulated_pure_pursuit_controller'), ('smac_planner', '/home/dfolse/repos/SPIDER/SPIDER_ws/install/smac_planner'), ('dwb_critics', '/home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_critics'), ('dwb_plugins', '/home/dfolse/repos/SPIDER/SPIDER_ws/install/dwb_plugins'), ('nav2_dwb_controller', '/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_dwb_controller'), ('navigation2', '/home/dfolse/repos/SPIDER/SPIDER_ws/install/navigation2')])}
+[0.004349] (spider_nav) JobStarted: {'identifier': 'spider_nav'}
+[0.100230] (-) TimerEvent: {}
+[0.201614] (-) TimerEvent: {}
+[0.302203] (-) TimerEvent: {}
+[0.403070] (-) TimerEvent: {}
+[0.503830] (-) TimerEvent: {}
+[0.605425] (-) TimerEvent: {}
+[0.706325] (-) TimerEvent: {}
+[0.806946] (-) TimerEvent: {}
+[0.907534] (-) TimerEvent: {}
+[1.008140] (-) TimerEvent: {}
+[1.109226] (-) TimerEvent: {}
+[1.212556] (-) TimerEvent: {}
+[1.313655] (-) TimerEvent: {}
+[1.415137] (-) TimerEvent: {}
+[1.516134] (-) TimerEvent: {}
+[1.616897] (-) TimerEvent: {}
+[1.717517] (-) TimerEvent: {}
+[1.818165] (-) TimerEvent: {}
+[1.918981] (-) TimerEvent: {}
+[2.019756] (-) TimerEvent: {}
+[2.120465] (-) TimerEvent: {}
+[2.221203] (-) TimerEvent: {}
+[2.321999] (-) TimerEvent: {}
+[2.326524] (spider_nav) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/spider_nav', 'build', '--build-base', '/home/dfolse/repos/SPIDER/SPIDER_ws/build/spider_nav/build', 'install', '--record', '/home/dfolse/repos/SPIDER/SPIDER_ws/build/spider_nav/install.log', '--single-version-externally-managed'], 'cwd': '/home/dfolse/repos/SPIDER/SPIDER_ws/src/spider_nav', 'env': {'NX_ROOT': '/home/dfolse/.nx', 'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'VIRTUALENVWRAPPER_WORKON_CD': '1', 'OPENBLAS_CORETYPE': 'ARMV8', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'PULSE_CLIENTCONFIG': '/home/dfolse/.nx/nxdevice/D-1001-A3021FA43D04F616897B714CD786E0AA/audio/client.conf', 'MAIL': '/var/mail/dfolse', 'WORKON_HOME': '/home/dfolse/.virtualenvs', 'USER': 'dfolse', 'XDG_SESSION_TYPE': 'x11', 'NX_SYSTEM': '/usr/NX', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/dfolse', 'VIRTUALENVWRAPPER_PYTHON': '/usr/bin/python3', 'OLDPWD': '/home/dfolse/repos/SPIDER/SPIDER_ws/src/spider_nav/config', 'DESKTOP_SESSION': 'ubuntu-xorg', 'PYENV_SHELL': 'bash', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'DBUS_SESSION_BUS_ADDRESS': 'unix:abstract=/tmp/dbus-X5oTD6IYS1,guid=6d95299fa303225293babc576608e0c9', 'COLORTERM': 'truecolor', 'PULSE_SCRIPT': '/home/dfolse/.nx/nxdevice/D-1001-A3021FA43D04F616897B714CD786E0AA/audio/default.pa', 'COLCON_PREFIX_PATH': '/home/dfolse/repos/SPIDER/SPIDER_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'dfolse', 'PULSE_SERVER': '/home/dfolse/.nx/nxdevice/D-1001-A3021FA43D04F616897B714CD786E0AA/audio/native.socket', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'dfolse', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/foxy/bin:/home/dfolse/.pyenv/shims:/home/dfolse/.pyenv/bin:/home/dfolse/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/SPIDER:@/tmp/.ICE-unix/3003,unix/SPIDER:/tmp/.ICE-unix/3003', 'PULSE_RUNTIME_PATH': '/run/user/1000/pulse', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/b2739bc3_4bd2_42ee_a4fe_4f5b134f8517', 'XDG_RUNTIME_DIR': '/run/user/1000', 'PULSE_CONFIG': '/home/dfolse/.nx/nxdevice/D-1001-A3021FA43D04F616897B714CD786E0AA/audio/daemon.conf', 'GDK_BACKEND': 'x11', 'DISPLAY': ':1001', 'LD_PRELOAD': '/usr/NX/lib/libnxegl.so', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'NX_TEMP': '/tmp', 'XMODIFIERS': '@im=ibus', 'XAUTHORITY': '/home/dfolse/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.400', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_nav:/home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description:/home/dfolse/repos/SPIDER/SPIDER_ws/install/oak_d_lite:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_gazebo_spawner:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_common:/home/dfolse/repos/SPIDER/SPIDER_ws/install/data_transfer:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VIRTUALENVWRAPPER_PROJECT_FILENAME': '.project', 'VIRTUALENVWRAPPER_HOOK_DIR': '/home/dfolse/.virtualenvs', 'NX_SESSION_ID': 'A3021FA43D04F616897B714CD786E0AA', 'GJS_DEBUG_OUTPUT': 'stderr', 'VIRTUALENVWRAPPER_SCRIPT': '/usr/local/bin/virtualenvwrapper.sh', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/dfolse/repos/SPIDER/SPIDER_ws/build/spider_nav', 'NX_RUNNER': '/usr/NX/bin/nxrunner', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg', 'PYENV_ROOT': '/home/dfolse/.pyenv', 'XDG_DATA_DIRS': '/usr/share/ubuntu-xorg:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/dfolse/repos/SPIDER/SPIDER_ws/build/spider_nav/prefix_override:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_nav/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_common/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_nav/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/oak_d_lite/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_gazebo_spawner/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/data_transfer/lib/python3.10/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_common:/home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description', 'NX_CONNECTION': '192.168.1.26 58481 192.168.1.53 4000', 'NXDIR': '/usr/NX'}, 'shell': False}
+[2.422295] (-) TimerEvent: {}
+[2.523324] (-) TimerEvent: {}
+[2.624018] (-) TimerEvent: {}
+[2.724785] (-) TimerEvent: {}
+[2.825414] (-) TimerEvent: {}
+[2.904588] (spider_nav) StdoutLine: {'line': b'running egg_info\n'}
+[2.905617] (spider_nav) StdoutLine: {'line': b'writing ../../build/spider_nav/spider_nav.egg-info/PKG-INFO\n'}
+[2.906146] (spider_nav) StdoutLine: {'line': b'writing dependency_links to ../../build/spider_nav/spider_nav.egg-info/dependency_links.txt\n'}
+[2.906522] (spider_nav) StdoutLine: {'line': b'writing entry points to ../../build/spider_nav/spider_nav.egg-info/entry_points.txt\n'}
+[2.906782] (spider_nav) StdoutLine: {'line': b'writing requirements to ../../build/spider_nav/spider_nav.egg-info/requires.txt\n'}
+[2.906988] (spider_nav) StdoutLine: {'line': b'writing top-level names to ../../build/spider_nav/spider_nav.egg-info/top_level.txt\n'}
+[2.913739] (spider_nav) StdoutLine: {'line': b"reading manifest file '../../build/spider_nav/spider_nav.egg-info/SOURCES.txt'\n"}
+[2.915392] (spider_nav) StdoutLine: {'line': b"writing manifest file '../../build/spider_nav/spider_nav.egg-info/SOURCES.txt'\n"}
+[2.915679] (spider_nav) StdoutLine: {'line': b'running build\n'}
+[2.915898] (spider_nav) StdoutLine: {'line': b'running build_py\n'}
+[2.916849] (spider_nav) StdoutLine: {'line': b'running install\n'}
+[2.918476] (spider_nav) StdoutLine: {'line': b'running install_lib\n'}
+[2.921592] (spider_nav) StdoutLine: {'line': b'running install_data\n'}
+[2.922773] (spider_nav) StdoutLine: {'line': b'copying config/nav2_no_map_params.yaml -> /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_nav/share/spider_nav/config\n'}
+[2.923153] (spider_nav) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.925464] (-) TimerEvent: {}
+[2.926203] (spider_nav) StdoutLine: {'line': b"removing '/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_nav/lib/python3.8/site-packages/spider_nav-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[2.926966] (spider_nav) StdoutLine: {'line': b'Copying ../../build/spider_nav/spider_nav.egg-info to /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_nav/lib/python3.8/site-packages/spider_nav-0.0.0-py3.8.egg-info\n'}
+[2.928893] (spider_nav) StdoutLine: {'line': b'running install_scripts\n'}
+[2.967580] (spider_nav) StdoutLine: {'line': b'Installing gps_waypoint_logger script to /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_nav/lib/spider_nav\n'}
+[2.968280] (spider_nav) StdoutLine: {'line': b'Installing interactive_waypoint_follower script to /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_nav/lib/spider_nav\n'}
+[2.968630] (spider_nav) StdoutLine: {'line': b'Installing logged_waypoint_follower script to /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_nav/lib/spider_nav\n'}
+[2.969139] (spider_nav) StdoutLine: {'line': b"writing list of installed files to '/home/dfolse/repos/SPIDER/SPIDER_ws/build/spider_nav/install.log'\n"}
+[3.025053] (spider_nav) CommandEnded: {'returncode': 0}
+[3.026632] (-) TimerEvent: {}
+[3.127327] (-) TimerEvent: {}
+[3.228787] (-) TimerEvent: {}
+[3.331456] (-) TimerEvent: {}
+[3.340410] (spider_nav) JobEnded: {'identifier': 'spider_nav', 'rc': 0}
+[3.344044] (-) EventReactorShutdown: {}

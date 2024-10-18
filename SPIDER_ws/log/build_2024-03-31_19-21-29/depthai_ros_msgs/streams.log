@@ -1,0 +1,15 @@
+[0.172s] Invoking command in '/home/dfolse/repos/SPIDER/SPIDER_ws/build/depthai_ros_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy NX_CONNECTION=192.168.1.26 63880 192.168.1.53 4000 /usr/bin/cmake --build /home/dfolse/repos/SPIDER/SPIDER_ws/build/depthai_ros_msgs
+[0.394s] [  1%] Built target depthai_ros_msgs__cpp
+[0.477s] [ 12%] Built target depthai_ros_msgs__rosidl_typesupport_cpp
+[0.593s] [ 24%] Built target depthai_ros_msgs__rosidl_generator_c
+[0.702s] [ 35%] Built target depthai_ros_msgs__rosidl_typesupport_introspection_c
+[0.798s] [ 47%] Built target depthai_ros_msgs__rosidl_typesupport_fastrtps_cpp
+[0.922s] [ 58%] Built target depthai_ros_msgs__rosidl_typesupport_fastrtps_c
+[1.017s] [ 70%] Built target depthai_ros_msgs__rosidl_typesupport_c
+[1.138s] [ 82%] Built target depthai_ros_msgs__rosidl_typesupport_introspection_cpp
+[1.220s] [ 82%] Built target depthai_ros_msgs
+[1.333s] [ 83%] Built target depthai_ros_msgs__py
+[1.477s] [ 93%] Built target depthai_ros_msgs__python
+[1.676s] [ 95%] Built target depthai_ros_msgs__rosidl_typesupport_fastrtps_c__pyext
+[1.801s] [ 97%] Built target depthai_ros_msgs__rosidl_typesupport_c__pyext
+[1.951s] [100%] Built target depthai_ros_msgs__rosidl_typesupport_introspection_c__pyext

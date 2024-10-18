@@ -1,0 +1,16 @@
+[0.193s] Invoking command in '/home/dfolse/repos/SPIDER/SPIDER_ws/build/spider_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy NX_CONNECTION=192.168.1.26 63880 192.168.1.53 4000 /usr/bin/cmake --build /home/dfolse/repos/SPIDER/SPIDER_ws/build/spider_interfaces
+[0.396s] [  2%] Built target spider_interfaces__cpp
+[0.488s] [ 12%] Built target spider_interfaces__rosidl_typesupport_cpp
+[0.581s] [ 23%] Built target spider_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.665s] [ 33%] Built target spider_interfaces__rosidl_generator_c
+[0.745s] [ 43%] Built target spider_interfaces__rosidl_typesupport_fastrtps_c
+[0.821s] [ 53%] Built target spider_interfaces__rosidl_typesupport_introspection_c
+[0.908s] [ 64%] Built target spider_interfaces__rosidl_typesupport_c
+[1.032s] [ 74%] Built target spider_interfaces__rosidl_typesupport_introspection_cpp
+[1.143s] [ 74%] Built target spider_interfaces
+[1.260s] [ 76%] Built target spider_interfaces__py
+[1.344s] [ 84%] Built target spider_interfaces__python
+[1.519s] [ 89%] Built target spider_interfaces__rosidl_typesupport_introspection_c__pyext
+[1.685s] [ 94%] Built target spider_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[1.825s] [100%] Built target spider_interfaces__rosidl_typesupport_c__pyext
+[1.974s] Invoked command in '/home/dfolse/repos/SPIDER/SPIDER_ws/build/spider_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy NX_CONNECTION=192.168.1.26 63880 192.168.1.53 4000 /usr/bin/cmake --build /home/dfolse/repos/SPIDER/SPIDER_ws/build/spider_interfaces

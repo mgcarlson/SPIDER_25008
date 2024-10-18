@@ -1,0 +1,31 @@
+[0.085s] Invoking command in '/home/dfolse/repos/SPIDER/SPIDER_ws/build/spider_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/dfolse/repos/SPIDER/SPIDER_ws/build/spider_interfaces -- -j4 -l4
+[0.423s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.550s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.551s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.475s] -- Found std_msgs: 2.0.5 (/opt/ros/foxy/share/std_msgs/cmake)
+[1.649s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.669s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.857s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.070s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[3.221s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[3.937s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[5.310s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.607s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.720s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[5.722s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[5.837s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[5.838s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[5.839s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.8.so
+[6.069s] -- Configuring done
+[6.429s] -- Generating done
+[6.447s] -- Build files have been written to: /home/dfolse/repos/SPIDER/SPIDER_ws/build/spider_interfaces
+[6.609s] [  2%] Built target spider_interfaces__cpp
+[6.650s] [ 12%] Built target spider_interfaces__rosidl_generator_c
+[6.664s] make[1]: *** [CMakeFiles/Makefile2:360: CMakeFiles/spider_interfaces__rosidl_typesupport_introspection_c.dir/all] Interrupt
+[6.665s] make[2]: *** [CMakeFiles/spider_interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make:196: CMakeFiles/spider_interfaces__rosidl_typesupport_fastrtps_cpp.dir/depend] Interrupt
+[6.666s] make[1]: *** [CMakeFiles/Makefile2:212: CMakeFiles/spider_interfaces__rosidl_typesupport_fastrtps_cpp.dir/all] Interrupt
+[6.667s] make[2]: *** [CMakeFiles/spider_interfaces__rosidl_typesupport_introspection_cpp.dir/build.make:185: CMakeFiles/spider_interfaces__rosidl_typesupport_introspection_cpp.dir/depend] Interrupt
+[6.668s] make[2]: *** [CMakeFiles/spider_interfaces__rosidl_typesupport_cpp.dir/build.make:175: CMakeFiles/spider_interfaces__rosidl_typesupport_cpp.dir/depend] Interrupt
+[6.668s] make[1]: *** [CMakeFiles/Makefile2:468: CMakeFiles/spider_interfaces__rosidl_typesupport_introspection_cpp.dir/all] Interrupt
+[6.668s] make[1]: *** [CMakeFiles/Makefile2:495: CMakeFiles/spider_interfaces__rosidl_typesupport_cpp.dir/all] Interrupt
+[6.669s] make: *** [Makefile:141: all] Interrupt

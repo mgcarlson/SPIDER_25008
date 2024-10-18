@@ -1,0 +1,22 @@
+-- Install configuration: ""
+-- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description/share/spider_description/launch
+-- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description/share/spider_description/launch/display.launch
+-- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description/share/spider_description/launch/gazebo.launch
+-- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description/share/spider_description/launch/display.launch.py
+-- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description/share/spider_description/rviz
+-- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description/share/spider_description/rviz/urdf_config.rviz
+-- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description/share/ament_index/resource_index/package_run_dependencies/spider_description
+-- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description/share/ament_index/resource_index/parent_prefix_path/spider_description
+-- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description/share/spider_description/environment/ament_prefix_path.sh
+-- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description/share/spider_description/environment/ament_prefix_path.dsv
+-- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description/share/spider_description/environment/path.sh
+-- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description/share/spider_description/environment/path.dsv
+-- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description/share/spider_description/local_setup.bash
+-- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description/share/spider_description/local_setup.sh
+-- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description/share/spider_description/local_setup.zsh
+-- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description/share/spider_description/local_setup.dsv
+-- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description/share/spider_description/package.dsv
+-- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description/share/ament_index/resource_index/packages/spider_description
+-- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description/share/spider_description/cmake/spider_descriptionConfig.cmake
+-- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description/share/spider_description/cmake/spider_descriptionConfig-version.cmake
+-- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description/share/spider_description/package.xml

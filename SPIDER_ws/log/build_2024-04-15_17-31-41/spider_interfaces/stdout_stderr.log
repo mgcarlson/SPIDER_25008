@@ -1,0 +1,20 @@
+[  2%] Built target spider_interfaces__cpp
+[ 12%] Built target spider_interfaces__rosidl_generator_c
+[ 23%] Built target spider_interfaces__rosidl_typesupport_cpp
+[ 33%] Built target spider_interfaces__rosidl_typesupport_introspection_c
+[ 43%] Built target spider_interfaces__rosidl_typesupport_introspection_cpp
+[ 53%] Built target spider_interfaces__rosidl_typesupport_c
+[ 56%] [32m[1mLinking CXX shared library libspider_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 64%] Built target spider_interfaces__rosidl_typesupport_fastrtps_cpp
+[ 66%] [32m[1mLinking CXX shared library libspider_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[ 74%] Built target spider_interfaces__rosidl_typesupport_fastrtps_c
+[ 74%] Built target spider_interfaces
+[ 76%] Built target spider_interfaces__py
+[ 79%] [32m[1mLinking C shared library rosidl_generator_py/spider_interfaces/libspider_interfaces__python.so[0m
+[ 84%] Built target spider_interfaces__python
+[ 87%] [32m[1mLinking C shared library rosidl_generator_py/spider_interfaces/spider_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so[0m
+[ 89%] [32m[1mLinking CXX shared library rosidl_generator_py/spider_interfaces/spider_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so[0m
+[ 92%] [32m[1mLinking C shared library rosidl_generator_py/spider_interfaces/spider_interfaces_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so[0m
+[ 94%] Built target spider_interfaces__rosidl_typesupport_introspection_c__pyext
+[ 97%] Built target spider_interfaces__rosidl_typesupport_c__pyext
+[100%] Built target spider_interfaces__rosidl_typesupport_fastrtps_c__pyext

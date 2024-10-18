@@ -1,0 +1,16 @@
+[01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+compilation terminated.
+make[2]: *** [CMakeFiles/rgb_stereo_node.dir/build.make:63: CMakeFiles/rgb_stereo_node.dir/ros2_src/rgb_stereo_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:252: CMakeFiles/rgb_stereo_node.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+[01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+compilation terminated.
+make[2]: *** [CMakeFiles/mobilenet_node.dir/build.make:63: CMakeFiles/mobilenet_node.dir/ros2_src/mobilenet_publisher.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:144: CMakeFiles/mobilenet_node.dir/all] Error 2
+[01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+compilation terminated.
+make[2]: *** [CMakeFiles/stereo_node.dir/build.make:63: CMakeFiles/stereo_node.dir/ros2_src/stereo_publisher.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:198: CMakeFiles/stereo_node.dir/all] Error 2
+/usr/bin/ld: warning: libopencv_imgcodecs.so.4.2, needed by /opt/ros/foxy/lib/libdepthai_bridge.so, may conflict with libopencv_imgcodecs.so.4.5
+/usr/bin/ld: warning: libopencv_imgcodecs.so.4.2, needed by /opt/ros/foxy/lib/libdepthai_bridge.so, may conflict with libopencv_imgcodecs.so.4.5
+make: *** [Makefile:141: all] Error 2

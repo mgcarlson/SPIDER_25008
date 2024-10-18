@@ -1,0 +1,19 @@
+[0.400s] Invoking command in '/home/dfolse/repos/SPIDER/SPIDER_ws/build/locomotion': NX_CONNECTION=192.168.1.26 54739 192.168.1.53 4000 /usr/bin/cmake /home/dfolse/repos/SPIDER/SPIDER_ws/src/locomotion -DCMAKE_INSTALL_PREFIX=/home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion
+[0.442s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.442s] -- Found ament_cmake_core: 0.9.12 (/opt/ros/foxy/share/ament_cmake_core/cmake)
+[0.489s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.489s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.893s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.899s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.203s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.246s] CMake Error at /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:93 (message):
+[1.246s]   rosidl_generate_interfaces() the passed file 'msg/loc_commands.msg' doesn't
+[1.246s]   exist relative to the CMAKE_CURRENT_SOURCE_DIR
+[1.246s]   '/home/dfolse/repos/SPIDER/SPIDER_ws/src/locomotion'
+[1.246s] Call Stack (most recent call first):
+[1.247s]   CMakeLists.txt:6 (rosidl_generate_interfaces)
+[1.247s] 
+[1.247s] 
+[1.248s] -- Configuring incomplete, errors occurred!
+[1.248s] See also "/home/dfolse/repos/SPIDER/SPIDER_ws/build/locomotion/CMakeFiles/CMakeOutput.log".
+[1.266s] Invoked command in '/home/dfolse/repos/SPIDER/SPIDER_ws/build/locomotion' returned '1': NX_CONNECTION=192.168.1.26 54739 192.168.1.53 4000 /usr/bin/cmake /home/dfolse/repos/SPIDER/SPIDER_ws/src/locomotion -DCMAKE_INSTALL_PREFIX=/home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion

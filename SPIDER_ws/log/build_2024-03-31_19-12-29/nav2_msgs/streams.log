@@ -1,0 +1,16 @@
+[0.120s] Invoking command in '/home/dfolse/repos/SPIDER/SPIDER_ws/build/nav2_msgs': AMENT_PREFIX_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_common:/opt/ros/foxy NX_CONNECTION=192.168.1.26 63880 192.168.1.53 4000 PYTHONPATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/dfolse/repos/SPIDER/SPIDER_ws/build/nav2_msgs
+[0.451s] [ 12%] Built target nav2_msgs__rosidl_generator_c
+[0.587s] [ 24%] Built target nav2_msgs__rosidl_typesupport_c
+[0.777s] [ 24%] Built target nav2_msgs__cpp
+[0.938s] [ 36%] Built target nav2_msgs__rosidl_typesupport_cpp
+[1.106s] [ 49%] Built target nav2_msgs__rosidl_typesupport_introspection_cpp
+[1.256s] [ 61%] Built target nav2_msgs__rosidl_typesupport_introspection_c
+[1.436s] [ 73%] Built target nav2_msgs__rosidl_typesupport_fastrtps_cpp
+[1.616s] [ 85%] Built target nav2_msgs__rosidl_typesupport_fastrtps_c
+[1.723s] [ 85%] Built target nav2_msgs
+[1.852s] [ 86%] Built target nav2_msgs__py
+[2.026s] [ 97%] Built target nav2_msgs__python
+[2.146s] [ 98%] Built target nav2_msgs__rosidl_typesupport_introspection_c__pyext
+[2.263s] [ 99%] Built target nav2_msgs__rosidl_typesupport_c__pyext
+[2.358s] [100%] Built target nav2_msgs__rosidl_typesupport_fastrtps_c__pyext
+[2.619s] Invoked command in '/home/dfolse/repos/SPIDER/SPIDER_ws/build/nav2_msgs' returned '0': AMENT_PREFIX_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_common:/opt/ros/foxy NX_CONNECTION=192.168.1.26 63880 192.168.1.53 4000 PYTHONPATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/dfolse/repos/SPIDER/SPIDER_ws/build/nav2_msgs

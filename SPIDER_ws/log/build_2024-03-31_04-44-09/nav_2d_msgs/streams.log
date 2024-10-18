@@ -1,0 +1,227 @@
+[2.052s] Invoking command in '/home/dfolse/repos/SPIDER/SPIDER_ws/build/nav_2d_msgs': CMAKE_PREFIX_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_nav:/home/dfolse/repos/SPIDER/SPIDER_ws/install/oak_d_lite:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_gazebo_spawner:/home/dfolse/repos/SPIDER/SPIDER_ws/install/data_transfer:/opt/ros/foxy:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_common NX_CONNECTION=192.168.1.26 58481 192.168.1.53 4000 /usr/bin/cmake --build /home/dfolse/repos/SPIDER/SPIDER_ws/build/nav_2d_msgs -- -j6 -l6
+[2.234s] [  1%] Built target nav_2d_msgs__cpp
+[2.250s] [ 12%] Built target nav_2d_msgs__rosidl_generator_c
+[2.358s] [ 23%] Built target nav_2d_msgs__rosidl_typesupport_introspection_cpp
+[2.366s] [ 35%] Built target nav_2d_msgs__rosidl_typesupport_cpp
+[2.379s] [ 46%] Built target nav_2d_msgs__rosidl_typesupport_c
+[2.383s] [ 57%] Built target nav_2d_msgs__rosidl_typesupport_fastrtps_cpp
+[2.389s] [ 69%] Built target nav_2d_msgs__rosidl_typesupport_introspection_c
+[2.494s] [ 80%] Built target nav_2d_msgs__rosidl_typesupport_fastrtps_c
+[2.561s] [ 80%] Built target nav_2d_msgs
+[2.639s] [ 81%] Built target nav_2d_msgs__py
+[2.734s] [ 91%] Built target nav_2d_msgs__python
+[2.859s] [ 94%] Built target nav_2d_msgs__rosidl_typesupport_fastrtps_c__pyext
+[2.859s] [ 97%] Built target nav_2d_msgs__rosidl_typesupport_introspection_c__pyext
+[2.861s] [100%] Built target nav_2d_msgs__rosidl_typesupport_c__pyext
+[3.229s] Invoked command in '/home/dfolse/repos/SPIDER/SPIDER_ws/build/nav_2d_msgs' returned '0': CMAKE_PREFIX_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_nav:/home/dfolse/repos/SPIDER/SPIDER_ws/install/oak_d_lite:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_gazebo_spawner:/home/dfolse/repos/SPIDER/SPIDER_ws/install/data_transfer:/opt/ros/foxy:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_common NX_CONNECTION=192.168.1.26 58481 192.168.1.53 4000 /usr/bin/cmake --build /home/dfolse/repos/SPIDER/SPIDER_ws/build/nav_2d_msgs -- -j6 -l6
+[4.369s] Invoking command in '/home/dfolse/repos/SPIDER/SPIDER_ws/build/nav_2d_msgs': CMAKE_PREFIX_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_nav:/home/dfolse/repos/SPIDER/SPIDER_ws/install/oak_d_lite:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_gazebo_spawner:/home/dfolse/repos/SPIDER/SPIDER_ws/install/data_transfer:/opt/ros/foxy:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_common NX_CONNECTION=192.168.1.26 58481 192.168.1.53 4000 /usr/bin/cmake --install /home/dfolse/repos/SPIDER/SPIDER_ws/build/nav_2d_msgs
+[4.792s] -- Install configuration: ""
+[4.792s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/share/ament_index/resource_index/rosidl_interfaces/nav_2d_msgs
+[4.792s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/include/nav_2d_msgs
+[4.793s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg
+[4.793s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/twist2_d.h
+[4.793s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/path2_d.h
+[4.793s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/twist2_d32.h
+[4.794s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/twist2_d_stamped.h
+[4.794s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail
+[4.794s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d__functions.h
+[4.794s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d_stamped__type_support.h
+[4.794s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d32__functions.c
+[4.795s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/pose2_d32__functions.h
+[4.795s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/pose2_d_stamped__struct.h
+[4.795s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/path2_d__type_support.h
+[4.795s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d__functions.c
+[4.795s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/path2_d__functions.h
+[4.796s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/path2_d__struct.h
+[4.796s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d32__type_support.h
+[4.796s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/pose2_d32__type_support.h
+[4.796s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/pose2_d32__functions.c
+[4.796s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d32__functions.h
+[4.797s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d32__struct.h
+[4.797s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/pose2_d_stamped__type_support.h
+[4.797s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d__type_support.h
+[4.797s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/pose2_d_stamped__functions.h
+[4.797s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/path2_d__functions.c
+[4.797s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d_stamped__functions.c
+[4.798s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d_stamped__struct.h
+[4.798s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/pose2_d_stamped__functions.c
+[4.798s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d__struct.h
+[4.798s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d_stamped__functions.h
+[4.799s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/pose2_d32__struct.h
+[4.799s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/pose2_d32.h
+[4.799s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/pose2_d_stamped.h
+[4.799s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/rosidl_generator_c__visibility_control.h
+[4.799s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/share/nav_2d_msgs/environment/library_path.sh
+[4.799s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/share/nav_2d_msgs/environment/library_path.dsv
+[4.800s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_generator_c.so
+[4.800s] -- Set runtime path of "/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_generator_c.so" to ""
+[4.803s] -- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/include/nav_2d_msgs
+[4.804s] -- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg
+[4.805s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.805s] -- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail
+[4.805s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d_stamped__rosidl_typesupport_fastrtps_c.h
+[4.805s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d32__rosidl_typesupport_fastrtps_c.h
+[4.805s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/pose2_d32__rosidl_typesupport_fastrtps_c.h
+[4.805s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/pose2_d_stamped__rosidl_typesupport_fastrtps_c.h
+[4.806s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/path2_d__rosidl_typesupport_fastrtps_c.h
+[4.806s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d__rosidl_typesupport_fastrtps_c.h
+[4.806s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_fastrtps_c.so
+[4.806s] -- Set runtime path of "/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[4.806s] -- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/include/nav_2d_msgs
+[4.806s] -- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg
+[4.806s] -- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail
+[4.806s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/path2_d__rosidl_typesupport_fastrtps_cpp.hpp
+[4.807s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/pose2_d_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[4.807s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[4.807s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d__rosidl_typesupport_fastrtps_cpp.hpp
+[4.807s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/dds_fastrtps
+[4.807s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d32__rosidl_typesupport_fastrtps_cpp.hpp
+[4.807s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/pose2_d32__rosidl_typesupport_fastrtps_cpp.hpp
+[4.807s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.807s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_fastrtps_cpp.so
+[4.808s] -- Set runtime path of "/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[4.809s] -- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/include/nav_2d_msgs
+[4.809s] -- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg
+[4.809s] -- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail
+[4.809s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d32__type_support.c
+[4.810s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/pose2_d_stamped__type_support.c
+[4.810s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d_stamped__rosidl_typesupport_introspection_c.h
+[4.810s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/path2_d__type_support.c
+[4.810s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/path2_d__rosidl_typesupport_introspection_c.h
+[4.810s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d__rosidl_typesupport_introspection_c.h
+[4.810s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/pose2_d_stamped__rosidl_typesupport_introspection_c.h
+[4.811s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/pose2_d32__type_support.c
+[4.811s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d32__rosidl_typesupport_introspection_c.h
+[4.811s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/pose2_d32__rosidl_typesupport_introspection_c.h
+[4.811s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d_stamped__type_support.c
+[4.811s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d__type_support.c
+[4.811s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.812s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_introspection_c.so
+[4.812s] -- Set runtime path of "/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_introspection_c.so" to ""
+[4.812s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_c.so
+[4.812s] -- Set runtime path of "/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_c.so" to ""
+[4.813s] -- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/include/nav_2d_msgs
+[4.813s] -- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg
+[4.813s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/twist2_d.hpp
+[4.813s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/twist2_d32.hpp
+[4.813s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/path2_d.hpp
+[4.813s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[4.814s] -- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail
+[4.814s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d_stamped__struct.hpp
+[4.814s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d32__struct.hpp
+[4.814s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/path2_d__traits.hpp
+[4.814s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d32__type_support.hpp
+[4.815s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d_stamped__builder.hpp
+[4.815s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/pose2_d32__builder.hpp
+[4.815s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d_stamped__traits.hpp
+[4.815s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/path2_d__builder.hpp
+[4.815s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d__traits.hpp
+[4.815s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d32__traits.hpp
+[4.816s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d32__builder.hpp
+[4.816s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/path2_d__struct.hpp
+[4.817s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/pose2_d_stamped__struct.hpp
+[4.817s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d__builder.hpp
+[4.817s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/pose2_d32__traits.hpp
+[4.817s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/pose2_d_stamped__builder.hpp
+[4.817s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/pose2_d_stamped__type_support.hpp
+[4.817s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d_stamped__type_support.hpp
+[4.817s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/path2_d__type_support.hpp
+[4.817s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d__struct.hpp
+[4.818s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/pose2_d_stamped__traits.hpp
+[4.818s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/pose2_d32__struct.hpp
+[4.818s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/pose2_d32__type_support.hpp
+[4.818s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d__type_support.hpp
+[4.818s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/twist2_d_stamped.hpp
+[4.818s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/pose2_d_stamped.hpp
+[4.818s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/pose2_d32.hpp
+[4.818s] -- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/include/nav_2d_msgs
+[4.819s] -- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg
+[4.819s] -- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail
+[4.819s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d__rosidl_typesupport_introspection_cpp.hpp
+[4.819s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d__type_support.cpp
+[4.819s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d_stamped__type_support.cpp
+[4.819s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d32__type_support.cpp
+[4.819s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/pose2_d32__type_support.cpp
+[4.819s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/pose2_d32__rosidl_typesupport_introspection_cpp.hpp
+[4.820s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/path2_d__rosidl_typesupport_introspection_cpp.hpp
+[4.820s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d_stamped__rosidl_typesupport_introspection_cpp.hpp
+[4.820s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/pose2_d_stamped__type_support.cpp
+[4.820s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/pose2_d_stamped__rosidl_typesupport_introspection_cpp.hpp
+[4.820s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d32__rosidl_typesupport_introspection_cpp.hpp
+[4.820s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/path2_d__type_support.cpp
+[4.821s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_introspection_cpp.so
+[4.821s] -- Set runtime path of "/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[4.821s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_cpp.so
+[4.821s] -- Set runtime path of "/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_cpp.so" to ""
+[4.821s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/share/nav_2d_msgs/environment/pythonpath.sh
+[4.821s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/share/nav_2d_msgs/environment/pythonpath.dsv
+[4.821s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/lib/python3.8/site-packages/nav_2d_msgs/__init__.py
+[5.143s] Compiling '/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/lib/python3.8/site-packages/nav_2d_msgs/__init__.py'...
+[5.155s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/lib/python3.8/site-packages/nav_2d_msgs/msg
+[5.156s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/lib/python3.8/site-packages/nav_2d_msgs/msg/_twist2_d_stamped_s.c
+[5.157s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/lib/python3.8/site-packages/nav_2d_msgs/msg/_twist2_d32.py
+[5.158s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/lib/python3.8/site-packages/nav_2d_msgs/msg/_pose2_d32_s.c
+[5.160s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/lib/python3.8/site-packages/nav_2d_msgs/msg/_twist2_d_stamped.py
+[5.160s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/lib/python3.8/site-packages/nav_2d_msgs/msg/_twist2_d32_s.c
+[5.161s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/lib/python3.8/site-packages/nav_2d_msgs/msg/_pose2_d32.py
+[5.162s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/lib/python3.8/site-packages/nav_2d_msgs/msg/_path2_d.py
+[5.163s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/lib/python3.8/site-packages/nav_2d_msgs/msg/_twist2_d_s.c
+[5.164s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/lib/python3.8/site-packages/nav_2d_msgs/msg/_pose2_d_stamped.py
+[5.165s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/lib/python3.8/site-packages/nav_2d_msgs/msg/_pose2_d_stamped_s.c
+[5.166s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/lib/python3.8/site-packages/nav_2d_msgs/msg/_path2_d_s.c
+[5.166s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/lib/python3.8/site-packages/nav_2d_msgs/msg/__init__.py
+[5.168s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/lib/python3.8/site-packages/nav_2d_msgs/msg/_twist2_d.py
+[5.169s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/lib/python3.8/site-packages/nav_2d_msgs/nav_2d_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so
+[5.170s] -- Set runtime path of "/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/lib/python3.8/site-packages/nav_2d_msgs/nav_2d_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so" to ""
+[5.170s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/lib/python3.8/site-packages/nav_2d_msgs/nav_2d_msgs_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so
+[5.170s] -- Set runtime path of "/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/lib/python3.8/site-packages/nav_2d_msgs/nav_2d_msgs_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so" to ""
+[5.170s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/lib/python3.8/site-packages/nav_2d_msgs/nav_2d_msgs_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so
+[5.171s] -- Set runtime path of "/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/lib/python3.8/site-packages/nav_2d_msgs/nav_2d_msgs_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so" to ""
+[5.171s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/lib/libnav_2d_msgs__python.so
+[5.171s] -- Set runtime path of "/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/lib/libnav_2d_msgs__python.so" to ""
+[5.171s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/share/nav_2d_msgs/msg/Path2D.idl
+[5.171s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/share/nav_2d_msgs/msg/Pose2D32.idl
+[5.172s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/share/nav_2d_msgs/msg/Pose2DStamped.idl
+[5.172s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/share/nav_2d_msgs/msg/Twist2D.idl
+[5.172s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/share/nav_2d_msgs/msg/Twist2D32.idl
+[5.172s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/share/nav_2d_msgs/msg/Twist2DStamped.idl
+[5.172s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/share/nav_2d_msgs/msg/Path2D.msg
+[5.172s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/share/nav_2d_msgs/msg/Pose2D32.msg
+[5.172s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/share/nav_2d_msgs/msg/Pose2DStamped.msg
+[5.173s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/share/nav_2d_msgs/msg/Twist2D.msg
+[5.173s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/share/nav_2d_msgs/msg/Twist2D32.msg
+[5.173s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/share/nav_2d_msgs/msg/Twist2DStamped.msg
+[5.173s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/share/ament_index/resource_index/package_run_dependencies/nav_2d_msgs
+[5.173s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/share/ament_index/resource_index/parent_prefix_path/nav_2d_msgs
+[5.173s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/share/nav_2d_msgs/environment/ament_prefix_path.sh
+[5.174s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/share/nav_2d_msgs/environment/ament_prefix_path.dsv
+[5.174s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/share/nav_2d_msgs/environment/path.sh
+[5.174s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/share/nav_2d_msgs/environment/path.dsv
+[5.174s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/share/nav_2d_msgs/local_setup.bash
+[5.174s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/share/nav_2d_msgs/local_setup.sh
+[5.174s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/share/nav_2d_msgs/local_setup.zsh
+[5.174s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/share/nav_2d_msgs/local_setup.dsv
+[5.175s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/share/nav_2d_msgs/package.dsv
+[5.175s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/share/ament_index/resource_index/packages/nav_2d_msgs
+[5.175s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_generator_cExport.cmake
+[5.175s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_generator_cExport-noconfig.cmake
+[5.175s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_typesupport_introspection_cExport.cmake
+[5.176s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[5.176s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_typesupport_cExport.cmake
+[5.176s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[5.176s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_generator_cppExport.cmake
+[5.176s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[5.176s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[5.177s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_typesupport_cppExport.cmake
+[5.177s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[5.178s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/rosidl_cmake-extras.cmake
+[5.178s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.179s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[5.179s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[5.179s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.179s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[5.179s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[5.179s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgsConfig.cmake
+[5.179s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgsConfig-version.cmake
+[5.184s] -- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/share/nav_2d_msgs/package.xml
+[6.355s] Invoked command in '/home/dfolse/repos/SPIDER/SPIDER_ws/build/nav_2d_msgs' returned '0': CMAKE_PREFIX_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_nav:/home/dfolse/repos/SPIDER/SPIDER_ws/install/oak_d_lite:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_gazebo_spawner:/home/dfolse/repos/SPIDER/SPIDER_ws/install/data_transfer:/opt/ros/foxy:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description:/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav2_common NX_CONNECTION=192.168.1.26 58481 192.168.1.53 4000 /usr/bin/cmake --install /home/dfolse/repos/SPIDER/SPIDER_ws/build/nav_2d_msgs

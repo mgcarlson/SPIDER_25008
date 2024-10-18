@@ -1,0 +1,72 @@
+[0.402s] Invoking command in '/home/dfolse/repos/SPIDER/SPIDER_ws/build/locomotion': NX_CONNECTION=192.168.1.26 54739 192.168.1.53 4000 /usr/bin/cmake /home/dfolse/repos/SPIDER/SPIDER_ws/src/locomotion -DCMAKE_INSTALL_PREFIX=/home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion
+[0.436s] CMake Warning (dev) in CMakeLists.txt:
+[0.436s]   No project() command is present.  The top-level CMakeLists.txt file must
+[0.436s]   contain a literal, direct call to the project() command.  Add a line of
+[0.437s]   code such as
+[0.437s] 
+[0.437s]     project(ProjectName)
+[0.437s] 
+[0.437s]   near the top of the file, but after cmake_minimum_required().
+[0.437s] 
+[0.437s]   CMake is pretending there is a "project(Project)" command on the first
+[0.437s]   line.
+[0.438s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.438s] 
+[0.656s] -- The C compiler identification is GNU 9.4.0
+[0.836s] -- The CXX compiler identification is GNU 9.4.0
+[0.859s] -- Check for working C compiler: /usr/bin/cc
+[1.038s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.042s] -- Detecting C compiler ABI info
+[1.232s] -- Detecting C compiler ABI info - done
+[1.283s] -- Detecting C compile features
+[1.284s] -- Detecting C compile features - done
+[1.292s] -- Check for working CXX compiler: /usr/bin/c++
+[1.487s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.491s] -- Detecting CXX compiler ABI info
+[1.697s] -- Detecting CXX compiler ABI info - done
+[1.737s] -- Detecting CXX compile features
+[1.738s] -- Detecting CXX compile features - done
+[1.746s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[1.754s] -- Found ament_cmake_core: 0.9.12 (/opt/ros/foxy/share/ament_cmake_core/cmake)
+[1.801s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.802s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.211s] CMake Warning (dev) at /opt/ros/foxy/share/ament_cmake_core/cmake/core/list_append_unique.cmake:30 (if):
+[2.211s]   Policy CMP0057 is not set: Support new IN_LIST if() operator.  Run "cmake
+[2.211s]   --help-policy CMP0057" for policy details.  Use the cmake_policy command to
+[2.212s]   set the policy and suppress this warning.
+[2.212s] 
+[2.213s]   IN_LIST will be interpreted as an operator when the policy is set to NEW.
+[2.213s]   Since the policy is not set the OLD behavior will be used.
+[2.213s] Call Stack (most recent call first):
+[2.214s]   /opt/ros/foxy/share/ament_cmake_core/cmake/index/ament_index_get_resources.cmake:51 (list_append_unique)
+[2.214s]   /opt/ros/foxy/share/rosidl_default_generators/cmake/rosidl_default_generators-extras.cmake:5 (ament_index_get_resources)
+[2.214s]   /opt/ros/foxy/share/rosidl_default_generators/cmake/rosidl_default_generatorsConfig.cmake:41 (include)
+[2.214s]   CMakeLists.txt:1 (find_package)
+[2.215s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.215s] 
+[2.215s] CMake Error at /opt/ros/foxy/share/ament_cmake_core/cmake/core/list_append_unique.cmake:30 (if):
+[2.215s]   if given arguments:
+[2.216s] 
+[2.216s]     "NOT" "element" "IN_LIST" "paths_to_search"
+[2.216s] 
+[2.216s]   Unknown arguments specified
+[2.216s] Call Stack (most recent call first):
+[2.217s]   /opt/ros/foxy/share/ament_cmake_core/cmake/index/ament_index_get_resources.cmake:51 (list_append_unique)
+[2.217s]   /opt/ros/foxy/share/rosidl_default_generators/cmake/rosidl_default_generators-extras.cmake:5 (ament_index_get_resources)
+[2.217s]   /opt/ros/foxy/share/rosidl_default_generators/cmake/rosidl_default_generatorsConfig.cmake:41 (include)
+[2.217s]   CMakeLists.txt:1 (find_package)
+[2.218s] 
+[2.218s] 
+[2.218s] CMake Warning (dev) in CMakeLists.txt:
+[2.218s]   No cmake_minimum_required command is present.  A line of code such as
+[2.218s] 
+[2.219s]     cmake_minimum_required(VERSION 3.16)
+[2.219s] 
+[2.219s]   should be added at the top of the file.  The version specified may be lower
+[2.219s]   if you wish to support older CMake versions for this project.  For more
+[2.220s]   information run "cmake --help-policy CMP0000".
+[2.220s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.220s] 
+[2.220s] -- Configuring incomplete, errors occurred!
+[2.221s] See also "/home/dfolse/repos/SPIDER/SPIDER_ws/build/locomotion/CMakeFiles/CMakeOutput.log".
+[2.225s] Invoked command in '/home/dfolse/repos/SPIDER/SPIDER_ws/build/locomotion' returned '1': NX_CONNECTION=192.168.1.26 54739 192.168.1.53 4000 /usr/bin/cmake /home/dfolse/repos/SPIDER/SPIDER_ws/src/locomotion -DCMAKE_INSTALL_PREFIX=/home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion

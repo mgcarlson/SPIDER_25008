@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from spider_interfaces/msg/LocCommands.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/String.idl"
+
+module spider_interfaces {
+  module msg {
+    struct LocCommands {
+      std_msgs::msg::String move_type;
+
+      int64 move_amount;
+    };
+  };
+};

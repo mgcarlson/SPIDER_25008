@@ -1,0 +1,3 @@
+make[2]: *** [test/plugins/condition/CMakeFiles/test_condition_distance_traveled.dir/build.make:63: test/plugins/condition/CMakeFiles/test_condition_distance_traveled.dir/test_distance_traveled.cpp.o] Interrupt
+make[1]: *** [CMakeFiles/Makefile2:1098: test/plugins/condition/CMakeFiles/test_condition_distance_traveled.dir/all] Interrupt
+make: *** [Makefile:141: all] Interrupt

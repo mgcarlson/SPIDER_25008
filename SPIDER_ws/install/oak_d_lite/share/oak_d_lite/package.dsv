@@ -1,0 +1,6 @@
+source;share/oak_d_lite/hook/pythonpath.ps1
+source;share/oak_d_lite/hook/pythonpath.dsv
+source;share/oak_d_lite/hook/pythonpath.sh
+source;share/oak_d_lite/hook/ament_prefix_path.ps1
+source;share/oak_d_lite/hook/ament_prefix_path.dsv
+source;share/oak_d_lite/hook/ament_prefix_path.sh

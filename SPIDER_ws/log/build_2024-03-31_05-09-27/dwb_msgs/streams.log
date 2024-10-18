@@ -1,0 +1,15 @@
+[1.728s] Invoking command in '/home/dfolse/repos/SPIDER/SPIDER_ws/build/dwb_msgs': AMENT_PREFIX_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} NX_CONNECTION=192.168.1.26 58481 192.168.1.53 4000 PYTHONPATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/nav_2d_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/dfolse/repos/SPIDER/SPIDER_ws/build/dwb_msgs -- -j6 -l6
+[1.934s] [  1%] Built target dwb_msgs__cpp
+[2.023s] [ 12%] Built target dwb_msgs__rosidl_generator_c
+[2.067s] [ 24%] Built target dwb_msgs__rosidl_typesupport_cpp
+[2.133s] [ 35%] Built target dwb_msgs__rosidl_typesupport_fastrtps_cpp
+[2.133s] [ 47%] Built target dwb_msgs__rosidl_typesupport_introspection_cpp
+[2.172s] [ 58%] Built target dwb_msgs__rosidl_typesupport_c
+[2.187s] [ 70%] Built target dwb_msgs__rosidl_typesupport_introspection_c
+[2.254s] [ 82%] Built target dwb_msgs__rosidl_typesupport_fastrtps_c
+[2.320s] [ 82%] Built target dwb_msgs
+[2.389s] [ 83%] Built target dwb_msgs__py
+[2.476s] [ 93%] Built target dwb_msgs__python
+[2.558s] [100%] Built target dwb_msgs__rosidl_typesupport_fastrtps_c__pyext
+[2.560s] [100%] Built target dwb_msgs__rosidl_typesupport_introspection_c__pyext
+[2.560s] [100%] Built target dwb_msgs__rosidl_typesupport_c__pyext

@@ -1,0 +1,16 @@
+[0.167s] Invoking command in '/home/dfolse/repos/SPIDER/SPIDER_ws/build/nav_2d_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy NX_CONNECTION=192.168.1.26 63880 192.168.1.53 4000 /usr/bin/cmake --build /home/dfolse/repos/SPIDER/SPIDER_ws/build/nav_2d_msgs
+[0.403s] [ 11%] Built target nav_2d_msgs__rosidl_generator_c
+[0.488s] [ 22%] Built target nav_2d_msgs__rosidl_typesupport_c
+[0.578s] [ 23%] Built target nav_2d_msgs__cpp
+[0.658s] [ 35%] Built target nav_2d_msgs__rosidl_typesupport_cpp
+[0.761s] [ 46%] Built target nav_2d_msgs__rosidl_typesupport_introspection_c
+[0.860s] [ 57%] Built target nav_2d_msgs__rosidl_typesupport_introspection_cpp
+[0.966s] [ 69%] Built target nav_2d_msgs__rosidl_typesupport_fastrtps_cpp
+[1.081s] [ 80%] Built target nav_2d_msgs__rosidl_typesupport_fastrtps_c
+[1.165s] [ 80%] Built target nav_2d_msgs
+[1.254s] [ 81%] Built target nav_2d_msgs__py
+[1.373s] [ 91%] Built target nav_2d_msgs__python
+[1.557s] [ 94%] Built target nav_2d_msgs__rosidl_typesupport_introspection_c__pyext
+[1.708s] [ 97%] Built target nav_2d_msgs__rosidl_typesupport_fastrtps_c__pyext
+[1.838s] [100%] Built target nav_2d_msgs__rosidl_typesupport_c__pyext
+[1.952s] Invoked command in '/home/dfolse/repos/SPIDER/SPIDER_ws/build/nav_2d_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy NX_CONNECTION=192.168.1.26 63880 192.168.1.53 4000 /usr/bin/cmake --build /home/dfolse/repos/SPIDER/SPIDER_ws/build/nav_2d_msgs

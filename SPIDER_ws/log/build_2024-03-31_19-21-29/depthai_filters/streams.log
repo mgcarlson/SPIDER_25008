@@ -1,0 +1,16 @@
+[0.079s] Invoking command in '/home/dfolse/repos/SPIDER/SPIDER_ws/build/depthai_filters': CMAKE_PREFIX_PATH=/opt/ros/foxy NX_CONNECTION=192.168.1.26 63880 192.168.1.53 4000 /usr/bin/cmake --build /home/dfolse/repos/SPIDER/SPIDER_ws/build/depthai_filters
+[0.188s] -- ----------------Did not find OpenCV 4, trying OpenCV 3--------------
+[0.191s] CMake Error at /usr/share/cmake-3.16/Modules/FindPackageHandleStandardArgs.cmake:146 (message):
+[0.191s]   Could NOT find OpenCV (missing: ximgproc) (found suitable version "4.5.4",
+[0.192s]   minimum required is "4")
+[0.192s] Call Stack (most recent call first):
+[0.192s]   /usr/share/cmake-3.16/Modules/FindPackageHandleStandardArgs.cmake:393 (_FPHSA_FAILURE_MESSAGE)
+[0.192s]   /usr/lib/aarch64-linux-gnu/cmake/opencv4/OpenCVConfig.cmake:354 (find_package_handle_standard_args)
+[0.192s]   CMakeLists.txt:12 (find_package)
+[0.192s] 
+[0.192s] 
+[0.193s] -- Configuring incomplete, errors occurred!
+[0.193s] See also "/home/dfolse/repos/SPIDER/SPIDER_ws/build/depthai_filters/CMakeFiles/CMakeOutput.log".
+[0.193s] See also "/home/dfolse/repos/SPIDER/SPIDER_ws/build/depthai_filters/CMakeFiles/CMakeError.log".
+[0.196s] make: *** [Makefile:446: cmake_check_build_system] Error 1
+[0.206s] Invoked command in '/home/dfolse/repos/SPIDER/SPIDER_ws/build/depthai_filters' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy NX_CONNECTION=192.168.1.26 63880 192.168.1.53 4000 /usr/bin/cmake --build /home/dfolse/repos/SPIDER/SPIDER_ws/build/depthai_filters

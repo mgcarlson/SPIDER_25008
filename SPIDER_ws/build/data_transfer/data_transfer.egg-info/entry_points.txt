@@ -1,0 +1,4 @@
+[console_scripts]
+listener = data_transfer.subscribe_transfer:main
+talker = data_transfer.publish_transfer:main
+

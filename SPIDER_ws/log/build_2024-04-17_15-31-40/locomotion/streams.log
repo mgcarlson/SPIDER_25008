@@ -1,0 +1,22 @@
+[6.099s] Invoking command in '/home/dfolse/repos/SPIDER/SPIDER_ws/build/locomotion': AMENT_PREFIX_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces LD_LIBRARY_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dfolse/repos/SPIDER/SPIDER_ws/build/locomotion/prefix_override:/home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/dfolse/repos/SPIDER/SPIDER_ws/build/locomotion/build --no-deps symlink_data --force
+[7.227s] running develop
+[7.909s] running egg_info
+[7.910s] writing locomotion.egg-info/PKG-INFO
+[7.912s] writing dependency_links to locomotion.egg-info/dependency_links.txt
+[7.913s] writing entry points to locomotion.egg-info/entry_points.txt
+[7.914s] writing requirements to locomotion.egg-info/requires.txt
+[7.914s] writing top-level names to locomotion.egg-info/top_level.txt
+[8.064s] reading manifest file 'locomotion.egg-info/SOURCES.txt'
+[8.069s] writing manifest file 'locomotion.egg-info/SOURCES.txt'
+[8.236s] running build_ext
+[8.238s] Creating /home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion/lib/python3.8/site-packages/site.py
+[8.246s] Creating /home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion/lib/python3.8/site-packages/locomotion.egg-link (link to .)
+[8.250s] Installing client script to /home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion/lib/locomotion
+[8.251s] Installing imu_pub script to /home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion/lib/locomotion
+[8.251s] Installing service script to /home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion/lib/locomotion
+[8.253s] 
+[8.253s] Installed /home/dfolse/repos/SPIDER/SPIDER_ws/build/locomotion
+[8.254s] running symlink_data
+[8.254s] symbolically linking /home/dfolse/repos/SPIDER/SPIDER_ws/build/locomotion/resource/locomotion -> /home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion/share/ament_index/resource_index/packages
+[8.255s] symbolically linking /home/dfolse/repos/SPIDER/SPIDER_ws/build/locomotion/package.xml -> /home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion/share/locomotion
+[8.378s] Invoked command in '/home/dfolse/repos/SPIDER/SPIDER_ws/build/locomotion' returned '0': AMENT_PREFIX_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces LD_LIBRARY_PATH=/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dfolse/repos/SPIDER/SPIDER_ws/build/locomotion/prefix_override:/home/dfolse/repos/SPIDER/SPIDER_ws/install/locomotion/lib/python3.8/site-packages:/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/dfolse/repos/SPIDER/SPIDER_ws/build/locomotion/build --no-deps symlink_data --force

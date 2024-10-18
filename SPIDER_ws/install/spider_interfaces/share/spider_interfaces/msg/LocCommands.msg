@@ -1,0 +1,1 @@
+/home/dfolse/repos/SPIDER/SPIDER_ws/src/spider_interfaces/msg/LocCommands.msg

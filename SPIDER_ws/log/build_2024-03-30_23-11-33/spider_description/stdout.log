@@ -1,0 +1,62 @@
+-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /home/dfolse/.pyenv/shims/python3
+-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/dfolse/repos/SPIDER/SPIDER_ws/build/spider_description
+-- Install configuration: ""
+-- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description/share/spider_description/src
+-- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description/share/spider_description/src/description
+-- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description/share/spider_description/src/description/spider_description.csv
+-- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description/share/spider_description/src/description/spider_description.urdf
+-- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description/share/spider_description/launch
+-- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description/share/spider_description/launch/gazebo.launch
+-- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description/share/spider_description/launch/display.launch.py
+-- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description/share/spider_description/rviz
+-- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description/share/spider_description/rviz/urdf_config.rviz
+-- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description/share/spider_description/meshes
+-- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description/share/spider_description/meshes/r4u_link.STL
+-- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description/share/spider_description/meshes/r2u_link.STL
+-- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description/share/spider_description/meshes/l1u_link.STL
+-- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description/share/spider_description/meshes/r1l_link.STL
+-- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description/share/spider_description/meshes/l2u_link.STL
+-- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description/share/spider_description/meshes/r3m_link.STL
+-- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description/share/spider_description/meshes/r2l_link.STL
+-- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description/share/spider_description/meshes/r2m_link.STL
+-- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description/share/spider_description/meshes/l3l_link.STL
+-- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description/share/spider_description/meshes/r3l_link.STL
+-- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description/share/spider_description/meshes/base_link.STL
+-- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description/share/spider_description/meshes/l1m_link.STL
+-- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description/share/spider_description/meshes/r3u_link.STL
+-- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description/share/spider_description/meshes/l2m_link.STL
+-- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description/share/spider_description/meshes/l4u_link.STL
+-- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description/share/spider_description/meshes/r1m_link.STL
+-- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description/share/spider_description/meshes/r4m_link.STL
+-- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description/share/spider_description/meshes/r4l_link.STL
+-- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description/share/spider_description/meshes/l4l_link.STL
+-- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description/share/spider_description/meshes/r1u_link.STL
+-- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description/share/spider_description/meshes/l1l_link.STL
+-- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description/share/spider_description/meshes/l3m_link.STL
+-- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description/share/spider_description/meshes/l4m_link.STL
+-- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description/share/spider_description/meshes/l3u_link.STL
+-- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description/share/spider_description/meshes/l2l_link.STL
+-- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description/share/ament_index/resource_index/package_run_dependencies/spider_description
+-- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description/share/ament_index/resource_index/parent_prefix_path/spider_description
+-- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description/share/spider_description/environment/ament_prefix_path.sh
+-- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description/share/spider_description/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description/share/spider_description/environment/path.sh
+-- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description/share/spider_description/environment/path.dsv
+-- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description/share/spider_description/local_setup.bash
+-- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description/share/spider_description/local_setup.sh
+-- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description/share/spider_description/local_setup.zsh
+-- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description/share/spider_description/local_setup.dsv
+-- Installing: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description/share/spider_description/package.dsv
+-- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description/share/ament_index/resource_index/packages/spider_description
+-- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description/share/spider_description/cmake/spider_descriptionConfig.cmake
+-- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description/share/spider_description/cmake/spider_descriptionConfig-version.cmake
+-- Up-to-date: /home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_description/share/spider_description/package.xml

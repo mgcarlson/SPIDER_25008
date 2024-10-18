@@ -1,0 +1,10 @@
+/home/dfolse/repos/SPIDER/SPIDER_ws/build/depthai_filters/CMakeFiles/install/local.dir
+/home/dfolse/repos/SPIDER/SPIDER_ws/build/depthai_filters/CMakeFiles/install.dir
+/home/dfolse/repos/SPIDER/SPIDER_ws/build/depthai_filters/CMakeFiles/list_install_components.dir
+/home/dfolse/repos/SPIDER/SPIDER_ws/build/depthai_filters/CMakeFiles/rebuild_cache.dir
+/home/dfolse/repos/SPIDER/SPIDER_ws/build/depthai_filters/CMakeFiles/edit_cache.dir
+/home/dfolse/repos/SPIDER/SPIDER_ws/build/depthai_filters/CMakeFiles/test.dir
+/home/dfolse/repos/SPIDER/SPIDER_ws/build/depthai_filters/CMakeFiles/install/strip.dir
+/home/dfolse/repos/SPIDER/SPIDER_ws/build/depthai_filters/CMakeFiles/depthai_filters.dir
+/home/dfolse/repos/SPIDER/SPIDER_ws/build/depthai_filters/CMakeFiles/depthai_filters_uninstall.dir
+/home/dfolse/repos/SPIDER/SPIDER_ws/build/depthai_filters/CMakeFiles/uninstall.dir
