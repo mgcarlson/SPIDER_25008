@@ -1,0 +1,27 @@
+running egg_info
+creating ../../../build/weed_detection/weed_detection.egg-info
+writing ../../../build/weed_detection/weed_detection.egg-info/PKG-INFO
+writing dependency_links to ../../../build/weed_detection/weed_detection.egg-info/dependency_links.txt
+writing entry points to ../../../build/weed_detection/weed_detection.egg-info/entry_points.txt
+writing requirements to ../../../build/weed_detection/weed_detection.egg-info/requires.txt
+writing top-level names to ../../../build/weed_detection/weed_detection.egg-info/top_level.txt
+writing manifest file '../../../build/weed_detection/weed_detection.egg-info/SOURCES.txt'
+reading manifest file '../../../build/weed_detection/weed_detection.egg-info/SOURCES.txt'
+writing manifest file '../../../build/weed_detection/weed_detection.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/alexcc/repos/SPIDER_25008/build/weed_detection/build
+creating /home/alexcc/repos/SPIDER_25008/build/weed_detection/build/lib
+creating /home/alexcc/repos/SPIDER_25008/build/weed_detection/build/lib/weed_detection
+copying weed_detection/__init__.py -> /home/alexcc/repos/SPIDER_25008/build/weed_detection/build/lib/weed_detection
+running install
+running install_lib
+creating /home/alexcc/repos/SPIDER_25008/install/weed_detection/lib/python3.10/site-packages/weed_detection
+copying /home/alexcc/repos/SPIDER_25008/build/weed_detection/build/lib/weed_detection/__init__.py -> /home/alexcc/repos/SPIDER_25008/install/weed_detection/lib/python3.10/site-packages/weed_detection
+byte-compiling /home/alexcc/repos/SPIDER_25008/install/weed_detection/lib/python3.10/site-packages/weed_detection/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/alexcc/repos/SPIDER_25008/install/weed_detection/share
+creating /home/alexcc/repos/SPIDER_25008/install/weed_detection/share/ament_index
+creating /home/alexcc/repos/SPIDER_25008/install/weed_detection/share/ament_index/resource_index
+creating /home/alexcc/repos/SPIDER_25008/install/weed_detection/share/ament_index/resource_index/packages
+error: can't copy 'resource/weed_detection': doesn't exist or not a regular file

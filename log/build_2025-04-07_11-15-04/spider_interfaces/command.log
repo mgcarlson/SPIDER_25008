@@ -1,0 +1,1 @@
+Invoking command in '/home/alexcc/repos/SPIDER_25008/build/spider_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /home/alexcc/.local/bin/cmake /home/alexcc/repos/SPIDER_25008/SPIDER_ws/src/spider_interfaces -DCMAKE_INSTALL_PREFIX=/home/alexcc/repos/SPIDER_25008/install/spider_interfaces

@@ -1,0 +1,66 @@
+[1.929s] Invoking command in '/home/alexcc/repos/SPIDER_25008/SPIDER_ws/src/locomotion': AMENT_PREFIX_PATH=/home/alexcc/repos/SPIDER_25008/install/spider_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/alexcc/repos/SPIDER_25008/install/spider_interfaces LD_LIBRARY_PATH=/home/alexcc/repos/SPIDER_25008/install/spider_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/alexcc/repos/SPIDER_25008/build/locomotion/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alexcc/repos/SPIDER_25008/install/locomotion/lib/python3.10/site-packages:/home/alexcc/repos/SPIDER_25008/install/spider_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/locomotion build --build-base /home/alexcc/repos/SPIDER_25008/build/locomotion/build install --record /home/alexcc/repos/SPIDER_25008/build/locomotion/install.log --single-version-externally-managed install_data
+[2.426s] running egg_info
+[2.427s] creating ../../../build/locomotion/locomotion.egg-info
+[2.427s] writing ../../../build/locomotion/locomotion.egg-info/PKG-INFO
+[2.428s] writing dependency_links to ../../../build/locomotion/locomotion.egg-info/dependency_links.txt
+[2.428s] writing entry points to ../../../build/locomotion/locomotion.egg-info/entry_points.txt
+[2.429s] writing requirements to ../../../build/locomotion/locomotion.egg-info/requires.txt
+[2.429s] writing top-level names to ../../../build/locomotion/locomotion.egg-info/top_level.txt
+[2.429s] writing manifest file '../../../build/locomotion/locomotion.egg-info/SOURCES.txt'
+[2.433s] reading manifest file '../../../build/locomotion/locomotion.egg-info/SOURCES.txt'
+[2.434s] writing manifest file '../../../build/locomotion/locomotion.egg-info/SOURCES.txt'
+[2.434s] running build
+[2.434s] running build_py
+[2.435s] creating /home/alexcc/repos/SPIDER_25008/build/locomotion/build
+[2.435s] creating /home/alexcc/repos/SPIDER_25008/build/locomotion/build/lib
+[2.435s] creating /home/alexcc/repos/SPIDER_25008/build/locomotion/build/lib/locomotion
+[2.435s] copying locomotion/gps_parser.py -> /home/alexcc/repos/SPIDER_25008/build/locomotion/build/lib/locomotion
+[2.440s] copying locomotion/locomotion_service.py -> /home/alexcc/repos/SPIDER_25008/build/locomotion/build/lib/locomotion
+[2.440s] copying locomotion/locomotionController.py -> /home/alexcc/repos/SPIDER_25008/build/locomotion/build/lib/locomotion
+[2.441s] copying locomotion/testCode.py -> /home/alexcc/repos/SPIDER_25008/build/locomotion/build/lib/locomotion
+[2.445s] copying locomotion/MockServoDriver.py -> /home/alexcc/repos/SPIDER_25008/build/locomotion/build/lib/locomotion
+[2.446s] copying locomotion/__init__.py -> /home/alexcc/repos/SPIDER_25008/build/locomotion/build/lib/locomotion
+[2.446s] copying locomotion/imu_pub.py -> /home/alexcc/repos/SPIDER_25008/build/locomotion/build/lib/locomotion
+[2.446s] copying locomotion/sensorTest.py -> /home/alexcc/repos/SPIDER_25008/build/locomotion/build/lib/locomotion
+[2.447s] copying locomotion/servoLeveler.py -> /home/alexcc/repos/SPIDER_25008/build/locomotion/build/lib/locomotion
+[2.447s] copying locomotion/MockDoFSensor.py -> /home/alexcc/repos/SPIDER_25008/build/locomotion/build/lib/locomotion
+[2.448s] copying locomotion/nav_client.py -> /home/alexcc/repos/SPIDER_25008/build/locomotion/build/lib/locomotion
+[2.449s] running install
+[2.449s] running install_lib
+[2.453s] creating /home/alexcc/repos/SPIDER_25008/install/locomotion/lib/python3.10/site-packages/locomotion
+[2.453s] copying /home/alexcc/repos/SPIDER_25008/build/locomotion/build/lib/locomotion/gps_parser.py -> /home/alexcc/repos/SPIDER_25008/install/locomotion/lib/python3.10/site-packages/locomotion
+[2.454s] copying /home/alexcc/repos/SPIDER_25008/build/locomotion/build/lib/locomotion/locomotion_service.py -> /home/alexcc/repos/SPIDER_25008/install/locomotion/lib/python3.10/site-packages/locomotion
+[2.454s] copying /home/alexcc/repos/SPIDER_25008/build/locomotion/build/lib/locomotion/locomotionController.py -> /home/alexcc/repos/SPIDER_25008/install/locomotion/lib/python3.10/site-packages/locomotion
+[2.454s] copying /home/alexcc/repos/SPIDER_25008/build/locomotion/build/lib/locomotion/testCode.py -> /home/alexcc/repos/SPIDER_25008/install/locomotion/lib/python3.10/site-packages/locomotion
+[2.455s] copying /home/alexcc/repos/SPIDER_25008/build/locomotion/build/lib/locomotion/MockServoDriver.py -> /home/alexcc/repos/SPIDER_25008/install/locomotion/lib/python3.10/site-packages/locomotion
+[2.455s] copying /home/alexcc/repos/SPIDER_25008/build/locomotion/build/lib/locomotion/__init__.py -> /home/alexcc/repos/SPIDER_25008/install/locomotion/lib/python3.10/site-packages/locomotion
+[2.455s] copying /home/alexcc/repos/SPIDER_25008/build/locomotion/build/lib/locomotion/imu_pub.py -> /home/alexcc/repos/SPIDER_25008/install/locomotion/lib/python3.10/site-packages/locomotion
+[2.455s] copying /home/alexcc/repos/SPIDER_25008/build/locomotion/build/lib/locomotion/sensorTest.py -> /home/alexcc/repos/SPIDER_25008/install/locomotion/lib/python3.10/site-packages/locomotion
+[2.455s] copying /home/alexcc/repos/SPIDER_25008/build/locomotion/build/lib/locomotion/servoLeveler.py -> /home/alexcc/repos/SPIDER_25008/install/locomotion/lib/python3.10/site-packages/locomotion
+[2.456s] copying /home/alexcc/repos/SPIDER_25008/build/locomotion/build/lib/locomotion/MockDoFSensor.py -> /home/alexcc/repos/SPIDER_25008/install/locomotion/lib/python3.10/site-packages/locomotion
+[2.456s] copying /home/alexcc/repos/SPIDER_25008/build/locomotion/build/lib/locomotion/nav_client.py -> /home/alexcc/repos/SPIDER_25008/install/locomotion/lib/python3.10/site-packages/locomotion
+[2.457s] byte-compiling /home/alexcc/repos/SPIDER_25008/install/locomotion/lib/python3.10/site-packages/locomotion/gps_parser.py to gps_parser.cpython-310.pyc
+[2.458s] byte-compiling /home/alexcc/repos/SPIDER_25008/install/locomotion/lib/python3.10/site-packages/locomotion/locomotion_service.py to locomotion_service.cpython-310.pyc
+[2.459s] byte-compiling /home/alexcc/repos/SPIDER_25008/install/locomotion/lib/python3.10/site-packages/locomotion/locomotionController.py to locomotionController.cpython-310.pyc
+[2.478s] byte-compiling /home/alexcc/repos/SPIDER_25008/install/locomotion/lib/python3.10/site-packages/locomotion/testCode.py to testCode.cpython-310.pyc
+[2.479s] byte-compiling /home/alexcc/repos/SPIDER_25008/install/locomotion/lib/python3.10/site-packages/locomotion/MockServoDriver.py to MockServoDriver.cpython-310.pyc
+[2.479s] byte-compiling /home/alexcc/repos/SPIDER_25008/install/locomotion/lib/python3.10/site-packages/locomotion/__init__.py to __init__.cpython-310.pyc
+[2.480s] byte-compiling /home/alexcc/repos/SPIDER_25008/install/locomotion/lib/python3.10/site-packages/locomotion/imu_pub.py to imu_pub.cpython-310.pyc
+[2.481s] byte-compiling /home/alexcc/repos/SPIDER_25008/install/locomotion/lib/python3.10/site-packages/locomotion/sensorTest.py to sensorTest.cpython-310.pyc
+[2.481s] byte-compiling /home/alexcc/repos/SPIDER_25008/install/locomotion/lib/python3.10/site-packages/locomotion/servoLeveler.py to servoLeveler.cpython-310.pyc
+[2.482s] byte-compiling /home/alexcc/repos/SPIDER_25008/install/locomotion/lib/python3.10/site-packages/locomotion/MockDoFSensor.py to MockDoFSensor.cpython-310.pyc
+[2.483s] byte-compiling /home/alexcc/repos/SPIDER_25008/install/locomotion/lib/python3.10/site-packages/locomotion/nav_client.py to nav_client.cpython-310.pyc
+[2.484s] running install_data
+[2.484s] creating /home/alexcc/repos/SPIDER_25008/install/locomotion/share/ament_index
+[2.484s] creating /home/alexcc/repos/SPIDER_25008/install/locomotion/share/ament_index/resource_index
+[2.484s] creating /home/alexcc/repos/SPIDER_25008/install/locomotion/share/ament_index/resource_index/packages
+[2.485s] copying resource/locomotion -> /home/alexcc/repos/SPIDER_25008/install/locomotion/share/ament_index/resource_index/packages
+[2.485s] copying package.xml -> /home/alexcc/repos/SPIDER_25008/install/locomotion/share/locomotion
+[2.485s] running install_egg_info
+[2.489s] Copying ../../../build/locomotion/locomotion.egg-info to /home/alexcc/repos/SPIDER_25008/install/locomotion/lib/python3.10/site-packages/locomotion-0.0.0-py3.10.egg-info
+[2.491s] running install_scripts
+[2.532s] Installing client script to /home/alexcc/repos/SPIDER_25008/install/locomotion/lib/locomotion
+[2.532s] Installing imu_pub script to /home/alexcc/repos/SPIDER_25008/install/locomotion/lib/locomotion
+[2.532s] Installing service script to /home/alexcc/repos/SPIDER_25008/install/locomotion/lib/locomotion
+[2.533s] writing list of installed files to '/home/alexcc/repos/SPIDER_25008/build/locomotion/install.log'
+[2.606s] Invoked command in '/home/alexcc/repos/SPIDER_25008/SPIDER_ws/src/locomotion' returned '0': AMENT_PREFIX_PATH=/home/alexcc/repos/SPIDER_25008/install/spider_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/alexcc/repos/SPIDER_25008/install/spider_interfaces LD_LIBRARY_PATH=/home/alexcc/repos/SPIDER_25008/install/spider_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/alexcc/repos/SPIDER_25008/build/locomotion/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alexcc/repos/SPIDER_25008/install/locomotion/lib/python3.10/site-packages:/home/alexcc/repos/SPIDER_25008/install/spider_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/locomotion build --build-base /home/alexcc/repos/SPIDER_25008/build/locomotion/build install --record /home/alexcc/repos/SPIDER_25008/build/locomotion/install.log --single-version-externally-managed install_data

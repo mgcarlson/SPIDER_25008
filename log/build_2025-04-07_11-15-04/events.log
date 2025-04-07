@@ -1,0 +1,194 @@
+[0.000000] (-) TimerEvent: {}
+[0.000378] (spider_interfaces) JobQueued: {'identifier': 'spider_interfaces', 'dependencies': OrderedDict()}
+[0.000685] (weed_detection) JobQueued: {'identifier': 'weed_detection', 'dependencies': OrderedDict()}
+[0.001177] (locomotion) JobQueued: {'identifier': 'locomotion', 'dependencies': OrderedDict([('spider_interfaces', '/home/alexcc/repos/SPIDER_25008/install/spider_interfaces')])}
+[0.001430] (spider_nav) JobQueued: {'identifier': 'spider_nav', 'dependencies': OrderedDict([('spider_interfaces', '/home/alexcc/repos/SPIDER_25008/install/spider_interfaces'), ('locomotion', '/home/alexcc/repos/SPIDER_25008/install/locomotion')])}
+[0.001650] (data_transfer) JobQueued: {'identifier': 'data_transfer', 'dependencies': OrderedDict([('spider_interfaces', '/home/alexcc/repos/SPIDER_25008/install/spider_interfaces'), ('locomotion', '/home/alexcc/repos/SPIDER_25008/install/locomotion'), ('spider_nav', '/home/alexcc/repos/SPIDER_25008/install/spider_nav')])}
+[0.001743] (spider_interfaces) JobStarted: {'identifier': 'spider_interfaces'}
+[0.016367] (weed_detection) JobStarted: {'identifier': 'weed_detection'}
+[0.023796] (spider_interfaces) JobProgress: {'identifier': 'spider_interfaces', 'progress': 'cmake'}
+[0.024724] (spider_interfaces) Command: {'cmd': ['/home/alexcc/.local/bin/cmake', '/home/alexcc/repos/SPIDER_25008/SPIDER_ws/src/spider_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/alexcc/repos/SPIDER_25008/install/spider_interfaces'], 'cwd': '/home/alexcc/repos/SPIDER_25008/build/spider_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US.UTF-8'), ('USER', 'alexcc'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/alexcc'), ('OLDPWD', '/home/alexcc/repos/SPIDER_25008/SPIDER_ws/src/weed_detection'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2990'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'alexcc'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'alexcc'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/alexcc/.local/bin:/home/alexcc/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/alexcc-desktop:@/tmp/.ICE-unix/2958,unix/alexcc-desktop:/tmp/.ICE-unix/2958'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0ad501f6_1f58_48a6_8800_c5b783f4b464'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.94'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/alexcc/repos/SPIDER_25008/build/spider_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099490] (-) TimerEvent: {}
+[0.200111] (-) TimerEvent: {}
+[0.300760] (-) TimerEvent: {}
+[0.370816] (spider_interfaces) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):\n'}
+[0.371574] (spider_interfaces) StderrLine: {'line': b'  Compatibility with CMake < 3.10 will be removed from a future version of\n'}
+[0.371843] (spider_interfaces) StderrLine: {'line': b'  CMake.\n'}
+[0.372064] (spider_interfaces) StderrLine: {'line': b'\n'}
+[0.372293] (spider_interfaces) StderrLine: {'line': b'  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax\n'}
+[0.372491] (spider_interfaces) StderrLine: {'line': b'  to tell CMake that the project requires at least <min> but has been updated\n'}
+[0.372679] (spider_interfaces) StderrLine: {'line': b'  to work with policies introduced by <max> or earlier.\n'}
+[0.372872] (spider_interfaces) StderrLine: {'line': b'\n'}
+[0.373048] (spider_interfaces) StderrLine: {'line': b'\x1b[0m\n'}
+[0.400877] (-) TimerEvent: {}
+[0.501548] (-) TimerEvent: {}
+[0.602357] (-) TimerEvent: {}
+[0.722802] (-) TimerEvent: {}
+[0.823410] (-) TimerEvent: {}
+[0.891699] (spider_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.923558] (-) TimerEvent: {}
+[1.024097] (-) TimerEvent: {}
+[1.124687] (-) TimerEvent: {}
+[1.225318] (-) TimerEvent: {}
+[1.291535] (spider_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.316614] (spider_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.325408] (-) TimerEvent: {}
+[1.425998] (-) TimerEvent: {}
+[1.443255] (spider_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.486676] (spider_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.487900] (spider_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.489584] (spider_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.525835] (spider_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.526337] (-) TimerEvent: {}
+[1.598607] (weed_detection) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../../build/weed_detection', 'build', '--build-base', '/home/alexcc/repos/SPIDER_25008/build/weed_detection/build', 'install', '--record', '/home/alexcc/repos/SPIDER_25008/build/weed_detection/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/alexcc/repos/SPIDER_25008/SPIDER_ws/src/weed_detection', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US.UTF-8', 'USER': 'alexcc', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/alexcc', 'OLDPWD': '/home/alexcc/repos/SPIDER_25008/SPIDER_ws/src/weed_detection', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2990', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'alexcc', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'alexcc', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/home/alexcc/.local/bin:/home/alexcc/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/alexcc-desktop:@/tmp/.ICE-unix/2958,unix/alexcc-desktop:/tmp/.ICE-unix/2958', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/0ad501f6_1f58_48a6_8800_c5b783f4b464', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.94', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/alexcc/repos/SPIDER_25008/build/weed_detection', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/alexcc/repos/SPIDER_25008/build/weed_detection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alexcc/repos/SPIDER_25008/install/weed_detection/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[1.626517] (-) TimerEvent: {}
+[1.673249] (spider_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.701357] (spider_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.702135] (spider_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.703543] (spider_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.721020] (spider_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.726612] (-) TimerEvent: {}
+[1.828331] (-) TimerEvent: {}
+[1.928977] (-) TimerEvent: {}
+[2.002791] (spider_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter\n'}
+[2.029094] (-) TimerEvent: {}
+[2.114964] (weed_detection) StdoutLine: {'line': b'running egg_info\n'}
+[2.116141] (weed_detection) StdoutLine: {'line': b'creating ../../../build/weed_detection/weed_detection.egg-info\n'}
+[2.116619] (weed_detection) StdoutLine: {'line': b'writing ../../../build/weed_detection/weed_detection.egg-info/PKG-INFO\n'}
+[2.117106] (weed_detection) StdoutLine: {'line': b'writing dependency_links to ../../../build/weed_detection/weed_detection.egg-info/dependency_links.txt\n'}
+[2.117450] (weed_detection) StdoutLine: {'line': b'writing entry points to ../../../build/weed_detection/weed_detection.egg-info/entry_points.txt\n'}
+[2.117816] (weed_detection) StdoutLine: {'line': b'writing requirements to ../../../build/weed_detection/weed_detection.egg-info/requires.txt\n'}
+[2.118069] (weed_detection) StdoutLine: {'line': b'writing top-level names to ../../../build/weed_detection/weed_detection.egg-info/top_level.txt\n'}
+[2.118369] (weed_detection) StdoutLine: {'line': b"writing manifest file '../../../build/weed_detection/weed_detection.egg-info/SOURCES.txt'\n"}
+[2.121646] (weed_detection) StdoutLine: {'line': b"reading manifest file '../../../build/weed_detection/weed_detection.egg-info/SOURCES.txt'\n"}
+[2.123055] (weed_detection) StdoutLine: {'line': b"writing manifest file '../../../build/weed_detection/weed_detection.egg-info/SOURCES.txt'\n"}
+[2.123397] (weed_detection) StdoutLine: {'line': b'running build\n'}
+[2.123637] (weed_detection) StdoutLine: {'line': b'running build_py\n'}
+[2.123973] (weed_detection) StdoutLine: {'line': b'creating /home/alexcc/repos/SPIDER_25008/build/weed_detection/build\n'}
+[2.124247] (weed_detection) StdoutLine: {'line': b'creating /home/alexcc/repos/SPIDER_25008/build/weed_detection/build/lib\n'}
+[2.124466] (weed_detection) StdoutLine: {'line': b'creating /home/alexcc/repos/SPIDER_25008/build/weed_detection/build/lib/weed_detection\n'}
+[2.124723] (weed_detection) StdoutLine: {'line': b'copying weed_detection/__init__.py -> /home/alexcc/repos/SPIDER_25008/build/weed_detection/build/lib/weed_detection\n'}
+[2.124952] (weed_detection) StdoutLine: {'line': b'running install\n'}
+[2.125347] (weed_detection) StdoutLine: {'line': b'running install_lib\n'}
+[2.127124] (weed_detection) StdoutLine: {'line': b'creating /home/alexcc/repos/SPIDER_25008/install/weed_detection/lib/python3.10/site-packages/weed_detection\n'}
+[2.127423] (weed_detection) StdoutLine: {'line': b'copying /home/alexcc/repos/SPIDER_25008/build/weed_detection/build/lib/weed_detection/__init__.py -> /home/alexcc/repos/SPIDER_25008/install/weed_detection/lib/python3.10/site-packages/weed_detection\n'}
+[2.128620] (weed_detection) StdoutLine: {'line': b'byte-compiling /home/alexcc/repos/SPIDER_25008/install/weed_detection/lib/python3.10/site-packages/weed_detection/__init__.py to __init__.cpython-310.pyc\n'}
+[2.129178] (-) TimerEvent: {}
+[2.129599] (weed_detection) StdoutLine: {'line': b'running install_data\n'}
+[2.130067] (weed_detection) StdoutLine: {'line': b'creating /home/alexcc/repos/SPIDER_25008/install/weed_detection/share\n'}
+[2.130315] (weed_detection) StdoutLine: {'line': b'creating /home/alexcc/repos/SPIDER_25008/install/weed_detection/share/ament_index\n'}
+[2.130630] (weed_detection) StdoutLine: {'line': b'creating /home/alexcc/repos/SPIDER_25008/install/weed_detection/share/ament_index/resource_index\n'}
+[2.130911] (weed_detection) StdoutLine: {'line': b'creating /home/alexcc/repos/SPIDER_25008/install/weed_detection/share/ament_index/resource_index/packages\n'}
+[2.131137] (weed_detection) StderrLine: {'line': b"error: can't copy 'resource/weed_detection': doesn't exist or not a regular file\n"}
+[2.190817] (weed_detection) CommandEnded: {'returncode': 1}
+[2.192197] (weed_detection) JobEnded: {'identifier': 'weed_detection', 'rc': 1}
+[2.226236] (spider_interfaces) StdoutLine: {'line': b'-- Found std_msgs: 4.8.0 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[2.229333] (-) TimerEvent: {}
+[2.330078] (-) TimerEvent: {}
+[2.336157] (spider_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.349217] (spider_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.374458] (spider_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.410422] (spider_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.430145] (-) TimerEvent: {}
+[2.457982] (spider_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.530263] (-) TimerEvent: {}
+[2.534389] (spider_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[2.630518] (-) TimerEvent: {}
+[2.731192] (-) TimerEvent: {}
+[2.831737] (-) TimerEvent: {}
+[2.932167] (-) TimerEvent: {}
+[3.032682] (-) TimerEvent: {}
+[3.133230] (-) TimerEvent: {}
+[3.233616] (-) TimerEvent: {}
+[3.334185] (-) TimerEvent: {}
+[3.435207] (-) TimerEvent: {}
+[3.536239] (-) TimerEvent: {}
+[3.637255] (-) TimerEvent: {}
+[3.638549] (spider_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[3.737504] (-) TimerEvent: {}
+[3.838393] (-) TimerEvent: {}
+[3.939387] (-) TimerEvent: {}
+[4.040246] (-) TimerEvent: {}
+[4.141056] (-) TimerEvent: {}
+[4.242049] (-) TimerEvent: {}
+[4.343220] (-) TimerEvent: {}
+[4.444505] (-) TimerEvent: {}
+[4.545485] (-) TimerEvent: {}
+[4.646585] (-) TimerEvent: {}
+[4.747726] (-) TimerEvent: {}
+[4.848666] (-) TimerEvent: {}
+[4.949622] (-) TimerEvent: {}
+[5.050654] (-) TimerEvent: {}
+[5.151694] (-) TimerEvent: {}
+[5.252628] (-) TimerEvent: {}
+[5.353561] (-) TimerEvent: {}
+[5.454575] (-) TimerEvent: {}
+[5.555530] (-) TimerEvent: {}
+[5.656453] (-) TimerEvent: {}
+[5.716859] (spider_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[5.756592] (-) TimerEvent: {}
+[5.857561] (-) TimerEvent: {}
+[5.958568] (-) TimerEvent: {}
+[6.059511] (-) TimerEvent: {}
+[6.160294] (-) TimerEvent: {}
+[6.261320] (-) TimerEvent: {}
+[6.362382] (-) TimerEvent: {}
+[6.463441] (-) TimerEvent: {}
+[6.564488] (-) TimerEvent: {}
+[6.653484] (spider_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[6.663873] (spider_interfaces) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:20 (find_package):\n'}
+[6.664439] (-) TimerEvent: {}
+[6.664808] (spider_interfaces) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[6.665109] (spider_interfaces) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[6.665361] (spider_interfaces) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[6.665596] (spider_interfaces) StderrLine: {'line': b'\n'}
+[6.665827] (spider_interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[6.666108] (spider_interfaces) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[6.666330] (spider_interfaces) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)\n'}
+[6.666605] (spider_interfaces) StderrLine: {'line': b'  CMakeLists.txt:27 (rosidl_generate_interfaces)\n'}
+[6.666826] (spider_interfaces) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[6.667041] (spider_interfaces) StderrLine: {'line': b'\x1b[0m\n'}
+[6.720246] (spider_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6")\n'}
+[6.726784] (spider_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[6.729570] (spider_interfaces) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:52 (find_package):\n'}
+[6.729886] (spider_interfaces) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[6.730125] (spider_interfaces) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[6.730347] (spider_interfaces) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[6.730629] (spider_interfaces) StderrLine: {'line': b'\n'}
+[6.730845] (spider_interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[6.731055] (spider_interfaces) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)\n'}
+[6.731333] (spider_interfaces) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[6.731561] (spider_interfaces) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)\n'}
+[6.731776] (spider_interfaces) StderrLine: {'line': b'  CMakeLists.txt:27 (rosidl_generate_interfaces)\n'}
+[6.731991] (spider_interfaces) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[6.732199] (spider_interfaces) StderrLine: {'line': b'\x1b[0m\n'}
+[6.764582] (-) TimerEvent: {}
+[6.783374] (spider_interfaces) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:140 (find_package):\n'}
+[6.783791] (spider_interfaces) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[6.784028] (spider_interfaces) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[6.784250] (spider_interfaces) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[6.784460] (spider_interfaces) StderrLine: {'line': b'\n'}
+[6.784667] (spider_interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[6.784925] (spider_interfaces) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)\n'}
+[6.785136] (spider_interfaces) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[6.785344] (spider_interfaces) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)\n'}
+[6.785553] (spider_interfaces) StderrLine: {'line': b'  CMakeLists.txt:27 (rosidl_generate_interfaces)\n'}
+[6.785756] (spider_interfaces) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[6.785962] (spider_interfaces) StderrLine: {'line': b'\x1b[0m\n'}
+[6.809983] (spider_interfaces) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5")\n'}
+[6.810772] (spider_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[6.811082] (spider_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[6.811345] (spider_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so\n'}
+[6.860697] (spider_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so\n'}
+[6.864697] (-) TimerEvent: {}
+[6.965402] (-) TimerEvent: {}
+[7.052149] (spider_interfaces) StdoutLine: {'line': b'-- Configuring done (6.7s)\n'}
+[7.065481] (-) TimerEvent: {}
+[7.144714] (spider_interfaces) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[7.162985] (spider_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/alexcc/repos/SPIDER_25008/build/spider_interfaces\n'}
+[7.165581] (-) TimerEvent: {}
+[7.180577] (spider_interfaces) JobEnded: {'identifier': 'spider_interfaces', 'rc': 'SIGINT'}
+[7.192513] (locomotion) JobSkipped: {'identifier': 'locomotion'}
+[7.192772] (spider_nav) JobSkipped: {'identifier': 'spider_nav'}
+[7.192935] (data_transfer) JobSkipped: {'identifier': 'data_transfer'}
+[7.193025] (-) EventReactorShutdown: {}

@@ -1,0 +1,79 @@
+[0.027s] Invoking command in '/home/alexcc/repos/SPIDER_25008/build/spider_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /home/alexcc/.local/bin/cmake /home/alexcc/repos/SPIDER_25008/SPIDER_ws/src/spider_interfaces -DCMAKE_INSTALL_PREFIX=/home/alexcc/repos/SPIDER_25008/install/spider_interfaces
+[0.369s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.370s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.370s]   CMake.
+[0.370s] 
+[0.371s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.371s]   to tell CMake that the project requires at least <min> but has been updated
+[0.371s]   to work with policies introduced by <max> or earlier.
+[0.371s] 
+[0.371s] [0m
+[0.890s] -- The C compiler identification is GNU 11.4.0
+[1.290s] -- The CXX compiler identification is GNU 11.4.0
+[1.315s] -- Detecting C compiler ABI info
+[1.442s] -- Detecting C compiler ABI info - done
+[1.485s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.486s] -- Detecting C compile features
+[1.488s] -- Detecting C compile features - done
+[1.524s] -- Detecting CXX compiler ABI info
+[1.672s] -- Detecting CXX compiler ABI info - done
+[1.700s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.700s] -- Detecting CXX compile features
+[1.702s] -- Detecting CXX compile features - done
+[1.719s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.001s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter
+[2.225s] -- Found std_msgs: 4.8.0 (/opt/ros/humble/share/std_msgs/cmake)
+[2.335s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.348s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.373s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.409s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.456s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.533s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[3.637s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[5.715s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.652s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.662s] [33mCMake Warning (dev) at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:20 (find_package):
+[6.663s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[6.663s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[6.664s]   the cmake_policy command to set the policy and suppress this warning.
+[6.664s] 
+[6.664s] Call Stack (most recent call first):
+[6.664s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[6.665s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[6.665s]   CMakeLists.txt:27 (rosidl_generate_interfaces)
+[6.665s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[6.665s] [0m
+[6.719s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6")
+[6.725s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[6.728s] [33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:52 (find_package):
+[6.728s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[6.728s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[6.729s]   the cmake_policy command to set the policy and suppress this warning.
+[6.729s] 
+[6.729s] Call Stack (most recent call first):
+[6.729s]   /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+[6.730s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[6.730s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[6.730s]   CMakeLists.txt:27 (rosidl_generate_interfaces)
+[6.730s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[6.730s] [0m
+[6.782s] [33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:140 (find_package):
+[6.782s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[6.782s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[6.783s]   the cmake_policy command to set the policy and suppress this warning.
+[6.783s] 
+[6.783s] Call Stack (most recent call first):
+[6.783s]   /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+[6.783s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[6.784s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[6.784s]   CMakeLists.txt:27 (rosidl_generate_interfaces)
+[6.784s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[6.784s] [0m
+[6.809s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5")
+[6.809s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[6.809s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[6.810s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[6.859s] -- Found PythonExtra: .so
+[7.051s] -- Configuring done (6.7s)
+[7.143s] -- Generating done (0.1s)
+[7.161s] -- Build files have been written to: /home/alexcc/repos/SPIDER_25008/build/spider_interfaces

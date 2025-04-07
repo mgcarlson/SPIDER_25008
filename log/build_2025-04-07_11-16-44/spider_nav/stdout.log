@@ -1,0 +1,64 @@
+running egg_info
+creating ../../../build/spider_nav/spider_nav.egg-info
+writing ../../../build/spider_nav/spider_nav.egg-info/PKG-INFO
+writing dependency_links to ../../../build/spider_nav/spider_nav.egg-info/dependency_links.txt
+writing entry points to ../../../build/spider_nav/spider_nav.egg-info/entry_points.txt
+writing requirements to ../../../build/spider_nav/spider_nav.egg-info/requires.txt
+writing top-level names to ../../../build/spider_nav/spider_nav.egg-info/top_level.txt
+writing manifest file '../../../build/spider_nav/spider_nav.egg-info/SOURCES.txt'
+reading manifest file '../../../build/spider_nav/spider_nav.egg-info/SOURCES.txt'
+writing manifest file '../../../build/spider_nav/spider_nav.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/alexcc/repos/SPIDER_25008/build/spider_nav/build
+creating /home/alexcc/repos/SPIDER_25008/build/spider_nav/build/lib
+creating /home/alexcc/repos/SPIDER_25008/build/spider_nav/build/lib/spider_nav
+copying spider_nav/__init__.py -> /home/alexcc/repos/SPIDER_25008/build/spider_nav/build/lib/spider_nav
+copying spider_nav/spider_nav_main.py -> /home/alexcc/repos/SPIDER_25008/build/spider_nav/build/lib/spider_nav
+copying spider_nav/spider_gps_pub.py -> /home/alexcc/repos/SPIDER_25008/build/spider_nav/build/lib/spider_nav
+creating /home/alexcc/repos/SPIDER_25008/build/spider_nav/build/lib/spider_nav/utils
+copying spider_nav/utils/MockGps.py -> /home/alexcc/repos/SPIDER_25008/build/spider_nav/build/lib/spider_nav/utils
+copying spider_nav/utils/__init__.py -> /home/alexcc/repos/SPIDER_25008/build/spider_nav/build/lib/spider_nav/utils
+copying spider_nav/utils/adafruit_gps_ros.py -> /home/alexcc/repos/SPIDER_25008/build/spider_nav/build/lib/spider_nav/utils
+copying spider_nav/utils/gps_utils.py -> /home/alexcc/repos/SPIDER_25008/build/spider_nav/build/lib/spider_nav/utils
+running install
+running install_lib
+creating /home/alexcc/repos/SPIDER_25008/install/spider_nav/lib/python3.10/site-packages/spider_nav
+creating /home/alexcc/repos/SPIDER_25008/install/spider_nav/lib/python3.10/site-packages/spider_nav/utils
+copying /home/alexcc/repos/SPIDER_25008/build/spider_nav/build/lib/spider_nav/utils/MockGps.py -> /home/alexcc/repos/SPIDER_25008/install/spider_nav/lib/python3.10/site-packages/spider_nav/utils
+copying /home/alexcc/repos/SPIDER_25008/build/spider_nav/build/lib/spider_nav/utils/__init__.py -> /home/alexcc/repos/SPIDER_25008/install/spider_nav/lib/python3.10/site-packages/spider_nav/utils
+copying /home/alexcc/repos/SPIDER_25008/build/spider_nav/build/lib/spider_nav/utils/adafruit_gps_ros.py -> /home/alexcc/repos/SPIDER_25008/install/spider_nav/lib/python3.10/site-packages/spider_nav/utils
+copying /home/alexcc/repos/SPIDER_25008/build/spider_nav/build/lib/spider_nav/utils/gps_utils.py -> /home/alexcc/repos/SPIDER_25008/install/spider_nav/lib/python3.10/site-packages/spider_nav/utils
+copying /home/alexcc/repos/SPIDER_25008/build/spider_nav/build/lib/spider_nav/__init__.py -> /home/alexcc/repos/SPIDER_25008/install/spider_nav/lib/python3.10/site-packages/spider_nav
+copying /home/alexcc/repos/SPIDER_25008/build/spider_nav/build/lib/spider_nav/spider_nav_main.py -> /home/alexcc/repos/SPIDER_25008/install/spider_nav/lib/python3.10/site-packages/spider_nav
+copying /home/alexcc/repos/SPIDER_25008/build/spider_nav/build/lib/spider_nav/spider_gps_pub.py -> /home/alexcc/repos/SPIDER_25008/install/spider_nav/lib/python3.10/site-packages/spider_nav
+byte-compiling /home/alexcc/repos/SPIDER_25008/install/spider_nav/lib/python3.10/site-packages/spider_nav/utils/MockGps.py to MockGps.cpython-310.pyc
+byte-compiling /home/alexcc/repos/SPIDER_25008/install/spider_nav/lib/python3.10/site-packages/spider_nav/utils/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/alexcc/repos/SPIDER_25008/install/spider_nav/lib/python3.10/site-packages/spider_nav/utils/adafruit_gps_ros.py to adafruit_gps_ros.cpython-310.pyc
+byte-compiling /home/alexcc/repos/SPIDER_25008/install/spider_nav/lib/python3.10/site-packages/spider_nav/utils/gps_utils.py to gps_utils.cpython-310.pyc
+byte-compiling /home/alexcc/repos/SPIDER_25008/install/spider_nav/lib/python3.10/site-packages/spider_nav/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/alexcc/repos/SPIDER_25008/install/spider_nav/lib/python3.10/site-packages/spider_nav/spider_nav_main.py to spider_nav_main.cpython-310.pyc
+byte-compiling /home/alexcc/repos/SPIDER_25008/install/spider_nav/lib/python3.10/site-packages/spider_nav/spider_gps_pub.py to spider_gps_pub.cpython-310.pyc
+running install_data
+creating /home/alexcc/repos/SPIDER_25008/install/spider_nav/share/ament_index
+creating /home/alexcc/repos/SPIDER_25008/install/spider_nav/share/ament_index/resource_index
+creating /home/alexcc/repos/SPIDER_25008/install/spider_nav/share/ament_index/resource_index/packages
+copying resource/spider_nav -> /home/alexcc/repos/SPIDER_25008/install/spider_nav/share/ament_index/resource_index/packages
+copying package.xml -> /home/alexcc/repos/SPIDER_25008/install/spider_nav/share/spider_nav
+creating /home/alexcc/repos/SPIDER_25008/install/spider_nav/share/spider_nav/launch
+copying launch/spider_nav_rpi.launch.py -> /home/alexcc/repos/SPIDER_25008/install/spider_nav/share/spider_nav/launch
+copying launch/spider_nav_jetson_embed.launch.py -> /home/alexcc/repos/SPIDER_25008/install/spider_nav/share/spider_nav/launch
+copying launch/spider_nav_embed.launch.py -> /home/alexcc/repos/SPIDER_25008/install/spider_nav/share/spider_nav/launch
+copying launch/spider_nav_sim.launch.py -> /home/alexcc/repos/SPIDER_25008/install/spider_nav/share/spider_nav/launch
+copying launch/spider_nav_jetson.launch.py -> /home/alexcc/repos/SPIDER_25008/install/spider_nav/share/spider_nav/launch
+copying launch/spider_nav_rpi_embed.launch.py -> /home/alexcc/repos/SPIDER_25008/install/spider_nav/share/spider_nav/launch
+creating /home/alexcc/repos/SPIDER_25008/install/spider_nav/share/spider_nav/config
+running install_egg_info
+Copying ../../../build/spider_nav/spider_nav.egg-info to /home/alexcc/repos/SPIDER_25008/install/spider_nav/lib/python3.10/site-packages/spider_nav-0.0.0-py3.10.egg-info
+running install_scripts
+Installing gps_waypoint_logger script to /home/alexcc/repos/SPIDER_25008/install/spider_nav/lib/spider_nav
+Installing interactive_waypoint_follower script to /home/alexcc/repos/SPIDER_25008/install/spider_nav/lib/spider_nav
+Installing logged_waypoint_follower script to /home/alexcc/repos/SPIDER_25008/install/spider_nav/lib/spider_nav
+Installing spider_gps_pub script to /home/alexcc/repos/SPIDER_25008/install/spider_nav/lib/spider_nav
+Installing spider_nav_main script to /home/alexcc/repos/SPIDER_25008/install/spider_nav/lib/spider_nav
+writing list of installed files to '/home/alexcc/repos/SPIDER_25008/build/spider_nav/install.log'

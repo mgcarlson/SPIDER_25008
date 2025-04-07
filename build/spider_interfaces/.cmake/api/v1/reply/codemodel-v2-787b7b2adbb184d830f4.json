@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-0e06e22e0b8873d6ff05.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "spider_interfaces__py",
+					"jsonFile" : "directory-spider_interfaces__py-dc6fd9c35e21d475bfa5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/alexcc/repos/SPIDER_25008/build/spider_interfaces/spider_interfaces__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "spider_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_spider_interfaces_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_spider_interfaces_egg-6bd97de32d410d910fb6.json",
+					"name" : "ament_cmake_python_build_spider_interfaces_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_spider_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_spider_interfaces-bd65a74835037d9c3fbe.json",
+					"name" : "ament_cmake_python_copy_spider_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "spider_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-spider_interfaces-e4b43df6f537e60c27c7.json",
+					"name" : "spider_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "spider_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-spider_interfaces__cpp-db5ef92c3f553b4d2a2c.json",
+					"name" : "spider_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "spider_interfaces__py::@823c2033c322f718f6af",
+					"jsonFile" : "target-spider_interfaces__py-108c499b4324b668ab07.json",
+					"name" : "spider_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "spider_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-spider_interfaces__rosidl_generator_c-e0ef2db26fe0bdd08b72.json",
+					"name" : "spider_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "spider_interfaces__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-spider_interfaces__rosidl_generator_py-71cddc825498188f1fa5.json",
+					"name" : "spider_interfaces__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "spider_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-spider_interfaces__rosidl_typesupport_c-a99136f142b0ed220654.json",
+					"name" : "spider_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "spider_interfaces__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-spider_interfaces__rosidl_typesupport_c__pyext-cc95b90d790e9240d67c.json",
+					"name" : "spider_interfaces__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "spider_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-spider_interfaces__rosidl_typesupport_cpp-530cbb9612135cd41336.json",
+					"name" : "spider_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "spider_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-spider_interfaces__rosidl_typesupport_fastrtps_c-71bd10be519dd7802f24.json",
+					"name" : "spider_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "spider_interfaces__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-spider_interfaces__rosidl_typesupport_fastrtps_c__pyext-3361fb1b18391bfe1a84.json",
+					"name" : "spider_interfaces__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "spider_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-spider_interfaces__rosidl_typesupport_fastrtps_cpp-98b62cc2602f6237d4b4.json",
+					"name" : "spider_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "spider_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-spider_interfaces__rosidl_typesupport_introspection_c-555dfaed936b8ebfec86.json",
+					"name" : "spider_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "spider_interfaces__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-spider_interfaces__rosidl_typesupport_introspection_c__pyext-615f9080896c1bdabb33.json",
+					"name" : "spider_interfaces__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "spider_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-spider_interfaces__rosidl_typesupport_introspection_cpp-fdf32f4607fbd14f3d10.json",
+					"name" : "spider_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "spider_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-spider_interfaces_uninstall-217c1905416559c2fe81.json",
+					"name" : "spider_interfaces_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-bf572825433b8613e665.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/alexcc/repos/SPIDER_25008/build/spider_interfaces",
+		"source" : "/home/alexcc/repos/SPIDER_25008/SPIDER_ws/src/spider_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

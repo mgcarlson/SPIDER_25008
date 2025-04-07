@@ -1,0 +1,5 @@
+[console_scripts]
+client = locomotion.nav_client:main
+imu_pub = locomotion.imu_pub:main
+service = locomotion.locomotion_service:main
+

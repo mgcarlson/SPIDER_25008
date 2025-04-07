@@ -1,0 +1,6 @@
+msg/LocCommands.idl
+msg/LocCommands.msg
+srv/LocService.idl
+srv/LocService.srv
+srv/LocService_Request.msg
+srv/LocService_Response.msg

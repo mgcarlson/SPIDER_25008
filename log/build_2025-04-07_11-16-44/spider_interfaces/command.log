@@ -1,0 +1,4 @@
+Invoking command in '/home/alexcc/repos/SPIDER_25008/build/spider_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /home/alexcc/.local/bin/cmake --build /home/alexcc/repos/SPIDER_25008/build/spider_interfaces -- -j6 -l6
+Invoked command in '/home/alexcc/repos/SPIDER_25008/build/spider_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/alexcc/.local/bin/cmake --build /home/alexcc/repos/SPIDER_25008/build/spider_interfaces -- -j6 -l6
+Invoking command in '/home/alexcc/repos/SPIDER_25008/build/spider_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /home/alexcc/.local/bin/cmake --install /home/alexcc/repos/SPIDER_25008/build/spider_interfaces
+Invoked command in '/home/alexcc/repos/SPIDER_25008/build/spider_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/alexcc/.local/bin/cmake --install /home/alexcc/repos/SPIDER_25008/build/spider_interfaces
