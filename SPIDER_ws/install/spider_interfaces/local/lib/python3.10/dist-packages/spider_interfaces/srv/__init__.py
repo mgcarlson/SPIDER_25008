@@ -1,0 +1,1 @@
+/home/alexcc/repos/SPIDER_25008/SPIDER_ws/build/spider_interfaces/rosidl_generator_py/spider_interfaces/srv/__init__.py

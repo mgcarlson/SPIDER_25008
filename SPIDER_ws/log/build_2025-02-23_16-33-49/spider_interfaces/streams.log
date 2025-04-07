@@ -1,0 +1,6 @@
+[0.018s] Invoking command in '/home/alexcc/repos/SPIDER_25008/SPIDER_ws/build/spider_interfaces': /usr/bin/cmake --build /home/alexcc/repos/SPIDER_25008/SPIDER_ws/build/spider_interfaces -- -j6 -l6
+[0.031s] [0mCMake Error: The current CMakeCache.txt directory /home/alexcc/repos/SPIDER_25008/SPIDER_ws/build/spider_interfaces/CMakeCache.txt is different than the directory /home/dfolse/repos/SPIDER/SPIDER_ws/build/spider_interfaces where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
+[0.057s] [0mCMake Error: The source directory "/home/dfolse/repos/SPIDER/SPIDER_ws/src/spider_interfaces" does not exist.
+[0.057s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.059s] make: *** [Makefile:988: cmake_check_build_system] Error 1
+[0.063s] Invoked command in '/home/alexcc/repos/SPIDER_25008/SPIDER_ws/build/spider_interfaces' returned '2': /usr/bin/cmake --build /home/alexcc/repos/SPIDER_25008/SPIDER_ws/build/spider_interfaces -- -j6 -l6

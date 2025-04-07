@@ -1,0 +1,25 @@
+[1.314s] Invoking command in '/home/alexcc/repos/SPIDER_25008/SPIDER_ws/build/spider_nav': AMENT_PREFIX_PATH=/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/locomotion:/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/data_transfer:/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_nav:/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces:/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_description:/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/oak_d_lite:/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/nav2_gps_waypoint_follower_demo:/opt/ros/humble PYTHONPATH=/home/alexcc/repos/SPIDER_25008/SPIDER_ws/build/spider_nav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_nav/lib/python3.10/site-packages:/home/alexcc/repos/SPIDER_25008/SPIDER_ws/build/locomotion:/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/locomotion/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/alexcc/repos/SPIDER_25008/SPIDER_ws/build/spider_nav/build --no-deps symlink_data
+[1.829s] running develop
+[2.106s] running egg_info
+[2.107s] creating spider_nav.egg-info
+[2.107s] writing spider_nav.egg-info/PKG-INFO
+[2.107s] writing dependency_links to spider_nav.egg-info/dependency_links.txt
+[2.108s] writing entry points to spider_nav.egg-info/entry_points.txt
+[2.108s] writing requirements to spider_nav.egg-info/requires.txt
+[2.108s] writing top-level names to spider_nav.egg-info/top_level.txt
+[2.109s] writing manifest file 'spider_nav.egg-info/SOURCES.txt'
+[2.112s] reading manifest file 'spider_nav.egg-info/SOURCES.txt'
+[2.114s] writing manifest file 'spider_nav.egg-info/SOURCES.txt'
+[2.117s] running build_ext
+[2.117s] Creating /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_nav/lib/python3.10/site-packages/spider-nav.egg-link (link to .)
+[2.119s] Installing gps_waypoint_logger script to /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_nav/lib/spider_nav
+[2.120s] Installing interactive_waypoint_follower script to /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_nav/lib/spider_nav
+[2.120s] Installing logged_waypoint_follower script to /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_nav/lib/spider_nav
+[2.120s] Installing spider_gps_pub script to /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_nav/lib/spider_nav
+[2.120s] Installing spider_nav_main script to /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_nav/lib/spider_nav
+[2.121s] 
+[2.121s] Installed /home/alexcc/repos/SPIDER_25008/SPIDER_ws/build/spider_nav
+[2.121s] running symlink_data
+[2.122s] symbolically linking /home/alexcc/repos/SPIDER_25008/SPIDER_ws/build/spider_nav/resource/spider_nav -> /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_nav/share/ament_index/resource_index/packages
+[2.122s] error: [Errno 17] File exists: '/home/alexcc/repos/SPIDER_25008/SPIDER_ws/build/spider_nav/resource/spider_nav' -> '/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_nav/share/ament_index/resource_index/packages/spider_nav'
+[2.200s] Invoked command in '/home/alexcc/repos/SPIDER_25008/SPIDER_ws/build/spider_nav' returned '1': AMENT_PREFIX_PATH=/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/locomotion:/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/data_transfer:/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_nav:/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces:/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_description:/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/oak_d_lite:/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/nav2_gps_waypoint_follower_demo:/opt/ros/humble PYTHONPATH=/home/alexcc/repos/SPIDER_25008/SPIDER_ws/build/spider_nav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_nav/lib/python3.10/site-packages:/home/alexcc/repos/SPIDER_25008/SPIDER_ws/build/locomotion:/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/locomotion/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/alexcc/repos/SPIDER_25008/SPIDER_ws/build/spider_nav/build --no-deps symlink_data

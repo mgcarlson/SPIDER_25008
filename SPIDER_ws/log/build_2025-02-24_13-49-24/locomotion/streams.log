@@ -1,0 +1,23 @@
+[1.373s] Invoking command in '/home/alexcc/repos/SPIDER_25008/SPIDER_ws/build/locomotion': AMENT_PREFIX_PATH=/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces LD_LIBRARY_PATH=/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/alexcc/repos/SPIDER_25008/SPIDER_ws/build/locomotion/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/locomotion/lib/python3.10/site-packages:/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/alexcc/repos/SPIDER_25008/SPIDER_ws/build/locomotion/build --no-deps symlink_data
+[1.872s] running develop
+[2.145s] running egg_info
+[2.145s] creating locomotion.egg-info
+[2.146s] writing locomotion.egg-info/PKG-INFO
+[2.147s] writing dependency_links to locomotion.egg-info/dependency_links.txt
+[2.147s] writing entry points to locomotion.egg-info/entry_points.txt
+[2.147s] writing requirements to locomotion.egg-info/requires.txt
+[2.147s] writing top-level names to locomotion.egg-info/top_level.txt
+[2.148s] writing manifest file 'locomotion.egg-info/SOURCES.txt'
+[2.152s] reading manifest file 'locomotion.egg-info/SOURCES.txt'
+[2.153s] writing manifest file 'locomotion.egg-info/SOURCES.txt'
+[2.156s] running build_ext
+[2.156s] Creating /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/locomotion/lib/python3.10/site-packages/locomotion.egg-link (link to .)
+[2.158s] Installing client script to /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/locomotion/lib/locomotion
+[2.158s] Installing imu_pub script to /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/locomotion/lib/locomotion
+[2.159s] Installing service script to /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/locomotion/lib/locomotion
+[2.159s] 
+[2.159s] Installed /home/alexcc/repos/SPIDER_25008/SPIDER_ws/build/locomotion
+[2.159s] running symlink_data
+[2.160s] symbolically linking /home/alexcc/repos/SPIDER_25008/SPIDER_ws/build/locomotion/resource/locomotion -> /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/locomotion/share/ament_index/resource_index/packages
+[2.160s] error: [Errno 17] File exists: '/home/alexcc/repos/SPIDER_25008/SPIDER_ws/build/locomotion/resource/locomotion' -> '/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/locomotion/share/ament_index/resource_index/packages/locomotion'
+[2.237s] Invoked command in '/home/alexcc/repos/SPIDER_25008/SPIDER_ws/build/locomotion' returned '1': AMENT_PREFIX_PATH=/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces LD_LIBRARY_PATH=/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/alexcc/repos/SPIDER_25008/SPIDER_ws/build/locomotion/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/locomotion/lib/python3.10/site-packages:/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/alexcc/repos/SPIDER_25008/SPIDER_ws/build/locomotion/build --no-deps symlink_data

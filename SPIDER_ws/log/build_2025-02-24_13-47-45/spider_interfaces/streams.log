@@ -1,0 +1,41 @@
+[0.016s] Invoking command in '/home/alexcc/repos/SPIDER_25008/SPIDER_ws/build/spider_interfaces': /home/alexcc/.local/bin/cmake /home/alexcc/repos/SPIDER_25008/SPIDER_ws/src/spider_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces
+[0.171s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.171s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.171s]   CMake.
+[0.171s] 
+[0.172s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.172s]   to tell CMake that the project requires at least <min> but has been updated
+[0.172s]   to work with policies introduced by <max> or earlier.
+[0.172s] 
+[0.172s] [0m
+[0.269s] -- The C compiler identification is GNU 11.4.0
+[0.394s] -- The CXX compiler identification is GNU 11.4.0
+[0.416s] -- Detecting C compiler ABI info
+[0.545s] -- Detecting C compiler ABI info - done
+[0.590s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.591s] -- Detecting C compile features
+[0.593s] -- Detecting C compile features - done
+[0.628s] -- Detecting CXX compiler ABI info
+[0.790s] -- Detecting CXX compiler ABI info - done
+[0.845s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.846s] -- Detecting CXX compile features
+[0.848s] -- Detecting CXX compile features - done
+[0.893s] [31mCMake Error at CMakeLists.txt:19 (find_package):
+[0.893s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[0.893s]   has asked CMake to find a package configuration file provided by
+[0.894s]   "ament_cmake", but CMake did not find one.
+[0.894s] 
+[0.894s]   Could not find a package configuration file provided by "ament_cmake" with
+[0.894s]   any of the following names:
+[0.894s] 
+[0.895s]     ament_cmakeConfig.cmake
+[0.895s]     ament_cmake-config.cmake
+[0.895s] 
+[0.895s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[0.895s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[0.896s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[0.896s]   has been installed.
+[0.896s] 
+[0.897s] [0m
+[0.897s] -- Configuring incomplete, errors occurred!
+[0.905s] Invoked command in '/home/alexcc/repos/SPIDER_25008/SPIDER_ws/build/spider_interfaces' returned '1': /home/alexcc/.local/bin/cmake /home/alexcc/repos/SPIDER_25008/SPIDER_ws/src/spider_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces

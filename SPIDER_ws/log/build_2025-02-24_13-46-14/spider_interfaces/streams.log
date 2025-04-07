@@ -1,0 +1,33 @@
+[0.019s] Invoking command in '/home/alexcc/repos/SPIDER_25008/SPIDER_ws/build/spider_interfaces': /usr/bin/cmake /home/alexcc/repos/SPIDER_25008/SPIDER_ws/src/spider_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces
+[0.536s] -- The C compiler identification is GNU 11.4.0
+[0.943s] -- The CXX compiler identification is GNU 11.4.0
+[0.969s] -- Detecting C compiler ABI info
+[1.113s] -- Detecting C compiler ABI info - done
+[1.125s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.141s] -- Detecting C compile features
+[1.143s] -- Detecting C compile features - done
+[1.219s] -- Detecting CXX compiler ABI info
+[1.366s] -- Detecting CXX compiler ABI info - done
+[1.386s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.387s] -- Detecting CXX compile features
+[1.387s] -- Detecting CXX compile features - done
+[1.411s] [31mCMake Error at CMakeLists.txt:19 (find_package):
+[1.411s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[1.411s]   has asked CMake to find a package configuration file provided by
+[1.411s]   "ament_cmake", but CMake did not find one.
+[1.412s] 
+[1.412s]   Could not find a package configuration file provided by "ament_cmake" with
+[1.412s]   any of the following names:
+[1.412s] 
+[1.412s]     ament_cmakeConfig.cmake
+[1.412s]     ament_cmake-config.cmake
+[1.412s] 
+[1.412s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[1.412s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[1.413s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[1.413s]   has been installed.
+[1.413s] 
+[1.413s] [0m
+[1.413s] -- Configuring incomplete, errors occurred!
+[1.413s] See also "/home/alexcc/repos/SPIDER_25008/SPIDER_ws/build/spider_interfaces/CMakeFiles/CMakeOutput.log".
+[1.420s] Invoked command in '/home/alexcc/repos/SPIDER_25008/SPIDER_ws/build/spider_interfaces' returned '1': /usr/bin/cmake /home/alexcc/repos/SPIDER_25008/SPIDER_ws/src/spider_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces

@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "spider_interfaces__py",
+		"source" : "/home/alexcc/repos/SPIDER_25008/SPIDER_ws/build/spider_interfaces/spider_interfaces__py"
+	}
+}

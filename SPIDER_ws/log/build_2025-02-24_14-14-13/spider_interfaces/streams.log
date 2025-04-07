@@ -1,0 +1,276 @@
+[0.018s] Invoking command in '/home/alexcc/repos/SPIDER_25008/SPIDER_ws/build/spider_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/data_transfer:/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_nav:/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/locomotion:/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/oak_d_lite:/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/nav2_gps_waypoint_follower_demo:/opt/ros/humble /home/alexcc/.local/bin/cmake /home/alexcc/repos/SPIDER_25008/SPIDER_ws/src/spider_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces
+[0.198s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.198s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.199s]   CMake.
+[0.199s] 
+[0.199s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.199s]   to tell CMake that the project requires at least <min> but has been updated
+[0.199s]   to work with policies introduced by <max> or earlier.
+[0.199s] 
+[0.199s] [0m
+[0.285s] -- The C compiler identification is GNU 11.4.0
+[0.390s] -- The CXX compiler identification is GNU 11.4.0
+[0.407s] -- Detecting C compiler ABI info
+[0.514s] -- Detecting C compiler ABI info - done
+[0.542s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.543s] -- Detecting C compile features
+[0.544s] -- Detecting C compile features - done
+[0.569s] -- Detecting CXX compiler ABI info
+[0.704s] -- Detecting CXX compiler ABI info - done
+[0.756s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.758s] -- Detecting CXX compile features
+[0.760s] -- Detecting CXX compile features - done
+[0.782s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.165s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter
+[1.324s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.417s] -- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)
+[1.509s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.520s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.539s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.569s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.607s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.672s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[2.942s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[5.471s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.523s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.534s] [33mCMake Warning (dev) at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:20 (find_package):
+[6.534s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[6.534s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[6.534s]   the cmake_policy command to set the policy and suppress this warning.
+[6.534s] 
+[6.534s] Call Stack (most recent call first):
+[6.535s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[6.535s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[6.535s]   CMakeLists.txt:27 (rosidl_generate_interfaces)
+[6.535s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[6.535s] [0m
+[6.614s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6")
+[6.621s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[6.622s] [33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:52 (find_package):
+[6.623s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[6.623s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[6.623s]   the cmake_policy command to set the policy and suppress this warning.
+[6.623s] 
+[6.623s] Call Stack (most recent call first):
+[6.623s]   /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+[6.623s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[6.623s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[6.624s]   CMakeLists.txt:27 (rosidl_generate_interfaces)
+[6.624s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[6.624s] [0m
+[6.691s] [33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:140 (find_package):
+[6.691s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[6.691s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[6.692s]   the cmake_policy command to set the policy and suppress this warning.
+[6.692s] 
+[6.692s] Call Stack (most recent call first):
+[6.692s]   /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+[6.693s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[6.693s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[6.693s]   CMakeLists.txt:27 (rosidl_generate_interfaces)
+[6.693s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[6.694s] [0m
+[6.711s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5")
+[6.712s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[6.712s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[6.712s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[6.779s] -- Found PythonExtra: .so
+[6.972s] -- Configuring done (6.8s)
+[7.060s] -- Generating done (0.1s)
+[7.079s] -- Build files have been written to: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/build/spider_interfaces
+[7.098s] Invoked command in '/home/alexcc/repos/SPIDER_25008/SPIDER_ws/build/spider_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/data_transfer:/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_nav:/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/locomotion:/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/oak_d_lite:/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/nav2_gps_waypoint_follower_demo:/opt/ros/humble /home/alexcc/.local/bin/cmake /home/alexcc/repos/SPIDER_25008/SPIDER_ws/src/spider_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces
+[7.104s] Invoking command in '/home/alexcc/repos/SPIDER_25008/SPIDER_ws/build/spider_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/data_transfer:/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_nav:/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/locomotion:/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/oak_d_lite:/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/nav2_gps_waypoint_follower_demo:/opt/ros/humble /home/alexcc/.local/bin/cmake --build /home/alexcc/repos/SPIDER_25008/SPIDER_ws/build/spider_interfaces -- -j6 -l6
+[7.315s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[7.324s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[7.329s] [  5%] Built target ament_cmake_python_symlink_spider_interfaces
+[7.804s] running egg_info
+[7.805s] creating spider_interfaces.egg-info
+[7.806s] writing spider_interfaces.egg-info/PKG-INFO
+[7.806s] writing dependency_links to spider_interfaces.egg-info/dependency_links.txt
+[7.807s] writing top-level names to spider_interfaces.egg-info/top_level.txt
+[7.807s] writing manifest file 'spider_interfaces.egg-info/SOURCES.txt'
+[7.812s] reading manifest file 'spider_interfaces.egg-info/SOURCES.txt'
+[7.813s] writing manifest file 'spider_interfaces.egg-info/SOURCES.txt'
+[7.876s] [  5%] Built target ament_cmake_python_build_spider_interfaces_egg
+[7.966s] [ 10%] [32mBuilding C object CMakeFiles/spider_interfaces__rosidl_generator_c.dir/rosidl_generator_c/spider_interfaces/msg/detail/loc_commands__functions.c.o[0m
+[7.967s] [ 10%] [32mBuilding C object CMakeFiles/spider_interfaces__rosidl_generator_c.dir/rosidl_generator_c/spider_interfaces/srv/detail/loc_service__functions.c.o[0m
+[8.012s] [ 10%] Built target spider_interfaces__cpp
+[8.022s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[8.022s] [ 15%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[8.023s] [ 17%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[8.091s] [ 20%] [32m[1mLinking C shared library libspider_interfaces__rosidl_generator_c.so[0m
+[8.142s] [ 20%] Built target spider_interfaces__rosidl_generator_c
+[8.151s] [ 23%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[8.151s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[8.152s] [ 28%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[8.668s] [ 30%] [32mBuilding CXX object CMakeFiles/spider_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/spider_interfaces/msg/detail/dds_fastrtps/loc_commands__type_support.cpp.o[0m
+[8.682s] [ 33%] [32mBuilding CXX object CMakeFiles/spider_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/spider_interfaces/msg/detail/loc_commands__type_support.cpp.o[0m
+[8.683s] [ 35%] [32mBuilding CXX object CMakeFiles/spider_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/spider_interfaces/msg/loc_commands__type_support.cpp.o[0m
+[8.692s] [ 38%] [32mBuilding CXX object CMakeFiles/spider_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/spider_interfaces/msg/loc_commands__type_support.cpp.o[0m
+[8.755s] [ 41%] [32mBuilding CXX object CMakeFiles/spider_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/spider_interfaces/srv/loc_service__type_support.cpp.o[0m
+[8.821s] [ 43%] [32m[1mLinking CXX shared library libspider_interfaces__rosidl_typesupport_c.so[0m
+[8.856s] [ 46%] [32mBuilding CXX object CMakeFiles/spider_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/spider_interfaces/msg/detail/loc_commands__type_support_c.cpp.o[0m
+[8.881s] [ 46%] Built target spider_interfaces__rosidl_typesupport_c
+[8.887s] [ 48%] [32mBuilding CXX object CMakeFiles/spider_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/spider_interfaces/srv/detail/loc_service__type_support_c.cpp.o[0m
+[8.919s] [ 51%] [32mBuilding C object CMakeFiles/spider_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/spider_interfaces/msg/detail/loc_commands__type_support.c.o[0m
+[8.975s] [ 53%] [32mBuilding C object CMakeFiles/spider_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/spider_interfaces/srv/detail/loc_service__type_support.c.o[0m
+[9.038s] [ 56%] [32m[1mLinking C shared library libspider_interfaces__rosidl_typesupport_introspection_c.so[0m
+[9.075s] [ 56%] Built target spider_interfaces__rosidl_typesupport_introspection_c
+[9.081s] [ 58%] [32mBuilding CXX object CMakeFiles/spider_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/spider_interfaces/srv/detail/loc_service__type_support.cpp.o[0m
+[9.537s] [ 61%] [32mBuilding CXX object CMakeFiles/spider_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/spider_interfaces/srv/detail/dds_fastrtps/loc_service__type_support.cpp.o[0m
+[9.576s] [ 64%] [32mBuilding CXX object CMakeFiles/spider_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/spider_interfaces/srv/loc_service__type_support.cpp.o[0m
+[9.815s] [ 66%] [32m[1mLinking CXX shared library libspider_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[9.908s] [ 69%] [32m[1mLinking CXX shared library libspider_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[9.952s] [ 69%] Built target spider_interfaces__rosidl_typesupport_fastrtps_c
+[10.018s] [ 69%] Built target spider_interfaces__rosidl_typesupport_introspection_cpp
+[10.164s] [ 71%] [32m[1mLinking CXX shared library libspider_interfaces__rosidl_typesupport_cpp.so[0m
+[10.214s] [ 71%] Built target spider_interfaces__rosidl_typesupport_cpp
+[10.425s] [ 74%] [32m[1mLinking CXX shared library libspider_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[10.552s] [ 74%] Built target spider_interfaces__rosidl_typesupport_fastrtps_cpp
+[10.570s] [ 74%] Built target spider_interfaces
+[10.590s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[11.429s] [ 76%] Built target spider_interfaces__py
+[11.445s] [ 79%] [32mBuilding C object CMakeFiles/spider_interfaces__rosidl_generator_py.dir/rosidl_generator_py/spider_interfaces/msg/_loc_commands_s.c.o[0m
+[11.446s] [ 82%] [32mBuilding C object CMakeFiles/spider_interfaces__rosidl_generator_py.dir/rosidl_generator_py/spider_interfaces/srv/_loc_service_s.c.o[0m
+[11.669s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/spider_interfaces/libspider_interfaces__rosidl_generator_py.so[0m
+[11.727s] [ 84%] Built target spider_interfaces__rosidl_generator_py
+[11.744s] [ 89%] [32mBuilding C object CMakeFiles/spider_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/spider_interfaces/_spider_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[11.744s] [ 89%] [32mBuilding C object CMakeFiles/spider_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/spider_interfaces/_spider_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[11.748s] [ 92%] [32mBuilding C object CMakeFiles/spider_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/spider_interfaces/_spider_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[11.944s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/spider_interfaces/spider_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so[0m
+[11.949s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/spider_interfaces/spider_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so[0m
+[11.952s] [100%] [32m[1mLinking C shared library rosidl_generator_py/spider_interfaces/spider_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so[0m
+[11.997s] [100%] Built target spider_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[11.999s] [100%] Built target spider_interfaces__rosidl_typesupport_c__pyext
+[12.010s] [100%] Built target spider_interfaces__rosidl_typesupport_introspection_c__pyext
+[12.022s] Invoked command in '/home/alexcc/repos/SPIDER_25008/SPIDER_ws/build/spider_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/data_transfer:/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_nav:/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/locomotion:/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/oak_d_lite:/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/nav2_gps_waypoint_follower_demo:/opt/ros/humble /home/alexcc/.local/bin/cmake --build /home/alexcc/repos/SPIDER_25008/SPIDER_ws/build/spider_interfaces -- -j6 -l6
+[12.194s] Invoking command in '/home/alexcc/repos/SPIDER_25008/SPIDER_ws/build/spider_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/data_transfer:/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_nav:/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/locomotion:/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/oak_d_lite:/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/nav2_gps_waypoint_follower_demo:/opt/ros/humble /home/alexcc/.local/bin/cmake --install /home/alexcc/repos/SPIDER_25008/SPIDER_ws/build/spider_interfaces
+[12.367s] -- Install configuration: ""
+[12.368s] -- Execute custom install script
+[12.368s] -- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/share/ament_index/resource_index/rosidl_interfaces/spider_interfaces
+[12.369s] -- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/include/spider_interfaces/spider_interfaces/msg/detail/loc_commands__functions.h
+[12.369s] -- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/include/spider_interfaces/spider_interfaces/msg/detail/loc_commands__struct.h
+[12.369s] -- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/include/spider_interfaces/spider_interfaces/msg/detail/loc_commands__type_support.h
+[12.370s] -- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/include/spider_interfaces/spider_interfaces/msg/loc_commands.h
+[12.370s] -- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/include/spider_interfaces/spider_interfaces/msg/rosidl_generator_c__visibility_control.h
+[12.370s] -- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/include/spider_interfaces/spider_interfaces/srv/detail/loc_service__functions.h
+[12.370s] -- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/include/spider_interfaces/spider_interfaces/srv/detail/loc_service__struct.h
+[12.371s] -- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/include/spider_interfaces/spider_interfaces/srv/detail/loc_service__type_support.h
+[12.371s] -- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/include/spider_interfaces/spider_interfaces/srv/loc_service.h
+[12.371s] -- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/environment/library_path.sh
+[12.372s] -- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/environment/library_path.dsv
+[12.373s] -- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/include/spider_interfaces/spider_interfaces/msg/detail/loc_commands__rosidl_typesupport_fastrtps_c.h
+[12.373s] -- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/include/spider_interfaces/spider_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[12.373s] -- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/include/spider_interfaces/spider_interfaces/srv/detail/loc_service__rosidl_typesupport_fastrtps_c.h
+[12.374s] -- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/include/spider_interfaces/spider_interfaces/msg/detail/loc_commands__builder.hpp
+[12.374s] -- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/include/spider_interfaces/spider_interfaces/msg/detail/loc_commands__struct.hpp
+[12.375s] -- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/include/spider_interfaces/spider_interfaces/msg/detail/loc_commands__traits.hpp
+[12.375s] -- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/include/spider_interfaces/spider_interfaces/msg/detail/loc_commands__type_support.hpp
+[12.375s] -- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/include/spider_interfaces/spider_interfaces/msg/loc_commands.hpp
+[12.375s] -- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/include/spider_interfaces/spider_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[12.376s] -- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/include/spider_interfaces/spider_interfaces/srv/detail/loc_service__builder.hpp
+[12.376s] -- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/include/spider_interfaces/spider_interfaces/srv/detail/loc_service__struct.hpp
+[12.376s] -- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/include/spider_interfaces/spider_interfaces/srv/detail/loc_service__traits.hpp
+[12.377s] -- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/include/spider_interfaces/spider_interfaces/srv/detail/loc_service__type_support.hpp
+[12.377s] -- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/include/spider_interfaces/spider_interfaces/srv/loc_service.hpp
+[12.378s] -- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/include/spider_interfaces/spider_interfaces/msg/detail/loc_commands__rosidl_typesupport_fastrtps_cpp.hpp
+[12.378s] -- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/include/spider_interfaces/spider_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[12.378s] -- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/include/spider_interfaces/spider_interfaces/srv/detail/loc_service__rosidl_typesupport_fastrtps_cpp.hpp
+[12.379s] -- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/include/spider_interfaces/spider_interfaces/msg/detail/loc_commands__rosidl_typesupport_introspection_c.h
+[12.380s] -- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/include/spider_interfaces/spider_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[12.380s] -- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/include/spider_interfaces/spider_interfaces/srv/detail/loc_service__rosidl_typesupport_introspection_c.h
+[12.381s] -- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/include/spider_interfaces/spider_interfaces/msg/detail/loc_commands__rosidl_typesupport_introspection_cpp.hpp
+[12.381s] -- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/include/spider_interfaces/spider_interfaces/srv/detail/loc_service__rosidl_typesupport_introspection_cpp.hpp
+[12.381s] -- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/environment/pythonpath.sh
+[12.381s] -- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/environment/pythonpath.dsv
+[12.382s] -- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/local/lib/python3.10/dist-packages/spider_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[12.382s] -- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/local/lib/python3.10/dist-packages/spider_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[12.383s] -- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/local/lib/python3.10/dist-packages/spider_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[12.383s] -- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/local/lib/python3.10/dist-packages/spider_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[12.386s] -- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/local/lib/python3.10/dist-packages/spider_interfaces/__init__.py
+[12.386s] -- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/local/lib/python3.10/dist-packages/spider_interfaces/_spider_interfaces_s.ep.rosidl_typesupport_c.c
+[12.387s] -- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/local/lib/python3.10/dist-packages/spider_interfaces/_spider_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[12.388s] -- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/local/lib/python3.10/dist-packages/spider_interfaces/_spider_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[12.388s] -- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/local/lib/python3.10/dist-packages/spider_interfaces/libspider_interfaces__rosidl_generator_py.so
+[12.388s] -- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/local/lib/python3.10/dist-packages/spider_interfaces/msg/__init__.py
+[12.388s] -- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/local/lib/python3.10/dist-packages/spider_interfaces/msg/_loc_commands.py
+[12.389s] -- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/local/lib/python3.10/dist-packages/spider_interfaces/msg/_loc_commands_s.c
+[12.389s] -- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/local/lib/python3.10/dist-packages/spider_interfaces/spider_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[12.389s] -- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/local/lib/python3.10/dist-packages/spider_interfaces/spider_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[12.389s] -- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/local/lib/python3.10/dist-packages/spider_interfaces/spider_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[12.389s] -- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/local/lib/python3.10/dist-packages/spider_interfaces/srv/__init__.py
+[12.390s] -- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/local/lib/python3.10/dist-packages/spider_interfaces/srv/_loc_service.py
+[12.390s] -- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/local/lib/python3.10/dist-packages/spider_interfaces/srv/_loc_service_s.c
+[12.391s] -- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/local/lib/python3.10/dist-packages/spider_interfaces/spider_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[12.391s] -- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/local/lib/python3.10/dist-packages/spider_interfaces/spider_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[12.392s] -- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/local/lib/python3.10/dist-packages/spider_interfaces/spider_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[12.392s] -- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/msg/LocCommands.idl
+[12.392s] -- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/srv/LocService.idl
+[12.393s] -- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/msg/LocCommands.msg
+[12.393s] -- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/srv/LocService.srv
+[12.393s] -- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/srv/LocService_Request.msg
+[12.394s] -- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/srv/LocService_Response.msg
+[12.394s] -- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/share/ament_index/resource_index/package_run_dependencies/spider_interfaces
+[12.394s] -- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/share/ament_index/resource_index/parent_prefix_path/spider_interfaces
+[12.395s] -- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/environment/ament_prefix_path.sh
+[12.395s] -- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/environment/ament_prefix_path.dsv
+[12.395s] -- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/environment/path.sh
+[12.396s] -- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/environment/path.dsv
+[12.396s] -- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/local_setup.bash
+[12.396s] -- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/local_setup.sh
+[12.396s] -- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/local_setup.zsh
+[12.397s] -- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/local_setup.dsv
+[12.397s] -- Symlinking: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/package.dsv
+[12.404s] -- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/share/ament_index/resource_index/packages/spider_interfaces
+[12.404s] -- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/cmake/rosidl_cmake-extras.cmake
+[12.404s] -- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[12.404s] -- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[12.405s] -- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[12.405s] -- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[12.405s] -- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[12.406s] -- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[12.406s] -- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/cmake/spider_interfacesConfig.cmake
+[12.406s] -- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/cmake/spider_interfacesConfig-version.cmake
+[12.407s] -- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/package.xml
+[12.407s] -- Installing: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/lib/libspider_interfaces__rosidl_generator_c.so
+[12.408s] -- Set non-toolchain portion of runtime path of "/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/lib/libspider_interfaces__rosidl_generator_c.so" to ""
+[12.408s] -- Installing: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/lib/libspider_interfaces__rosidl_typesupport_fastrtps_c.so
+[12.409s] -- Set non-toolchain portion of runtime path of "/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/lib/libspider_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[12.409s] -- Installing: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/lib/libspider_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[12.410s] -- Set non-toolchain portion of runtime path of "/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/lib/libspider_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[12.410s] -- Installing: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/lib/libspider_interfaces__rosidl_typesupport_introspection_c.so
+[12.411s] -- Set non-toolchain portion of runtime path of "/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/lib/libspider_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[12.411s] -- Installing: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/lib/libspider_interfaces__rosidl_typesupport_c.so
+[12.411s] -- Set non-toolchain portion of runtime path of "/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/lib/libspider_interfaces__rosidl_typesupport_c.so" to ""
+[12.412s] -- Installing: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/lib/libspider_interfaces__rosidl_typesupport_introspection_cpp.so
+[12.412s] -- Set non-toolchain portion of runtime path of "/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/lib/libspider_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[12.413s] -- Installing: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/lib/libspider_interfaces__rosidl_typesupport_cpp.so
+[12.413s] -- Set non-toolchain portion of runtime path of "/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/lib/libspider_interfaces__rosidl_typesupport_cpp.so" to ""
+[12.496s] Listing '/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/local/lib/python3.10/dist-packages/spider_interfaces'...
+[12.496s] Compiling '/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/local/lib/python3.10/dist-packages/spider_interfaces/__init__.py'...
+[12.497s] Listing '/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/local/lib/python3.10/dist-packages/spider_interfaces/msg'...
+[12.497s] Compiling '/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/local/lib/python3.10/dist-packages/spider_interfaces/msg/__init__.py'...
+[12.497s] Compiling '/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/local/lib/python3.10/dist-packages/spider_interfaces/msg/_loc_commands.py'...
+[12.497s] Listing '/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/local/lib/python3.10/dist-packages/spider_interfaces/srv'...
+[12.497s] Compiling '/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/local/lib/python3.10/dist-packages/spider_interfaces/srv/__init__.py'...
+[12.497s] Compiling '/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/local/lib/python3.10/dist-packages/spider_interfaces/srv/_loc_service.py'...
+[12.508s] -- Installing: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/lib/libspider_interfaces__rosidl_generator_py.so
+[12.509s] -- Set non-toolchain portion of runtime path of "/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/lib/libspider_interfaces__rosidl_generator_py.so" to ""
+[12.509s] -- Installing: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/cmake/export_spider_interfaces__rosidl_generator_cExport.cmake
+[12.509s] -- Installing: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/cmake/export_spider_interfaces__rosidl_generator_cExport-noconfig.cmake
+[12.510s] -- Installing: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/cmake/export_spider_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[12.510s] -- Installing: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/cmake/export_spider_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[12.511s] -- Installing: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/cmake/export_spider_interfaces__rosidl_generator_cppExport.cmake
+[12.511s] -- Installing: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/cmake/export_spider_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[12.511s] -- Installing: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/cmake/export_spider_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[12.512s] -- Installing: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/cmake/spider_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[12.512s] -- Installing: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/cmake/spider_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[12.512s] -- Installing: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/cmake/spider_interfaces__rosidl_typesupport_cExport.cmake
+[12.513s] -- Installing: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/cmake/spider_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[12.513s] -- Installing: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/cmake/spider_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[12.514s] -- Installing: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/cmake/spider_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[12.514s] -- Installing: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/cmake/spider_interfaces__rosidl_typesupport_cppExport.cmake
+[12.514s] -- Installing: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/cmake/spider_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[12.515s] -- Installing: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/cmake/export_spider_interfaces__rosidl_generator_pyExport.cmake
+[12.515s] -- Installing: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/cmake/export_spider_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[12.520s] Invoked command in '/home/alexcc/repos/SPIDER_25008/SPIDER_ws/build/spider_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/data_transfer:/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_nav:/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/locomotion:/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/oak_d_lite:/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/nav2_gps_waypoint_follower_demo:/opt/ros/humble /home/alexcc/.local/bin/cmake --install /home/alexcc/repos/SPIDER_25008/SPIDER_ws/build/spider_interfaces

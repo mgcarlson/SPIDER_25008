@@ -1,0 +1,10 @@
+setup.py
+spider_interfaces/__init__.py
+spider_interfaces.egg-info/PKG-INFO
+spider_interfaces.egg-info/SOURCES.txt
+spider_interfaces.egg-info/dependency_links.txt
+spider_interfaces.egg-info/top_level.txt
+spider_interfaces/msg/__init__.py
+spider_interfaces/msg/_loc_commands.py
+spider_interfaces/srv/__init__.py
+spider_interfaces/srv/_loc_service.py

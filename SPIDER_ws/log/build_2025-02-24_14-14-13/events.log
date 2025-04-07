@@ -1,0 +1,460 @@
+[0.000000] (-) TimerEvent: {}
+[0.001043] (spider_interfaces) JobQueued: {'identifier': 'spider_interfaces', 'dependencies': OrderedDict()}
+[0.001330] (locomotion) JobQueued: {'identifier': 'locomotion', 'dependencies': OrderedDict([('spider_interfaces', '/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces')])}
+[0.001578] (spider_nav) JobQueued: {'identifier': 'spider_nav', 'dependencies': OrderedDict([('spider_interfaces', '/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces'), ('locomotion', '/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/locomotion')])}
+[0.001691] (data_transfer) JobQueued: {'identifier': 'data_transfer', 'dependencies': OrderedDict([('spider_interfaces', '/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces'), ('locomotion', '/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/locomotion'), ('spider_nav', '/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_nav')])}
+[0.001783] (spider_interfaces) JobStarted: {'identifier': 'spider_interfaces'}
+[0.016825] (spider_interfaces) JobProgress: {'identifier': 'spider_interfaces', 'progress': 'cmake'}
+[0.017782] (spider_interfaces) Command: {'cmd': ['/home/alexcc/.local/bin/cmake', '/home/alexcc/repos/SPIDER_25008/SPIDER_ws/src/spider_interfaces', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces'], 'cwd': '/home/alexcc/repos/SPIDER_25008/SPIDER_ws/build/spider_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US.UTF-8'), ('USER', 'alexcc'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/alexcc'), ('OLDPWD', '/home/alexcc/repos/SPIDER_25008/SPIDER_ws/build'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2188'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'alexcc'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'alexcc'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/alexcc/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/alexcc-desktop:@/tmp/.ICE-unix/2160,unix/alexcc-desktop:/tmp/.ICE-unix/2160'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/35062ce4_cb42_46f8_8fbc_4ed6828cfe55'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.92'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/data_transfer:/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_nav:/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/locomotion:/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces:/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_description:/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/oak_d_lite:/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/nav2_gps_waypoint_follower_demo:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/alexcc/repos/SPIDER_25008/SPIDER_ws/build/spider_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/data_transfer/lib/python3.8/site-packages:/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_nav/lib/python3.8/site-packages:/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/locomotion/lib/python3.8/site-packages:/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/local/lib/python3.10/dist-packages:/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/oak_d_lite/lib/python3.8/site-packages:/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/nav2_gps_waypoint_follower_demo/lib/python3.8/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces:/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_description:/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/data_transfer:/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_nav:/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/locomotion:/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/oak_d_lite:/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/nav2_gps_waypoint_follower_demo:/opt/ros/humble')]), 'shell': False}
+[0.099219] (-) TimerEvent: {}
+[0.199342] (spider_interfaces) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):\n'}
+[0.199886] (-) TimerEvent: {}
+[0.200169] (spider_interfaces) StderrLine: {'line': b'  Compatibility with CMake < 3.10 will be removed from a future version of\n'}
+[0.200364] (spider_interfaces) StderrLine: {'line': b'  CMake.\n'}
+[0.200505] (spider_interfaces) StderrLine: {'line': b'\n'}
+[0.200628] (spider_interfaces) StderrLine: {'line': b'  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax\n'}
+[0.200777] (spider_interfaces) StderrLine: {'line': b'  to tell CMake that the project requires at least <min> but has been updated\n'}
+[0.200898] (spider_interfaces) StderrLine: {'line': b'  to work with policies introduced by <max> or earlier.\n'}
+[0.201012] (spider_interfaces) StderrLine: {'line': b'\n'}
+[0.201123] (spider_interfaces) StderrLine: {'line': b'\x1b[0m\n'}
+[0.286911] (spider_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.300080] (-) TimerEvent: {}
+[0.391472] (spider_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.400245] (-) TimerEvent: {}
+[0.408658] (spider_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.500423] (-) TimerEvent: {}
+[0.515485] (spider_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.543651] (spider_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.544210] (spider_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.545368] (spider_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.570715] (spider_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.600600] (-) TimerEvent: {}
+[0.701274] (-) TimerEvent: {}
+[0.705232] (spider_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.757964] (spider_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.759245] (spider_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.761481] (spider_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.783614] (spider_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.801381] (-) TimerEvent: {}
+[0.901919] (-) TimerEvent: {}
+[1.002517] (-) TimerEvent: {}
+[1.103142] (-) TimerEvent: {}
+[1.166552] (spider_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter\n'}
+[1.203244] (-) TimerEvent: {}
+[1.303772] (-) TimerEvent: {}
+[1.325842] (spider_interfaces) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.403927] (-) TimerEvent: {}
+[1.418232] (spider_interfaces) StdoutLine: {'line': b'-- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[1.504055] (-) TimerEvent: {}
+[1.510493] (spider_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.521736] (spider_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.541120] (spider_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.570112] (spider_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.604149] (-) TimerEvent: {}
+[1.608811] (spider_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.673492] (spider_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.704256] (-) TimerEvent: {}
+[1.804767] (-) TimerEvent: {}
+[1.905388] (-) TimerEvent: {}
+[2.006080] (-) TimerEvent: {}
+[2.106701] (-) TimerEvent: {}
+[2.207296] (-) TimerEvent: {}
+[2.307849] (-) TimerEvent: {}
+[2.408421] (-) TimerEvent: {}
+[2.509229] (-) TimerEvent: {}
+[2.610799] (-) TimerEvent: {}
+[2.711863] (-) TimerEvent: {}
+[2.812817] (-) TimerEvent: {}
+[2.913654] (-) TimerEvent: {}
+[2.942846] (spider_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[3.013909] (-) TimerEvent: {}
+[3.114856] (-) TimerEvent: {}
+[3.215800] (-) TimerEvent: {}
+[3.316713] (-) TimerEvent: {}
+[3.417487] (-) TimerEvent: {}
+[3.518353] (-) TimerEvent: {}
+[3.619134] (-) TimerEvent: {}
+[3.719750] (-) TimerEvent: {}
+[3.820366] (-) TimerEvent: {}
+[3.921076] (-) TimerEvent: {}
+[4.022049] (-) TimerEvent: {}
+[4.122803] (-) TimerEvent: {}
+[4.223505] (-) TimerEvent: {}
+[4.324218] (-) TimerEvent: {}
+[4.425033] (-) TimerEvent: {}
+[4.526120] (-) TimerEvent: {}
+[4.627136] (-) TimerEvent: {}
+[4.727863] (-) TimerEvent: {}
+[4.828843] (-) TimerEvent: {}
+[4.929747] (-) TimerEvent: {}
+[5.030730] (-) TimerEvent: {}
+[5.131733] (-) TimerEvent: {}
+[5.232721] (-) TimerEvent: {}
+[5.333621] (-) TimerEvent: {}
+[5.434238] (-) TimerEvent: {}
+[5.471548] (spider_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[5.534554] (-) TimerEvent: {}
+[5.635855] (-) TimerEvent: {}
+[5.736628] (-) TimerEvent: {}
+[5.837436] (-) TimerEvent: {}
+[5.938437] (-) TimerEvent: {}
+[6.039457] (-) TimerEvent: {}
+[6.140325] (-) TimerEvent: {}
+[6.241547] (-) TimerEvent: {}
+[6.342332] (-) TimerEvent: {}
+[6.443290] (-) TimerEvent: {}
+[6.524028] (spider_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[6.535105] (spider_interfaces) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:20 (find_package):\n'}
+[6.535469] (spider_interfaces) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[6.535625] (spider_interfaces) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[6.535762] (spider_interfaces) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[6.535889] (spider_interfaces) StderrLine: {'line': b'\n'}
+[6.536009] (spider_interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[6.536129] (spider_interfaces) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[6.536497] (spider_interfaces) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)\n'}
+[6.536741] (spider_interfaces) StderrLine: {'line': b'  CMakeLists.txt:27 (rosidl_generate_interfaces)\n'}
+[6.536962] (spider_interfaces) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[6.537156] (spider_interfaces) StderrLine: {'line': b'\x1b[0m\n'}
+[6.543404] (-) TimerEvent: {}
+[6.615523] (spider_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6")\n'}
+[6.622315] (spider_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[6.623977] (spider_interfaces) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:52 (find_package):\n'}
+[6.624263] (spider_interfaces) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[6.624417] (spider_interfaces) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[6.624552] (spider_interfaces) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[6.624699] (spider_interfaces) StderrLine: {'line': b'\n'}
+[6.624831] (spider_interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[6.624956] (spider_interfaces) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)\n'}
+[6.625079] (spider_interfaces) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[6.625196] (spider_interfaces) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)\n'}
+[6.625311] (spider_interfaces) StderrLine: {'line': b'  CMakeLists.txt:27 (rosidl_generate_interfaces)\n'}
+[6.625422] (spider_interfaces) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[6.625533] (spider_interfaces) StderrLine: {'line': b'\x1b[0m\n'}
+[6.643592] (-) TimerEvent: {}
+[6.692271] (spider_interfaces) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:140 (find_package):\n'}
+[6.692917] (spider_interfaces) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[6.693166] (spider_interfaces) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[6.693356] (spider_interfaces) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[6.693668] (spider_interfaces) StderrLine: {'line': b'\n'}
+[6.693833] (spider_interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[6.694024] (spider_interfaces) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)\n'}
+[6.694162] (spider_interfaces) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[6.694794] (spider_interfaces) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)\n'}
+[6.694956] (spider_interfaces) StderrLine: {'line': b'  CMakeLists.txt:27 (rosidl_generate_interfaces)\n'}
+[6.695147] (spider_interfaces) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[6.695269] (spider_interfaces) StderrLine: {'line': b'\x1b[0m\n'}
+[6.712738] (spider_interfaces) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5")\n'}
+[6.713458] (spider_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[6.713698] (spider_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[6.713920] (spider_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so\n'}
+[6.743759] (-) TimerEvent: {}
+[6.779918] (spider_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so\n'}
+[6.844097] (-) TimerEvent: {}
+[6.945180] (-) TimerEvent: {}
+[6.973214] (spider_interfaces) StdoutLine: {'line': b'-- Configuring done (6.8s)\n'}
+[7.045342] (-) TimerEvent: {}
+[7.061711] (spider_interfaces) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[7.080195] (spider_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/build/spider_interfaces\n'}
+[7.099418] (spider_interfaces) CommandEnded: {'returncode': 0}
+[7.101366] (spider_interfaces) JobProgress: {'identifier': 'spider_interfaces', 'progress': 'build'}
+[7.103545] (spider_interfaces) Command: {'cmd': ['/home/alexcc/.local/bin/cmake', '--build', '/home/alexcc/repos/SPIDER_25008/SPIDER_ws/build/spider_interfaces', '--', '-j6', '-l6'], 'cwd': '/home/alexcc/repos/SPIDER_25008/SPIDER_ws/build/spider_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US.UTF-8'), ('USER', 'alexcc'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/alexcc'), ('OLDPWD', '/home/alexcc/repos/SPIDER_25008/SPIDER_ws/build'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2188'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'alexcc'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'alexcc'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/alexcc/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/alexcc-desktop:@/tmp/.ICE-unix/2160,unix/alexcc-desktop:/tmp/.ICE-unix/2160'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/35062ce4_cb42_46f8_8fbc_4ed6828cfe55'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.92'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/data_transfer:/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_nav:/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/locomotion:/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces:/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_description:/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/oak_d_lite:/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/nav2_gps_waypoint_follower_demo:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/alexcc/repos/SPIDER_25008/SPIDER_ws/build/spider_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/data_transfer/lib/python3.8/site-packages:/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_nav/lib/python3.8/site-packages:/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/locomotion/lib/python3.8/site-packages:/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/local/lib/python3.10/dist-packages:/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/oak_d_lite/lib/python3.8/site-packages:/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/nav2_gps_waypoint_follower_demo/lib/python3.8/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces:/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_description:/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/data_transfer:/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_nav:/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/locomotion:/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/oak_d_lite:/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/nav2_gps_waypoint_follower_demo:/opt/ros/humble')]), 'shell': False}
+[7.145530] (-) TimerEvent: {}
+[7.246372] (-) TimerEvent: {}
+[7.316356] (spider_interfaces) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[7.325316] (spider_interfaces) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[7.330473] (spider_interfaces) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_symlink_spider_interfaces\n'}
+[7.346535] (-) TimerEvent: {}
+[7.447154] (-) TimerEvent: {}
+[7.547725] (-) TimerEvent: {}
+[7.648232] (-) TimerEvent: {}
+[7.748816] (-) TimerEvent: {}
+[7.805862] (spider_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[7.807169] (spider_interfaces) StdoutLine: {'line': b'creating spider_interfaces.egg-info\n'}
+[7.807502] (spider_interfaces) StdoutLine: {'line': b'writing spider_interfaces.egg-info/PKG-INFO\n'}
+[7.807927] (spider_interfaces) StdoutLine: {'line': b'writing dependency_links to spider_interfaces.egg-info/dependency_links.txt\n'}
+[7.808294] (spider_interfaces) StdoutLine: {'line': b'writing top-level names to spider_interfaces.egg-info/top_level.txt\n'}
+[7.808777] (spider_interfaces) StdoutLine: {'line': b"writing manifest file 'spider_interfaces.egg-info/SOURCES.txt'\n"}
+[7.813202] (spider_interfaces) StdoutLine: {'line': b"reading manifest file 'spider_interfaces.egg-info/SOURCES.txt'\n"}
+[7.814268] (spider_interfaces) StdoutLine: {'line': b"writing manifest file 'spider_interfaces.egg-info/SOURCES.txt'\n"}
+[7.848968] (-) TimerEvent: {}
+[7.877102] (spider_interfaces) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_build_spider_interfaces_egg\n'}
+[7.949173] (-) TimerEvent: {}
+[7.967922] (spider_interfaces) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/spider_interfaces__rosidl_generator_c.dir/rosidl_generator_c/spider_interfaces/msg/detail/loc_commands__functions.c.o\x1b[0m\n'}
+[7.968385] (spider_interfaces) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/spider_interfaces__rosidl_generator_c.dir/rosidl_generator_c/spider_interfaces/srv/detail/loc_service__functions.c.o\x1b[0m\n'}
+[8.013403] (spider_interfaces) StdoutLine: {'line': b'[ 10%] Built target spider_interfaces__cpp\n'}
+[8.023233] (spider_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[8.023827] (spider_interfaces) StdoutLine: {'line': b'[ 15%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[8.024999] (spider_interfaces) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[8.049309] (-) TimerEvent: {}
+[8.092644] (spider_interfaces) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking C shared library libspider_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[8.143084] (spider_interfaces) StdoutLine: {'line': b'[ 20%] Built target spider_interfaces__rosidl_generator_c\n'}
+[8.149468] (-) TimerEvent: {}
+[8.152256] (spider_interfaces) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[8.152733] (spider_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[8.153371] (spider_interfaces) StdoutLine: {'line': b'[ 28%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[8.249631] (-) TimerEvent: {}
+[8.350504] (-) TimerEvent: {}
+[8.451335] (-) TimerEvent: {}
+[8.552158] (-) TimerEvent: {}
+[8.652849] (-) TimerEvent: {}
+[8.669149] (spider_interfaces) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/spider_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/spider_interfaces/msg/detail/dds_fastrtps/loc_commands__type_support.cpp.o\x1b[0m\n'}
+[8.683476] (spider_interfaces) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/spider_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/spider_interfaces/msg/detail/loc_commands__type_support.cpp.o\x1b[0m\n'}
+[8.684398] (spider_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/spider_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/spider_interfaces/msg/loc_commands__type_support.cpp.o\x1b[0m\n'}
+[8.693541] (spider_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/spider_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/spider_interfaces/msg/loc_commands__type_support.cpp.o\x1b[0m\n'}
+[8.753138] (-) TimerEvent: {}
+[8.756575] (spider_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/spider_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/spider_interfaces/srv/loc_service__type_support.cpp.o\x1b[0m\n'}
+[8.822809] (spider_interfaces) StdoutLine: {'line': b'[ 43%] \x1b[32m\x1b[1mLinking CXX shared library libspider_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[8.853330] (-) TimerEvent: {}
+[8.857531] (spider_interfaces) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/spider_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/spider_interfaces/msg/detail/loc_commands__type_support_c.cpp.o\x1b[0m\n'}
+[8.882432] (spider_interfaces) StdoutLine: {'line': b'[ 46%] Built target spider_interfaces__rosidl_typesupport_c\n'}
+[8.888754] (spider_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/spider_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/spider_interfaces/srv/detail/loc_service__type_support_c.cpp.o\x1b[0m\n'}
+[8.920066] (spider_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding C object CMakeFiles/spider_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/spider_interfaces/msg/detail/loc_commands__type_support.c.o\x1b[0m\n'}
+[8.953531] (-) TimerEvent: {}
+[8.976583] (spider_interfaces) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding C object CMakeFiles/spider_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/spider_interfaces/srv/detail/loc_service__type_support.c.o\x1b[0m\n'}
+[9.039758] (spider_interfaces) StdoutLine: {'line': b'[ 56%] \x1b[32m\x1b[1mLinking C shared library libspider_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[9.053721] (-) TimerEvent: {}
+[9.076124] (spider_interfaces) StdoutLine: {'line': b'[ 56%] Built target spider_interfaces__rosidl_typesupport_introspection_c\n'}
+[9.082900] (spider_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/spider_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/spider_interfaces/srv/detail/loc_service__type_support.cpp.o\x1b[0m\n'}
+[9.153941] (-) TimerEvent: {}
+[9.254952] (-) TimerEvent: {}
+[9.355978] (-) TimerEvent: {}
+[9.457060] (-) TimerEvent: {}
+[9.538222] (spider_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/spider_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/spider_interfaces/srv/detail/dds_fastrtps/loc_service__type_support.cpp.o\x1b[0m\n'}
+[9.557255] (-) TimerEvent: {}
+[9.577692] (spider_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/spider_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/spider_interfaces/srv/loc_service__type_support.cpp.o\x1b[0m\n'}
+[9.657440] (-) TimerEvent: {}
+[9.758377] (-) TimerEvent: {}
+[9.816028] (spider_interfaces) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX shared library libspider_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[9.858570] (-) TimerEvent: {}
+[9.909727] (spider_interfaces) StdoutLine: {'line': b'[ 69%] \x1b[32m\x1b[1mLinking CXX shared library libspider_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[9.953585] (spider_interfaces) StdoutLine: {'line': b'[ 69%] Built target spider_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[9.958711] (-) TimerEvent: {}
+[10.019765] (spider_interfaces) StdoutLine: {'line': b'[ 69%] Built target spider_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[10.058900] (-) TimerEvent: {}
+[10.159688] (-) TimerEvent: {}
+[10.165246] (spider_interfaces) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX shared library libspider_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[10.215977] (spider_interfaces) StdoutLine: {'line': b'[ 71%] Built target spider_interfaces__rosidl_typesupport_cpp\n'}
+[10.259858] (-) TimerEvent: {}
+[10.360503] (-) TimerEvent: {}
+[10.426336] (spider_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libspider_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[10.460719] (-) TimerEvent: {}
+[10.553591] (spider_interfaces) StdoutLine: {'line': b'[ 74%] Built target spider_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[10.560783] (-) TimerEvent: {}
+[10.571293] (spider_interfaces) StdoutLine: {'line': b'[ 74%] Built target spider_interfaces\n'}
+[10.591612] (spider_interfaces) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[10.660957] (-) TimerEvent: {}
+[10.761589] (-) TimerEvent: {}
+[10.862229] (-) TimerEvent: {}
+[10.962889] (-) TimerEvent: {}
+[11.063490] (-) TimerEvent: {}
+[11.164115] (-) TimerEvent: {}
+[11.264716] (-) TimerEvent: {}
+[11.365317] (-) TimerEvent: {}
+[11.430647] (spider_interfaces) StdoutLine: {'line': b'[ 76%] Built target spider_interfaces__py\n'}
+[11.446249] (spider_interfaces) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding C object CMakeFiles/spider_interfaces__rosidl_generator_py.dir/rosidl_generator_py/spider_interfaces/msg/_loc_commands_s.c.o\x1b[0m\n'}
+[11.447269] (spider_interfaces) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/spider_interfaces__rosidl_generator_py.dir/rosidl_generator_py/spider_interfaces/srv/_loc_service_s.c.o\x1b[0m\n'}
+[11.465503] (-) TimerEvent: {}
+[11.566198] (-) TimerEvent: {}
+[11.666885] (-) TimerEvent: {}
+[11.670754] (spider_interfaces) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/spider_interfaces/libspider_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[11.728110] (spider_interfaces) StdoutLine: {'line': b'[ 84%] Built target spider_interfaces__rosidl_generator_py\n'}
+[11.745620] (spider_interfaces) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/spider_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/spider_interfaces/_spider_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[11.746129] (spider_interfaces) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/spider_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/spider_interfaces/_spider_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[11.749665] (spider_interfaces) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/spider_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/spider_interfaces/_spider_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[11.767059] (-) TimerEvent: {}
+[11.867743] (-) TimerEvent: {}
+[11.945635] (spider_interfaces) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/spider_interfaces/spider_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[11.950795] (spider_interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/spider_interfaces/spider_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[11.953527] (spider_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/spider_interfaces/spider_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[11.967935] (-) TimerEvent: {}
+[11.998095] (spider_interfaces) StdoutLine: {'line': b'[100%] Built target spider_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[12.000450] (spider_interfaces) StdoutLine: {'line': b'[100%] Built target spider_interfaces__rosidl_typesupport_c__pyext\n'}
+[12.011790] (spider_interfaces) StdoutLine: {'line': b'[100%] Built target spider_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[12.023848] (spider_interfaces) CommandEnded: {'returncode': 0}
+[12.025854] (spider_interfaces) JobProgress: {'identifier': 'spider_interfaces', 'progress': 'install'}
+[12.068075] (-) TimerEvent: {}
+[12.168707] (-) TimerEvent: {}
+[12.193362] (spider_interfaces) Command: {'cmd': ['/home/alexcc/.local/bin/cmake', '--install', '/home/alexcc/repos/SPIDER_25008/SPIDER_ws/build/spider_interfaces'], 'cwd': '/home/alexcc/repos/SPIDER_25008/SPIDER_ws/build/spider_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US.UTF-8'), ('USER', 'alexcc'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/alexcc'), ('OLDPWD', '/home/alexcc/repos/SPIDER_25008/SPIDER_ws/build'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2188'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'alexcc'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'alexcc'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/alexcc/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/alexcc-desktop:@/tmp/.ICE-unix/2160,unix/alexcc-desktop:/tmp/.ICE-unix/2160'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/35062ce4_cb42_46f8_8fbc_4ed6828cfe55'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.92'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/data_transfer:/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_nav:/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/locomotion:/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces:/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_description:/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/oak_d_lite:/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/nav2_gps_waypoint_follower_demo:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/alexcc/repos/SPIDER_25008/SPIDER_ws/build/spider_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/data_transfer/lib/python3.8/site-packages:/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_nav/lib/python3.8/site-packages:/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/locomotion/lib/python3.8/site-packages:/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/local/lib/python3.10/dist-packages:/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/oak_d_lite/lib/python3.8/site-packages:/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/nav2_gps_waypoint_follower_demo/lib/python3.8/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces:/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_description:/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/data_transfer:/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_nav:/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/locomotion:/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/oak_d_lite:/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/nav2_gps_waypoint_follower_demo:/opt/ros/humble')]), 'shell': False}
+[12.269106] (-) TimerEvent: {}
+[12.368008] (spider_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[12.368893] (-) TimerEvent: {}
+[12.369242] (spider_interfaces) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[12.369631] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/share/ament_index/resource_index/rosidl_interfaces/spider_interfaces\n'}
+[12.370693] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/include/spider_interfaces/spider_interfaces/msg/detail/loc_commands__functions.h\n'}
+[12.370953] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/include/spider_interfaces/spider_interfaces/msg/detail/loc_commands__struct.h\n'}
+[12.371205] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/include/spider_interfaces/spider_interfaces/msg/detail/loc_commands__type_support.h\n'}
+[12.371462] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/include/spider_interfaces/spider_interfaces/msg/loc_commands.h\n'}
+[12.371704] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/include/spider_interfaces/spider_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[12.371960] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/include/spider_interfaces/spider_interfaces/srv/detail/loc_service__functions.h\n'}
+[12.372202] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/include/spider_interfaces/spider_interfaces/srv/detail/loc_service__struct.h\n'}
+[12.372445] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/include/spider_interfaces/spider_interfaces/srv/detail/loc_service__type_support.h\n'}
+[12.372724] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/include/spider_interfaces/spider_interfaces/srv/loc_service.h\n'}
+[12.373087] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/environment/library_path.sh\n'}
+[12.373404] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/environment/library_path.dsv\n'}
+[12.374453] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/include/spider_interfaces/spider_interfaces/msg/detail/loc_commands__rosidl_typesupport_fastrtps_c.h\n'}
+[12.374699] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/include/spider_interfaces/spider_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[12.374957] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/include/spider_interfaces/spider_interfaces/srv/detail/loc_service__rosidl_typesupport_fastrtps_c.h\n'}
+[12.375867] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/include/spider_interfaces/spider_interfaces/msg/detail/loc_commands__builder.hpp\n'}
+[12.376120] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/include/spider_interfaces/spider_interfaces/msg/detail/loc_commands__struct.hpp\n'}
+[12.376366] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/include/spider_interfaces/spider_interfaces/msg/detail/loc_commands__traits.hpp\n'}
+[12.376613] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/include/spider_interfaces/spider_interfaces/msg/detail/loc_commands__type_support.hpp\n'}
+[12.376901] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/include/spider_interfaces/spider_interfaces/msg/loc_commands.hpp\n'}
+[12.377131] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/include/spider_interfaces/spider_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[12.377414] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/include/spider_interfaces/spider_interfaces/srv/detail/loc_service__builder.hpp\n'}
+[12.377631] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/include/spider_interfaces/spider_interfaces/srv/detail/loc_service__struct.hpp\n'}
+[12.377880] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/include/spider_interfaces/spider_interfaces/srv/detail/loc_service__traits.hpp\n'}
+[12.378241] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/include/spider_interfaces/spider_interfaces/srv/detail/loc_service__type_support.hpp\n'}
+[12.378704] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/include/spider_interfaces/spider_interfaces/srv/loc_service.hpp\n'}
+[12.379556] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/include/spider_interfaces/spider_interfaces/msg/detail/loc_commands__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[12.379844] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/include/spider_interfaces/spider_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[12.380159] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/include/spider_interfaces/spider_interfaces/srv/detail/loc_service__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[12.381032] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/include/spider_interfaces/spider_interfaces/msg/detail/loc_commands__rosidl_typesupport_introspection_c.h\n'}
+[12.381278] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/include/spider_interfaces/spider_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[12.381540] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/include/spider_interfaces/spider_interfaces/srv/detail/loc_service__rosidl_typesupport_introspection_c.h\n'}
+[12.382313] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/include/spider_interfaces/spider_interfaces/msg/detail/loc_commands__rosidl_typesupport_introspection_cpp.hpp\n'}
+[12.382592] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/include/spider_interfaces/spider_interfaces/srv/detail/loc_service__rosidl_typesupport_introspection_cpp.hpp\n'}
+[12.382882] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/environment/pythonpath.sh\n'}
+[12.383201] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/environment/pythonpath.dsv\n'}
+[12.383835] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/local/lib/python3.10/dist-packages/spider_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[12.384072] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/local/lib/python3.10/dist-packages/spider_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[12.384312] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/local/lib/python3.10/dist-packages/spider_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[12.384551] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/local/lib/python3.10/dist-packages/spider_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[12.387598] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/local/lib/python3.10/dist-packages/spider_interfaces/__init__.py\n'}
+[12.388108] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/local/lib/python3.10/dist-packages/spider_interfaces/_spider_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[12.388586] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/local/lib/python3.10/dist-packages/spider_interfaces/_spider_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[12.389244] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/local/lib/python3.10/dist-packages/spider_interfaces/_spider_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[12.389515] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/local/lib/python3.10/dist-packages/spider_interfaces/libspider_interfaces__rosidl_generator_py.so\n'}
+[12.389769] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/local/lib/python3.10/dist-packages/spider_interfaces/msg/__init__.py\n'}
+[12.390011] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/local/lib/python3.10/dist-packages/spider_interfaces/msg/_loc_commands.py\n'}
+[12.390257] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/local/lib/python3.10/dist-packages/spider_interfaces/msg/_loc_commands_s.c\n'}
+[12.390497] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/local/lib/python3.10/dist-packages/spider_interfaces/spider_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[12.390732] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/local/lib/python3.10/dist-packages/spider_interfaces/spider_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[12.391004] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/local/lib/python3.10/dist-packages/spider_interfaces/spider_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[12.391215] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/local/lib/python3.10/dist-packages/spider_interfaces/srv/__init__.py\n'}
+[12.391475] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/local/lib/python3.10/dist-packages/spider_interfaces/srv/_loc_service.py\n'}
+[12.391715] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/local/lib/python3.10/dist-packages/spider_interfaces/srv/_loc_service_s.c\n'}
+[12.392299] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/local/lib/python3.10/dist-packages/spider_interfaces/spider_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[12.392828] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/local/lib/python3.10/dist-packages/spider_interfaces/spider_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[12.393341] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/local/lib/python3.10/dist-packages/spider_interfaces/spider_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[12.393697] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/msg/LocCommands.idl\n'}
+[12.394059] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/srv/LocService.idl\n'}
+[12.394372] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/msg/LocCommands.msg\n'}
+[12.394680] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/srv/LocService.srv\n'}
+[12.395000] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/srv/LocService_Request.msg\n'}
+[12.395321] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/srv/LocService_Response.msg\n'}
+[12.395673] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/share/ament_index/resource_index/package_run_dependencies/spider_interfaces\n'}
+[12.396021] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/share/ament_index/resource_index/parent_prefix_path/spider_interfaces\n'}
+[12.396350] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/environment/ament_prefix_path.sh\n'}
+[12.396662] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/environment/ament_prefix_path.dsv\n'}
+[12.397006] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/environment/path.sh\n'}
+[12.397318] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/environment/path.dsv\n'}
+[12.397620] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/local_setup.bash\n'}
+[12.397928] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/local_setup.sh\n'}
+[12.398236] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/local_setup.zsh\n'}
+[12.398538] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/local_setup.dsv\n'}
+[12.398767] (spider_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/package.dsv\n'}
+[12.405291] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/share/ament_index/resource_index/packages/spider_interfaces\n'}
+[12.405693] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[12.405906] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[12.406174] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[12.406486] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[12.406799] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[12.407105] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[12.407413] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[12.407730] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/cmake/spider_interfacesConfig.cmake\n'}
+[12.407982] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/cmake/spider_interfacesConfig-version.cmake\n'}
+[12.408283] (spider_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/package.xml\n'}
+[12.408803] (spider_interfaces) StdoutLine: {'line': b'-- Installing: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/lib/libspider_interfaces__rosidl_generator_c.so\n'}
+[12.409485] (spider_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/lib/libspider_interfaces__rosidl_generator_c.so" to ""\n'}
+[12.409801] (spider_interfaces) StdoutLine: {'line': b'-- Installing: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/lib/libspider_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[12.410396] (spider_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/lib/libspider_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[12.410779] (spider_interfaces) StdoutLine: {'line': b'-- Installing: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/lib/libspider_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[12.411321] (spider_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/lib/libspider_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[12.411585] (spider_interfaces) StdoutLine: {'line': b'-- Installing: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/lib/libspider_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[12.412333] (spider_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/lib/libspider_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[12.412600] (spider_interfaces) StdoutLine: {'line': b'-- Installing: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/lib/libspider_interfaces__rosidl_typesupport_c.so\n'}
+[12.413175] (spider_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/lib/libspider_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[12.413443] (spider_interfaces) StdoutLine: {'line': b'-- Installing: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/lib/libspider_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[12.414042] (spider_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/lib/libspider_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[12.414313] (spider_interfaces) StdoutLine: {'line': b'-- Installing: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/lib/libspider_interfaces__rosidl_typesupport_cpp.so\n'}
+[12.414865] (spider_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/lib/libspider_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[12.469065] (-) TimerEvent: {}
+[12.497593] (spider_interfaces) StdoutLine: {'line': b"Listing '/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/local/lib/python3.10/dist-packages/spider_interfaces'...\n"}
+[12.498061] (spider_interfaces) StdoutLine: {'line': b"Compiling '/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/local/lib/python3.10/dist-packages/spider_interfaces/__init__.py'...\n"}
+[12.498251] (spider_interfaces) StdoutLine: {'line': b"Listing '/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/local/lib/python3.10/dist-packages/spider_interfaces/msg'...\n"}
+[12.498404] (spider_interfaces) StdoutLine: {'line': b"Compiling '/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/local/lib/python3.10/dist-packages/spider_interfaces/msg/__init__.py'...\n"}
+[12.498544] (spider_interfaces) StdoutLine: {'line': b"Compiling '/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/local/lib/python3.10/dist-packages/spider_interfaces/msg/_loc_commands.py'...\n"}
+[12.498682] (spider_interfaces) StdoutLine: {'line': b"Listing '/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/local/lib/python3.10/dist-packages/spider_interfaces/srv'...\n"}
+[12.498808] (spider_interfaces) StdoutLine: {'line': b"Compiling '/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/local/lib/python3.10/dist-packages/spider_interfaces/srv/__init__.py'...\n"}
+[12.498927] (spider_interfaces) StdoutLine: {'line': b"Compiling '/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/local/lib/python3.10/dist-packages/spider_interfaces/srv/_loc_service.py'...\n"}
+[12.509738] (spider_interfaces) StdoutLine: {'line': b'-- Installing: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/lib/libspider_interfaces__rosidl_generator_py.so\n'}
+[12.510403] (spider_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/lib/libspider_interfaces__rosidl_generator_py.so" to ""\n'}
+[12.510688] (spider_interfaces) StdoutLine: {'line': b'-- Installing: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/cmake/export_spider_interfaces__rosidl_generator_cExport.cmake\n'}
+[12.511050] (spider_interfaces) StdoutLine: {'line': b'-- Installing: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/cmake/export_spider_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[12.511563] (spider_interfaces) StdoutLine: {'line': b'-- Installing: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/cmake/export_spider_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[12.511896] (spider_interfaces) StdoutLine: {'line': b'-- Installing: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/cmake/export_spider_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[12.512258] (spider_interfaces) StdoutLine: {'line': b'-- Installing: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/cmake/export_spider_interfaces__rosidl_generator_cppExport.cmake\n'}
+[12.512740] (spider_interfaces) StdoutLine: {'line': b'-- Installing: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/cmake/export_spider_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[12.513015] (spider_interfaces) StdoutLine: {'line': b'-- Installing: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/cmake/export_spider_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[12.513433] (spider_interfaces) StdoutLine: {'line': b'-- Installing: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/cmake/spider_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[12.513741] (spider_interfaces) StdoutLine: {'line': b'-- Installing: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/cmake/spider_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[12.514161] (spider_interfaces) StdoutLine: {'line': b'-- Installing: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/cmake/spider_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[12.514460] (spider_interfaces) StdoutLine: {'line': b'-- Installing: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/cmake/spider_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[12.514870] (spider_interfaces) StdoutLine: {'line': b'-- Installing: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/cmake/spider_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[12.515214] (spider_interfaces) StdoutLine: {'line': b'-- Installing: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/cmake/spider_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[12.515614] (spider_interfaces) StdoutLine: {'line': b'-- Installing: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/cmake/spider_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[12.515914] (spider_interfaces) StdoutLine: {'line': b'-- Installing: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/cmake/spider_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[12.516323] (spider_interfaces) StdoutLine: {'line': b'-- Installing: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/cmake/export_spider_interfaces__rosidl_generator_pyExport.cmake\n'}
+[12.516717] (spider_interfaces) StdoutLine: {'line': b'-- Installing: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/cmake/export_spider_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[12.520643] (spider_interfaces) CommandEnded: {'returncode': 0}
+[12.568911] (spider_interfaces) JobEnded: {'identifier': 'spider_interfaces', 'rc': 0}
+[12.570893] (-) TimerEvent: {}
+[12.571205] (locomotion) JobStarted: {'identifier': 'locomotion'}
+[12.671089] (-) TimerEvent: {}
+[12.771706] (-) TimerEvent: {}
+[12.872280] (-) TimerEvent: {}
+[12.972774] (-) TimerEvent: {}
+[13.073269] (-) TimerEvent: {}
+[13.173811] (-) TimerEvent: {}
+[13.274403] (-) TimerEvent: {}
+[13.375022] (-) TimerEvent: {}
+[13.475623] (-) TimerEvent: {}
+[13.576270] (-) TimerEvent: {}
+[13.676888] (-) TimerEvent: {}
+[13.777505] (-) TimerEvent: {}
+[13.823317] (locomotion) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/alexcc/repos/SPIDER_25008/SPIDER_ws/build/locomotion/build', '--no-deps', 'symlink_data'], 'cwd': '/home/alexcc/repos/SPIDER_25008/SPIDER_ws/build/locomotion', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US.UTF-8', 'USER': 'alexcc', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/alexcc', 'OLDPWD': '/home/alexcc/repos/SPIDER_25008/SPIDER_ws/build', 'DESKTOP_SESSION': 'ubuntu', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2188', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'alexcc', '_': '/usr/bin/colcon', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'alexcc', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/home/alexcc/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/alexcc-desktop:@/tmp/.ICE-unix/2160,unix/alexcc-desktop:/tmp/.ICE-unix/2160', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/35062ce4_cb42_46f8_8fbc_4ed6828cfe55', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.92', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/data_transfer:/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_nav:/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/locomotion:/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces:/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_description:/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/oak_d_lite:/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/nav2_gps_waypoint_follower_demo:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/alexcc/repos/SPIDER_25008/SPIDER_ws/build/locomotion', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/alexcc/repos/SPIDER_25008/SPIDER_ws/build/locomotion/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/locomotion/lib/python3.10/site-packages:/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/data_transfer/lib/python3.8/site-packages:/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_nav/lib/python3.8/site-packages:/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/locomotion/lib/python3.8/site-packages:/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/local/lib/python3.10/dist-packages:/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/oak_d_lite/lib/python3.8/site-packages:/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/nav2_gps_waypoint_follower_demo/lib/python3.8/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces:/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_description'}, 'shell': False}
+[13.877669] (-) TimerEvent: {}
+[13.978650] (-) TimerEvent: {}
+[14.079315] (-) TimerEvent: {}
+[14.180182] (-) TimerEvent: {}
+[14.280923] (-) TimerEvent: {}
+[14.329330] (locomotion) StdoutLine: {'line': b'running develop\n'}
+[14.381015] (-) TimerEvent: {}
+[14.481533] (-) TimerEvent: {}
+[14.582152] (-) TimerEvent: {}
+[14.613444] (locomotion) StdoutLine: {'line': b'running egg_info\n'}
+[14.613956] (locomotion) StdoutLine: {'line': b'creating locomotion.egg-info\n'}
+[14.614130] (locomotion) StdoutLine: {'line': b'writing locomotion.egg-info/PKG-INFO\n'}
+[14.614407] (locomotion) StdoutLine: {'line': b'writing dependency_links to locomotion.egg-info/dependency_links.txt\n'}
+[14.614737] (locomotion) StdoutLine: {'line': b'writing entry points to locomotion.egg-info/entry_points.txt\n'}
+[14.614972] (locomotion) StdoutLine: {'line': b'writing requirements to locomotion.egg-info/requires.txt\n'}
+[14.615149] (locomotion) StdoutLine: {'line': b'writing top-level names to locomotion.egg-info/top_level.txt\n'}
+[14.615744] (locomotion) StdoutLine: {'line': b"writing manifest file 'locomotion.egg-info/SOURCES.txt'\n"}
+[14.619438] (locomotion) StdoutLine: {'line': b"reading manifest file 'locomotion.egg-info/SOURCES.txt'\n"}
+[14.620615] (locomotion) StdoutLine: {'line': b"writing manifest file 'locomotion.egg-info/SOURCES.txt'\n"}
+[14.623718] (locomotion) StdoutLine: {'line': b'running build_ext\n'}
+[14.624166] (locomotion) StdoutLine: {'line': b'Creating /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/locomotion/lib/python3.10/site-packages/locomotion.egg-link (link to .)\n'}
+[14.626389] (locomotion) StdoutLine: {'line': b'Installing client script to /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/locomotion/lib/locomotion\n'}
+[14.626752] (locomotion) StdoutLine: {'line': b'Installing imu_pub script to /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/locomotion/lib/locomotion\n'}
+[14.626961] (locomotion) StdoutLine: {'line': b'Installing service script to /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/locomotion/lib/locomotion\n'}
+[14.627374] (locomotion) StdoutLine: {'line': b'\n'}
+[14.627527] (locomotion) StdoutLine: {'line': b'Installed /home/alexcc/repos/SPIDER_25008/SPIDER_ws/build/locomotion\n'}
+[14.627747] (locomotion) StdoutLine: {'line': b'running symlink_data\n'}
+[14.627922] (locomotion) StdoutLine: {'line': b'symbolically linking /home/alexcc/repos/SPIDER_25008/SPIDER_ws/build/locomotion/package.xml -> /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/locomotion/share/locomotion\n'}
+[14.628164] (locomotion) StderrLine: {'line': b"error: [Errno 17] File exists: '/home/alexcc/repos/SPIDER_25008/SPIDER_ws/build/locomotion/package.xml' -> '/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/locomotion/share/locomotion/package.xml'\n"}
+[14.682324] (-) TimerEvent: {}
+[14.705407] (locomotion) CommandEnded: {'returncode': 1}
+[14.706917] (locomotion) JobEnded: {'identifier': 'locomotion', 'rc': 1}
+[14.717372] (spider_nav) JobSkipped: {'identifier': 'spider_nav'}
+[14.717648] (data_transfer) JobSkipped: {'identifier': 'data_transfer'}
+[14.717753] (-) EventReactorShutdown: {}

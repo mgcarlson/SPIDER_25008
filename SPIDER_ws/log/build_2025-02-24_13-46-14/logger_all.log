@@ -1,0 +1,197 @@
+[0.235s] [34mcolcon[0m [1;30mDEBUG[0m [32mCommand line arguments: ['/usr/bin/colcon', 'build', '--symlink-install'][0m
+[0.235s] [34mcolcon[0m [1;30mDEBUG[0m [32mParsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=6, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff9b3014e0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff9b301090>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff9b301090>>)[0m
+[0.504s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) check parameters
+[0.505s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) check parameters
+[0.505s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) check parameters
+[0.505s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) check parameters
+[0.505s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) discover
+[0.505s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) discover
+[0.505s] [34mcolcon.colcon_core.package_discovery[0m [1;30mINFO[0m Crawling recursively for packages in '/home/alexcc/repos/SPIDER_25008/SPIDER_ws'
+[0.506s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.506s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore'
+[0.506s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore_ament_install'
+[0.506s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_pkg']
+[0.506s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_pkg'
+[0.506s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_meta']
+[0.506s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_meta'
+[0.506s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ros']
+[0.507s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ros'
+[0.529s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['cmake', 'python']
+[0.529s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'cmake'
+[0.529s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python'
+[0.529s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['python_setup_py']
+[0.529s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python_setup_py'
+[0.530s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.530s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extension 'ignore'
+[0.530s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) ignored
+[0.530s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(config) by extensions ['ignore', 'ignore_ament_install']
+[0.530s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(config) by extension 'ignore'
+[0.531s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(config) by extension 'ignore_ament_install'
+[0.531s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(config) by extensions ['colcon_pkg']
+[0.531s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(config) by extension 'colcon_pkg'
+[0.531s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(config) by extensions ['colcon_meta']
+[0.531s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(config) by extension 'colcon_meta'
+[0.531s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(config) by extensions ['ros']
+[0.531s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(config) by extension 'ros'
+[0.531s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(config) by extensions ['cmake', 'python']
+[0.531s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(config) by extension 'cmake'
+[0.531s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(config) by extension 'python'
+[0.532s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(config) by extensions ['python_setup_py']
+[0.532s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(config) by extension 'python_setup_py'
+[0.532s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.532s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extension 'ignore'
+[0.532s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) ignored
+[0.533s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.533s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extension 'ignore'
+[0.533s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) ignored
+[0.533s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.533s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore'
+[0.534s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore_ament_install'
+[0.534s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_pkg']
+[0.534s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_pkg'
+[0.534s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_meta']
+[0.534s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_meta'
+[0.534s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ros']
+[0.534s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ros'
+[0.534s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['cmake', 'python']
+[0.534s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'cmake'
+[0.534s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python'
+[0.534s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['python_setup_py']
+[0.535s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python_setup_py'
+[0.535s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/data_transfer) by extensions ['ignore', 'ignore_ament_install']
+[0.535s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/data_transfer) by extension 'ignore'
+[0.535s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/data_transfer) by extension 'ignore_ament_install'
+[0.535s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/data_transfer) by extensions ['colcon_pkg']
+[0.535s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/data_transfer) by extension 'colcon_pkg'
+[0.535s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/data_transfer) by extensions ['colcon_meta']
+[0.535s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/data_transfer) by extension 'colcon_meta'
+[0.535s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/data_transfer) by extensions ['ros']
+[0.536s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/data_transfer) by extension 'ros'
+[0.543s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/data_transfer' with type 'ros.ament_python' and name 'data_transfer'[0m
+[0.544s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/locomotion) by extensions ['ignore', 'ignore_ament_install']
+[0.544s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/locomotion) by extension 'ignore'
+[0.544s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/locomotion) by extension 'ignore_ament_install'
+[0.544s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/locomotion) by extensions ['colcon_pkg']
+[0.544s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/locomotion) by extension 'colcon_pkg'
+[0.544s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/locomotion) by extensions ['colcon_meta']
+[0.545s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/locomotion) by extension 'colcon_meta'
+[0.545s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/locomotion) by extensions ['ros']
+[0.545s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/locomotion) by extension 'ros'
+[0.546s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/locomotion' with type 'ros.ament_python' and name 'locomotion'[0m
+[0.546s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/spider_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.546s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/spider_interfaces) by extension 'ignore'
+[0.547s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/spider_interfaces) by extension 'ignore_ament_install'
+[0.547s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/spider_interfaces) by extensions ['colcon_pkg']
+[0.547s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/spider_interfaces) by extension 'colcon_pkg'
+[0.547s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/spider_interfaces) by extensions ['colcon_meta']
+[0.547s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/spider_interfaces) by extension 'colcon_meta'
+[0.547s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/spider_interfaces) by extensions ['ros']
+[0.547s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/spider_interfaces) by extension 'ros'
+[0.548s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/spider_interfaces' with type 'ros.ament_cmake' and name 'spider_interfaces'[0m
+[0.548s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/spider_nav) by extensions ['ignore', 'ignore_ament_install']
+[0.549s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/spider_nav) by extension 'ignore'
+[0.549s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/spider_nav) by extension 'ignore_ament_install'
+[0.549s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/spider_nav) by extensions ['colcon_pkg']
+[0.549s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/spider_nav) by extension 'colcon_pkg'
+[0.549s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/spider_nav) by extensions ['colcon_meta']
+[0.549s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/spider_nav) by extension 'colcon_meta'
+[0.549s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/spider_nav) by extensions ['ros']
+[0.549s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/spider_nav) by extension 'ros'
+[0.551s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/spider_nav' with type 'ros.ament_python' and name 'spider_nav'[0m
+[0.551s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) using defaults
+[0.551s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) discover
+[0.552s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) using defaults
+[0.552s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) discover
+[0.552s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) using defaults
+[0.583s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) check parameters
+[0.583s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) discover
+[0.585s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) using defaults
+[0.587s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'spider_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.587s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'spider_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.587s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'spider_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.587s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'spider_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.587s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'spider_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.587s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'spider_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.587s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'spider_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.587s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'spider_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.587s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'spider_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.587s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'spider_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/alexcc/repos/SPIDER_25008/SPIDER_ws/build/spider_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces', 'merge_install': False, 'path': '/home/alexcc/repos/SPIDER_25008/SPIDER_ws/src/spider_interfaces', 'symlink_install': True, 'test_result_base': None}[0m
+[0.588s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'locomotion' build argument 'cmake_args' from command line to 'None'
+[0.588s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'locomotion' build argument 'cmake_target' from command line to 'None'
+[0.588s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'locomotion' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.588s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'locomotion' build argument 'cmake_clean_cache' from command line to 'False'
+[0.588s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'locomotion' build argument 'cmake_clean_first' from command line to 'False'
+[0.588s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'locomotion' build argument 'cmake_force_configure' from command line to 'False'
+[0.588s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'locomotion' build argument 'ament_cmake_args' from command line to 'None'
+[0.588s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'locomotion' build argument 'catkin_cmake_args' from command line to 'None'
+[0.588s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'locomotion' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.589s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'locomotion' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/alexcc/repos/SPIDER_25008/SPIDER_ws/build/locomotion', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/locomotion', 'merge_install': False, 'path': '/home/alexcc/repos/SPIDER_25008/SPIDER_ws/src/locomotion', 'symlink_install': True, 'test_result_base': None}[0m
+[0.589s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'spider_nav' build argument 'cmake_args' from command line to 'None'
+[0.589s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'spider_nav' build argument 'cmake_target' from command line to 'None'
+[0.589s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'spider_nav' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.589s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'spider_nav' build argument 'cmake_clean_cache' from command line to 'False'
+[0.589s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'spider_nav' build argument 'cmake_clean_first' from command line to 'False'
+[0.590s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'spider_nav' build argument 'cmake_force_configure' from command line to 'False'
+[0.590s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'spider_nav' build argument 'ament_cmake_args' from command line to 'None'
+[0.590s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'spider_nav' build argument 'catkin_cmake_args' from command line to 'None'
+[0.590s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'spider_nav' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.590s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'spider_nav' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/alexcc/repos/SPIDER_25008/SPIDER_ws/build/spider_nav', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_nav', 'merge_install': False, 'path': '/home/alexcc/repos/SPIDER_25008/SPIDER_ws/src/spider_nav', 'symlink_install': True, 'test_result_base': None}[0m
+[0.590s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'data_transfer' build argument 'cmake_args' from command line to 'None'
+[0.590s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'data_transfer' build argument 'cmake_target' from command line to 'None'
+[0.591s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'data_transfer' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.591s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'data_transfer' build argument 'cmake_clean_cache' from command line to 'False'
+[0.591s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'data_transfer' build argument 'cmake_clean_first' from command line to 'False'
+[0.591s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'data_transfer' build argument 'cmake_force_configure' from command line to 'False'
+[0.591s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'data_transfer' build argument 'ament_cmake_args' from command line to 'None'
+[0.591s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'data_transfer' build argument 'catkin_cmake_args' from command line to 'None'
+[0.591s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'data_transfer' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.591s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'data_transfer' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/alexcc/repos/SPIDER_25008/SPIDER_ws/build/data_transfer', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/data_transfer', 'merge_install': False, 'path': '/home/alexcc/repos/SPIDER_25008/SPIDER_ws/src/data_transfer', 'symlink_install': True, 'test_result_base': None}[0m
+[0.591s] [34mcolcon.colcon_core.executor[0m [1;30mINFO[0m Executing jobs using 'parallel' executor
+[0.594s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete[0m
+[0.595s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/alexcc/repos/SPIDER_25008/SPIDER_ws/src/spider_interfaces' with build type 'ament_cmake'
+[0.595s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/alexcc/repos/SPIDER_25008/SPIDER_ws/src/spider_interfaces'
+[0.600s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.601s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.601s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.615s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/alexcc/repos/SPIDER_25008/SPIDER_ws/build/spider_interfaces': /usr/bin/cmake /home/alexcc/repos/SPIDER_25008/SPIDER_ws/src/spider_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces[0m
+[2.016s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/alexcc/repos/SPIDER_25008/SPIDER_ws/build/spider_interfaces' returned '1': /usr/bin/cmake /home/alexcc/repos/SPIDER_25008/SPIDER_ws/src/spider_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces[0m
+[2.045s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(spider_interfaces)
+[2.054s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces' for CMake module files
+[2.056s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces' for CMake config files
+[2.059s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('spider_interfaces', 'cmake_prefix_path')
+[2.060s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/hook/cmake_prefix_path.ps1'
+[2.062s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/hook/cmake_prefix_path.dsv'
+[2.064s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/hook/cmake_prefix_path.sh'
+[2.067s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/lib'
+[2.068s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('spider_interfaces', 'ld_library_path_lib')
+[2.069s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/hook/ld_library_path_lib.ps1'
+[2.070s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/hook/ld_library_path_lib.dsv'
+[2.072s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/hook/ld_library_path_lib.sh'
+[2.073s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/bin'
+[2.074s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/lib/pkgconfig/spider_interfaces.pc'
+[2.077s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/lib/python3.10/site-packages'
+[2.078s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/bin'
+[2.080s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/package.ps1'
+[2.083s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/package.dsv'
+[2.085s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/package.sh'
+[2.088s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/package.bash'
+[2.091s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/share/spider_interfaces/package.zsh'
+[2.093s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces/share/colcon-core/packages/spider_interfaces)
+[2.105s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mclosing loop[0m
+[2.105s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mloop closed[0m
+[2.105s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete finished with '1'[0m
+[2.106s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoining thread[0m
+[2.121s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.122s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.122s] [34mcolcon.colcon_notification.desktop_notification[0m [1;30mINFO[0m Sending desktop notification using 'notify2'
+[2.162s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoined thread[0m
+[2.164s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/local_setup.ps1'
+[2.169s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/_local_setup_util_ps1.py'
+[2.175s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/setup.ps1'
+[2.182s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/local_setup.sh'
+[2.184s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/_local_setup_util_sh.py'
+[2.186s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/setup.sh'
+[2.190s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/local_setup.bash'
+[2.191s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/setup.bash'
+[2.194s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/local_setup.zsh'
+[2.196s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/setup.zsh'

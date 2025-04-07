@@ -1,0 +1,19 @@
+[1.276s] Invoking command in '/home/alexcc/repos/SPIDER_25008/SPIDER_ws/build/locomotion': PYTHONPATH=/home/alexcc/repos/SPIDER_25008/SPIDER_ws/build/locomotion/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/locomotion/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/alexcc/repos/SPIDER_25008/SPIDER_ws/build/locomotion/build --no-deps symlink_data
+[1.778s] running develop
+[2.055s] running egg_info
+[2.055s] writing locomotion.egg-info/PKG-INFO
+[2.055s] writing dependency_links to locomotion.egg-info/dependency_links.txt
+[2.056s] writing entry points to locomotion.egg-info/entry_points.txt
+[2.056s] writing requirements to locomotion.egg-info/requires.txt
+[2.056s] writing top-level names to locomotion.egg-info/top_level.txt
+[2.060s] reading manifest file 'locomotion.egg-info/SOURCES.txt'
+[2.062s] writing manifest file 'locomotion.egg-info/SOURCES.txt'
+[2.065s] running build_ext
+[2.065s] Creating /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/locomotion/lib/python3.10/site-packages/locomotion.egg-link (link to .)
+[2.067s] Installing client script to /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/locomotion/lib/locomotion
+[2.068s] Installing imu_pub script to /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/locomotion/lib/locomotion
+[2.068s] Installing service script to /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/locomotion/lib/locomotion
+[2.068s] 
+[2.068s] Installed /home/alexcc/repos/SPIDER_25008/SPIDER_ws/build/locomotion
+[2.068s] running symlink_data
+[2.149s] Invoked command in '/home/alexcc/repos/SPIDER_25008/SPIDER_ws/build/locomotion' returned '0': PYTHONPATH=/home/alexcc/repos/SPIDER_25008/SPIDER_ws/build/locomotion/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/locomotion/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/alexcc/repos/SPIDER_25008/SPIDER_ws/build/locomotion/build --no-deps symlink_data

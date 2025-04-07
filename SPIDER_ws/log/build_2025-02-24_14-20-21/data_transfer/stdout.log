@@ -1,0 +1,19 @@
+running develop
+running egg_info
+creating data_transfer.egg-info
+writing data_transfer.egg-info/PKG-INFO
+writing dependency_links to data_transfer.egg-info/dependency_links.txt
+writing entry points to data_transfer.egg-info/entry_points.txt
+writing requirements to data_transfer.egg-info/requires.txt
+writing top-level names to data_transfer.egg-info/top_level.txt
+writing manifest file 'data_transfer.egg-info/SOURCES.txt'
+reading manifest file 'data_transfer.egg-info/SOURCES.txt'
+writing manifest file 'data_transfer.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/data_transfer/lib/python3.10/site-packages/data-transfer.egg-link (link to .)
+Installing listener script to /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/data_transfer/lib/data_transfer
+Installing talker script to /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/data_transfer/lib/data_transfer
+
+Installed /home/alexcc/repos/SPIDER_25008/SPIDER_ws/build/data_transfer
+running symlink_data
+symbolically linking /home/alexcc/repos/SPIDER_25008/SPIDER_ws/build/data_transfer/resource/data_transfer -> /home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/data_transfer/share/ament_index/resource_index/packages
