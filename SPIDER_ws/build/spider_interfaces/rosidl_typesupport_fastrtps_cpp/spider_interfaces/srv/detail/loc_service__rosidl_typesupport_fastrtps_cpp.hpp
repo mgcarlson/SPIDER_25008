@@ -55,6 +55,7 @@ size_t
 ROSIDL_TYPESUPPORT_FASTRTPS_CPP_PUBLIC_spider_interfaces
 max_serialized_size_LocService_Request(
   bool & full_bounded,
+  bool & is_plain,
   size_t current_alignment);
 
 }  // namespace typesupport_fastrtps_cpp
@@ -131,6 +132,7 @@ size_t
 ROSIDL_TYPESUPPORT_FASTRTPS_CPP_PUBLIC_spider_interfaces
 max_serialized_size_LocService_Response(
   bool & full_bounded,
+  bool & is_plain,
   size_t current_alignment);
 
 }  // namespace typesupport_fastrtps_cpp

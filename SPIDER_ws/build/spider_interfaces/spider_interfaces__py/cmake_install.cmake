@@ -1,8 +1,8 @@
-# Install script for directory: /home/dfolse/repos/SPIDER/SPIDER_ws/build/spider_interfaces/spider_interfaces__py
+# Install script for directory: /home/alexcc/repos/SPIDER_25008/SPIDER_ws/build/spider_interfaces/spider_interfaces__py
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/dfolse/repos/SPIDER/SPIDER_ws/install/spider_interfaces")
+  set(CMAKE_INSTALL_PREFIX "/home/alexcc/repos/SPIDER_25008/SPIDER_ws/install/spider_interfaces")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -37,3 +37,14 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
   set(CMAKE_CROSSCOMPILING "FALSE")
 endif()
 
+# Set path to fallback-tool for dependency-resolution.
+if(NOT DEFINED CMAKE_OBJDUMP)
+  set(CMAKE_OBJDUMP "/usr/bin/objdump")
+endif()
+
+string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
+       "${CMAKE_INSTALL_MANIFEST_FILES}")
+if(CMAKE_INSTALL_LOCAL_ONLY)
+  file(WRITE "/home/alexcc/repos/SPIDER_25008/SPIDER_ws/build/spider_interfaces/spider_interfaces__py/install_local_manifest.txt"
+     "${CMAKE_INSTALL_MANIFEST_CONTENT}")
+endif()

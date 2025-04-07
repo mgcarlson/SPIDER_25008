@@ -23,6 +23,7 @@ size_t get_serialized_size_spider_interfaces__srv__LocService_Request(
 ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_spider_interfaces
 size_t max_serialized_size_spider_interfaces__srv__LocService_Request(
   bool & full_bounded,
+  bool & is_plain,
   size_t current_alignment);
 
 ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_spider_interfaces
@@ -55,6 +56,7 @@ size_t get_serialized_size_spider_interfaces__srv__LocService_Response(
 ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_spider_interfaces
 size_t max_serialized_size_spider_interfaces__srv__LocService_Response(
   bool & full_bounded,
+  bool & is_plain,
   size_t current_alignment);
 
 ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_spider_interfaces

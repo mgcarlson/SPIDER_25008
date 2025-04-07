@@ -21,7 +21,7 @@ extern "C"
 // Member 'move_type'
 #include "std_msgs/msg/detail/string__struct.h"
 
-// Struct defined in msg/LocCommands in the package spider_interfaces.
+/// Struct defined in msg/LocCommands in the package spider_interfaces.
 typedef struct spider_interfaces__msg__LocCommands
 {
   std_msgs__msg__String move_type;

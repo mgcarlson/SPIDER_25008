@@ -23,6 +23,7 @@ size_t get_serialized_size_spider_interfaces__msg__LocCommands(
 ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_spider_interfaces
 size_t max_serialized_size_spider_interfaces__msg__LocCommands(
   bool & full_bounded,
+  bool & is_plain,
   size_t current_alignment);
 
 ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_spider_interfaces

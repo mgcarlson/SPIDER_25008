@@ -1,7 +1,0 @@
-{
-  "package_name": "locomotion",
-  "non_idl_tuples": [
-    "/home/dfolse/repos/SPIDER/SPIDER_ws/src/locomotion:msg/LocCommands.msg",
-    "/home/dfolse/repos/SPIDER/SPIDER_ws/src/locomotion:srv/LocService.srv"
-  ]
-}

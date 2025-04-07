@@ -21,7 +21,7 @@ extern "C"
 // Member 'move_type'
 #include "std_msgs/msg/detail/string__struct.h"
 
-// Struct defined in srv/LocService in the package spider_interfaces.
+/// Struct defined in srv/LocService in the package spider_interfaces.
 typedef struct spider_interfaces__srv__LocService_Request
 {
   std_msgs__msg__String move_type;
@@ -47,7 +47,7 @@ typedef struct spider_interfaces__srv__LocService_Request__Sequence
 // already included above
 // #include "std_msgs/msg/detail/string__struct.h"
 
-// Struct defined in srv/LocService in the package spider_interfaces.
+/// Struct defined in srv/LocService in the package spider_interfaces.
 typedef struct spider_interfaces__srv__LocService_Response
 {
   std_msgs__msg__String status;

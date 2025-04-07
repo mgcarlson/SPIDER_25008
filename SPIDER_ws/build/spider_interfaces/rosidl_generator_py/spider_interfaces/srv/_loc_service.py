@@ -5,6 +5,10 @@
 
 # Import statements for member types
 
+import builtins  # noqa: E402, I100
+
+import math  # noqa: E402, I100
+
 import rosidl_parser.definition  # noqa: E402, I100
 
 
@@ -125,7 +129,7 @@ class LocService_Request(metaclass=Metaclass_LocService_Request):
         from copy import copy
         return copy(cls._fields_and_field_types)
 
-    @property
+    @builtins.property
     def move_type(self):
         """Message field 'move_type'."""
         return self._move_type
@@ -139,7 +143,7 @@ class LocService_Request(metaclass=Metaclass_LocService_Request):
                 "The 'move_type' field must be a sub message of type 'String'"
         self._move_type = value
 
-    @property
+    @builtins.property
     def move_amount(self):
         """Message field 'move_amount'."""
         return self._move_amount
@@ -154,7 +158,7 @@ class LocService_Request(metaclass=Metaclass_LocService_Request):
                 "The 'move_amount' field must be an integer in [-9223372036854775808, 9223372036854775807]"
         self._move_amount = value
 
-    @property
+    @builtins.property
     def delta_angle(self):
         """Message field 'delta_angle'."""
         return self._delta_angle
@@ -165,10 +169,15 @@ class LocService_Request(metaclass=Metaclass_LocService_Request):
             assert \
                 isinstance(value, float), \
                 "The 'delta_angle' field must be of type 'float'"
+            assert not (value < -1.7976931348623157e+308 or value > 1.7976931348623157e+308) or math.isinf(value), \
+                "The 'delta_angle' field must be a double in [-1.7976931348623157e+308, 1.7976931348623157e+308]"
         self._delta_angle = value
 
 
 # Import statements for member types
+
+# already imported above
+# import builtins
 
 # already imported above
 # import rosidl_parser.definition
@@ -279,7 +288,7 @@ class LocService_Response(metaclass=Metaclass_LocService_Response):
         from copy import copy
         return copy(cls._fields_and_field_types)
 
-    @property
+    @builtins.property
     def status(self):
         """Message field 'status'."""
         return self._status

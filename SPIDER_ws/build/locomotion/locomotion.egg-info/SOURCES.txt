@@ -1,13 +1,6 @@
 package.xml
 setup.cfg
 setup.py
-../../build/locomotion/locomotion.egg-info/PKG-INFO
-../../build/locomotion/locomotion.egg-info/SOURCES.txt
-../../build/locomotion/locomotion.egg-info/dependency_links.txt
-../../build/locomotion/locomotion.egg-info/entry_points.txt
-../../build/locomotion/locomotion.egg-info/requires.txt
-../../build/locomotion/locomotion.egg-info/top_level.txt
-../../build/locomotion/locomotion.egg-info/zip-safe
 locomotion/MockDoFSensor.py
 locomotion/MockServoDriver.py
 locomotion/__init__.py

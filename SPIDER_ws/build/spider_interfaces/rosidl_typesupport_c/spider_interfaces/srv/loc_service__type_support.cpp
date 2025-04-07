@@ -4,8 +4,8 @@
 
 #include "cstddef"
 #include "rosidl_runtime_c/message_type_support_struct.h"
-#include "spider_interfaces/msg/rosidl_typesupport_c__visibility_control.h"
 #include "spider_interfaces/srv/detail/loc_service__struct.h"
+#include "spider_interfaces/srv/detail/loc_service__type_support.h"
 #include "rosidl_typesupport_c/identifier.h"
 #include "rosidl_typesupport_c/message_type_support_dispatch.h"
 #include "rosidl_typesupport_c/type_support_map.h"
@@ -85,7 +85,6 @@ extern "C"
 {
 #endif
 
-ROSIDL_TYPESUPPORT_C_EXPORT_spider_interfaces
 const rosidl_message_type_support_t *
 ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_c, spider_interfaces, srv, LocService_Request)() {
   return &::spider_interfaces::srv::rosidl_typesupport_c::LocService_Request_message_type_support_handle;
@@ -100,9 +99,9 @@ ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_c, spider_i
 // already included above
 // #include "rosidl_runtime_c/message_type_support_struct.h"
 // already included above
-// #include "spider_interfaces/msg/rosidl_typesupport_c__visibility_control.h"
-// already included above
 // #include "spider_interfaces/srv/detail/loc_service__struct.h"
+// already included above
+// #include "spider_interfaces/srv/detail/loc_service__type_support.h"
 // already included above
 // #include "rosidl_typesupport_c/identifier.h"
 // already included above
@@ -187,7 +186,6 @@ extern "C"
 {
 #endif
 
-ROSIDL_TYPESUPPORT_C_EXPORT_spider_interfaces
 const rosidl_message_type_support_t *
 ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_c, spider_interfaces, srv, LocService_Response)() {
   return &::spider_interfaces::srv::rosidl_typesupport_c::LocService_Response_message_type_support_handle;
@@ -201,7 +199,7 @@ ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_c, spider_i
 // #include "cstddef"
 #include "rosidl_runtime_c/service_type_support_struct.h"
 // already included above
-// #include "spider_interfaces/msg/rosidl_typesupport_c__visibility_control.h"
+// #include "spider_interfaces/srv/detail/loc_service__type_support.h"
 // already included above
 // #include "rosidl_typesupport_c/identifier.h"
 #include "rosidl_typesupport_c/service_type_support_dispatch.h"
@@ -283,7 +281,6 @@ extern "C"
 {
 #endif
 
-ROSIDL_TYPESUPPORT_C_EXPORT_spider_interfaces
 const rosidl_service_type_support_t *
 ROSIDL_TYPESUPPORT_INTERFACE__SERVICE_SYMBOL_NAME(rosidl_typesupport_c, spider_interfaces, srv, LocService)() {
   return &::spider_interfaces::srv::rosidl_typesupport_c::LocService_service_type_support_handle;

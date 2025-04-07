@@ -23,7 +23,7 @@ extern "C"
 {
 #endif
 
-void LocCommands__rosidl_typesupport_introspection_c__LocCommands_init_function(
+void spider_interfaces__msg__LocCommands__rosidl_typesupport_introspection_c__LocCommands_init_function(
   void * message_memory, enum rosidl_runtime_c__message_initialization _init)
 {
   // TODO(karsten1987): initializers are not yet implemented for typesupport c
@@ -32,12 +32,12 @@ void LocCommands__rosidl_typesupport_introspection_c__LocCommands_init_function(
   spider_interfaces__msg__LocCommands__init(message_memory);
 }
 
-void LocCommands__rosidl_typesupport_introspection_c__LocCommands_fini_function(void * message_memory)
+void spider_interfaces__msg__LocCommands__rosidl_typesupport_introspection_c__LocCommands_fini_function(void * message_memory)
 {
   spider_interfaces__msg__LocCommands__fini(message_memory);
 }
 
-static rosidl_typesupport_introspection_c__MessageMember LocCommands__rosidl_typesupport_introspection_c__LocCommands_message_member_array[2] = {
+static rosidl_typesupport_introspection_c__MessageMember spider_interfaces__msg__LocCommands__rosidl_typesupport_introspection_c__LocCommands_message_member_array[2] = {
   {
     "move_type",  // name
     rosidl_typesupport_introspection_c__ROS_TYPE_MESSAGE,  // type
@@ -51,6 +51,8 @@ static rosidl_typesupport_introspection_c__MessageMember LocCommands__rosidl_typ
     NULL,  // size() function pointer
     NULL,  // get_const(index) function pointer
     NULL,  // get(index) function pointer
+    NULL,  // fetch(index, &value) function pointer
+    NULL,  // assign(index, value) function pointer
     NULL  // resize(index) function pointer
   },
   {
@@ -66,38 +68,40 @@ static rosidl_typesupport_introspection_c__MessageMember LocCommands__rosidl_typ
     NULL,  // size() function pointer
     NULL,  // get_const(index) function pointer
     NULL,  // get(index) function pointer
+    NULL,  // fetch(index, &value) function pointer
+    NULL,  // assign(index, value) function pointer
     NULL  // resize(index) function pointer
   }
 };
 
-static const rosidl_typesupport_introspection_c__MessageMembers LocCommands__rosidl_typesupport_introspection_c__LocCommands_message_members = {
+static const rosidl_typesupport_introspection_c__MessageMembers spider_interfaces__msg__LocCommands__rosidl_typesupport_introspection_c__LocCommands_message_members = {
   "spider_interfaces__msg",  // message namespace
   "LocCommands",  // message name
   2,  // number of fields
   sizeof(spider_interfaces__msg__LocCommands),
-  LocCommands__rosidl_typesupport_introspection_c__LocCommands_message_member_array,  // message members
-  LocCommands__rosidl_typesupport_introspection_c__LocCommands_init_function,  // function to initialize message memory (memory has to be allocated)
-  LocCommands__rosidl_typesupport_introspection_c__LocCommands_fini_function  // function to terminate message instance (will not free memory)
+  spider_interfaces__msg__LocCommands__rosidl_typesupport_introspection_c__LocCommands_message_member_array,  // message members
+  spider_interfaces__msg__LocCommands__rosidl_typesupport_introspection_c__LocCommands_init_function,  // function to initialize message memory (memory has to be allocated)
+  spider_interfaces__msg__LocCommands__rosidl_typesupport_introspection_c__LocCommands_fini_function  // function to terminate message instance (will not free memory)
 };
 
 // this is not const since it must be initialized on first access
 // since C does not allow non-integral compile-time constants
-static rosidl_message_type_support_t LocCommands__rosidl_typesupport_introspection_c__LocCommands_message_type_support_handle = {
+static rosidl_message_type_support_t spider_interfaces__msg__LocCommands__rosidl_typesupport_introspection_c__LocCommands_message_type_support_handle = {
   0,
-  &LocCommands__rosidl_typesupport_introspection_c__LocCommands_message_members,
+  &spider_interfaces__msg__LocCommands__rosidl_typesupport_introspection_c__LocCommands_message_members,
   get_message_typesupport_handle_function,
 };
 
 ROSIDL_TYPESUPPORT_INTROSPECTION_C_EXPORT_spider_interfaces
 const rosidl_message_type_support_t *
 ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspection_c, spider_interfaces, msg, LocCommands)() {
-  LocCommands__rosidl_typesupport_introspection_c__LocCommands_message_member_array[0].members_ =
+  spider_interfaces__msg__LocCommands__rosidl_typesupport_introspection_c__LocCommands_message_member_array[0].members_ =
     ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspection_c, std_msgs, msg, String)();
-  if (!LocCommands__rosidl_typesupport_introspection_c__LocCommands_message_type_support_handle.typesupport_identifier) {
-    LocCommands__rosidl_typesupport_introspection_c__LocCommands_message_type_support_handle.typesupport_identifier =
+  if (!spider_interfaces__msg__LocCommands__rosidl_typesupport_introspection_c__LocCommands_message_type_support_handle.typesupport_identifier) {
+    spider_interfaces__msg__LocCommands__rosidl_typesupport_introspection_c__LocCommands_message_type_support_handle.typesupport_identifier =
       rosidl_typesupport_introspection_c__identifier;
   }
-  return &LocCommands__rosidl_typesupport_introspection_c__LocCommands_message_type_support_handle;
+  return &spider_interfaces__msg__LocCommands__rosidl_typesupport_introspection_c__LocCommands_message_type_support_handle;
 }
 #ifdef __cplusplus
 }

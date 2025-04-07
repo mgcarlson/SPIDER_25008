@@ -1,13 +1,6 @@
 package.xml
 setup.cfg
 setup.py
-../../build/spider_nav/spider_nav.egg-info/PKG-INFO
-../../build/spider_nav/spider_nav.egg-info/SOURCES.txt
-../../build/spider_nav/spider_nav.egg-info/dependency_links.txt
-../../build/spider_nav/spider_nav.egg-info/entry_points.txt
-../../build/spider_nav/spider_nav.egg-info/requires.txt
-../../build/spider_nav/spider_nav.egg-info/top_level.txt
-../../build/spider_nav/spider_nav.egg-info/zip-safe
 launch/spider_nav_embed.launch.py
 launch/spider_nav_jetson.launch.py
 launch/spider_nav_jetson_embed.launch.py

@@ -1,4 +1,0 @@
-[console_scripts]
-listener = DataTransfer.subscribe_transfer:main
-talker = DataTransfer.publish_transfer:main
-

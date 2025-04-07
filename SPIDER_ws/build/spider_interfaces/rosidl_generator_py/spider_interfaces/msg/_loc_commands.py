@@ -5,6 +5,8 @@
 
 # Import statements for member types
 
+import builtins  # noqa: E402, I100
+
 import rosidl_parser.definition  # noqa: E402, I100
 
 
@@ -119,7 +121,7 @@ class LocCommands(metaclass=Metaclass_LocCommands):
         from copy import copy
         return copy(cls._fields_and_field_types)
 
-    @property
+    @builtins.property
     def move_type(self):
         """Message field 'move_type'."""
         return self._move_type
@@ -133,7 +135,7 @@ class LocCommands(metaclass=Metaclass_LocCommands):
                 "The 'move_type' field must be a sub message of type 'String'"
         self._move_type = value
 
-    @property
+    @builtins.property
     def move_amount(self):
         """Message field 'move_amount'."""
         return self._move_amount

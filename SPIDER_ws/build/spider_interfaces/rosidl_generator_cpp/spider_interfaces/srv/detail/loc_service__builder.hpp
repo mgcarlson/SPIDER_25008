@@ -5,10 +5,11 @@
 #ifndef SPIDER_INTERFACES__SRV__DETAIL__LOC_SERVICE__BUILDER_HPP_
 #define SPIDER_INTERFACES__SRV__DETAIL__LOC_SERVICE__BUILDER_HPP_
 
-#include "spider_interfaces/srv/detail/loc_service__struct.hpp"
-#include <rosidl_runtime_cpp/message_initialization.hpp>
 #include <algorithm>
 #include <utility>
+
+#include "spider_interfaces/srv/detail/loc_service__struct.hpp"
+#include "rosidl_runtime_cpp/message_initialization.hpp"
 
 
 namespace spider_interfaces

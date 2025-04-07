@@ -5,10 +5,11 @@
 #ifndef SPIDER_INTERFACES__MSG__DETAIL__LOC_COMMANDS__BUILDER_HPP_
 #define SPIDER_INTERFACES__MSG__DETAIL__LOC_COMMANDS__BUILDER_HPP_
 
-#include "spider_interfaces/msg/detail/loc_commands__struct.hpp"
-#include <rosidl_runtime_cpp/message_initialization.hpp>
 #include <algorithm>
 #include <utility>
+
+#include "spider_interfaces/msg/detail/loc_commands__struct.hpp"
+#include "rosidl_runtime_cpp/message_initialization.hpp"
 
 
 namespace spider_interfaces

@@ -231,22 +231,27 @@ spider_interfaces__srv__LocService_Request__Sequence__copy(
   if (output->capacity < input->size) {
     const size_t allocation_size =
       input->size * sizeof(spider_interfaces__srv__LocService_Request);
+    rcutils_allocator_t allocator = rcutils_get_default_allocator();
     spider_interfaces__srv__LocService_Request * data =
-      (spider_interfaces__srv__LocService_Request *)realloc(output->data, allocation_size);
+      (spider_interfaces__srv__LocService_Request *)allocator.reallocate(
+      output->data, allocation_size, allocator.state);
     if (!data) {
       return false;
     }
+    // If reallocation succeeded, memory may or may not have been moved
+    // to fulfill the allocation request, invalidating output->data.
+    output->data = data;
     for (size_t i = output->capacity; i < input->size; ++i) {
-      if (!spider_interfaces__srv__LocService_Request__init(&data[i])) {
-        /* free currently allocated and return false */
+      if (!spider_interfaces__srv__LocService_Request__init(&output->data[i])) {
+        // If initialization of any new item fails, roll back
+        // all previously initialized items. Existing items
+        // in output are to be left unmodified.
         for (; i-- > output->capacity; ) {
-          spider_interfaces__srv__LocService_Request__fini(&data[i]);
+          spider_interfaces__srv__LocService_Request__fini(&output->data[i]);
         }
-        free(data);
         return false;
       }
     }
-    output->data = data;
     output->capacity = input->size;
   }
   output->size = input->size;
@@ -467,22 +472,27 @@ spider_interfaces__srv__LocService_Response__Sequence__copy(
   if (output->capacity < input->size) {
     const size_t allocation_size =
       input->size * sizeof(spider_interfaces__srv__LocService_Response);
+    rcutils_allocator_t allocator = rcutils_get_default_allocator();
     spider_interfaces__srv__LocService_Response * data =
-      (spider_interfaces__srv__LocService_Response *)realloc(output->data, allocation_size);
+      (spider_interfaces__srv__LocService_Response *)allocator.reallocate(
+      output->data, allocation_size, allocator.state);
     if (!data) {
       return false;
     }
+    // If reallocation succeeded, memory may or may not have been moved
+    // to fulfill the allocation request, invalidating output->data.
+    output->data = data;
     for (size_t i = output->capacity; i < input->size; ++i) {
-      if (!spider_interfaces__srv__LocService_Response__init(&data[i])) {
-        /* free currently allocated and return false */
+      if (!spider_interfaces__srv__LocService_Response__init(&output->data[i])) {
+        // If initialization of any new item fails, roll back
+        // all previously initialized items. Existing items
+        // in output are to be left unmodified.
         for (; i-- > output->capacity; ) {
-          spider_interfaces__srv__LocService_Response__fini(&data[i]);
+          spider_interfaces__srv__LocService_Response__fini(&output->data[i]);
         }
-        free(data);
         return false;
       }
     }
-    output->data = data;
     output->capacity = input->size;
   }
   output->size = input->size;

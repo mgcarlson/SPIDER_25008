@@ -75,14 +75,14 @@ class LocomotionController:
     def __init__(self, addressLA, addressLB, addressRA, addressRB, addressSL, simDriver, simSensor, graph):
         # TODO turn into csv reader
         self.graph = graph                                                              # Driver Leg  Servo 
-        self.angles = [[[[83,90,90,73,78,88,93],[135,165,170],[120,90,90]],  #   LA    1   H V E
-                        [[85,90,90,75,80,90,95],[140,175,180],[115,90,90]]], #   LA    2   H V E
-                       [[[94,90,90,84,89,99,104],[125,165,160],[125,90,90]],  #   LB    3   H V E
-                        [[90,90,90,80,85,95,100],[140,175,170],[120,90,90]]], #   LB    4   H V E
-                       [[[100,90,100,90,95,105,110],[50,15,15], [60,90,90]],     #   RA    1   H V E
-                        [[100,90,100,90,95,105,110],[35,5,5], [55,90,90]]],    #   RA    2   H V E
-                       [[[100,90,90,90,95,105,110],[35,5,5], [75,90,90]],     #   RB    3   H V E
-                        [[90,90,90,80,85,95,100],[50,10,10], [70,90,90]]]]    #   RB    4   H V E
+        self.angles = [[[[90,90,90,80,85,95,100],[150,165,170],[120,90,90]],  #   LA    1   H V E
+                        [[90,90,90,80,85,95,100],[150,170,170],[125,90,90]]], #   LA    2   H V E
+                       [[[85,85,85,75,80,90,95],[145,165,160],[115,90,90]],  #   LB    3   H V E
+                        [[90, 90, 90, 80, 85, 95, 100],[145,165,160],[115,90,90]]], #   LB    4   H V E
+                       [[[95,95,95,85,90,90,105],[30,10,10], [50,90,90]],     #   RA    1   H V E
+                        [[100,100,100,90,95,105,110],[30,10,10], [50,90,90]]],    #   RA    2   H V E
+                       [[[80,80,80,70,75,85,90],[35,10,10], [65,90,90]],     #   RB    3   H V E
+                        [[90,90,90,80,85,95,100],[25,15,15], [50,90,90]]]]    #   RB    4   H V E
 
         # Initialize Drivers
         self.driver = []
@@ -92,6 +92,10 @@ class LocomotionController:
             self.driver.append(ServoKit(channels=16, address=addressLB))
             self.driver.append(ServoKit(channels=16, address=addressRA))
             self.driver.append(ServoKit(channels=16, address=addressRB))
+            #initialize the pulse width range for all servos
+            #for i in range(len(self.driver)):
+               # for j in range(0,11,2):
+                   # self.driver[i].servo[j].set_pulse_width_range(500,2500)
         #MOCK
         else:
             self.driver.append(MockServoDriver(channels=16, address=addressLA)) #LA
@@ -235,35 +239,35 @@ class LocomotionController:
 
         for i in range(len(horiz_angles)):
             if (leg == 0): # left 1
-                self.forward_angles[leg, 0, i] = 75 + horiz_angles[i] - 7  
+                self.forward_angles[leg, 0, i] = 75 + horiz_angles[i]  
                 self.forward_angles[leg, 1, i] = (self.angles[LA][L1][V][STOP] - 70) + vert_angles[i]  
                 self.forward_angles[leg, 2, i] = self.angles[LA][L1][E][STOP] + (180 + vert_angles[i] + 90 - 15 - elb_angles[i]) - 52
             elif (leg == 1): # right 1
-                self.forward_angles[leg, 0, i] = 105 - horiz_angles[i] + 10  
-                self.forward_angles[leg, 1, i] = (self.angles[RA][R1][V][STOP] + 70) - vert_angles[i]  
+                self.forward_angles[leg, 0, i] = 90 - horiz_angles[i]+5
+                self.forward_angles[leg, 1, i] = (self.angles[RA][R1][V][STOP] + 70) - vert_angles[i] 
                 self.forward_angles[leg, 2, i] = self.angles[RA][R1][E][STOP] - (180 + vert_angles[i] + 90 - 15 - elb_angles[i])  + 50
             elif (leg == 2): # left 2
-                self.forward_angles[leg, 0, i] = 90 + horiz_angles[i] - 5
-                self.forward_angles[leg, 1, i] = (self.angles[LA][L2][V][STOP] - 70) + vert_angles[i]  
+                self.forward_angles[leg, 0, i] = 95 + horiz_angles[i]
+                self.forward_angles[leg, 1, i] = (self.angles[LA][L2][V][STOP] - 70) + vert_angles[i] 
                 self.forward_angles[leg, 2, i] = self.angles[LA][L2][E][STOP] + (180 + vert_angles[i] + 90 - 15 - elb_angles[i])  - 52
             elif (leg == 3): # right 2
                 self.forward_angles[leg, 0, i] = 90 - horiz_angles[i] + 10
                 self.forward_angles[leg, 1, i] = (self.angles[RA][R2][V][STOP] + 70) - vert_angles[i]  
                 self.forward_angles[leg, 2, i] = self.angles[RA][R2][E][STOP] - (180 + vert_angles[i] + 90 - 15 - elb_angles[i])  + 50
             elif (leg == 4): # left 3
-                self.forward_angles[leg, 0, i] = 100 + horiz_angles[i]  + 4
+                self.forward_angles[leg, 0, i] = 95 + horiz_angles[i]  - 5
                 self.forward_angles[leg, 1, i] = (self.angles[LB][L3][V][STOP] - 70) + vert_angles[i]  
                 self.forward_angles[leg, 2, i] = self.angles[LB][L3][E][STOP] + (180 + vert_angles[i] + 90 - 15 - elb_angles[i])  - 47
             elif (leg == 5): # right 3
-                self.forward_angles[leg, 0, i] = 80 - horiz_angles[i] + 10 
+                self.forward_angles[leg, 0, i] = 90 - horiz_angles[i] - 10
                 self.forward_angles[leg, 1, i] = (self.angles[RB][R3][V][STOP] + 70) - vert_angles[i]  
                 self.forward_angles[leg, 2, i] = self.angles[RB][R3][E][STOP] - (180 + vert_angles[i] + 90 - 15 - elb_angles[i])  + 50
             elif (leg == 6): # left 4
-                self.forward_angles[leg, 0, i] = 95 + horiz_angles[i]  
+                self.forward_angles[leg, 0, i] = 92 + horiz_angles[i]
                 self.forward_angles[leg, 1, i] = (self.angles[LB][L4][V][STOP] - 70) + vert_angles[i]  
                 self.forward_angles[leg, 2, i] = self.angles[LB][L4][E][STOP] + (180 + vert_angles[i] + 90 - 15 - elb_angles[i])  - 47
             elif (leg == 7): # right 4
-                self.forward_angles[leg, 0, i] = 85 - horiz_angles[i]   
+                self.forward_angles[leg, 0, i] = 90 - horiz_angles[i]
                 self.forward_angles[leg, 1, i] = (self.angles[RB][R4][V][STOP] + 70) - vert_angles[i]  
                 self.forward_angles[leg, 2, i] = self.angles[RB][R4][E][STOP] - (180 + vert_angles[i] + 90 - 15 - elb_angles[i])  + 45
             else: 
@@ -360,6 +364,7 @@ class LocomotionController:
     def quickStop(self):
         for i in range(len(self.driver)):
             for j in range(0,11,2):
+                #self.driver[i].servo[j].set_pulse_width_range(500,2500)
                 if j < 5:
                     self.driver[i].servo[j].angle = self.angles[i][0][j // 2][STOP]
                 else:
@@ -416,7 +421,8 @@ class LocomotionController:
                 self.angles[RB][leg][V][angle] += dir
         return
     def moveForward(self, num_moves):
-        self.setUpFw()
+        #self.setUpFw()
+        #time.sleep(1)
         for i in range(num_moves):
             self.moveOneStep()
         return
@@ -703,7 +709,7 @@ class LocomotionController:
                 self.driver[RA].servo[0].angle += direction * 1
                 self.driver[RA].servo[6].angle += direction * 1
                 self.driver[RB].servo[6].angle += direction * 1
-                time.sleep(0.1)
+                time.sleep(0.25)
         elif 2 in excludeSet:
             for i in range(deltaAngle):
                 self.driver[LA].servo[0].angle += direction * 1
@@ -712,7 +718,7 @@ class LocomotionController:
                 self.driver[RA].servo[0].angle += direction * 1
                 self.driver[RA].servo[6].angle += direction * 1
                 self.driver[RB].servo[0].angle += direction * 1
-                time.sleep(0.1)
+                time.sleep(0.25)
         elif 4 in excludeSet:
             for i in range(deltaAngle):
                 self.driver[LA].servo[0].angle += direction * 1
@@ -721,7 +727,7 @@ class LocomotionController:
                 self.driver[RA].servo[6].angle += direction * 1
                 self.driver[RB].servo[0].angle += direction * 1
                 self.driver[RB].servo[6].angle += direction * 1
-                time.sleep(0.1)
+                time.sleep(0.25)
 
 
         elif 6 in excludeSet:
@@ -732,7 +738,7 @@ class LocomotionController:
                 self.driver[RA].servo[0].angle += direction * 1
                 self.driver[RB].servo[0].angle += direction * 1
                 self.driver[RB].servo[6].angle += direction * 1
-                time.sleep(0.1)
+                time.sleep(0.25)
 
         return
             
@@ -863,7 +869,7 @@ class LocomotionController:
             start_heading, pitch, roll = self.sensor.checkEuler()
         else:
             start_heading = self.last_heading
-        self.setUpTurn(direction)
+        #self.setUpTurn(direction)
         if(direction.lower() == "left"): #counterclockwise
             goal_angle = start_heading - deltaAngle
             if(goal_angle < 0):
@@ -906,7 +912,7 @@ class LocomotionController:
                 aaIdx += 1
                 self.driver[driver_num_2].servo[servo].angle = aa[aaIdx][i]
                 aaIdx += 1
-                time.sleep(0.003)
+                time.sleep(0.008)
                 
     def dynIndex(self, leg, servo, driver_num):
         if(driver_num is LA or driver_num is RA):
