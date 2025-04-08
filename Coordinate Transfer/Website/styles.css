@@ -1,0 +1,65 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F4F4F4;
+    color: #0C234B;
+    text-align: center;
+}
+
+/* Header */
+h2 {
+    background-color: #AB0520;
+    color: white;
+    padding: 15px;
+    margin: 0;
+}
+
+/* Input Fields */
+input[type="text"], input[type="number"] {
+    width: calc(100% - 40px);
+    max-width: 500px;
+    padding: 10px;
+    margin: 10px auto;
+    border: 2px solid #0C234B;
+    border-radius: 5px;
+    font-size: 16px;
+    display: block;
+}
+
+/* Map Container */
+#map {
+    width: 90%;
+    height: 500px;
+    margin: 20px auto;
+    border: 3px solid #0C234B;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Buttons */
+button {
+    background-color: #0C234B;
+    color: white;
+    font-size: 16px;
+    border: none;
+    padding: 12px 20px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #AB0520;
+    transform: scale(1.05);
+}
+
+/* Button Container */
+.button-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
