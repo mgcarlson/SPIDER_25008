@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coordinate Selection</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAsnmBoflvCCCf7o8KNVfgw5NmOoBX2DtY&libraries=places,drawing"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Turf.js/6.5.0/turf.min.js"></script>
+    <script>
+        let map, drawingManager, selectedCoordinates = [];
+        let lawnmowerPath = [];
+        let currentPolyline = null; // Store the current Polyline overlay
+    
+        function initMap() {
+            map = new google.maps.Map(document.getElementById("map"), {
+                center: { lat: 32.213641, lng: -110.917951 },
+                zoom: 15,
+            });
+    
+            drawingManager = new google.maps.drawing.DrawingManager({
+                drawingMode: google.maps.drawing.OverlayType.POLYLINE,
+                drawingControl: true,
+                drawingControlOptions: {
+                    position: google.maps.ControlPosition.TOP_CENTER,
+                    drawingModes: ["polyline"],
+                },
+            });
+    
+            drawingManager.setMap(map);
+    
+            google.maps.event.addListener(drawingManager, "overlaycomplete", function (event) {
+                if (event.type === google.maps.drawing.OverlayType.POLYLINE) {
+                    let path = event.overlay.getPath();
+                    let coords = [];
+                    for (let i = 0; i < path.getLength(); i++) {
+                        let point = path.getAt(i);
+                        coords.push({ lat: point.lat(), lng: point.lng() });
+                    }
+                    selectedCoordinates = coords;
+                    console.log("Selected Boundary:", selectedCoordinates);
+                }
+            });
+
+            let input = document.getElementById("search-box");
+            let autocomplete = new google.maps.places.Autocomplete(input);
+            autocomplete.bindTo("bounds", map);
+
+            autocomplete.addListener("place_changed", function () {
+                let place = autocomplete.getPlace();
+                if (!place.geometry) {
+                    alert("No details available for this location!");
+                    return;
+                }
+                
+                // Move map to selected location
+                map.setCenter(place.geometry.location);
+                map.setZoom(17); // Adjust zoom level if needed
+            });
+
+        }
+    
+        function generateLawnmowerPath() {
+            if (selectedCoordinates.length < 3) {
+                alert("Please select at least three points to form a boundary.");
+                return;
+            }
+    
+            let widthFeet = parseFloat(document.getElementById("widthInput").value);
+            if (isNaN(widthFeet) || widthFeet <= 0) {
+                alert("Enter a valid positive number for width.");
+                return;
+            }
+    
+            let widthDegrees = widthFeet / 364000; // Approx conversion from feet to degrees
+            lawnmowerPath = computeLawnmowerPattern(selectedCoordinates, widthDegrees);
+        }
+    
+        function overlayLawnmowerPath() {
+            if (lawnmowerPath.length === 0) {
+                alert("Generate the lawnmower path first!");
+                return;
+            }
+    
+            // Remove the previous overlay if it exists
+            if (currentPolyline) {
+                currentPolyline.setMap(null);
+            }
+    
+            // Draw the new path
+            drawPathOnMap(lawnmowerPath);
+        }
+    
+        function sendLawnmowerPath() {
+            if (lawnmowerPath.length === 0) {
+                alert("Generate the lawnmower path first!");
+                return;
+            }
+
+            console.log("Lawnmower Path Being Sent:", lawnmowerPath);
+
+            fetch("http://127.0.0.1:8000/lawnmower_path", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ lawnmower_path: lawnmowerPath }),
+            })
+            .then(response => response.json())
+            .then(data => console.log("Response:", data))
+            .catch(error => console.error("Error:", error));
+        }
+    
+        function computeLawnmowerPattern(boundary, width) {
+            //Best working 5:46
+            function isPointInsidePolygon(point, polygon) {
+                let turfPoint = turf.point([point.lng, point.lat]);
+                let turfPolygon = turf.polygon([polygon.map(p => [p.lng, p.lat])]);
+                return turf.booleanPointInPolygon(turfPoint, turfPolygon);
+            }
+
+            // Get boundary min/max
+            let minLat = Math.min(...boundary.map(p => p.lat));
+            let maxLat = Math.max(...boundary.map(p => p.lat));
+            let minLng = Math.min(...boundary.map(p => p.lng));
+            let maxLng = Math.max(...boundary.map(p => p.lng));
+
+            let height = maxLat - minLat;
+            let widthBoundary = maxLng - minLng;
+            
+            let isTall = height > widthBoundary; // Determine if the shape is taller than wide
+
+            let path = [];
+            let moveForward = true;
+
+            if (isTall) {
+                // Tall Shape: Left-to-right zigzag (lat-based)
+                for (let lat = maxLat; lat >= minLat; lat -= width) {
+                    let row = [];
+                    for (let lng = minLng; lng <= maxLng; lng += width) {
+                        let point = { lat, lng };
+                        if (isPointInsidePolygon(point, boundary)) {
+                            row.push(point);
+                        }
+                    }
+                    if (!moveForward) row.reverse();
+                    path.push(...row);
+                    moveForward = !moveForward;
+                }
+            } else {
+                // Wide Shape: Top-to-bottom zigzag (lng-based)
+                for (let lng = minLng; lng <= maxLng; lng += width) {
+                    let column = [];
+                    for (let lat = maxLat; lat >= minLat; lat -= width) {
+                        let point = { lat, lng };
+                        if (isPointInsidePolygon(point, boundary)) {
+                            column.push(point);
+                        }
+                    }
+                    if (!moveForward) column.reverse();
+                    path.push(...column);
+                    moveForward = !moveForward;
+                }
+            }
+
+            path = path.filter((point, index, self) =>
+                index === self.findIndex(p => p.lat === point.lat && p.lng === point.lng)
+            );
+
+            console.log("Final Generated Path:", path);
+
+            return path;
+        }
+
+
+
+
+    
+        function drawPathOnMap(path) {
+            // Create a new Polyline object and store it in the currentPolyline variable
+            currentPolyline = new google.maps.Polyline({
+                path: path,
+                geodesic: true,
+                strokeColor: "#FF0000",
+                strokeOpacity: 1.0,
+                strokeWeight: 2,
+                map: map,
+            });
+            console.log("Path drawn:", path);
+        }
+    
+        function sendCoordinates() {
+            if (selectedCoordinates.length === 0) {
+                alert("No coordinates selected!");
+                return;
+            }
+    
+            fetch("http://127.0.0.1:8000/coordinates", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ coordinates: selectedCoordinates }),
+            })
+            .then(response => response.json())
+            .then(data => console.log("Raw Coordinates Response:", data))
+            .catch(error => console.error("Error:", error));
+        }
+    </script>
+    
+    
+</head>
+<body onload="initMap()">
+    <h2>Select Boundary and Generate Path</h2>
+    <input id="search-box" type="text" placeholder="Enter an address..." style="width: 100%; padding: 10px; margin-bottom: 10px;">
+    <div id="map" style="width: 100%; height: 500px;"></div>
+    <div class="button-container">
+        <input type="number" id="widthInput" placeholder="Path width (feet)">
+        <button onclick="generateLawnmowerPath()">Generate Lawn Mower Path</button>
+        <button onclick="overlayLawnmowerPath()">Overlay Lawn Mower Path</button>
+        <button onclick="sendLawnmowerPath()">Send Lawn Mower Path to SPIDER</button>
+        <button onclick="sendCoordinates()">Send Raw Boundary Coordinates to SPIDER</button>
+        <a href="index.html"><button>Back to Home</button></a>
+    </div>    
+</body>
+</html>

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View Reports</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Load Google Maps API -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAsnmBoflvCCCf7o8KNVfgw5NmOoBX2DtY&callback=initMap&libraries=&v=weekly" async></script>
+    <script>
+        let minLat, maxLat, minLng, maxLng;
+        let points = [];
+
+        // Function to fetch and list all reports
+        function loadReports() {
+            fetch('http://127.0.0.1:8000/reports')
+                .then(response => response.json())
+                .then(data => {
+                    if (data.length > 0) {
+                        const reportList = document.getElementById("reportList");
+                        data.forEach(report => {
+                            const button = document.createElement("button");
+                            button.textContent = report;
+                            button.onclick = function() {
+                                loadReport(report);
+                            };
+                            reportList.appendChild(button);
+                        });
+                    } else {
+                        alert("No reports found.");
+                    }
+                })
+                .catch(error => {
+                    console.error("Error fetching reports:", error);
+                    alert("Error fetching reports.");
+                });
+        }
+
+        // Function to load the selected report's CSV data and display on the map
+        function loadReport(filename) {
+            fetch('http://127.0.0.1:8000/reports/' + filename)
+                .then(response => response.text())
+                .then(data => {
+                    calculateExtremes(data);
+                })
+                .catch(error => {
+                    console.error("Error fetching the report:", error);
+                    alert("Error fetching the report.");
+                });
+        }
+
+        // Function to calculate min/max latitudes and longitudes from CSV data
+        function calculateExtremes(csvData) {
+            const lines = csvData.split('\n');
+            minLat = Infinity;
+            maxLat = -Infinity;
+            minLng = Infinity;
+            maxLng = -Infinity;
+            points = [];
+
+            lines.forEach((line, index) => {
+                if (index > 0) {  // Skip header row
+                    const row = line.split(',');
+                    if (row.length === 2) {  // Ensure the row has both Latitude and Longitude
+                        const lat = parseFloat(row[0]);
+                        const lng = parseFloat(row[1]);
+
+                        points.push({ lat, lng });
+
+                        if (lat < minLat) minLat = lat;
+                        if (lat > maxLat) maxLat = lat;
+                        if (lng < minLng) minLng = lng;
+                        if (lng > maxLng) maxLng = lng;
+                    }
+                }
+            });
+
+            initMap();
+        }
+
+        // Initialize the map with the calculated bounds
+        // Initialize the map with the calculated bounds
+function initMap() {
+    const centerLat = (minLat + maxLat) / 2;
+    const centerLng = (minLng + maxLng) / 2;
+    const map = new google.maps.Map(document.getElementById("map"), {
+        zoom: 13,
+        center: { lat: centerLat, lng: centerLng },
+        mapTypeId: google.maps.MapTypeId.SATELLITE,  // Set map to satellite mode
+    });
+
+    const bounds = new google.maps.LatLngBounds(
+        new google.maps.LatLng(minLat, minLng),  // Southwest
+        new google.maps.LatLng(maxLat, maxLng)   // Northeast
+    );
+
+    map.fitBounds(bounds);
+
+    points.forEach(point => {
+        new google.maps.Marker({
+            position: { lat: point.lat, lng: point.lng },
+            map: map,
+            title: `Point at (${point.lat}, ${point.lng})`,
+        });
+    });
+}
+
+
+        // Load the reports when the page loads
+        window.onload = loadReports;
+    </script>
+</head>
+<body>
+    <h2>View Reports</h2>
+    <!-- Back Button -->
+    <a href="index.html"><button>Back to Home</button></a>
+
+    <h3>Select a Report</h3>
+    <div id="reportList" class="button-container">
+        <!-- List of CSV files will be displayed here -->
+    </div>
+
+    <h3>Weeds Detected</h3>
+    <!-- Map will be displayed here -->
+    <div id="map" style="width: 100%; height: 500px;"></div>
+</body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Set Home Base</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAsnmBoflvCCCf7o8KNVfgw5NmOoBX2DtY&callback=initMap" async defer></script>
+    <script>
+        let map;
+        let marker = null;
+        let selectedLatLng = null;
+
+        function initMap() {
+            map = new google.maps.Map(document.getElementById("map"), {
+                center: { lat: 32.2319, lng: -110.9501 },  // Example: Tucson, AZ
+                zoom: 17,
+                mapTypeId: 'satellite'
+            });
+
+            map.addListener('click', function(e) {
+                selectedLatLng = { lat: e.latLng.lat(), lng: e.latLng.lng() };
+
+                if (marker) {
+                    marker.setMap(null);
+                }
+
+                marker = new google.maps.Marker({
+                    position: selectedLatLng,
+                    map: map,
+                    title: "Home Base"
+                });
+            });
+        }
+
+        function submitHomeBase() {
+            if (!selectedLatLng) {
+                alert("Please click on the map to select a home base location.");
+                return;
+            }
+
+            fetch("http://127.0.0.1:8000/set_home_base", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify({ home_base: selectedLatLng })
+            })
+            .then(response => response.json())
+            .then(data => {
+                alert(data.message);
+            })
+            .catch(error => {
+                console.error("Error submitting home base:", error);
+                alert("Error submitting home base.");
+            });
+        }
+    </script>
+</head>
+<body>
+    <h2>Set Home Base</h2>
+    <p>Click on the map to select a single point as your lawnmower's home base. Then click submit.</p>
+    <div id="map"></div>
+
+    <div class="button-container">
+        <button onclick="submitHomeBase()">Submit Home Base</button>
+        <a href="index.html"><button>Back to Home</button></a>
+    </div>
+</body>
+</html>
