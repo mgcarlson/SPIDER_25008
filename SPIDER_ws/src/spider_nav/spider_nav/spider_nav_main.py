@@ -12,6 +12,7 @@ from spider_nav.utils.adafruit_gps_ros import Adafruit_Gps_Ros
 from depthai_ros_msgs.msg import SpatialDetectionArray, SpatialDetection
 from vision_msgs.msg import ObjectHypothesis, BoundingBox2D
 from geometry_msgs.msg import Point
+from spider_interfaces.msg import WeedTarget
 
 
 class Spider_Nav_Main(Node):
@@ -70,6 +71,16 @@ class Spider_Nav_Main(Node):
             1
         )
         self.detections = []
+
+        self.weed_target_sub = self.create_subscription(
+            WeedTarget,
+            '/weed_target',
+            self.weed_callback,
+            10
+        )
+        self.weed_detected = False
+        self.weed_target_coords = (0.0, 0.0)
+
     def send_request(self, move_type, move_amount, delta_angle):
         self.req.move_type.data = move_type
         self.req.move_amount = move_amount
@@ -274,6 +285,18 @@ class Spider_Nav_Main(Node):
             self.wait_for_response()
             return
         
+    def weed_callback(self, msg: WeedTarget):
+        if msg.stop_movement:
+            self.get_logger().info(f"Weed target received at ({msg.x:.1f}, {msg.y:.1f}) — pausing pathing.")
+            self.weed_detected = True
+            self.weed_target_coords = (msg.x, msg.y)
+
+    def eliminateWeed(self, x, y):
+        print("Eliminating weed")
+        self.send_request("quickstop")
+        self.send_request("eliminate", x, y)
+        #locomotion to stop, then move forward based upon distance calculations
+        
 def main(args=None):
     rclpy.init(args=args)
 
@@ -290,6 +313,13 @@ def main(args=None):
                 spider_nav_main.send_request('move', 10)
                 spider_nav_main.wait_for_response()
                 break
+        if spider_nav_main.weed_detected:
+            x, y = spider_nav_main.weed_target_coords
+            spider_nav_main.eliminateWeed(x, y)
+            spider_nav_main.wait_for_response()
+            spider_nav_main.weed_detected = False  # Reset to resume navigation
+            continue
+
         move, amount, deltaAngle = spider_nav_main.decideMove()
         spider_nav_main.get_logger().info('Move %s, amount: %d, deltaAngle: %f' % (move, amount, deltaAngle))
         spider_nav_main.send_request(str(move), int(amount), float(deltaAngle))

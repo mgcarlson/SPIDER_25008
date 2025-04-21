@@ -20,6 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            'weed_service = weed_detection.weed_detection_controller:main'
         ],
     },
 )
