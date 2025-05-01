@@ -13,6 +13,10 @@ void loop() {
 		motor.run(FORWARD);
 		Serial.println("Forward");
 		}
+		if(cmd=='B'){
+		motor.run(BACKWARD);
+		Serial.println("Back");
+		}
 		else if (cmd =='S'){
 		motor.run(RELEASE);
 		Serial.println("Stop");

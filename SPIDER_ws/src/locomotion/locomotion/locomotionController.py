@@ -59,6 +59,7 @@ TURN_LEFT_2 = 5
 TURN_LEFT_3 = 4
 TURN_LEFT_4 = 3
 
+LIFT  = 3
 #Servo QoL
 H = 0
 V = 1
@@ -75,14 +76,14 @@ class LocomotionController:
     def __init__(self, addressLA, addressLB, addressRA, addressRB, addressSL, simDriver, simSensor, graph):
         # TODO turn into csv reader
         self.graph = graph                                                              # Driver Leg  Servo 
-        self.angles = [[[[90,90,90,80,85,95,100],[150,165,170],[120,90,90]],  #   LA    1   H V E
-                        [[90,90,90,80,85,95,100],[150,170,170],[125,90,90]]], #   LA    2   H V E
-                       [[[85,85,85,75,80,90,95],[145,165,160],[115,90,90]],  #   LB    3   H V E
-                        [[90, 90, 90, 80, 85, 95, 100],[145,165,160],[115,90,90]]], #   LB    4   H V E
-                       [[[95,95,95,85,90,90,105],[30,10,10], [50,90,90]],     #   RA    1   H V E
-                        [[100,100,100,90,95,105,110],[30,10,10], [50,90,90]]],    #   RA    2   H V E
-                       [[[80,80,80,70,75,85,90],[35,10,10], [65,90,90]],     #   RB    3   H V E
-                        [[90,90,90,80,85,95,100],[25,15,15], [50,90,90]]]]    #   RB    4   H V E
+        self.angles = [[[[90,90,90,90,85,95,100],[140,178,170],[110,90,90,120]],  #   LA    1   H V E
+                        [[90,90,90,90,85,95,100],[140,175,170],[120,95,90,135]]], #   LA    2   H V E
+                       [[[85,85,85,85,80,85,90],[135,170,160],[110,95,90,125]],  #   LB    3   H V E
+                        [[90,90,90,90,85,95,100],[130,170,160],[110,95,90,120]]], #   LB    4   H V E
+                       [[[90,90,90,90,85, 95,100],[37,1,10], [50,85,90,45]],     #   RA    1   H V E
+                        [[100,100,100,100,95,105,110],[42,7,10], [45,85,90,35]]],    #   RA    2   H V E
+                       [[[80,80,80,80,75,85,90],[45,10,10], [67,85,90,55]],     #   RB    3   H V E
+                        [[97,97,97,97,92,102,107],[45,1,15], [50,85,90,45]]]]    #   RB    4   H V E
 
         # Initialize Drivers
         self.driver = []
@@ -94,8 +95,6 @@ class LocomotionController:
             self.driver.append(ServoKit(channels=16, address=addressRB))
             #initialize the pulse width range for all servos
             #for i in range(len(self.driver)):
-               # for j in range(0,11,2):
-                   # self.driver[i].servo[j].set_pulse_width_range(500,2500)
         #MOCK
         else:
             self.driver.append(MockServoDriver(channels=16, address=addressLA)) #LA
@@ -239,37 +238,61 @@ class LocomotionController:
 
         for i in range(len(horiz_angles)):
             if (leg == 0): # left 1
-                self.forward_angles[leg, 0, i] = 75 + horiz_angles[i]  
+                self.forward_angles[leg, 0, i] = 75 + horiz_angles[i]+10
+                #self.forward_angles[leg, 0, i] = 75 + horiz_angles[i] + 5-10
                 self.forward_angles[leg, 1, i] = (self.angles[LA][L1][V][STOP] - 70) + vert_angles[i]  
-                self.forward_angles[leg, 2, i] = self.angles[LA][L1][E][STOP] + (180 + vert_angles[i] + 90 - 15 - elb_angles[i]) - 52
+                self.forward_angles[leg, 2, i] = self.angles[LA][L1][E][STOP] + (180 + vert_angles[i] + 90 - 15 - elb_angles[i]) - 52+10
+                #self.forward_angles[leg, 1, i] = self.angles[LA][L1][V][STOP]
+                #self.forward_angles[leg, 2, i] = self.angles[LA][L1][E][STOP] 
             elif (leg == 1): # right 1
-                self.forward_angles[leg, 0, i] = 90 - horiz_angles[i]+5
+                self.forward_angles[leg, 0, i] = 90 - horiz_angles[i]+ 20-5+5+2+3-5
+                #self.forward_angles[leg, 0, i] = 90 - horiz_angles[i]+5+10+10
                 self.forward_angles[leg, 1, i] = (self.angles[RA][R1][V][STOP] + 70) - vert_angles[i] 
-                self.forward_angles[leg, 2, i] = self.angles[RA][R1][E][STOP] - (180 + vert_angles[i] + 90 - 15 - elb_angles[i])  + 50
+                self.forward_angles[leg, 2, i] = self.angles[RA][R1][E][STOP] - (180 + vert_angles[i] + 90 - 15 - elb_angles[i])  + 50-5
+                #self.forward_angles[leg, 1, i] = self.angles[RA][R1][V][STOP]
+                #self.forward_angles[leg, 2, i] = self.angles[RA][R1][E][STOP]
             elif (leg == 2): # left 2
-                self.forward_angles[leg, 0, i] = 95 + horiz_angles[i]
-                self.forward_angles[leg, 1, i] = (self.angles[LA][L2][V][STOP] - 70) + vert_angles[i] 
-                self.forward_angles[leg, 2, i] = self.angles[LA][L2][E][STOP] + (180 + vert_angles[i] + 90 - 15 - elb_angles[i])  - 52
+                self.forward_angles[leg, 0, i] = 95 + horiz_angles[i]+10
+                #self.forward_angles[leg, 0, i] = 95 + horiz_angles[i]+5-10
+                self.forward_angles[leg, 1, i] = (self.angles[LA][L2][V][STOP] - 70) + vert_angles[i] +5
+                self.forward_angles[leg, 2, i] = self.angles[LA][L2][E][STOP] + (180 + vert_angles[i] + 90 - 15 - elb_angles[i])  - 52+10
+                #self.forward_angles[leg, 1, i] = self.angles[LA][L2][V][STOP]
+                #self.forward_angles[leg, 2, i] = self.angles[LA][L2][E][STOP]
+
             elif (leg == 3): # right 2
-                self.forward_angles[leg, 0, i] = 90 - horiz_angles[i] + 10
-                self.forward_angles[leg, 1, i] = (self.angles[RA][R2][V][STOP] + 70) - vert_angles[i]  
-                self.forward_angles[leg, 2, i] = self.angles[RA][R2][E][STOP] - (180 + vert_angles[i] + 90 - 15 - elb_angles[i])  + 50
+                self.forward_angles[leg, 0, i] = 90 - horiz_angles[i] + 5+5+2+3-5
+                #self.forward_angles[leg, 0, i] = 90 - horiz_angles[i] + 10+5
+                self.forward_angles[leg, 1, i] = (self.angles[RA][R2][V][STOP] + 70) - vert_angles[i] -5
+                self.forward_angles[leg, 2, i] = self.angles[RA][R2][E][STOP] - (180 + vert_angles[i] + 90 - 15 - elb_angles[i])  + 50-10
+                #self.forward_angles[leg, 1, i] = self.angles[RA][R2][V][STOP]
+                #self.forward_angles[leg, 2, i] = self.angles[RA][R2][E][STOP]
             elif (leg == 4): # left 3
-                self.forward_angles[leg, 0, i] = 95 + horiz_angles[i]  - 5
-                self.forward_angles[leg, 1, i] = (self.angles[LB][L3][V][STOP] - 70) + vert_angles[i]  
-                self.forward_angles[leg, 2, i] = self.angles[LB][L3][E][STOP] + (180 + vert_angles[i] + 90 - 15 - elb_angles[i])  - 47
+                self.forward_angles[leg, 0, i] = 95 + horiz_angles[i]  - 5+10
+                #self.forward_angles[leg, 0, i] = 95 + horiz_angles[i]  - 10 - 10
+                self.forward_angles[leg, 1, i] = (self.angles[LB][L3][V][STOP] - 70) + vert_angles[i]+5
+                self.forward_angles[leg, 2, i] = self.angles[LB][L3][E][STOP] + (180 + vert_angles[i] + 90 - 15 - elb_angles[i])  - 47+10
+                #self.forward_angles[leg, 1, i] = self.angles[LB][L3][V][STOP]
+                #self.forward_angles[leg, 2, i] = self.angles[LB][L3][E][STOP]
             elif (leg == 5): # right 3
-                self.forward_angles[leg, 0, i] = 90 - horiz_angles[i] - 10
-                self.forward_angles[leg, 1, i] = (self.angles[RB][R3][V][STOP] + 70) - vert_angles[i]  
-                self.forward_angles[leg, 2, i] = self.angles[RB][R3][E][STOP] - (180 + vert_angles[i] + 90 - 15 - elb_angles[i])  + 50
+                self.forward_angles[leg, 0, i] = 90 - horiz_angles[i] - 20+5+2+3-5
+                #self.forward_angles[leg, 0, i] = 90 - horiz_angles[i] - 10+5-7-5
+                self.forward_angles[leg, 1, i] = (self.angles[RB][R3][V][STOP] + 70) - vert_angles[i]  -5
+                self.forward_angles[leg, 2, i] = self.angles[RB][R3][E][STOP] - (180 + vert_angles[i] + 90 - 15 - elb_angles[i])  + 50-10
+                #self.forward_angles[leg, 1, i] = self.angles[RB][R3][V][STOP]
+                #self.forward_angles[leg, 2, i] = self.angles[RB][R3][E][STOP]
             elif (leg == 6): # left 4
-                self.forward_angles[leg, 0, i] = 92 + horiz_angles[i]
+                self.forward_angles[leg, 0, i] = 90 + horiz_angles[i]-10+10
                 self.forward_angles[leg, 1, i] = (self.angles[LB][L4][V][STOP] - 70) + vert_angles[i]  
-                self.forward_angles[leg, 2, i] = self.angles[LB][L4][E][STOP] + (180 + vert_angles[i] + 90 - 15 - elb_angles[i])  - 47
+                self.forward_angles[leg, 2, i] = self.angles[LB][L4][E][STOP] + (180 + vert_angles[i] + 90 - 15 - elb_angles[i])  - 47+5
+                #self.forward_angles[leg, 1, i] = self.angles[LB][L4][V][STOP] 
+                #self.forward_angles[leg, 2, i] = self.angles[LB][L4][E][STOP]
             elif (leg == 7): # right 4
-                self.forward_angles[leg, 0, i] = 90 - horiz_angles[i]
-                self.forward_angles[leg, 1, i] = (self.angles[RB][R4][V][STOP] + 70) - vert_angles[i]  
-                self.forward_angles[leg, 2, i] = self.angles[RB][R4][E][STOP] - (180 + vert_angles[i] + 90 - 15 - elb_angles[i])  + 45
+                self.forward_angles[leg, 0, i] = 90 - horiz_angles[i]+10-5+5+2+3-5
+                self.forward_angles[leg, 1, i] = (self.angles[RB][R4][V][STOP] + 70) - vert_angles[i]
+                self.forward_angles[leg, 2, i] = self.angles[RB][R4][E][STOP] - (180 + vert_angles[i] + 90 - 15 - elb_angles[i])  + 45-5
+                #self.forward_angles[leg, 1, i] = self.angles[RB][R4][V][STOP]
+                #self.forward_angles[leg, 2, i] = self.angles[RB][R4][E][STOP]
+
             else: 
                 print("not a leg")
         print("leg %d, d = %f, length of theta n array %d, length of vertical %d, length of elbow %d" % (leg, D_Array[0] - D_Array[len(Thetanarray) - 1], len(horiz_angles), len(vert_angles), len(elb_angles)))
@@ -421,7 +444,7 @@ class LocomotionController:
                 self.angles[RB][leg][V][angle] += dir
         return
     def moveForward(self, num_moves):
-        #self.setUpFw()
+        self.setUpFw()
         #time.sleep(1)
         for i in range(num_moves):
             self.moveOneStep()
@@ -459,8 +482,10 @@ class LocomotionController:
         startIdx = int(len(fa[0][0]) / 3) - 1
         twoThirdIdx = int(2 * len(fa[0][0]) / 3) - 1
         for angleIdx in range(int(len(fa[0][0]) / 3)):
+            #time.sleep(.1)
             if 0 in excludeSet and 5 in excludeSet:
 #---------------------------------------------------------------------------------------------------
+                
                 self.driver[0].servo[6].angle  = fa[2][0][totalIdx - (startIdx - angleIdx)] # leg L2
                 self.driver[0].servo[8].angle  = fa[2][1][totalIdx - (startIdx - angleIdx)]
                 self.driver[0].servo[10].angle = fa[2][2][totalIdx - (startIdx - angleIdx)]
@@ -515,21 +540,26 @@ class LocomotionController:
 
             elif 1 in excludeSet and 4 in excludeSet:
 #---------------------------------------------------------------------------------------------------
+                
                 self.driver[2].servo[6].angle  = fa[3][0][totalIdx - (startIdx - angleIdx)] # leg R2
                 self.driver[2].servo[8].angle  = fa[3][1][totalIdx - (startIdx - angleIdx)]
                 self.driver[2].servo[10].angle = fa[3][2][totalIdx - (startIdx - angleIdx)]
 
+                
                 self.driver[1].servo[6].angle  = fa[6][0][totalIdx - (startIdx - angleIdx)] # leg L4
                 self.driver[1].servo[8].angle  = fa[6][1][totalIdx - (startIdx - angleIdx)]
                 self.driver[1].servo[10].angle = fa[6][2][totalIdx - (startIdx - angleIdx)]
-#-------------------------------------------------------------------------------------------------
+                
+#-------------------------------------------------------------------------------------------------      
+                
                 self.driver[0].servo[0].angle  = fa[0][0][totalIdx - (twoThirdIdx - angleIdx)] # leg L1
                 self.driver[0].servo[2].angle  = fa[0][1][totalIdx - (twoThirdIdx - angleIdx)]
                 self.driver[0].servo[4].angle  = fa[0][2][totalIdx - (twoThirdIdx - angleIdx)]
-
+                
                 self.driver[3].servo[0].angle  = fa[5][0][totalIdx - (twoThirdIdx - angleIdx)] # leg R3
                 self.driver[3].servo[2].angle  = fa[5][1][totalIdx - (twoThirdIdx - angleIdx)]
                 self.driver[3].servo[4].angle  = fa[5][2][totalIdx - (twoThirdIdx - angleIdx)]
+                
 #------------------------------------------------------------------------------------------------
                 self.driver[0].servo[6].angle  = fa[2][0][angleIdx] # leg L2
                 self.driver[0].servo[8].angle  = fa[2][1][angleIdx]
@@ -538,10 +568,12 @@ class LocomotionController:
                 self.driver[3].servo[6].angle  = fa[7][0][angleIdx] # leg R4
                 self.driver[3].servo[8].angle  = fa[7][1][angleIdx]
                 self.driver[3].servo[10].angle = fa[7][2][angleIdx]
+                
 #-----------------------------------------------------------------------------------------------
 
             elif 3 in excludeSet and 6 in excludeSet:
 #---------------------------------------------------------------------------------------------------
+                
                 self.driver[0].servo[0].angle  = fa[0][0][totalIdx - (startIdx - angleIdx)] # leg L1
                 self.driver[0].servo[2].angle  = fa[0][1][totalIdx - (startIdx - angleIdx)]
                 self.driver[0].servo[4].angle  = fa[0][2][totalIdx - (startIdx - angleIdx)]
@@ -566,14 +598,85 @@ class LocomotionController:
                 self.driver[1].servo[2].angle  = fa[4][1][angleIdx]
                 self.driver[1].servo[4].angle  = fa[4][2][angleIdx]
 #-----------------------------------------------------------------------------------------------
-
+                 
             else:
                 print("Invalid move")
                 return
     def moveOneStep(self):
         a = self.angles
+        
         fa = self.forward_angles
+        
+        
         ## Begin Pattern
+        # LA RB 1 move
+        #self.quickSetVert(LA, 0, a[LA][L1][V][UP])
+        #self.quickSetVert(RB, 0, a[RB][R3][V][UP])
+        self.moveLegSet(LA, RB, [0,0], [ fa[0][0][0], a[LA][L1][V][UP], fa[0][2][0],
+                                    fa[5][0][0], a[RB][R3][V][UP], fa[5][2][0] ])
+        
+        self.moveLegsFw(excludeSet=[0,5])
+
+        self.moveLegSet(LA, RB, [0,0], [ fa[0][0][0], fa[0][1][0], fa[0][2][0],
+                                    fa[5][0][0], fa[5][1][0], fa[5][2][0] ])
+        
+        # LA RB 2 move
+        #self.quickSetVert(LA, 1, a[LA][L2][V][UP])
+        #self.quickSetVert(RB, 1, a[RB][R4][V][UP])
+        self.moveLegSet(LA, RB, [1,1], [ fa[2][0][0], a[LA][L2][V][UP], fa[2][2][0],
+                                    fa[7][0][0], a[RB][R4][V][UP], fa[7][2][0] ])
+        
+        self.moveLegsFw(excludeSet=[2,7])
+
+        self.moveLegSet(LA, RB, [1,1], [ fa[2][0][0], fa[2][1][0], fa[2][2][0],
+                                    fa[7][0][0], fa[7][1][0], fa[7][2][0] ])
+        
+        # RA LB 1 move
+        #self.quickSetVert(RA, 0, a[RA][R1][V][UP])
+        #self.quickSetVert(LB, 0, a[LB][L3][V][UP])
+        self.moveLegSet(RA, LB, [0,0], [ fa[1][0][0], a[RA][R1][V][UP], fa[1][2][0],
+                                    fa[4][0][0], a[LB][L3][V][UP], fa[4][2][0] ])
+        
+        #time.sleep(.1)
+        self.moveLegsFw(excludeSet=[1,4])
+
+        self.moveLegSet(RA, LB, [0,0], [ fa[1][0][0], fa[1][1][0], fa[1][2][0],
+                                    fa[4][0][0], fa[4][1][0], fa[4][2][0] ])
+
+        # RA LB 2 move
+        #self.quickSetVert(RA, 1, a[RA][R2][V][UP])
+        #self.quickSetVert(LB, 1, a[LB][L4][V][UP])
+        self.moveLegSet(RA, LB, [1,1], [ fa[3][0][0], a[RA][R2][V][UP], fa[3][2][0],
+                                    fa[6][0][0], a[LB][L4][V][UP], fa[6][2][0] ])
+        
+        self.moveLegsFw(excludeSet=[3,6])
+
+        self.moveLegSet(RA, LB, [1,1], [ fa[3][0][0], fa[3][1][0], fa[3][2][0],
+                                    fa[6][0][0], fa[6][1][0], fa[6][2][0] ])
+        
+        ''' 
+        # RA LB 1 move
+        #self.quickSetVert(RA, 0, a[RA][R1][V][UP])
+        #self.quickSetVert(LB, 0, a[LB][L3][V][UP])
+        self.moveLegSet(RA, LB, [0,0], [ fa[1][0][0], a[RA][R1][V][UP], fa[1][2][0],
+                                    fa[4][0][0], a[LB][L3][V][UP], fa[4][2][0] ])
+
+        self.moveLegsFw(excludeSet=[1,4])
+
+        self.moveLegSet(RA, LB, [0,0], [ fa[1][0][0], fa[1][1][0], fa[1][2][0],
+                                    fa[4][0][0], fa[4][1][0], fa[4][2][0] ])
+
+        # RA LB 2 move
+        #self.quickSetVert(RA, 1, a[RA][R2][V][UP])
+        #self.quickSetVert(LB, 1, a[LB][L4][V][UP])
+        self.moveLegSet(RA, LB, [1,1], [ fa[3][0][0], a[RA][R2][V][UP], fa[3][2][0],
+                                    fa[6][0][0], a[LB][L4][V][UP], fa[6][2][0] ])
+
+        self.moveLegsFw(excludeSet=[3,6])
+
+        self.moveLegSet(RA, LB, [1,1], [ fa[3][0][0], fa[3][1][0], fa[3][2][0],
+                                    fa[6][0][0], fa[6][1][0], fa[6][2][0] ])
+
         # LA RB 1 move
         #self.quickSetVert(LA, 0, a[LA][L1][V][UP])
         #self.quickSetVert(RB, 0, a[RB][R3][V][UP])
@@ -595,7 +698,6 @@ class LocomotionController:
 
         self.moveLegSet(LA, RB, [1,1], [ fa[2][0][0], fa[2][1][0], fa[2][2][0],
                                     fa[7][0][0], fa[7][1][0], fa[7][2][0] ])
-        
         # RA LB 1 move
         #self.quickSetVert(RA, 0, a[RA][R1][V][UP])
         #self.quickSetVert(LB, 0, a[LB][L3][V][UP])
@@ -606,7 +708,7 @@ class LocomotionController:
 
         self.moveLegSet(RA, LB, [0,0], [ fa[1][0][0], fa[1][1][0], fa[1][2][0],
                                     fa[4][0][0], fa[4][1][0], fa[4][2][0] ])
-
+        
         # RA LB 2 move
         #self.quickSetVert(RA, 1, a[RA][R2][V][UP])
         #self.quickSetVert(LB, 1, a[LB][L4][V][UP])
@@ -616,7 +718,8 @@ class LocomotionController:
         self.moveLegsFw(excludeSet=[3,6])
 
         self.moveLegSet(RA, LB, [1,1], [ fa[3][0][0], fa[3][1][0], fa[3][2][0],
-                                    fa[6][0][0], fa[6][1][0], fa[6][2][0] ])
+                                         fa[6][0][0], fa[6][1][0], fa[6][2][0] ])
+        '''
         print("Finish Step ")
         #for i in range(4):
         #    for j in range(0, 11, 2):
@@ -633,6 +736,7 @@ class LocomotionController:
         # Move the sets of legs up then down
         self.moveLegSet(LA, RB, [0,0], [ a[LA][L1][H][STOP], a[LA][L1][V][UP], a[LA][L1][E][STOP],
                                     a[RB][R3][H][STOP], a[RB][R3][V][UP], a[RB][R3][E][STOP] ])
+       
         self.moveLegSet(LA, RB, [0,0], [ a[LA][L1][H][STOP], a[LA][L1][V][STOP], a[LA][L1][E][STOP],
                                     a[RB][R3][H][STOP], a[RB][R3][V][STOP], a[RB][R3][E][STOP] ])
         
@@ -650,54 +754,135 @@ class LocomotionController:
                                     a[LB][L4][H][STOP], a[LB][L4][V][UP], a[LB][L4][E][STOP] ])
         self.moveLegSet(RA, LB, [1,1], [ a[RA][R2][H][STOP], a[RA][R2][V][STOP], a[RA][R2][E][STOP],
                                     a[LB][L4][H][STOP], a[LB][L4][V][STOP], a[LB][L4][E][STOP] ])
+        #LIFT
+        '''
 
+        self.moveLegSet(LA, RB, [0,0], [ a[LA][L1][H][STOP], a[LA][L1][V][UP], a[LA][L1][E][LIFT],
+                                    a[RB][R3][H][STOP], a[RB][R3][V][UP], a[RB][R3][E][LIFT] ])
+
+        self.moveLegSet(LA, RB, [0,0], [ a[LA][L1][H][STOP], a[LA][L1][V][STOP], a[LA][L1][E][STOP],
+                                    a[RB][R3][H][STOP], a[RB][R3][V][STOP], a[RB][R3][E][LIFT] ])
+
+        self.moveLegSet(LA, RB, [1,1], [ a[LA][L2][H][STOP], a[LA][L2][V][UP], a[LA][L2][E][LIFT],
+                                    a[RB][R4][H][STOP], a[RB][R4][V][UP], a[RB][R4][E][LIFT] ])
+        self.moveLegSet(LA, RB, [1,1], [ a[LA][L2][H][STOP], a[LA][L2][V][STOP], a[LA][L2][E][LIFT],
+                                    a[RB][R4][H][STOP], a[RB][R4][V][STOP], a[RB][R4][E][LIFT] ])
+
+        self.moveLegSet(RA, LB, [0,0], [ a[RA][R1][H][STOP], a[RA][R1][V][UP], a[RA][R1][E][LIFT],
+                                    a[LB][L3][H][STOP], a[LB][L3][V][UP], a[LB][L3][E][LIFT] ])
+        self.moveLegSet(RA, LB, [0,0], [ a[RA][R1][H][STOP], a[RA][R1][V][STOP], a[RA][R1][E][LIFT],
+                                    a[LB][L3][H][STOP], a[LB][L3][V][STOP], a[LB][L3][E][LIFT] ])
+
+        self.moveLegSet(RA, LB, [1,1], [ a[RA][R2][H][STOP], a[RA][R2][V][UP], a[RA][R2][E][LIFT],
+                                    a[LB][L4][H][STOP], a[LB][L4][V][UP], a[LB][L4][E][LIFT] ])
+        self.moveLegSet(RA, LB, [1,1], [ a[RA][R2][H][STOP], a[RA][R2][V][STOP], a[RA][R2][E][LIFT],
+                                    a[LB][L4][H][STOP], a[LB][L4][V][STOP], a[LB][L4][E][LIFT] ])
+
+        '''
+
+        '''
+        self.quickSetVert(RA, 1, a[RA][R2][V][UP])
+        time.sleep(1)
+        self.quickSetVert(RA, 1, a[RA][R2][V][STOP])
+        time.sleep(1)
+        self.quickSetVert(LB, 1, a[LB][L4][V][UP])
+        time.sleep(1)
+        self.quickSetVert(LB, 1, a[LB][L4][V][STOP])
+        #self.quickSetVert(RA, 1, a[RA][R2][V][UP])
+        #self.quickSetVert(LB, 1, a[LB][L4][V][UP])
+        '''
         print("Completed Stop: ")
         for i in range(4):
             for j in range(0, 11, 2):
                 print("Driver %d, Servo: %d, Angle: %f " % (i, j, self.driver[i].servo[j].angle))
         return
+    
+    def lift(self):
+        a = self.angles
+        
+        # Move the sets of legs up then down
+        self.moveLegSet(LA, RB, [0,0], [ a[LA][L1][H][STOP], a[LA][L1][V][UP], a[LA][L1][E][LIFT],
+                                    a[RB][R3][H][STOP], a[RB][R3][V][UP], a[RB][R3][E][LIFT] ])
+        time.sleep(.5)
+        self.moveLegSet(LA, RB, [0,0], [ a[LA][L1][H][STOP], a[LA][L1][V][STOP], a[LA][L1][E][LIFT],
+                                    a[RB][R3][H][STOP], a[RB][R3][V][STOP], a[RB][R3][E][LIFT] ])
+        
+        time.sleep(.5)
+        self.moveLegSet(LA, RB, [1,1], [ a[LA][L2][H][STOP], a[LA][L2][V][UP], a[LA][L2][E][LIFT],
+                                    a[RB][R4][H][STOP], a[RB][R4][V][UP], a[RB][R4][E][LIFT] ])
+        time.sleep(.5)
+        self.moveLegSet(LA, RB, [1,1], [ a[LA][L2][H][STOP], a[LA][L2][V][STOP], a[LA][L2][E][LIFT],
+                                    a[RB][R4][H][STOP], a[RB][R4][V][STOP], a[RB][R4][E][LIFT] ])
+        
+        time.sleep(.5)
+        self.moveLegSet(RA, LB, [0,0], [ a[RA][R1][H][STOP], a[RA][R1][V][UP], a[RA][R1][E][LIFT],
+                                    a[LB][L3][H][STOP], a[LB][L3][V][UP], a[LB][L3][E][LIFT] ])
+        time.sleep(.5)
+        self.moveLegSet(RA, LB, [0,0], [ a[RA][R1][H][STOP], a[RA][R1][V][STOP], a[RA][R1][E][LIFT],
+                                    a[LB][L3][H][STOP], a[LB][L3][V][STOP], a[LB][L3][E][LIFT] ])
+        
+        time.sleep(.5)
+        self.moveLegSet(RA, LB, [1,1], [ a[RA][R2][H][STOP], a[RA][R2][V][UP], a[RA][R2][E][LIFT],
+                                    a[LB][L4][H][STOP], a[LB][L4][V][UP], a[LB][L4][E][LIFT] ])
+        time.sleep(.5)
+        self.moveLegSet(RA, LB, [1,1], [ a[RA][R2][H][STOP], a[RA][R2][V][STOP], a[RA][R2][E][LIFT],
+                                    a[LB][L4][H][STOP], a[LB][L4][V][STOP], a[LB][L4][E][LIFT] ])
+
+        print("Completed LIFT: ")
+
+
     def setUpTurn(self, direction):
         a = self.angles # easier to type and read lol
         if(direction == "left"):
             ## Set up into correct move
+            print("left")
             self.moveLegSet(LA, RB, [0,0], [ a[LA][L1][H][TURN_LEFT_2], a[LA][L1][V][UP], a[LA][L1][E][STOP],
                                         a[RB][R3][H][TURN_LEFT_2], a[RB][R3][V][UP], a[RB][R3][E][STOP] ])
+            time.sleep(.5)
             self.moveLegSet(LA, RB, [0,0], [ a[LA][L1][H][TURN_LEFT_1], a[LA][L1][V][STOP], a[LA][L1][E][STOP],
                                         a[RB][R3][H][TURN_LEFT_1], a[RB][R3][V][STOP], a[RB][R3][E][STOP] ])
             
             self.moveLegSet(LA, RB, [1,1], [ a[LA][L2][H][TURN_LEFT_2], a[LA][L2][V][UP], a[LA][L2][E][STOP],
                                         a[RB][R4][H][TURN_LEFT_2], a[RB][R4][V][UP], a[RB][R4][E][STOP] ])
+            time.sleep(.5)
             self.moveLegSet(LA, RB, [1,1], [ a[LA][L2][H][TURN_LEFT_2], a[LA][L2][V][STOP], a[LA][L2][E][STOP],
                                         a[RB][R4][H][TURN_LEFT_2], a[RB][R4][V][STOP], a[RB][R4][E][STOP] ])
 
             self.moveLegSet(RA, LB, [0,0], [ a[RA][R1][H][TURN_LEFT_3], a[RA][R1][V][UP], a[RA][R1][E][STOP],
                                         a[LB][L3][H][TURN_LEFT_3], a[LB][L3][V][UP], a[LB][L3][E][STOP] ])
+            time.sleep(.5)
             self.moveLegSet(RA, LB, [0,0], [ a[RA][R1][H][TURN_LEFT_3], a[RA][R1][V][STOP], a[RA][R1][E][STOP],
                                         a[LB][L3][H][TURN_LEFT_3], a[LB][L3][V][STOP], a[LB][L3][E][STOP] ])
             
             self.moveLegSet(RA, LB, [1,1], [ a[RA][R2][H][TURN_LEFT_4], a[RA][R2][V][UP], a[RA][R2][E][STOP],
                                         a[LB][L4][H][TURN_LEFT_3], a[LB][L4][V][UP], a[LB][L4][E][STOP] ])
+            time.sleep(.5)
+
             self.moveLegSet(RA, LB, [1,1], [ a[RA][R2][H][TURN_LEFT_4], a[RA][R2][V][STOP], a[RA][R2][E][STOP],
                                         a[LB][L4][H][TURN_LEFT_4], a[LB][L4][V][STOP], a[LB][L4][E][STOP] ])
         else:
             ## Set up into correct move
             self.moveLegSet(LA, RB, [0,0], [ a[LA][L1][H][TURN_RIGHT_2], a[LA][L1][V][UP], a[LA][L1][E][STOP],
                                         a[RB][R3][H][TURN_RIGHT_2], a[RB][R3][V][UP], a[RB][R3][E][STOP] ])
+            time.sleep(.5)
             self.moveLegSet(LA, RB, [0,0], [ a[LA][L1][H][TURN_RIGHT_1], a[LA][L1][V][STOP], a[LA][L1][E][STOP],
                                         a[RB][R3][H][TURN_RIGHT_1], a[RB][R3][V][STOP], a[RB][R3][E][STOP] ])
             
             self.moveLegSet(LA, RB, [1,1], [ a[LA][L2][H][TURN_RIGHT_2], a[LA][L2][V][UP], a[LA][L2][E][STOP],
                                         a[RB][R4][H][TURN_RIGHT_2], a[RB][R4][V][UP], a[RB][R4][E][STOP] ])
+            time.sleep(.5)
             self.moveLegSet(LA, RB, [1,1], [ a[LA][L2][H][TURN_RIGHT_2], a[LA][L2][V][STOP], a[LA][L2][E][STOP],
                                         a[RB][R4][H][TURN_RIGHT_2], a[RB][R4][V][STOP], a[RB][R4][E][STOP] ])
 
             self.moveLegSet(RA, LB, [0,0], [ a[RA][R1][H][TURN_RIGHT_3], a[RA][R1][V][UP], a[RA][R1][E][STOP],
                                         a[LB][L3][H][TURN_RIGHT_3], a[LB][L3][V][UP], a[LB][L3][E][STOP] ])
+            time.sleep(.5)
             self.moveLegSet(RA, LB, [0,0], [ a[RA][R1][H][TURN_RIGHT_3], a[RA][R1][V][STOP], a[RA][R1][E][STOP],
                                         a[LB][L3][H][TURN_RIGHT_3], a[LB][L3][V][STOP], a[LB][L3][E][STOP] ])
             
             self.moveLegSet(RA, LB, [1,1], [ a[RA][R2][H][TURN_RIGHT_4], a[RA][R2][V][UP], a[RA][R2][E][STOP],
                                         a[LB][L4][H][TURN_RIGHT_3], a[LB][L4][V][UP], a[LB][L4][E][STOP] ])
+            time.sleep(.5)
             self.moveLegSet(RA, LB, [1,1], [ a[RA][R2][H][TURN_RIGHT_4], a[RA][R2][V][STOP], a[RA][R2][E][STOP],
                                         a[LB][L4][H][TURN_RIGHT_4], a[LB][L4][V][STOP], a[LB][L4][E][STOP] ])
     def moveLegsTurnExp(self, direction, excludeSet, deltaAngle):
@@ -709,7 +894,7 @@ class LocomotionController:
                 self.driver[RA].servo[0].angle += direction * 1
                 self.driver[RA].servo[6].angle += direction * 1
                 self.driver[RB].servo[6].angle += direction * 1
-                time.sleep(0.25)
+                time.sleep(0.08)
         elif 2 in excludeSet:
             for i in range(deltaAngle):
                 self.driver[LA].servo[0].angle += direction * 1
@@ -718,7 +903,7 @@ class LocomotionController:
                 self.driver[RA].servo[0].angle += direction * 1
                 self.driver[RA].servo[6].angle += direction * 1
                 self.driver[RB].servo[0].angle += direction * 1
-                time.sleep(0.25)
+                time.sleep(0.08)
         elif 4 in excludeSet:
             for i in range(deltaAngle):
                 self.driver[LA].servo[0].angle += direction * 1
@@ -727,7 +912,7 @@ class LocomotionController:
                 self.driver[RA].servo[6].angle += direction * 1
                 self.driver[RB].servo[0].angle += direction * 1
                 self.driver[RB].servo[6].angle += direction * 1
-                time.sleep(0.25)
+                time.sleep(0.08)
 
 
         elif 6 in excludeSet:
@@ -738,15 +923,17 @@ class LocomotionController:
                 self.driver[RA].servo[0].angle += direction * 1
                 self.driver[RB].servo[0].angle += direction * 1
                 self.driver[RB].servo[6].angle += direction * 1
-                time.sleep(0.25)
+                time.sleep(0.08)
 
         return
             
     def turnOnceExp(self, direction, goal_angle):
         a = self.angles
         if direction == "right":
+            print("HELLO !")
          ## Begin Pattern
             # LA RB 1 move
+            time.sleep(.5)
             self.moveLegSet(LA, RB, [0,0], [ a[LA][L1][H][STOP], a[LA][L1][V][UP], a[LA][L1][E][STOP],
                                         a[RB][R3][H][STOP], a[RB][R3][V][UP], a[RB][R3][E][STOP] ])
             
@@ -755,9 +942,14 @@ class LocomotionController:
             self.moveLegSet(LA, RB, [0,0], [ a[LA][L1][H][TURN_RIGHT_4], a[LA][L1][V][STOP], a[LA][L1][E][STOP],
                                         a[RB][R3][H][TURN_RIGHT_4], a[RB][R3][V][STOP], a[RB][R3][E][STOP] ])
             if(self.simBool is True):
+                print("simbool true")
                 self.sensor.sensor_9DoF.changeHeading(5)
             if (self.checkRotationPose(goal_angle)):
                 return True
+            #HERE
+            #self.stop()
+            print("HELLO")
+            time.sleep(.5)
             # LA RB 2 move
             self.moveLegSet(LA, RB, [1,1], [ a[LA][L2][H][STOP], a[LA][L2][V][UP], a[LA][L2][E][STOP],
                                         a[RB][R4][H][STOP], a[RB][R4][V][UP], a[RB][R4][E][STOP] ])
@@ -771,7 +963,11 @@ class LocomotionController:
                 self.sensor.sensor_9DoF.changeHeading(5)
             if (self.checkRotationPose(goal_angle)):
                 return True
-            
+            #HERE
+            #time.delay(1)
+            print("hello")
+            #self.stop()
+            time.sleep(.5)
             # RA LB 1 move
             self.moveLegSet(RA, LB, [0,0], [ a[RA][R1][H][STOP], a[RA][R1][V][UP], a[RA][R1][E][STOP],
                                         a[LB][L3][H][STOP], a[LB][L3][V][UP], a[LB][L3][E][STOP] ])
@@ -780,12 +976,14 @@ class LocomotionController:
             
 
             self.moveLegSet(RA, LB, [0,0], [ a[RA][R1][H][TURN_RIGHT_4], a[RA][R1][V][STOP], a[RA][R1][E][STOP],
-                                        a[LB][L3][H][TURN_RIGHT_4], a[LB][L3][V][STOP], a[LB][L3][E][STOP] ])
+                                        a[LB][L3][H][TURN_RIGHT_4], a[LB][L3][V][STOP], a[LB][L3][E][STOP]])
             if(self.simBool is True):
                 self.sensor.sensor_9DoF.changeHeading(5)
             if (self.checkRotationPose(goal_angle)):
                 return True
-            
+            #HERE
+            #self.stop()
+            time.sleep(.5)
             # RA LB 2 move
 
             self.moveLegSet(RA, LB, [1,1], [ a[RA][R2][H][STOP], a[RA][R2][V][UP], a[RA][R2][E][STOP],
@@ -794,15 +992,19 @@ class LocomotionController:
             self.moveLegsTurnExp(1, [3,6], 5)
 
             self.moveLegSet(RA, LB, [1,1], [ a[RA][R2][H][TURN_RIGHT_4], a[RA][R2][V][STOP], a[RA][R2][E][STOP],
-                                        a[LB][L4][H][TURN_RIGHT_4], a[LB][L4][V][STOP], a[LB][L4][E][STOP] ])
+                                        a[LB][L4][H][TURN_RIGHT_4], a[LB][L4][V][STOP], a[LB][L4][E][STOP]])
             if(self.simBool is True):
                 self.sensor.sensor_9DoF.changeHeading(5)
             if (self.checkRotationPose(goal_angle)):
                 return True
             return False
+            #HERE
+            #self.stop()
+            time.sleep(.5)
         else:
             ## Begin Pattern
             # LA RB 1 move
+            time.sleep(.5)
             self.moveLegSet(LA, RB, [0,0], [ a[LA][L1][H][STOP], a[LA][L1][V][UP], a[LA][L1][E][STOP],
                                         a[RB][R3][H][STOP], a[RB][R3][V][UP], a[RB][R3][E][STOP] ])
                         
@@ -816,6 +1018,7 @@ class LocomotionController:
             if (self.checkRotationPose(goal_angle)):
                 return True
             
+            time.sleep(.5)
             # LA RB 2 move
             self.moveLegSet(LA, RB, [1,1], [ a[LA][L2][H][STOP], a[LA][L2][V][UP], a[LA][L2][E][STOP],
                                         a[RB][R4][H][STOP], a[RB][R4][V][UP], a[RB][R4][E][STOP] ])
@@ -826,10 +1029,10 @@ class LocomotionController:
             self.moveLegSet(LA, RB, [1,1], [ a[LA][L2][H][TURN_LEFT_4], a[LA][L2][V][STOP], a[LA][L2][E][STOP],
                                         a[RB][R4][H][TURN_LEFT_4], a[RB][R4][V][STOP], a[RB][R4][E][STOP] ])
             if(self.simBool is True):
-                self.sensor.sensor_9DoF.changeHeading(-3)
+                self.sensor.sensor_9DoF.changeHeading(-5)
             if (self.checkRotationPose(goal_angle)):
                 return True
-            
+            time.sleep(.5)
             # RA LB 1 move
             self.moveLegSet(RA, LB, [0,0], [ a[RA][R1][H][STOP], a[RA][R1][V][UP], a[RA][R1][E][STOP],
                                         a[LB][L3][H][STOP], a[LB][L3][V][UP], a[LB][L3][E][STOP] ])
@@ -846,6 +1049,7 @@ class LocomotionController:
                 return True
             
             # RA LB 2 move
+            time.sleep(.5)
 
             self.moveLegSet(RA, LB, [1,1], [ a[RA][R2][H][STOP], a[RA][R2][V][UP], a[RA][R2][E][STOP],
                                         a[LB][L4][H][STOP], a[LB][L4][V][UP], a[LB][L4][E][STOP] ])
@@ -860,6 +1064,7 @@ class LocomotionController:
             if (self.checkRotationPose(goal_angle)):
                 return True
             return False
+            time.sleep(.5) 
         
     def turn(self, direction, deltaAngle): # Allow the robot to turn
         if(deltaAngle < 3):
@@ -867,14 +1072,18 @@ class LocomotionController:
             return
         if self.simBool is True:
             start_heading, pitch, roll = self.sensor.checkEuler()
+            print("SIMBOOL")
         else:
             start_heading = self.last_heading
         #self.setUpTurn(direction)
+        self.setUpFw()
         if(direction.lower() == "left"): #counterclockwise
+            print("LEFT")
             goal_angle = start_heading - deltaAngle
             if(goal_angle < 0):
                 goal_angle += 360
         else: #clockwise
+            print("RIGHT")
             goal_angle = start_heading + deltaAngle
             if(goal_angle >= 360):
                 goal_angle -= 360
@@ -912,8 +1121,10 @@ class LocomotionController:
                 aaIdx += 1
                 self.driver[driver_num_2].servo[servo].angle = aa[aaIdx][i]
                 aaIdx += 1
-                time.sleep(0.008)
-                
+                time.sleep(0.003)
+                #time.sleep(.1)
+                #time.sleep(.05)
+
     def dynIndex(self, leg, servo, driver_num):
         if(driver_num is LA or driver_num is RA):
             if(leg == 0):
@@ -949,6 +1160,8 @@ class LocomotionController:
             self.setUpTurn('left')
         elif(move_type.lower() == 'setup_turn_right'):
             self.setUpTurn('right')    
+        elif(move_type.lower() == 'lift'):
+            self.lift()
         else:
             print("Invalid Move %s" % move_type)
         return
@@ -966,6 +1179,6 @@ if __name__ == "__main__":
     args = parser.parse_args()
     parser.set_defaults(graph=True, sim_sensor=False, sim_driver=False)
 
-    lc = LocomotionController(0x40,0x43,0x41,0x42,0x39, args.sim_driver, args.sim_sensor, args.graph)
+    lc = LocomotionController(0x46,0x43,0x41,0x42,0x28, args.sim_driver, args.sim_sensor, args.graph)
     
     lc.serviceSelect(args.move_type, args.move_amount, args.deltaAngle)
