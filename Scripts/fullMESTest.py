@@ -1,5 +1,10 @@
 from adafruit_servokit import ServoKit
 import time
+import serial
+
+ser = serial.Serial('/dev/ttyACM0', 9600, timeout=1)
+
+time.sleep(2)
 
 # Set up the ServoKit instance for 16 channels
 kit = ServoKit(channels=16, address=0x44)
@@ -13,8 +18,8 @@ servo3 = kit.servo[4] # Corresponds to Arduino pin 11
 servo1.set_pulse_width_range(500,2500)
 servo2.set_pulse_width_range(500,2500)
 servo3.set_pulse_width_range(500,2500)
-servo1.angle = 140
-servo2.angle = 103
+servo1.angle = 64
+servo2.angle = 177
 servo3.angle = 93
 
 print("Enter 'F' to move forward, 'B' to move backward, 'L' for left, 'R' for right, 'C' for center.")
@@ -63,6 +68,38 @@ while True:
             print("Moving Right")
             current = int(servo3.angle or 0)
             smooth_move(servo3, current, 80)
+        
+        elif command =='A': #Attack
+            print("Attacking Weed")
+            start1 = int(servo1.angle or 0)
+            start2 = int(servo2.angle or 0)
+            smooth_dual_move(servo1, start1, 135, servo2, start2, 108)
+            ser.write(b'B\n')
+            time.sleep(6)
+            start1 = int(servo1.angle or 0)
+            start2 = int(servo2.angle or 0)
+            smooth_dual_move(servo1, start1, 158, servo2, start2, 85)
+            time.sleep(5)
+            print("Moving Left")
+            current = int(servo3.angle or 0)
+            smooth_move(servo3, current, 105)
+            time.sleep(2)
+            print("Moving Right")
+            current = int(servo3.angle or 0)
+            smooth_move(servo3, current, 80)
+            time.sleep(2)
+            print("Moving to Center")
+            current = int(servo3.angle or 0)
+            smooth_move(servo3, current, 93)
+            ser.write(b'S\n')
+            print("Sent stop")
+            time.sleep(4)
+            print("End of attack")
+            start1 = int(servo1.angle or 0)
+            start2 = int(servo2.angle or 0)
+            smooth_dual_move(servo1, start1, 64, servo2, start2, 177)
+            
+            ser.close()
 
         else:
             print("Invalid command.")
