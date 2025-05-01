@@ -7,6 +7,7 @@ import numpy as np
 from scipy.optimize import fsolve
 import matplotlib.pyplot as plt
 import pandas as pd
+import serial
 
 # HORIZ, VERT, ELB (0 2 4) (6 8 10)
 # PCA_LA 0x40
@@ -87,6 +88,8 @@ class LocomotionController:
 
         # Initialize Drivers
         self.driver = []
+        self.armdriver = []
+        self.ser = []
         #REAL
         if(simDriver is False):
             self.driver.append(ServoKit(channels=16, address=addressLA))
@@ -95,12 +98,29 @@ class LocomotionController:
             self.driver.append(ServoKit(channels=16, address=addressRB))
             #initialize the pulse width range for all servos
             #for i in range(len(self.driver)):
+
+            #initializing arduino for blade
+            ser = serial.Serial('/dev/ttyACM0', 9600, timeout=1)
+
+            self.armdriver.append(ServoKit(channels=16, address=0x44))
+                
         #MOCK
         else:
             self.driver.append(MockServoDriver(channels=16, address=addressLA)) #LA
             self.driver.append(MockServoDriver(channels=16, address=addressLB)) #LB
             self.driver.append(MockServoDriver(channels=16, address=addressRA)) #RA
             self.driver.append(MockServoDriver(channels=16, address=addressRB)) #RB
+            self.armdriver.append(MockServoDriver(channels=16, address=0x44)) #arm
+        
+        #arm servos
+        servo1 = self.armdriver[0].servo[0]  # Corresponds to Arduino pin 9
+        servo2 = self.armdriver[0].servo[2]  # Corresponds to Arduino pin 10
+        servo3 = self.armdriver[0].servo[4] # Corresponds to Arduino pin 11
+
+        servo1.angle = 64
+        servo2.angle = 177
+        servo3.angle = 93
+
         if simSensor is True:
             self.sensor = ServoLeveler(address=addressSL, simSensor=simSensor)
         self.last_heading = 0.0
@@ -1166,6 +1186,18 @@ class LocomotionController:
             print("Invalid Move %s" % move_type)
         return
     
+    #used to move both servos control forward and backward motion on MES
+    def smooth_dual_servo_move(servo_a, start_a, target_a, servo_b, start_b, target_b, delay_ms = 25):
+        steps = max(abs(target_a-start_a),abs(target_b-start_b))
+        for i in range(steps+1):
+            pos_a = int(start_a+(target_a-start_a)*i/steps)
+            pos_b = int(start_b+(target_b-start_b)*i/steps)
+            #servo_a.angle = pos_a
+            servo_b.angle = pos_b
+            servo_a.angle = pos_a
+            time.sleep(delay_ms / 1000)
+    
+    #move towards weed using delta andgle and distance values, eliminating weed
     def eliminate(self, da, distance):
         steps = round(distance / 0.2032)
         if da > 0:
@@ -1173,6 +1205,37 @@ class LocomotionController:
         elif da < 0:
             self.turn("left", abs(round(da)))
         self.moveForward(steps)
+
+        #initializing all MES servos
+
+        print("Attacking Weed")
+        start1 = int(self.servo1.angle or 0)
+        start2 = int(self.servo2.angle or 0)
+        self.smooth_dual_move(self.servo1, start1, 135, self.servo2, start2, 108)
+        print("STARTING BLADE")
+        self.ser.write(b'B\n')
+        time.sleep(6)
+        start1 = int(self.servo1.angle or 0)
+        start2 = int(self.servo2.angle or 0)
+        self.smooth_dual_move(self.servo1, start1, 158, self.servo2, start2, 85)
+        time.sleep(5)
+        current = int(self.servo3.angle or 0)
+        self.smooth_move(self.servo3, current, 105)
+        time.sleep(2)
+        current = int(self.servo3.angle or 0)
+        self.smooth_move(self.servo3, current, 80)
+        time.sleep(2)
+        current = int(self.servo3.angle or 0)
+        self.smooth_move(self.servo3, current, 93)
+        print("STOPPING BLADE")
+        self.ser.write(b'S\n')
+        time.sleep(4)
+        print("End of attack")
+        start1 = int(self.servo1.angle or 0)
+        start2 = int(self.servo2.angle or 0)
+        self.smooth_dual_move(self.servo1, start1, 64, self.servo2, start2, 177)
+            
+        self.ser.close()
 
 if __name__ == "__main__":
     import argparse
