@@ -952,6 +952,14 @@ class LocomotionController:
         else:
             print("Invalid Move %s" % move_type)
         return
+    
+    def eliminate(self, da, distance):
+        steps = round(distance / 0.2032)
+        if da > 0:
+            self.turn("right", abs(round(da)))
+        elif da < 0:
+            self.turn("left", abs(round(da)))
+        self.moveForward(steps)
 
 if __name__ == "__main__":
     import argparse

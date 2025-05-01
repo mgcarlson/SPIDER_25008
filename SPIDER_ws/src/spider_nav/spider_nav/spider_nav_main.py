@@ -1,5 +1,6 @@
 import pandas as pd
 import rclpy
+import math
 from rclpy.node import Node
 from spider_interfaces.srv import LocService
 from sensor_msgs.msg import NavSatFix, Imu
@@ -292,10 +293,38 @@ class Spider_Nav_Main(Node):
             self.weed_target_coords = (msg.x, msg.y)
 
     def eliminateWeed(self, x, y):
-        print("Eliminating weed")
+        self.get_logger().info("Eliminating weed")
+        da, distance = self.convertCoordinates(x, y)
         self.send_request("quickstop")
-        self.send_request("eliminate", x, y)
+        self.send_request("eliminate", da, distance)
         #locomotion to stop, then move forward based upon distance calculations
+
+    def convertCoordinates(x, y, image_width=640, image_height=480, camera_height=0.3):
+        HFOV = math.radians(81)
+        VFOV = math.radians(60) 
+
+        # Principal point (assumed center of image)
+        cx = image_width / 2
+        cy = image_height / 2
+
+        # Compute pixel offsets
+        dx = x - cx
+        dy = cy - y
+
+        # Convert pixel offset to angle
+        angle_per_pixel_x = HFOV / image_width
+        angle_per_pixel_y = VFOV / image_height
+
+        # Horizontal angle: how much to rotate left/right
+        delta_angle_deg = dx * angle_per_pixel_x * (180 / math.pi)
+
+        # Vertical angle: how far below the horizon the weed is
+        theta = dy * angle_per_pixel_y  # in radians
+
+        # Distance via triangle (ground-plane projection)
+        distance = camera_height / math.tan(theta) if math.tan(theta) != 0 else float('inf')
+
+        return delta_angle_deg, distance
         
 def main(args=None):
     rclpy.init(args=args)
