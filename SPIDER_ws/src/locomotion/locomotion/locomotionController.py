@@ -1156,36 +1156,8 @@ class LocomotionController:
                 return (servo + 6) // 2
             else:
                 return servo // 2
-    
-    def serviceSelect(self, move_type, move_amount, delta_angle):
-        if(move_type.lower() == 'stop'):
-            self.stop()
-        elif(move_type.lower() == 'start'):
-            self.startUp()
-        elif(move_type.lower() == 'calibrate'):
-            self.calibrate()
-        elif(move_type.lower() == 'move'):
-            self.moveForward(move_amount)
-        elif(move_type.lower() == 'turnright'):
-            self.turn('left', delta_angle)
-        elif(move_type.lower() == 'turnleft'):
-            self.turn('right', delta_angle)
-        elif(move_type.lower() == 'turnoff'):
-            self.turnOff()
-        elif(move_type.lower() == 'quickstop'):
-            self.quickStop()
-        elif(move_type.lower() == 'setup_fw'):
-            self.setUpFw()
-        elif(move_type.lower() == 'setup_turn_left'):
-            self.setUpTurn('left')
-        elif(move_type.lower() == 'setup_turn_right'):
-            self.setUpTurn('right')    
-        elif(move_type.lower() == 'lift'):
-            self.lift()
-        else:
-            print("Invalid Move %s" % move_type)
-        return
-    
+            
+
     #used to move both servos control forward and backward motion on MES
     def smooth_dual_servo_move(servo_a, start_a, target_a, servo_b, start_b, target_b, delay_ms = 25):
         steps = max(abs(target_a-start_a),abs(target_b-start_b))
@@ -1236,6 +1208,38 @@ class LocomotionController:
         self.smooth_dual_move(self.servo1, start1, 64, self.servo2, start2, 177)
             
         self.ser.close()
+    
+    def serviceSelect(self, move_type, move_amount, delta_angle, distance):
+        if(move_type.lower() == 'stop'):
+            self.stop()
+        elif(move_type.lower() == 'start'):
+            self.startUp()
+        elif(move_type.lower() == 'calibrate'):
+            self.calibrate()
+        elif(move_type.lower() == 'move'):
+            self.moveForward(move_amount)
+        elif(move_type.lower() == 'turnright'):
+            self.turn('left', delta_angle)
+        elif(move_type.lower() == 'turnleft'):
+            self.turn('right', delta_angle)
+        elif(move_type.lower() == 'turnoff'):
+            self.turnOff()
+        elif(move_type.lower() == 'quickstop'):
+            self.quickStop()
+        elif(move_type.lower() == 'setup_fw'):
+            self.setUpFw()
+        elif(move_type.lower() == 'setup_turn_left'):
+            self.setUpTurn('left')
+        elif(move_type.lower() == 'setup_turn_right'):
+            self.setUpTurn('right')    
+        elif(move_type.lower() == 'lift'):
+            self.lift()
+        elif(move_type.lower() == 'eliminate'):
+            self.eliminate(delta_angle, distance)
+        else:
+            print("Invalid Move %s" % move_type)
+        return
+
 
 if __name__ == "__main__":
     import argparse
@@ -1247,6 +1251,7 @@ if __name__ == "__main__":
     parser.add_argument('--sim-sensor', '-ss', dest='sim_sensor', action="store_true", required=False, help='simulate the sensor?')
     parser.add_argument('--delta-angle', '-da', dest='deltaAngle', type=float, default=0, required=False, help='how far to turn?')
     parser.add_argument('--graph', '-g', dest='graph', action="store_true", required=False, help='graph the angles?')
+    parser.add_argument('--distance', '-d', dest='distance', type=float, default=0, required=False, help='how far to weed?')
     args = parser.parse_args()
     parser.set_defaults(graph=True, sim_sensor=False, sim_driver=False)
 
